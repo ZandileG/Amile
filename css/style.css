@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px; 
+}
+  
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+  
+.dashboard{
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
+  
+.header{
+  grid-area: header;
+  background-color: #4CAF50; 
+  padding: 20px; 
+  color: white; 
+  text-align: center; 
+} 
+   
+.sidebar{ 
+  grid-area: sidebar; 
+  background-color: #333; 
+  padding: 20px; 
+  color: white; 
+} 
+   
+.main-content{ 
+  grid-area: main; 
+  padding: 20px; 
+} 
+   
+.footer{ 
+  grid-area: footer; 
+  background-color: #4CAF50; 
+  padding: 10px; 
+  color: white; 
+  text-align: center; 
+  } 
+
+/*Global Styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.25rem;
+}
+
+h4{
+  font-size: 0.875rem;
+}
+
+p{
+  margin-bottom: 1.25rem;
+}
+
+div.fullWidth{
+    width: 100%;
+}
+
+.section{
+  padding: 5rem 0;
+}
+
+.section-center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px){
+  .section-center{
+    width: 95vw;
+  }
+}
+
+@media screen and (min-width: 800px){
+    h1{
+      font-size: 4rem;
+    }
+    
+    h2{
+      font-size: 2.5rem;
+    }
+
+    h3{
+      font-size: 1.75rem;
+    }
+
+    h4{
+      font-size: 1rem;
+    }
+
+    body{
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4{
+      line-height: 1;
+    }
+  }  
+
+@media (orientation: portrait){
+    
+}
+
+@media (orientation: landscape){
+    
+}
