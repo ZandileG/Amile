@@ -1,12 +1,12 @@
 import React from "react";
-import "../index.css";
+import "../App.css";
 
-function Sidebar() {
-  return (
+function Sidebar(){
+  return(
     <aside>
       
     </aside>
-  )
+  );
 }
 
 export default Sidebar;

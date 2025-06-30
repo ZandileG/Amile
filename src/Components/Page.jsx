@@ -1,12 +1,12 @@
 import React from "react";
-import "../App.css";
+import "../index.css";
 
 function Page(){
   return(
-    <div>
+    <main>
       
-    </div>
-  )
+    </main>
+  );
 }
 
 export default Page;
