@@ -1,12 +1,14 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useState } from "react";
+
+export const PageContext = createContext();
 
 function PageProvider({ children }){
+    const [page, setPage] = useState(null);
+
   return(
-    <div>
-      <PageContext.Provider value={{}}>
+    <PageContext.Provider value={{ page, setPage}}>
         {children}
       </PageContext.Provider>
-    </div>
   );
 }
 

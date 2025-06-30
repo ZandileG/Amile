@@ -1,8 +1,9 @@
 import React from "react";
+//import HTMLFlipBook from "react-pageflip";
 
 function Cover(){
 
-    
+
   return(
     <main>
       

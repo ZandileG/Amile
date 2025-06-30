@@ -1,6 +1,6 @@
 import React from "react";
 
-function Page9(){
+function Page(){
 
     
   return(
@@ -10,4 +10,4 @@ function Page9(){
   );
 }
 
-export default Page9;
+export default Page;
