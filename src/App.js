@@ -1,6 +1,7 @@
 import "./App.css";
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Cover from ".Pages/Cover";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
+import Cover from "./Pages/Cover";
 import Page1 from "./Pages/Page1";
 import Page2 from "./Pages/Page2";
 import Page3 from "./Pages/Page3";
@@ -16,8 +17,13 @@ import Page12 from "./Pages/Page12";
 import Page13 from "./Pages/Page13";
 import Credits from "./Pages/Credits";
 
+import AudioProvider from "./Context/AudioContext";
+import PageProvider from "./Context/PageContext";
+
 function App(){
   return(
+    <AudioProvider>
+    <PageProvider>
       <Router>
         <Routes>
           <Route path="/" element={<Cover />} />
@@ -37,6 +43,8 @@ function App(){
           <Route path="/credits" element={<Credits />} />
         </Routes>
       </Router>
+      </PageProvider>
+      </AudioProvider>
   );
 }
 
