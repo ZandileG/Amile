@@ -2,9 +2,9 @@ import React from "react";
 
 function Page12(){
   return(
-    <div>
+    <main>
       
-    </div>
+    </main>
   );
 }
 

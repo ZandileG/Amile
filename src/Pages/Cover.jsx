@@ -2,9 +2,9 @@ import React from "react";
 
 function Cover(){
   return(
-    <div>
+    <main>
       
-    </div>
+    </main>
   );
 }
 

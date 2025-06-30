@@ -1,7 +1,8 @@
 import React from "react";
+import "../App.css";
 
-function Page() {
-  return (
+function Page(){
+  return(
     <div>
       
     </div>

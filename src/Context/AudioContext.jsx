@@ -1,11 +1,11 @@
-import React from "react";
+import React, { createContext, useState, useEffect } from "react";
 
-function AudioProvider() {
+function AudioProvider({ children }) {
   return (
-    <div>
-      
-    </div>
-  )
+    {/*AudioContext.Provider value={{}}>
+        {children}
+    </AudioContext.Provider>*/}
+  );
 }
 
 export default AudioProvider;

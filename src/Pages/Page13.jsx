@@ -1,10 +1,11 @@
 import React from "react";
+import "../Styles/Page13.css"; 
 
 function Page13(){
   return(
-    <div>
+    <main>
       
-    </div>
+    </main>
   );
 }
 

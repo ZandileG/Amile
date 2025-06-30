@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import "../index.css";
 
-function Navbar() {
+function Navbar(){
+    
   return (
-    <div>
+    <nav>
       
-    </div>
+    </nav>
   )
 }
 
