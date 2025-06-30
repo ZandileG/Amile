@@ -1,14 +1,10 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
-export const AudioContext = createContext();
-
-function AudioProvider({ children }){
-const [music, setMusic] = useState(null);
-
+function AudioProvider({ children }) {
   return (
-    <AudioContext.Provider value={{ music, setMusic }}>
+    {/*AudioContext.Provider value={{}}>
         {children}
-    </AudioContext.Provider>
+    </AudioContext.Provider>*/}
   );
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
+import "../Styles/Page13.css"; 
 
-function Cover(){
+function Page13(){
 
     
   return(
@@ -10,4 +11,4 @@ function Cover(){
   );
 }
 
-export default Cover;
+export default Page13;

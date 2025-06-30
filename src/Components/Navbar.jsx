@@ -21,7 +21,7 @@ function Navbar(){
      <section onClick={() => navigate("/page12")}>Page 12</section>
      <section onClick={() => navigate("/page13")}>Page 13</section>
     </nav>
-  );
+  )
 }
 
 export default Navbar;

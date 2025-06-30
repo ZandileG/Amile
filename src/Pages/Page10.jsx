@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cover(){
+function Page10(){
 
     
   return(
@@ -10,4 +10,4 @@ function Cover(){
   );
 }
 
-export default Cover;
+export default Page10;
