@@ -1,5 +1,7 @@
 import React, { createContext, useState, useEffect } from "react";
 
+const PageContext = createContext();
+
 function PageProvider({ children }){
   const [page, setPage] = useState(null);
   

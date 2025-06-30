@@ -1,13 +1,14 @@
-import React from "react";
+import React, {Fragment} from "react";
 import "../Styles/Page.css"; 
+import Page from "../Components/Page"; 
 
 function Page7(){
 
     
   return(
-    <main>
-      
-    </main>
+  <Fragment>
+    <Page />
+  </Fragment>
   );
 }
 

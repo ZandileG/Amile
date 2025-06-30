@@ -1,12 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation} from "react-router-dom";
 import "../App.css";
 
 function Navbar(){
   const navigate = useNavigate();
-  
+  const location = useLocation();
+
   return(
     <nav>
+     <section onClick={() => navigate("/cover")}>Cover</section>
      <section onClick={() => navigate("/page1")}>Page 1</section>
      <section onClick={() => navigate("/page2")}>Page 2</section>
      <section onClick={() => navigate("/page3")}>Page 3</section>
@@ -20,8 +22,9 @@ function Navbar(){
      <section onClick={() => navigate("/page11")}>Page 11</section>
      <section onClick={() => navigate("/page12")}>Page 12</section>
      <section onClick={() => navigate("/page13")}>Page 13</section>
+     <section onClick={() => navigate("/credits")}>Credits</section>
     </nav>
-  )
+  );
 }
 
 export default Navbar;
