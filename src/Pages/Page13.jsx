@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Page13.css"; 
+import "../Styles/Page.css"; 
 
 function Page13(){
 

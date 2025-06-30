@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Page.css"; 
 
 function Page8(){
 

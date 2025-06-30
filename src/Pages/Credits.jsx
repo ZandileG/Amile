@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Credits.css"; 
 
 function Credits(){
 

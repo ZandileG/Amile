@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/Cover.css"; 
 
 function Cover(){
 
