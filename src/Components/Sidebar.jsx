@@ -1,8 +1,10 @@
 import React from "react";
-import "../App.css";
+import "../Styles/Sidebar.css";
 
 function Sidebar(){
-  
+  //Add background music 
+  //Add recorded narration
+
   return(
     <aside className="sidebar">
       <audio src=""></audio>
