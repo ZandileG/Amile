@@ -4,8 +4,9 @@ import "../App.css";
 function Sidebar(){
   
   return(
-    <aside>
-      
+    <aside className="sidebar">
+      <audio src=""></audio>
+      <audio src=""></audio>
     </aside>
   );
 }
