@@ -1,7 +1,8 @@
 import React, {Fragment} from "react";
-import "../index.css";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
+
+import "../index.css";
 
 function Page(){
 
