@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
 import "../Styles/Cover.css"; 
-import "../App.css";
 
 function Cover(){
   const navigate = useNavigate();
