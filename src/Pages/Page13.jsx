@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
 import "../Styles/Page.css"; 
-import "../index.css";
+import "../App.css";
 
 function Page13(){
   const navigate = useNavigate();
