@@ -1,96 +1,105 @@
-import React, { useRef, Fragment } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useRef, forwardRef, useState, useEffect, Fragment } from "react";
 
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
 import HTMLFlipBook from "react-pageflip";
 import "../Styles/Book.css";
 
+const PageCover = forwardRef((props, ref) => (
+  <section className="page page-cover" ref={ref} data-density="hard">
+    <section className="page-content">
+    <h1>{props.children}</h1>
+    </section>
+  </section>
+));
+
+const Page = forwardRef(({ number, children }, ref) => (
+  <section className="page" ref={ref}>
+  <section className="page-content">
+  <h2 className="page-header">Page {number}</h2>
+  <section className="page-image" />
+  <section className="page-text">{children}</section>
+  <section className="page-footer">{number}</section>
+  </section>
+  </section>
+));
+
 function Book(){
-  const navigate = useNavigate();  
   const bookRef = useRef();
+
+  const [currentPage, setCurrentPage] = useState(0);
+  const [totalPages, setTotalPages] = useState(0);
+  const [state, setState] = useState("ready");
+  const [orientation, setOrientation] = useState("portrait");
+
+function goNext() {
+  bookRef.current?.flipNext(); 
+}
+
+function goBack() {
+  bookRef.current?.flipPrev(); 
+}
+
+useEffect(() => {
+  if (bookRef.current && typeof bookRef.current.getPageCount === "function") {
+    setTotalPages(bookRef.current.getPageCount());
+  }
+}, []);
+
+ const onFlip = (e) => setCurrentPage(e.data);
+ const onChangeState = (e) => setState(e.data);
+ const onChangeOrientation = (e) => setOrientation(e.data);
 
   return(
   <Fragment>
     <Navbar />
     <Sidebar />
 
-    <main className="book">
+    <main className="book-wrapper">
     <HTMLFlipBook 
-    ref={bookRef} 
-    width={400}
-    height={600}
+    width={550}
+    height={733}
     size="stretch"
     minWidth={315}
     maxWidth={1000}
     minHeight={400}
     maxHeight={1536}
+    maxShadowOpacity={0.5}
     showCover={true}
     mobileScrollSupport={true}
+    onFlip={onFlip}
+    onChangeOrientation={onChangeOrientation}
+    onChangeState={onChangeState}
+    ref={bookRef} 
     className="flipbook">
 
-    <section className="cover">
-    <img className="image" src="../Images/Cover-Image.png" alt="Cover Image" />  
-    <p className="paragraph">Cover</p>
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page1-Image.png" alt="Page 1 Image" />  
-    <p className="paragraph">Page 1</p>
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page2-Image.png" alt="Page 2 Image" />  
-    <p className="paragraph">Page 2</p>  
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page3-Image.png" alt="Page 3 Image" />  
-    <p className="paragraph">Page 3</p>
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page4-Image.png" alt="Page 4 Image" />  
-    <p className="paragraph">Page 4</p>    
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page5-Image.png" alt="Page 5 Image" />  
-    <p className="paragraph">Page 5</p> 
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page6-Image.png" alt="Page 6 Image" />  
-    <p className="paragraph">Page 6</p>  
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page7-Image.png" alt="Page 7 Image" />  
-    <p className="paragraph">Page 7</p> 
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page8-Image.png" alt="Page 8 Image" />  
-    <p className="paragraph">Page 8</p> 
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page9-Image.png" alt="Page 9 Image" />  
-    <p className="paragraph">Page 9</p>  
-    </section>
-
-    <section className="page">
-    <img className="image" src="../Images/Page10-Image.png" alt="Page 10 Image" />  
-    <p className="paragraph">Page 10</p>
-    </section>
-
-    <section className="credits">
-    <img className="image" src="../Images/Crefits-Image.png" alt="Credits Image" />  
-    <p className="paragraph">Credits</p>
-    </section>
+    <PageCover>BOOK TITLE</PageCover>
+    <Page number={1}>Page 1 Content</Page>
+    <Page number={2}>Page 2 Content</Page>
+    <Page number={3}>Page 3 Content</Page>
+    <Page number={4}>Page 4 Content</Page>
+    <Page number={5}>Page 5 Content</Page>
+    <Page number={6}>Page 6 Content</Page>
+    <Page number={7}>Page 7 Content</Page>
+    <Page number={8}>Page 8 Content</Page>
+    <Page number={9}>Page 9 Content</Page>
+    <Page number={10}>Page 10 Content</Page>
+    <PageCover>THE END</PageCover>
     </HTMLFlipBook>
-    </main>
-  </Fragment>
+
+      <section className="controls">
+        <button onClick={goBack}>Previous Page</button>
+        <span>
+          [{currentPage} of {totalPages}]
+        </span>
+        <button onClick={goNext}>Next Page</button>
+      </section>
+
+      <section className="status">
+        State: <i>{state}</i>, Orientation: <i>{orientation}</i>
+      </section>
+  </main>
+    </Fragment>
   );
 }
 

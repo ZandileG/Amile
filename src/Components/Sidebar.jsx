@@ -7,8 +7,8 @@ function Sidebar(){
 
   return(
     <aside className="sidebar">
-      <audio src=""></audio>
-      <audio src=""></audio>
+     {/* <audio src=""></audio>
+      <audio src=""></audio> */}
     </aside>
   );
 }
