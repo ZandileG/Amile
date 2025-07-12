@@ -1,4 +1,4 @@
-import React, { useRef, forwardRef, useState, useEffect, Fragment } from "react";
+import React, { useRef, forwardRef, useState, Fragment } from "react";
 
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
@@ -33,21 +33,29 @@ function Book(){
   const [orientation, setOrientation] = useState("portrait");
 
 function goNext() {
-  bookRef.current?.flipNext(); 
+  const instance = bookRef.current.pageFlip();
+  if (instance) {
+    instance.flipNext();
+  }
 }
 
 function goBack() {
-  bookRef.current?.flipPrev(); 
+  const instance = bookRef.current.pageFlip();
+  if (instance) {
+    instance.flipPrev();
+  }
 }
 
-useEffect(() => {
-  if (bookRef.current && typeof bookRef.current.getPageCount === "function") {
-    setTotalPages(bookRef.current.getPageCount());
-  }
-}, []);
+const onFlip = (e) => {
+  setCurrentPage(e.data + 1);
 
- const onFlip = (e) => setCurrentPage(e.data);
- const onChangeState = (e) => setState(e.data);
+  const instance = bookRef.current?.pageFlip?.();
+  if (instance && totalPages === 0) {
+    setTotalPages(instance.getPageCount());
+  }
+};
+
+const onChangeState = (e) => setState(e.data);
  const onChangeOrientation = (e) => setOrientation(e.data);
 
   return(
@@ -56,47 +64,57 @@ useEffect(() => {
     <Sidebar />
 
     <main className="book-wrapper">
-    <HTMLFlipBook 
-    width={550}
-    height={733}
-    size="stretch"
-    minWidth={315}
-    maxWidth={1000}
-    minHeight={400}
-    maxHeight={1536}
-    maxShadowOpacity={0.5}
-    showCover={true}
-    mobileScrollSupport={true}
-    onFlip={onFlip}
-    onChangeOrientation={onChangeOrientation}
-    onChangeState={onChangeState}
-    ref={bookRef} 
-    className="flipbook">
+    <HTMLFlipBook
+     width={550}
+     height={733}
+     size="stretch"
+     minWidth={315}
+     maxWidth={1000}
+     minHeight={400}
+     maxHeight={1536}
+     maxShadowOpacity={0.5}
+     showCover={true}
+     mobileScrollSupport={true}
+     onFlip={onFlip}
+     onChangeOrientation={onChangeOrientation}
+     onChangeState={onChangeState}
+     ref={bookRef}
+     className="flipbook">
 
     <PageCover>BOOK TITLE</PageCover>
     <Page number={1}>Page 1 Content</Page>
+
     <Page number={2}>Page 2 Content</Page>
+
     <Page number={3}>Page 3 Content</Page>
+
     <Page number={4}>Page 4 Content</Page>
+
     <Page number={5}>Page 5 Content</Page>
+
     <Page number={6}>Page 6 Content</Page>
+
     <Page number={7}>Page 7 Content</Page>
+
     <Page number={8}>Page 8 Content</Page>
+
     <Page number={9}>Page 9 Content</Page>
+
     <Page number={10}>Page 10 Content</Page>
     <PageCover>THE END</PageCover>
     </HTMLFlipBook>
 
       <section className="controls">
-        <button onClick={goBack}>Previous Page</button>
+        <button onClick={goBack}>Back</button>
         <span>
           [{currentPage} of {totalPages}]
         </span>
-        <button onClick={goNext}>Next Page</button>
+        <button onClick={goNext}>Next</button>
       </section>
 
       <section className="status">
-        State: <i>{state}</i>, Orientation: <i>{orientation}</i>
+        State: <i>{state}</i>, 
+        Orientation: <i>{orientation}</i>
       </section>
   </main>
     </Fragment>
