@@ -1,28 +1,12 @@
-import React, { useRef, forwardRef, useState, Fragment } from "react";
+import React, { useRef, useState, Fragment } from "react";
 
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
+import Page from "../Components/Page";
+import Cover from "../Components/Cover";
+
 import HTMLFlipBook from "react-pageflip";
 import "../Styles/Book.css";
-
-const PageCover = forwardRef((props, ref) => (
-  <section className="page page-cover" ref={ref} data-density="hard">
-    <section className="page-content">
-    <h1>{props.children}</h1>
-    </section>
-  </section>
-));
-
-const Page = forwardRef(({ number, children }, ref) => (
-  <section className="page" ref={ref}>
-  <section className="page-content">
-  <h2 className="page-header">Page {number}</h2>
-  <section className="page-image" />
-  <section className="page-text">{children}</section>
-  <section className="page-footer">{number}</section>
-  </section>
-  </section>
-));
 
 function Book(){
   const bookRef = useRef();
@@ -56,7 +40,7 @@ const onFlip = (e) => {
 };
 
 const onChangeState = (e) => setState(e.data);
- const onChangeOrientation = (e) => setOrientation(e.data);
+const onChangeOrientation = (e) => setOrientation(e.data);
 
   return(
   <Fragment>
@@ -81,7 +65,7 @@ const onChangeState = (e) => setState(e.data);
      ref={bookRef}
      className="flipbook">
 
-    <PageCover>BOOK TITLE</PageCover>
+    <Cover>BOOK TITLE</Cover>
     <Page number={1}>Page 1 Content</Page>
 
     <Page number={2}>Page 2 Content</Page>
@@ -101,7 +85,7 @@ const onChangeState = (e) => setState(e.data);
     <Page number={9}>Page 9 Content</Page>
 
     <Page number={10}>Page 10 Content</Page>
-    <PageCover>THE END</PageCover>
+    <Cover>THE END</Cover>
     </HTMLFlipBook>
 
       <section className="controls">
