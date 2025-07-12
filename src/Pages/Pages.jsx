@@ -1,12 +1,14 @@
-import React, { Fragment } from "react";
+import React, { useRef, Fragment } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
+import HTMLFlipBook from "react-pageflip";
 import "../Styles/Page.css";
 
 function Page1(){
-  const navigate = useNavigate();
+  const navigate = useNavigate();  
+  const bookRef = useRef();
 
   return(
   <Fragment>

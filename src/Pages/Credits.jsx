@@ -7,7 +7,8 @@ import "../Styles/Credits.css";
 
 function Credits(){
   const navigate = useNavigate();
-    
+  const bookRef = useRef();
+
   return(
     <Fragment>
     <Navbar />
