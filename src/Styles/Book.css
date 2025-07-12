@@ -1,9 +1,35 @@
+.book{
+ margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.flipbook-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #f0f0f0;
+  min-height: 100vh;
+}
+
+.page{
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*
-.cover-page{
+.image{
 
 }
 
-.cover-image{
+.paragraph{
 
 }
 

@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 
 import "../index.css";
 
-function Book(){
+function Pages(){
 
   return(
     <Fragment>
@@ -12,10 +12,9 @@ function Book(){
     <aside><Sidebar /></aside>
 
     <main>
-      
     </main>
     </Fragment>
   );
 }
 
-export default Book;
+export default Pages;

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Sidebar.css";
+import "../App.css";
 
 function Sidebar(){
   //Add background music 
