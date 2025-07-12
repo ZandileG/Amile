@@ -16,14 +16,14 @@ function Book(){
   const [state, setState] = useState("ready");
   const [orientation, setOrientation] = useState("portrait");
 
-function goNext() {
+function goNext(){
   const instance = bookRef.current.pageFlip();
-  if (instance) {
+  if (instance){
     instance.flipNext();
   }
 }
 
-function goBack() {
+function goBack(){
   const instance = bookRef.current.pageFlip();
   if (instance) {
     instance.flipPrev();
