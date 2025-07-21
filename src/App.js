@@ -1,21 +1,12 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-
-import Book from "./Pages/Book";
-
-import AudioProvider from "./Context/AudioContext";
-import PageProvider from "./Context/PageContext";
+import React from "react";
+import Book from "./Components/Book";
+import "./App.css";
 
 function App(){
   return(
-    <AudioProvider>
-    <PageProvider>
-    <Router>
-    <Routes>
-      <Route path="/" element={<Book />} />
-    </Routes>
-    </Router>
-    </PageProvider>
-    </AudioProvider>
+    <main className="app-container">
+      <Book />
+    </main>
   );
 }
 
