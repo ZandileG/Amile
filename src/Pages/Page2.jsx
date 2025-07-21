@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
+import "..Styles/Page.css";
 
 function Page2(){
-    
+
   return(
     <main className="page">
       <img src="/images/page2.jpg" alt="Page 2" className="page-image" />
