@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-
 import Navbar from "./Navbar";
-import "..Styles/Book.css";
+import "../Styles/Book.css";
 
 import Page1 from "../Pages/Page1";
 import Page2 from "../Pages/Page2";
@@ -24,15 +23,17 @@ import Page18 from "../Pages/Page18";
 import Page19 from "../Pages/Page19";
 import Page20 from "../Pages/Page20";
 
-const pages = [Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, 
-               Page9, Page10, Page11, Page12, Page13, Page14, Page15, 
-               Page16, Page17, Page18, Page19, Page20];
+const pages = [Page1, Page2, Page3, Page4, 
+               Page5, Page6, Page7, Page8,
+               Page9, Page10, Page11, Page12,
+               Page13, Page14, Page15, Page16, 
+               Page17, Page18, Page19, Page20];
 
 function Book(){
 const [currentPage, setCurrentPage] = useState(0);
 const [showNavbar, setShowNavbar] = useState(false);
 
-const CurrentPageComponent = pages[currentPage];
+const OpenPage = pages[currentPage];
 
 return (
     <main className="book-container">
@@ -41,7 +42,7 @@ return (
           e.stopPropagation();
           setCurrentPage((prev) => Math.max(prev - 1, 0));
         }}> 
-        </section>
+      </section>
         
       <section className="book-right-page">
       <button type="button" className="navbar-toggle" onClick={(e) => {
@@ -49,17 +50,16 @@ return (
             setShowNavbar(!showNavbar);
           }}>☰
       </button>
-      <CurrentPageComponent />
+
+      <OpenPage />
       </section>
       </section>
 
       {showNavbar && (
-        <Navbar
-          pageCount={pages.length}
-          goToPage={(index) => {
+      <Navbar pageCount={pages.length} goToPage={(index) => {
             setCurrentPage(index);
             setShowNavbar(false);
-          }} />
+        }}/>
       )}
     </main>
   );
