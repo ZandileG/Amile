@@ -41,13 +41,19 @@ function Book(){
   </button>      
   
   <HTMLFlipBook
-   width={600}
-   height={800}
-   size="stretch"
-   maxShadowOpacity={0.5}
-   showCover={false}
-   className="flipbook"
-   ref={bookRef}>
+   width={845}
+  height={800}
+  size="stretch"
+  drawShadow={true}
+  minWidth={315}
+  maxWidth={1000}
+  minHeight={400}
+  maxHeight={1536}
+  maxShadowOpacity={0.5}
+  showCover={true}
+  mobileScrollSupport={true}  
+  className="flipbook"
+  ref={bookRef}>
 
   {pages.map((PageComponent, index) => (
   <section key={index} className="book-page">
