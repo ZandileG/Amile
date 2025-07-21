@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 import Navbar from "./Navbar";
+import Bookmark from "../Images/Bookmark.png"
 import "../Styles/Book.css";
 
 import Cover from "../Pages/Cover";
@@ -13,6 +14,7 @@ import Page6 from "../Pages/Page6";
 import Page7 from "../Pages/Page7";
 import Page8 from "../Pages/Page8";
 import Page9 from "../Pages/Page9";
+
 import Page10 from "../Pages/Page10";
 import Page11 from "../Pages/Page11";
 import Page12 from "../Pages/Page12";
@@ -37,24 +39,24 @@ function Book(){
   return(
   <main className="book-container">
   <button type="button" className="navbar-toggle" onClick={() => setShowNavbar(!showNavbar)}>
-  ☰ {/*Change this icon later to a bookmark that can be pulled down*/}
+  <img src={Bookmark} alt="Bookmark" /> 
   </button>      
   
   <HTMLFlipBook
-   width={825}
-  height={800}
-  size="stretch"
-  drawShadow={true}
-  minWidth={315}
-  maxWidth={1000}
-  minHeight={400}
-  maxHeight={1536}
-  maxShadowOpacity={0.5}
-  showCover={true}
-  mobileScrollSupport={true}  
-  className="flipbook"
-  ref={bookRef}>
-
+   width={850}
+   height={800}
+   size="stretch"
+   drawShadow={true}
+   minWidth={315}
+   maxWidth={1000}
+   minHeight={400}
+   maxHeight={1536}
+   maxShadowOpacity={0.5}
+   showCover={true}
+   mobileScrollSupport={true}  
+   className="flipbook"
+   ref={bookRef}>
+ 
   {pages.map((PageComponent, index) => (
   <section key={index} className="book-page">
   <section className="page-content"><PageComponent /></section>

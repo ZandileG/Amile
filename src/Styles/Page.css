@@ -13,6 +13,7 @@
 .page-image{
   width: 50%;
   height: auto;
+  margin: auto;
   margin-top: 0;
   padding: 2rem;
 }

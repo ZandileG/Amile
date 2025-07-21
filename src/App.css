@@ -5,35 +5,34 @@
 }
 
 .navbar{
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
-  width: 16rem;
-  height: 100%;
+  left: 0;
+  width: 100vw;
+  height: 12rem; 
   background-color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   z-index: 20;
-}
-
-.navbar-title{
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-list{
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
   list-style: none;
   padding: 0;
 }
 
 .navbar-link{
-  color: #3b82f6;
+  color: black;
   background: none;
   border: none;
   cursor: pointer;
   text-decoration: underline;
+  font-family: "Notepen";
 }
 
 .navbar-audio-controls button{
@@ -42,16 +41,21 @@
   padding: 0.5rem 1rem;
   border-radius: 0.375rem;
   border: none;
-  color: white;
   cursor: pointer;
 }
 
 .music-button{
-  background-color: #10b981; 
+  background-color:transparent; 
 }
 
 .narration-button{
-  background-color: #3b82f6; 
+  background-color: transparent; 
+}
+
+.music-button img,
+.narration-button img{
+  width: 4rem;
+  height: 4rem;
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){
