@@ -3,6 +3,7 @@ import HTMLFlipBook from "react-pageflip";
 import Navbar from "./Navbar";
 import "../Styles/Book.css";
 
+import Cover from "../Pages/Cover";
 import Page1 from "../Pages/Page1";
 import Page2 from "../Pages/Page2";
 import Page3 from "../Pages/Page3";
@@ -21,14 +22,13 @@ import Page15 from "../Pages/Page15";
 import Page16 from "../Pages/Page16";
 import Page17 from "../Pages/Page17";
 import Page18 from "../Pages/Page18";
-import Page19 from "../Pages/Page19";
-import Page20 from "../Pages/Page20";
+import Credits from "../Pages/Credits";
 
-const pages = [Page1, Page2, Page3, Page4, 
-               Page5, Page6, Page7, Page8,
-               Page9, Page10, Page11, Page12,
-               Page13, Page14, Page15, Page16, 
-               Page17, Page18, Page19, Page20];
+const pages = [Cover, Page1, Page2, Page3, 
+               Page4, Page5, Page6, Page7, 
+               Page8, Page9, Page10, Page11, 
+               Page12, Page13, Page14, Page15, 
+               Page16, Page17, Page18, Credits];
 
 function Book(){
   const bookRef = useRef();
@@ -41,7 +41,7 @@ function Book(){
   </button>      
   
   <HTMLFlipBook
-   width={845}
+   width={825}
   height={800}
   size="stretch"
   drawShadow={true}
