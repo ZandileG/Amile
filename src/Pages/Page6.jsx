@@ -1,15 +1,15 @@
 import React from "react";
-import "../Styles/Page.css";
 import Image6 from "../Images/Image6.png";
+import "../Styles/Page.css";
 
 function Page6(){
 
   return(
-    <main className="page">
+    <section className="page">
       <img src={Image6} alt="Page 6" className="page-image" />
 
       <p className="page-text">This is the content of Page 6.</p>
-    </main>
+    </section>
   );
 }
 

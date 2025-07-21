@@ -1,23 +1,21 @@
 import React from "react";
 import Music from "../Sound/Adventure.mp3";
-import Music from "../Sound/BlueHour.mp3";
-import Music from "../Sound/BeyondTheHorizon.mp3";
 import Narration from "../Sound/Adventure.mp3";
-import "./App.css";
+import "../App.css";
 
-function Navbar({ pageCount, goToPage }) {
+function Navbar({ pageCount, goToPage }){
 
-function playMusic() {
+function playMusic(){
   const audio = new Audio(Music);
   audio.play();
 }
 
-function playNarration() {
+function playNarration(){
   const narration = new Audio(Narration);
   narration.play();
 }
 
-  return (
+  return(
     <main className="navbar">
       <h1 className="navbar-title">Navigation</h1>
       <ul className="navbar-list">

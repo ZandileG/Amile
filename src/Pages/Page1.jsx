@@ -1,15 +1,14 @@
 import React from "react";
-import "../Styles/Page.css";
 import Image1 from "../Images/Image1.png";
+import "../Styles/Page.css";
 
 function Page1(){
 
   return(
-    <main className="page">
+    <section className="page">
+      <h1 className="title">Amile and the Magic Seed</h1>
       <img src={Image1} alt="Page 1" className="page-image" />
-
-      <p className="page-text">This is the content of Page 1.</p>
-    </main>
+    </section>
   );
 }
 

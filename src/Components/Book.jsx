@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import HTMLFlipBook from "react-pageflip";
 import Navbar from "./Navbar";
 import "../Styles/Book.css";
 
@@ -30,38 +31,38 @@ const pages = [Page1, Page2, Page3, Page4,
                Page17, Page18, Page19, Page20];
 
 function Book(){
-const [currentPage, setCurrentPage] = useState(0);
-const [showNavbar, setShowNavbar] = useState(false);
+  const bookRef = useRef();
+  const [showNavbar, setShowNavbar] = useState(false);
 
-const OpenPage = pages[currentPage];
+  return(
+  <main className="book-container">
+  <button type="button" className="navbar-toggle" onClick={() => setShowNavbar(!showNavbar)}>
+  ☰ {/*Change this icon later to a bookmark that can be pulled down*/}
+  </button>      
+  
+  <HTMLFlipBook
+   width={600}
+   height={800}
+   size="stretch"
+   maxShadowOpacity={0.5}
+   showCover={false}
+   className="flipbook"
+   ref={bookRef}>
 
-return (
-    <main className="book-container">
-      <section className="book-pages" onClick={() => setCurrentPage((prev) => Math.min(prev + 1, pages.length - 1))}>
-      <section className="book-left-page" onClick={(e) => {
-          e.stopPropagation();
-          setCurrentPage((prev) => Math.max(prev - 1, 0));
-        }}> 
-      </section>
-        
-      <section className="book-right-page">
-      <button type="button" className="navbar-toggle" onClick={(e) => {
-            e.stopPropagation();
-            setShowNavbar(!showNavbar);
-          }}>☰
-      </button>
+  {pages.map((PageComponent, index) => (
+  <section key={index} className="book-page">
+  <section className="page-content"><PageComponent /></section>
+  </section>
+  ))}
+  </HTMLFlipBook>
 
-      <OpenPage />
-      </section>
-      </section>
-
-      {showNavbar && (
-      <Navbar pageCount={pages.length} goToPage={(index) => {
-            setCurrentPage(index);
-            setShowNavbar(false);
-        }}/>
-      )}
-    </main>
+  {showNavbar && (
+  <Navbar pageCount={pages.length} goToPage={(index) => {
+          bookRef.current.pageFlip().turnToPage(index);
+          setShowNavbar(false);
+    }}/>
+  )}
+  </main>
   );
 }
 
