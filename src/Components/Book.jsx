@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
-import Navbar from "./Navbar";
+
 import Bookmark from "../Images/Bookmark.png"
+import Navbar from "./Navbar";
 import "../Styles/Book.css";
 
 import Cover from "../Pages/Cover";
@@ -26,11 +27,8 @@ import Page17 from "../Pages/Page17";
 import Page18 from "../Pages/Page18";
 import Credits from "../Pages/Credits";
 
-const pages = [Cover, Page1, Page2, Page3, 
-               Page4, Page5, Page6, Page7, 
-               Page8, Page9, Page10, Page11, 
-               Page12, Page13, Page14, Page15, 
-               Page16, Page17, Page18, Credits];
+const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Page9, Page10, 
+               Page11, Page12, Page13, Page14, Page15, Page16, Page17, Page18, Credits];
 
 function Book(){
   const bookRef = useRef();
@@ -38,6 +36,7 @@ function Book(){
 
   return(
   <main className="book-container">
+
   <button type="button" className="navbar-toggle" onClick={() => setShowNavbar(!showNavbar)}>
   <img src={Bookmark} alt="Bookmark" /> 
   </button>      

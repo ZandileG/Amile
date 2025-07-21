@@ -10,7 +10,7 @@ function Cover(){
 
       <img src={CoverImage} alt="Cover" className="page-image" />
 
-      <h2 className="page-text">by Zandile Gebuza</h2>
+      <h2 className="subtitle">by Zandile Gebuza</h2>
     </section>
   );
 }

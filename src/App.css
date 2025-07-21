@@ -28,11 +28,14 @@
 
 .navbar-link{
   color: black;
-  background: none;
-  border: none;
+  background-color: rgb(192, 192, 192);
+  border: solid 2px black;
   cursor: pointer;
-  text-decoration: underline;
-  font-family: "Notepen";
+  text-decoration: none;
+  font-family: "Rolly";
+  font-size: x-large;
+  margin-right: 0.85rem;
+  padding: 1.25rem;
 }
 
 .navbar-audio-controls button{

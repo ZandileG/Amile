@@ -20,10 +20,11 @@ function playNarration(){
 
   return(
     <main className="navbar">
+      
       <ul className="navbar-list">
         {Array.from({ length: pageCount }).map((_, i) => (
           <li key={i}>
-          <button type="button" className="navbar-link" onClick={() => goToPage(i)}>Page {i + 1}</button>
+          <button type="button" className="navbar-link" onClick={() => goToPage(i)}>{i + 1}</button>
           </li>
         ))}
       </ul>

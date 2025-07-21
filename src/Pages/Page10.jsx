@@ -3,7 +3,6 @@ import Image10 from "../Images/Image10.png";
 import "../Styles/Page.css";
 
 function Page10(){
-
   return(
     <section className="page">
       <img src={Image10} alt="Page 10" className="page-image" />

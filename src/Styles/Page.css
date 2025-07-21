@@ -20,29 +20,59 @@
 
 .page-text{
   margin-top: 10px;
-  margin-bottom: 300px;
+  margin-bottom: 300px; /*I have to remove this*/
   padding: 0 20px;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
+  font-weight: 500;
+  font-family: "Notepen";
+}
+
+.page-heading{
+  font-size: 24px;
+  font-family: "Rolly";
+  text-align: center;
+  margin: 0;
+}
+
+.page-list{
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 22px;
+  font-family: "Notepen";
+}
+
+.page-list li{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
 }
 
 .page-number{
-  background-color: rgb(194, 191, 191);
+  background-color: rgb(192, 192, 192);
   width: 2rem;
   height: 1.5rem;
   margin: auto;
   padding-top: 0.5rem;
   font-size: 18px;
-  font-weight: bolder;
   text-align: center;
   border: solid black 2px;
   border-radius: 50%;
+  font-family: "Rolly";
 }
 
 .title{
     text-align: center;
+    font-size: 45px;
+    font-family: "Rolly";
+    color:rgb(42, 42, 42)
+}
+
+.subtitle{
+    text-align: center;
     font-size: 24px;
-    font-weight: bold;
+    font-family: "Rolly";
+    color:rgb(42, 42, 42)
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){

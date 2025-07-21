@@ -2,7 +2,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Notepen", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,  "Notepen", "Rolly", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
@@ -16,13 +16,6 @@ html, body{
 }
 
 @font-face{
-  font-family: "Sophie";
-  src: url("./Fonts/Sophie3-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
   font-family: "Rolly";
   src: url("./Fonts/Rolly\ Polly.ttf") format("truetype");
   font-weight: normal;
@@ -30,6 +23,5 @@ html, body{
 }
 
 code{
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Notepen", "Rolly", "Sophie",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Notepen", "Rolly", monospace;
 }
