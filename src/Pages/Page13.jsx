@@ -9,6 +9,8 @@ function Page13(){
       <img src={Image13} alt="Page 13" className="page-image" />
 
       <p className="page-text">This is the content of Page 13.</p>
+
+      <section className="page-number">13</section>
     </section>
   );
 }
