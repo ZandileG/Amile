@@ -36,6 +36,7 @@ function Book(){
   const [showNavbar, setShowNavbar] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [animateBookmark, setAnimateBookmark] = useState(false);
+  const [currentPage, setCurrentPage] = useState(0); 
 
 //This animates the bookmark icon when the user wants to open or close the navbar
 function navbarToggle(){
@@ -57,10 +58,12 @@ function navbarToggle(){
   return(
   <main className="book-container">
 
-  <button type="button" className="navbar-toggle" onClick={navbarToggle}>
-  <img  className={animateBookmark ? "animate" : ""} src={Bookmark} alt="Bookmark" /> 
-  </button>      
-  
+  {/*Only show bookmark for the pages not the cover and credits pages*/}
+    {(currentPage !== 0 && currentPage !== pages.length - 1) && (
+    <button type="button" className="navbar-toggle" onClick={navbarToggle}>
+    <img className={animateBookmark ? "animate" : ""} src={Bookmark} alt="Bookmark" /> 
+    </button>
+  )}
   <HTMLFlipBook
    width={850}
    height={800}
@@ -74,8 +77,9 @@ function navbarToggle(){
    showCover={true}
    mobileScrollSupport={true}  
    className="flipbook"
-   ref={bookRef}>
- 
+   ref={bookRef}
+   onFlip={e => setCurrentPage(e.data)}>
+    
   {pages.map((PageComponent, index) => (
   <section key={index} className="book-page">
   <section className="page-content"><PageComponent /></section>

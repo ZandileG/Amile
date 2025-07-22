@@ -2,7 +2,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont,  "Notepen", "Rolly", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "PrimerBold", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
@@ -10,15 +10,22 @@ html, body{
 }
 
 @font-face{
-  font-family: "Notepen";
-  src: url("./Fonts/Notepen.otf") format("truetype");
+  font-family: "Rolly";
+  src: url("./Fonts/Rolly\ Polly.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: "Rolly";
-  src: url("./Fonts/Rolly\ Polly.ttf") format("truetype");
+  font-family: "Primer";
+  src: url("./Fonts/Primer\ Print.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "PrimerBold";
+  src: url("./Fonts/Primer\ Print\ Bold.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
