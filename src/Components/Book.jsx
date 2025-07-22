@@ -27,6 +27,7 @@ import Page17 from "../Pages/Page17";
 import Page18 from "../Pages/Page18";
 import Credits from "../Pages/Credits";
 
+//These are the pages of my book
 const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Page9, Page10, 
                Page11, Page12, Page13, Page14, Page15, Page16, Page17, Page18, Credits];
 
@@ -34,10 +35,15 @@ function Book(){
   const bookRef = useRef();
   const [showNavbar, setShowNavbar] = useState(false);
 
+//When the bookmark icon is clicked, the navbar will appear
+  function navbarToggle() {
+    setShowNavbar(!showNavbar);
+  }
+
   return(
   <main className="book-container">
 
-  <button type="button" className="navbar-toggle" onClick={() => setShowNavbar(!showNavbar)}>
+  <button type="button" className="navbar-toggle" onClick={navbarToggle}>
   <img src={Bookmark} alt="Bookmark" /> 
   </button>      
   
@@ -63,6 +69,7 @@ function Book(){
   ))}
   </HTMLFlipBook>
 
+{/*This renders the navigation bar with links to all the pages.*/}
   {showNavbar && (
   <Navbar pageCount={pages.length} goToPage={(index) => {
           bookRef.current.pageFlip().turnToPage(index);
