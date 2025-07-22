@@ -22,12 +22,26 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  box-shadow: 16px 0 32px -8px rgba(0,0,0,0.25);  
+  border: solid 1px black;
 }
 
 .page-content{
   flex: 1;
   overflow-y: auto;
   z-index: 1;
+}
+
+.book-page,
+.page-content {
+  user-select: none;       
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.page-content img,
+.page-content .non-interactive {
+  pointer-events: none; 
 }
 
 .navbar-toggle{
@@ -39,6 +53,28 @@
   border: none;
   padding: 8px 12px;
   cursor: pointer;
+}
+
+@keyframes stretchSnap{
+  0%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(1.8); 
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.navbar-toggle img{
+  height: 60px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: top center; 
+}
+
+.navbar-toggle img.animate{
+  animation: stretchSnap 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){

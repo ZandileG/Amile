@@ -34,17 +34,31 @@ const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Pa
 function Book(){
   const bookRef = useRef();
   const [showNavbar, setShowNavbar] = useState(false);
+  const [navbarVisible, setNavbarVisible] = useState(false);
+  const [animateBookmark, setAnimateBookmark] = useState(false);
 
-//When the bookmark icon is clicked, the navbar will appear
-  function navbarToggle() {
-    setShowNavbar(!showNavbar);
-  }
+//This animates the bookmark icon when the user wants to open or close the navbar
+function navbarToggle(){
+  setAnimateBookmark(false);
+  setTimeout(() => setAnimateBookmark(true), 10); 
+
+  //This delays the visibility of the navbar so that the animation can complete 
+  setTimeout(() => {
+    if (showNavbar){
+      setNavbarVisible(false); 
+      setTimeout(() => setShowNavbar(false), 400); 
+    } else{
+      setShowNavbar(true);
+      setTimeout(() => setNavbarVisible(true), 50); 
+    }
+  }, 600); 
+}
 
   return(
   <main className="book-container">
 
   <button type="button" className="navbar-toggle" onClick={navbarToggle}>
-  <img src={Bookmark} alt="Bookmark" /> 
+  <img  className={animateBookmark ? "animate" : ""} src={Bookmark} alt="Bookmark" /> 
   </button>      
   
   <HTMLFlipBook
@@ -70,12 +84,14 @@ function Book(){
   </HTMLFlipBook>
 
 {/*This renders the navigation bar with links to all the pages.*/}
-  {showNavbar && (
+ {showNavbar && (
   <Navbar pageCount={pages.length} goToPage={(index) => {
-          bookRef.current.pageFlip().turnToPage(index);
-          setShowNavbar(false);
-    }}/>
-  )}
+    bookRef.current.pageFlip().turnToPage(index);
+    setShowNavbar(false);
+    setNavbarVisible(false);
+  }}
+    visible={navbarVisible}/>
+)}
   </main>
   );
 }

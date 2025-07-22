@@ -59,6 +59,7 @@
   border: solid black 2px;
   border-radius: 50%;
   font-family: "Rolly";
+  cursor: default;
 }
 
 .title{

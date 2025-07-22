@@ -16,6 +16,16 @@
   z-index: 20;
   display: flex;
   align-items: center;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  pointer-events: none; 
+}
+
+.navbar.show{
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .navbar-list{
@@ -37,7 +47,6 @@
   margin-right: 3rem;
   width: 12rem;
   height: 11rem;
-
   transition: transform 0.3s ease;
 }
 
@@ -68,7 +77,7 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: rgb(192, 192, 192);
   cursor: pointer;
   transition: background-color 0.2s;
 }
