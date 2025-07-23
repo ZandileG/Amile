@@ -1,7 +1,7 @@
-import React, { useState, useRef } from "react";
-import Music from "../Sound/Adventure.mp3";
-import Narration from "../Sound/Adventure.mp3";
+import React, { useState, useContext, useRef } from "react";
+import { MusicContext } from "../Context/MusicContext";
 
+import Narration from "../Sound/Adventure.mp3";
 import MusicOff from "../Images/MusicOff.png";
 import NarrationOff from "../Images/NarrationOff.png";
 
@@ -19,30 +19,13 @@ function Navbar({ pageCount, goToPage, visible }){
   const end = Math.min(start + groupSize, pageCount);
 
 //This plays the background music and narration
-  const [musicPlaying, setMusicPlaying] = useState(false);
+  const { musicPlaying, playMusic } = useContext(MusicContext);
   const [narrationPlaying, setNarrationPlaying] = useState(false);
 
-  const musicRef = useRef(null);
   const narrationRef = useRef(null);
 
-  //When the button is clicked, the music will play
-  //If the music is already playing, it stops and resets the time to 0
-   function playMusic(){
-    if (!musicRef.current){
-      musicRef.current = new Audio(Music);
-      musicRef.current.loop = true;
-      musicRef.current.onended = () => setMusicPlaying(false);
-    }
-    if (musicPlaying){
-      musicRef.current.pause();
-      musicRef.current.currentTime = 0;
-      setMusicPlaying(false);
-    } else{
-      musicRef.current.play();
-      setMusicPlaying(true);
-    }
-  }
-
+//When the button is clicked, the narration will play
+//If the narration is already playing, it stops and resets the time to 0
  function playNarration(){
     if (!narrationRef.current){
       narrationRef.current = new Audio(Narration);
@@ -62,7 +45,7 @@ function Navbar({ pageCount, goToPage, visible }){
     <main className={`navbar ${visible ? "show" : ""}`}>
     <section className="navbar-audio-controls">
     <button type="button" className="music-button" onClick={playMusic}>
-          <img src={musicPlaying ? MusicImg : MusicOff} alt="Music" />
+    <img src={musicPlaying ? MusicImg : MusicOff} alt="Music" />
     </button>
     
     <button type="button" className="narration-button" onClick={playNarration}>

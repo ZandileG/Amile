@@ -49,15 +49,9 @@
 }
 
 .page-number{
-  background-color: rgb(192, 192, 192);
-  width: 2rem;
-  height: 1.5rem;
   margin: auto;
-  padding-top: 0.5rem;
   font-size: 18px;
   text-align: center;
-  border: solid black 2px;
-  border-radius: 50%;
   font-family: "Rolly";
   cursor: default;
 }
