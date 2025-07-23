@@ -53,7 +53,7 @@
   font-size: 18px;
   text-align: center;
   font-family: "Rolly";
-  cursor: default;
+  cursor: grab;
 }
 
 .title{

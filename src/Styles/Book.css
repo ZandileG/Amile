@@ -33,14 +33,14 @@
 }
 
 .book-page,
-.page-content {
+.page-content{
   user-select: none;       
   -webkit-user-select: none;
   -ms-user-select: none;
 }
 
 .page-content img,
-.page-content .non-interactive {
+.page-content .non-interactive{
   pointer-events: none; 
 }
 
