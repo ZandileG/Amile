@@ -55,14 +55,23 @@ function Navbar({ pageCount, goToPage, visible }){
 
     <section className="navbar-carousel-container">
     <ul className="navbar-list carousel-slide">
-      {Array.from({ length: end - start }).map((_, i) => (
-    
-     <li key={start + i}>
-     <button type="button" className="navbar-link" onClick={() => goToPage(start + i + 1)}>
-      {start + i + 1}</button>
-     </li>
-    ))}
-    </ul>
+    {Array.from({ length: end - start }).map((_, i) => {
+    const pageIndex = start + i;
+    let label;
+
+    if (pageIndex === 0) label = "Cover";
+    else if (pageIndex === pageCount - 1) label = "Credits";
+    else label = pageIndex.toString();
+
+    return (
+      <li key={pageIndex}>
+        <button type="button" className="navbar-link" onClick={() => goToPage(pageIndex)}>
+          {label}
+        </button>
+      </li>
+    );
+  })}
+</ul>
 
     <section className="carousel-dots">
       {Array.from({ length: totalGroups }).map((_, i) => (

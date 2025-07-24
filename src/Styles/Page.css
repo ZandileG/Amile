@@ -17,10 +17,9 @@
 }
 
 .page-text{
-  margin-top: 10px;
   margin-bottom: 335px; /*I have to remove this after the prototype*/
-  padding: 0 20px;
-  font-size: 22px;
+  padding: 0 2rem;
+  font-size: 1.35rem;
   text-align: center;
   font-weight: 500;
   font-family: "Primer";
@@ -31,12 +30,19 @@
   width: 50%;
   height: auto;
   margin: auto;
-  margin-bottom: 295px; 
-  padding: 2rem;
+  margin-bottom: 230px; 
+}
+
+/*I have to delete this after the prototype*/
+.page-text1{
+  font-size: 1.35rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Primer";
 }
 
 .page-heading{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Rolly";
   text-align: center;
   margin: 0;
@@ -46,7 +52,7 @@
   list-style-type: none;
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 22px;
+  font-size: 1.25rem;
   font-family: "Primer";
 }
 
@@ -57,33 +63,54 @@
 
 .page-number-odd,
 .page-number-even{
-  font-size: 18px;
+  font-size: 1rem;
   font-family: "Rolly";
   cursor: grab;
 }
 
 .page-number-odd{
   text-align: left;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .page-number-even{
   text-align: right;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .title{
     text-align: center;
-    font-size: 45px;
+    font-size: 3rem;
     font-family: "Rolly";
-    color:rgb(42, 42, 42);
+    color: rgb(42, 42, 42);
 }
 
 .subtitle{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Rolly";
-    color:rgb(42, 42, 42)
+    color: rgb(42, 42, 42)
+}
+
+.drop-cap-container{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: justify;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Primer";
+}
+
+.drop-cap{
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.drop-cap-text{
+  font-size: 3rem;
+  color: rgb(42, 42, 42);
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){

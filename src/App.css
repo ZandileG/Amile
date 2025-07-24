@@ -74,8 +74,8 @@
 }
 
 .carousel-dot{
-  width: 14px;
-  height: 14px;
+  width: 0.85rem;
+  height: 0.85rem;
   border-radius: 50%;
   background-color: rgb(192, 192, 192);
   cursor: pointer;
