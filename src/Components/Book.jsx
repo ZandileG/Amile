@@ -28,11 +28,13 @@ import Page18 from "../Pages/Page18";
 import Credits from "../Pages/Credits";
 
 //These are the pages of my book
-const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, Page9, Page10, 
-               Page11, Page12, Page13, Page14, Page15, Page16, Page17, Page18, Credits];
+const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, 
+               Page9, Page10, Page11, Page12, Page13, Page14, Page15, Page16, 
+               Page17, Page18, Credits];
 
 function Book(){
   const bookRef = useRef();
+  
   const [showNavbar, setShowNavbar] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [animateBookmark, setAnimateBookmark] = useState(false);
@@ -43,7 +45,7 @@ function navbarToggle(){
   setAnimateBookmark(false);
   setTimeout(() => setAnimateBookmark(true), 10); 
 
-  //This delays the visibility of the navbar so that the animation can complete 
+//This delays the visibility of the navbar so that the animation can complete 
   setTimeout(() => {
     if (showNavbar){
       setNavbarVisible(false); 
@@ -58,12 +60,13 @@ function navbarToggle(){
   return(
   <main className="book-container">
 
-  {/*Only show bookmark for the pages not the cover and credits pages*/}
+  {/*Only show bookmark for the book's pages not the cover and credits pages*/}
     {(currentPage !== 0 && currentPage !== pages.length - 1) && (
     <button type="button" className="navbar-toggle" onClick={navbarToggle}>
     <img className={animateBookmark ? "animate" : ""} src={Bookmark} alt="Bookmark" /> 
     </button>
   )}
+
   <HTMLFlipBook
    width={850}
    height={800}

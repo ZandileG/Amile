@@ -1,16 +1,16 @@
 import React, { useState, useContext, useRef } from "react";
 import { MusicContext } from "../Context/MusicContext";
 
-import Narration from "../Sound/Adventure.mp3";
-import MusicOff from "../Images/MusicOff.png";
+import Narration from "../Sound/Narration.mp3";
 import NarrationOff from "../Images/NarrationOff.png";
+import MusicOff from "../Images/MusicOff.png";
 
 import MusicImg from "../Images/Music.png";
 import NarrationImg from "../Images/Narration.png";
 import "../App.css";
 
 function Navbar({ pageCount, goToPage, visible }){
-//This is the state for the current page group in the navbar
+//This is the tracks the page group in the navbar
   const [pageGroup, setPageGroup] = useState(0);
   const groupSize = 5;
   const totalGroups = Math.ceil(pageCount / groupSize);
@@ -25,10 +25,10 @@ function Navbar({ pageCount, goToPage, visible }){
   const narrationRef = useRef(null);
 
 //When the button is clicked, the narration will play
-//If the narration is already playing, it stops and resets the time to 0
  function playNarration(){
     if (!narrationRef.current){
       narrationRef.current = new Audio(Narration);
+      narrationRef.current.loop = true;
       narrationRef.current.onended = () => setNarrationPlaying(false);
     }
     if (narrationPlaying){

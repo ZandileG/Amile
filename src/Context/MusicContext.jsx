@@ -7,6 +7,7 @@ export function MusicProvider({ children }){
   const musicRef = useRef(null);
   const [musicPlaying, setMusicPlaying] = useState(false);
 
+//When the button is clicked, the music will play
   function playMusic(){
     if (!musicRef.current){
       musicRef.current = new Audio(Music);
@@ -15,6 +16,7 @@ export function MusicProvider({ children }){
     }
     if (musicPlaying){
       musicRef.current.pause();
+      musicRef.current.currentTime = 0;
       setMusicPlaying(false);
     } else{
       musicRef.current.play();
