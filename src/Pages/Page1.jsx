@@ -5,11 +5,16 @@ import "../Styles/Page.css";
 function Page1(){
   return(
     <section className="page">
-      <img src={Image1} alt="Page 1" className="page-image" />
+      <section className="drop-cap-container">
+      <section className="drop-cap">O</section>
+      <section>NCE UPON A TIME</section>
+      </section>
+      <p>This is the content of Page 1.</p>
 
-      <p className="page-text">This is the content of Page 1.</p>
+      {/*I have to change the image className back to page-image after prototype */}
+      <img src={Image1} alt="Page 1" className="page-image1" />
 
-      <section className="page-number">1</section>
+      <section className="page-number-odd">1</section>
     </section>
   );
 }

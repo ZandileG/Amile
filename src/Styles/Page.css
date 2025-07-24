@@ -7,25 +7,32 @@
   flex-direction: column;
   box-sizing: border-box;
   overflow-y: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .page-image{
   width: 50%;
   height: auto;
   margin: auto;
-  margin-top: 0;
   padding: 2rem;
 }
 
 .page-text{
   margin-top: 10px;
-  margin-bottom: 300px; /*I have to remove this*/
+  margin-bottom: 335px; /*I have to remove this after the prototype*/
   padding: 0 20px;
   font-size: 22px;
   text-align: center;
   font-weight: 500;
   font-family: "Primer";
+}
+
+/*I have to delete this after the prototype*/
+.page-image1{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 295px; 
+  padding: 2rem;
 }
 
 .page-heading{
@@ -48,12 +55,21 @@
     line-height: 1.5rem;
 }
 
-.page-number{
-  margin: auto;
+.page-number-odd,
+.page-number-even{
   font-size: 18px;
-  text-align: center;
   font-family: "Rolly";
   cursor: grab;
+}
+
+.page-number-odd{
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.page-number-even{
+  text-align: right;
+  margin-right: 1rem;
 }
 
 .title{

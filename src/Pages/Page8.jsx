@@ -9,7 +9,7 @@ function Page8(){
 
       <p className="page-text">This is the content of Page 8.</p>
 
-      <section className="page-number">8</section>
+      <section className="page-number-even">8</section>
     </section>
   );
 }

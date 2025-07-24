@@ -58,7 +58,7 @@ function Navbar({ pageCount, goToPage, visible }){
       {Array.from({ length: end - start }).map((_, i) => (
     
      <li key={start + i}>
-     <button type="button" className="navbar-link" onClick={() => goToPage(start + i)}>
+     <button type="button" className="navbar-link" onClick={() => goToPage(start + i + 1)}>
       {start + i + 1}</button>
      </li>
     ))}
