@@ -10,11 +10,10 @@ function Page1(){
       <section className="drop-cap-text">NCE UPON A TIME</section>
     </section>
 
-      {/*I have to remove the 1 from the classNames after prototype */}
-      <p className="page-text1">This is the content of Page 1.</p>
+      <p className="page-text">This is the content of Page 1.</p>
 
-      <img src={Image1} alt="Page 1" className="page-image1" />
-      <section className="page-number-odd">1</section>
+      <img src={Image1} alt="Page 1" className="page-image" />
+      <section className="page-number1">1</section>
     </section>
   );
 }
