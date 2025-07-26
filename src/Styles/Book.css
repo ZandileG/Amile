@@ -37,6 +37,13 @@
   user-select: none;       
   -webkit-user-select: none;
   -ms-user-select: none;
+  overflow-y: auto;
+  scrollbar-width: none; 
+}
+
+.book-page::-webkit-scrollbar,
+.page-content::-webkit-scrollbar{
+  display: none;                
 }
 
 .page-content img,
