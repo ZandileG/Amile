@@ -17,7 +17,7 @@
 }
 
 .page-text{
-  margin-bottom: 300px; /*I have to remove this after the prototype*/
+  margin-bottom: 100px; /*I have to remove this after the prototype*/
   padding: 0 2rem;
   font-size: 1.35rem;
   text-align: center;
@@ -30,7 +30,7 @@
   width: 50%;
   height: auto;
   margin: auto;
-  margin-bottom: 200px; 
+  margin-bottom: 100px; 
 }
 
 /*I have to delete this after the prototype*/
