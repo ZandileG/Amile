@@ -78,7 +78,7 @@ function navbarToggle(){
    maxHeight={1536}
    maxShadowOpacity={0.5}
    showCover={true}
-   mobileScrollSupport={true}  
+   mobileScrollSupport={false}  
    className="flipbook"
    ref={bookRef}
    onFlip={e => setCurrentPage(e.data)}>
