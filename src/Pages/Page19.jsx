@@ -1,17 +1,17 @@
 import React from "react";
-import Image18 from "../Images/Image18.png";
+import Image19 from "../Images/Image19.png";
 import "../Styles/Page.css";
 
-function Page18(){
+function Page19(){
   return(
     <section className="page">
-      <img src={Image18} alt="Page 18" className="page-image" />
+      <img src={Image19} alt="Page 19" className="page-image" />
 
-      <p className="page-text">This is the content of Page 18.</p>
+      <p className="page-text">This is the content of Page 19.</p>
 
-      <section className="page-number-even">18</section>
+      <section className="page-number-odd">19</section>
     </section>
   );
 }
 
-export default Page18;
+export default Page19;

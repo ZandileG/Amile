@@ -12,7 +12,7 @@ import "../App.css";
 function Navbar({ pageCount, goToPage, visible }){
 //This is the tracks the page group in the navbar
   const [pageGroup, setPageGroup] = useState(0);
-  const groupSize = 5;
+  const groupSize = 4;
   const totalGroups = Math.ceil(pageCount / groupSize);
 
   const start = pageGroup * groupSize;
