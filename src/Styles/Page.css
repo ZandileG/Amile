@@ -55,18 +55,21 @@
   text-align: left;
   margin-top: 9rem;
   margin-left: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .page-number-odd{
   text-align: left;
   margin-top: 18rem;
   margin-left: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .page-number-even{
   text-align: right;
   margin-top: 18rem;
   margin-right: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .title{
