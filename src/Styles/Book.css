@@ -3,7 +3,8 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: black;
+  background: url("../Images/Patterns.png") no-repeat center center;
+  background-size: cover;
 }
 
 .flipbook{

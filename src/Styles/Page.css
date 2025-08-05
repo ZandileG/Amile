@@ -1,3 +1,56 @@
+.page-cover{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 49.9vw;
+  height: 100vh;
+  background: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  overflow: hidden;
+}
+
+.cover-image{
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.text-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  pointer-events: none; 
+}
+
+.text-overlay .title,
+.text-overlay .subtitle{
+  margin-top: 3rem; 
+  color: rgb(42, 42, 42);
+  text-shadow: 0 2px 8px rgba(255,255,255,0.7); 
+  z-index: 3;
+  pointer-events: auto;
+}
+
+.text-overlay .subtitle{
+  margin-top: 30rem;
+}
+
 .page{
   padding: 0;
   margin: 0;
@@ -152,7 +205,13 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px){
+  .title{
+    font-size: 1rem;
+  }
 
+  .subtitle{
+    font-size: 0.5rem;
+  }
 }
 
 @media (max-width: 300px){

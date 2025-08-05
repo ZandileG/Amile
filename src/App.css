@@ -99,7 +99,7 @@
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   margin-left: 5rem;
-  margin-right: 5rem;
+  margin-right: 12rem;
   padding: 0.5rem 1rem;
   border-radius: 50%;
   border: none;
@@ -173,7 +173,11 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px){
-
+  .music-button img,
+  .narration-button img{
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
 @media (max-width: 300px){
