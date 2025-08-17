@@ -5,9 +5,9 @@ import "../Styles/Page.css";
 function Page32(){
   return(
     <section className="page">
-      <img src={Image32} alt="Page 32" className="page-image" />
+      <p className="page-text">After a while, Khaya ran back home to celebrate with her family.</p>
 
-      <p className="page-text">This is the content of Page 32.</p>
+      <img src={Image32} alt="Page 32" className="page-image" />
 
       <section className="page-32">32</section>
     </section>

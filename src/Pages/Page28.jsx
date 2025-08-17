@@ -5,9 +5,12 @@ import "../Styles/Page.css";
 function Page28(){
   return(
     <section className="page">
-      <img src={Image28} alt="Page 28" className="page-image" />
+      <p className="page-text">A low hum filled the air and Thingo began to glow. Its leaves 
+       stretched upward and released a soft chime, like tiny bells in the wind. The glow rippled 
+       through the soil and spread across the garden, up the hill, and down the streets of Dumakude.
+      </p>
 
-      <p className="page-text">This is the content of Page 28.</p>
+      <img src={Image28} alt="Page 28" className="page-image" />
 
       <section className="page-28">28</section>
     </section>

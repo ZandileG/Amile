@@ -7,7 +7,10 @@ function Page31(){
     <section className="page">
       <img src={Image31} alt="Page 31" className="page-image" />
 
-      <p className="page-text">This is the content of Page 31.</p>
+      <p className="page-text">Amile laughed and danced, arms wide, as the sky wept with joy. 
+        Khaya ran to her, and together they spun around, laughing, dancing in the rain just 
+        like they used to.
+      </p>
 
       <section className="page-31">31</section>
     </section>

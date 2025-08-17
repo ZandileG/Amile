@@ -5,8 +5,6 @@ import "../Styles/Page.css";
 function Page6(){
   return(
     <section className="page">
-      <img src={Image6} alt="Page 6" className="page-image" />
-
     <section className="page-text">
       <p><q>But what about our neighbours? What about my friends? I don’t want to 
        leave Khaya.</q> said Amile with tears in her eyes.</p>
@@ -15,7 +13,10 @@ function Page6(){
       said her dad while gently squeezing her hand.</p>
 
       <p>Amile nodded, but she felt a quiet storm growing inside her.</p>
-   </section>
+    </section>
+
+    <img src={Image6} alt="Page 6" className="page-image" />
+
       <section className="page-6">6</section>
     </section>
   );

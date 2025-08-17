@@ -6,13 +6,17 @@ function Page29(){
   return(
      <section className="page">
     <section className="drop-cap-container">
-      <section className="drop-cap">C</section>
-      <section className="drop-cap-text">HAPTER FIVE</section>
+      <section className="drop-cap">A</section>
+      <section className="drop-cap-text">RUMBLE ECHOED</section>
     </section>
 
-      <p className="page-text">This is the content of Page 29.</p>
+      <p className="page-chapter">in the sky. Amile, Khaya and her parents looked up. 
+       The clouds, once pale and lifeless, turned heavy and grey. Thunder clapped, the 
+       wind shifted, there were tiny drops, big, bold splashes. Then Rain! Cool, glorious, 
+       sweet-smelling rain!
+      </p>
 
-      <img src={Image29} alt="Page 29" className="page-image" />
+      <img src={Image29} alt="Page 29" className="page-image-1" />
       <section className="page-29">29</section>
     </section>
   );

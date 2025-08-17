@@ -5,9 +5,12 @@ import "../Styles/Page.css";
 function Page26(){
   return(
     <section className="page">
-      <img src={Image26} alt="Page 26" className="page-image" />
+      <p className="page-text">Amile’s mom placed her hands on her hips, her face less friendly than 
+       before. Amile’s dad noticed the look and stepped forward, reaching toward Amile ready to lift 
+       her off the ground, whether she liked it or not.
+      </p>
 
-      <p className="page-text">This is the content of Page 26.</p>
+      <img src={Image26} alt="Page 26" className="page-image" />
 
       <section className="page-26">26</section>
     </section>

@@ -7,7 +7,7 @@ function Page1(){
     <section className="page">
     <section className="drop-cap-container">
       <section className="drop-cap">O</section>
-      <section className="drop-cap-text">NCE UPON A TIME</section>
+      <section className="drop-cap-text">NCE UPON A TIME,</section>
     </section>
 
       <p className="page-chapter">in a distant land named Dumakude, there were green 

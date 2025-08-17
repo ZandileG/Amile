@@ -5,8 +5,6 @@ import "../Styles/Page.css";
 function Page10(){
   return(
     <section className="page">
-      <img src={Image10} alt="Page 10" className="page-image" />
-
     <section className="page-text">
       <p><q>I don’t think that’s a good idea,</q> said Khaya, <q>don’t you 
        know that flowers need good soil to grow, and our town is so dry.</q></p>
@@ -15,7 +13,9 @@ function Page10(){
 
       <p><q>Where are we even going to find water?</q> Khaya continued, secretly 
        proud that she sounded so smart.</p>
-    </section>
+     </section>
+      
+      <img src={Image10} alt="Page 10" className="page-image" />
 
       <section className="page-10">10</section>
     </section>

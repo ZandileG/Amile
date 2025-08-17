@@ -7,15 +7,15 @@ function Page15(){
     <section className="page">
     <section className="drop-cap-container">
       <section className="drop-cap">E</section>
-      <section className="drop-cap-text">VERY MORNING BEFORE SCHOOL,</section>
+      <section className="drop-cap-text">VERY MORNING</section>
     </section>
 
-      <p className="page-text">Amile sneaked outside with a cup of water and poured it over the plant. 
-       Her parents would’ve been angry if they found out, but she couldn’t help it, she needed to know 
-       what that seed would become.
+      <p className="page-chapter">before school, Amile sneaked outside with a cup of water and poured it 
+       over the plant. Her parents would’ve been angry if they found out, but she couldn’t help it, she 
+       needed to know what that seed would become.
       </p>
 
-      <img src={Image15} alt="Page 15" className="page-image" />
+      <img src={Image15} alt="Page 15" className="page-image-1" />
       <section className="page-15">15</section>
     </section>
   );

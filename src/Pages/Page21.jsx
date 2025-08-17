@@ -10,11 +10,11 @@ function Page21(){
       <section className="drop-cap-text">ACH DAY,</section>
     </section>
 
-      <p className="page-text">Thingo grew taller and stranger, it changed colours daily and its stem 
+      <p className="page-chapter">Thingo grew taller and stranger, it changed colours daily and its stem 
        twisted as if were stretching toward the sky. Its leaves were shaped like stars and at night, 
        they glowed softly in the moonlight.</p>
 
-      <img src={Image21} alt="Page 21" className="page-image" />
+      <img src={Image21} alt="Page 21" className="page-image-1" />
       <section className="page-21">21</section>
     </section>
   );

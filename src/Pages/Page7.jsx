@@ -7,12 +7,12 @@ function Page7(){
     <section className="page">
     <section className="drop-cap-container">
       <section className="drop-cap">T</section>
-      <section className="drop-cap-text">THE NEXT DAY,</section>
+      <section className="drop-cap-text">HE NEXT DAY,</section>
     </section>
 
-      <p className="page-text">while wandering near the edge of a dried-up riverbed, Amile and Khaya spotted something odd.</p>
+      <p className="page-chapter">while wandering near the edge of a dried-up riverbed, Amile and Khaya spotted something odd.</p>
 
-      <img src={Image7} alt="Page 7" className="page-image" />
+      <img src={Image7} alt="Page 7" className="page-image-1" />
       <section className="page-7">7</section>
     </section>
   );

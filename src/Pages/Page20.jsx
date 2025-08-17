@@ -5,9 +5,9 @@ import "../Styles/Page.css";
 function Page20(){
   return(
     <section className="page">
-      <img src={Image20} alt="Page 20" className="page-image" />
-
       <p className="page-text"><q>I hope we don’t get in trouble for this</q> said Khaya shaking her head.</p>
+
+      <img src={Image20} alt="Page 20" className="page-image" />
 
       <section className="page-20">20</section>
     </section>

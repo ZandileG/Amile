@@ -5,17 +5,19 @@ import "../Styles/Page.css";
 function Page24(){
   return(
     <section className="page">
-      <img src={Image24} alt="Page 24" className="page-image" />
-
       <section className="page-text">
-      <p>This is the content of Page 24.</p>
+      <p>Khaya knew where Amile was, and she showed Amile’s parents where she was hiding. 
+       They found her behind the shed, pouring water onto Thingo’s soil.</p>
 
-      <p>This is the content of Page 24.</p>
+      <p><q>Amile,</q> her dad sighed, <q>what are you doing? We told you that saving water 
+       is important. You can’t waste it on this thing.</q></p>
 
-      <p>This is the content of Page 24.</p>
-      
-      <p>This is the content of Page 24.</p>
+      <p><q>But…I’m not wasting water!</q> Amile shouted. <q>Thingo is my friend.</q></p>
+
+      <p><q>Your friend?</q> said Khaya eyes narrowed, and arms across her chest.</p>
     </section>
+
+    <img src={Image24} alt="Page 24" className="page-image" />
 
       <section className="page-24">24</section>
     </section>
