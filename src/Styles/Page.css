@@ -81,7 +81,7 @@
   padding-top: 2rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: justify;
   font-weight: 500;
   font-family: "Primer";
@@ -91,7 +91,7 @@
   padding-left: 4rem;
   padding-right: 4rem;
   margin-top: -0.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: justify;
   font-weight: 500;
   font-family: "Primer";
@@ -390,7 +390,7 @@
 }
 
 .drop-cap-text{
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(42, 42, 42);
 }
 
