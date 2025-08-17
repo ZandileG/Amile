@@ -21,7 +21,7 @@ function Credits(){
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">https://creativecommons.org/licenses/by/4.0/</a>
     </li>
 
-    <li>Beyond the Horizon by Alexander Nakarada 
+    {/*<li>Beyond the Horizon by Alexander Nakarada 
       <a href="https://www.creatorchords.com" target="_blank" rel="noopener noreferrer">(https://www.creatorchords.com)</a>
       <br />Licensed under Creative Commons BY Attribution 4.0 License<br />
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">https://creativecommons.org/licenses/by/4.0/</a>
@@ -31,7 +31,7 @@ function Credits(){
       <a href="https://www.creatorchords.com" target="_blank" rel="noopener noreferrer">(https://www.creatorchords.com)</a>
       <br />Licensed under Creative Commons BY Attribution 4.0 License<br />
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">https://creativecommons.org/licenses/by/4.0/</a>
-    </li>
+    </li>*/}
     </ul>
     </section>
   );
