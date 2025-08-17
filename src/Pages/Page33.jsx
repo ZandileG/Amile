@@ -6,7 +6,7 @@ function Page33(){
   return(
     <section className="page">
       <p className="page-text">Amile’s parents hurried over, still in shock, and wrapped her in 
-       a warm embrace. <q>“I guess we’re staying,</q> they said, grinning through happy tears.
+       a warm embrace. <q>I guess we’re staying,</q> they said, grinning through happy tears.
       </p>
       
       <img src={Image33} alt="Page 33" className="page-image" />
