@@ -7,11 +7,13 @@ function Page11(){
     <section className="page">
       <img src={Image11} alt="Page 11" className="page-image" />
 
-      <p className="page-text"><q>Oh, I have an idea!</q> exclaimed Amile, her eyes lighting up with excitement.</p>
+    <section className="page-text">
+      <p><q>Oh, I have an idea!</q> exclaimed Amile, her eyes lighting up with excitement.</p>
 
-      <p className="page-text">The girls ran back to Amile’s house, found a quiet patch behind the shed, and dug a 
+      <p>The girls ran back to Amile’s house, found a quiet patch behind the shed, and dug a 
        tiny hole. Amile planted the seed and gently patted the dry soil around it.</p>
-
+    </section>
+   
       <section className="page-11">11</section>
     </section>
   );

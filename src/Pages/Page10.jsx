@@ -7,13 +7,15 @@ function Page10(){
     <section className="page">
       <img src={Image10} alt="Page 10" className="page-image" />
 
-      <p className="page-text"><q>I don’t think that’s a good idea,</q> said Khaya, 
-      <q>don’t you know that flowers need good soil to grow, and our town is so dry.</q></p>
+    <section className="page-text">
+      <p><q>I don’t think that’s a good idea,</q> said Khaya, <q>don’t you 
+       know that flowers need good soil to grow, and our town is so dry.</q></p>
 
-      <p className="page-text"><q>I know…</q> said Amile, frowning a little.</p>
+      <p><q>I know…</q> said Amile, frowning a little.</p>
 
-      <p className="page-text"><q>Where are we even going to find water?</q> Khaya 
-       continued, secretly proud that she sounded so smart.</p>
+      <p><q>Where are we even going to find water?</q> Khaya continued, secretly 
+       proud that she sounded so smart.</p>
+    </section>
 
       <section className="page-10">10</section>
     </section>

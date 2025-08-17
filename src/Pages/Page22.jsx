@@ -7,12 +7,15 @@ function Page22(){
     <section className="page">
       <img src={Image22} alt="Page 22" className="page-image" />
 
-      <p className="page-text">On moving day, Amile sneaked out of the house to talk to Thingo.</p>
+    <section className="page-text">
+      <p>On moving day, Amile sneaked out of the house to talk to Thingo.</p>
 
-      <p className="page-text"><q>I don’t want to leave you,</q> she whispered, brushing her fingers 
-       gently over one of its leaves. <q>Even though you're just a plant, you’re still my friend. I 
-       love talking to you, I love looking after you,</q> she sighed.
+      <p><q>I don’t want to leave you,</q> she whispered, brushing her fingers 
+       gently over one of its leaves. <q>Even though you're just a plant, you’re 
+       still my friend. I love talking to you, I love looking after you,</q> 
+       she sighed.
       </p>
+    </section>
 
       <section className="page-22">22</section>
     </section>

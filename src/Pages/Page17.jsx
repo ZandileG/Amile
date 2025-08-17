@@ -7,11 +7,13 @@ function Page17(){
     <section className="page">
       <img src={Image17} alt="Page 17" className="page-image" />
 
-      <p className="page-text">But one afternoon, Amile saw a sprout poking through the soil. Unlike the brittle brown grass around 
+     <section className="page-text">
+      <p>But one afternoon, Amile saw a sprout poking through the soil. Unlike the brittle brown grass around 
        it, this sprout was blue-green and sparkled in the sunlight.</p>
       
-      <p className="page-text">Amile gasped, <q>You’re alive!</q> She ran over to Khaya’s house and brought her over to see it.</p>
-
+      <p>Amile gasped, <q>You’re alive!</q> She ran over to Khaya’s house and brought her over to see it.</p>
+     </section>
+     
       <section className="page-17">17</section>
     </section>
   );

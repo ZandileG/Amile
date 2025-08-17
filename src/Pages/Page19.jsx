@@ -7,10 +7,12 @@ function Page19(){
    <section className="page">
       <img src={Image19} alt="Page 19" className="page-image" />
 
-      <p className="page-text"><q>Why is it blue? Plants aren't supposed to be blue,</q> said Khaya.</p>
+    <section className="page-text">
+      <p><q>Why is it blue? Plants aren't supposed to be blue,</q> said Khaya.</p>
 
-      <p className="page-text"><q>I don’t know, maybe this one is special,</q> said Amile. <q>I want to 
+      <p><q>I don’t know, maybe this one is special,</q> said Amile. <q>I want to 
        name it Thingo, my little rainbow flower,</q> she continued.</p>
+    </section>
 
       <section className="page-19">19</section>
     </section>
