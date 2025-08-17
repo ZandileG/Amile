@@ -130,7 +130,7 @@
 
 .page-2{
   text-align: right;
-  margin-top: 6rem;
+  margin-top: 6.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -151,15 +151,15 @@
 
 .page-4{
   text-align: right;
-  margin-top: 3rem;
+  margin-top: 3.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-5{
   text-align: left;
-  margin-top: 2rem;
-  margin-right: 0.5rem;
+  margin-top: 2.25rem;
+  margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -179,14 +179,14 @@
 
 .page-7{
   text-align: left;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-8{
   text-align: right;
-  margin-top: 7rem;
+  margin-top: 6.75rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -214,7 +214,7 @@
 
 .page-14{
   text-align: right;
-  margin-top: 9rem;
+  margin-top: 9.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -235,7 +235,7 @@
 
 .page-18{
   text-align: right;
-  margin-top: 8.5rem;
+  margin-top: 8.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -249,7 +249,7 @@
 
 .page-21{
   text-align: left;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -263,6 +263,7 @@
 
 .page-24{
   text-align: right;
+  margin-top: -0.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -283,7 +284,7 @@
 
 .page-34{
   text-align: right;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
