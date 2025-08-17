@@ -128,37 +128,38 @@
   margin-bottom: 0.5rem;
 }
 
-.page-2{
+.page-2, .page-16, 
+.page-26, .page-28{
   text-align: right;
-  margin-top: 2rem;
+  margin-top: 8rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-3{
   text-align: left;
-  margin-top: 7rem;
+  margin-top: 8rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-4{
+.page-4, .page-22{
   text-align: right;
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-5{
+.page-5, .page-9{
   text-align: left;
-  margin-top: 0.5rem;
+  margin-top: 4rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-6{
   text-align: right;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -172,189 +173,99 @@
 
 .page-8{
   text-align: right;
-  margin-top: 5.5rem;
+  margin-top: 7rem;
   margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-9{
-  text-align: left;
-  margin-top: 7.5rem;
-  margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-10{
   text-align: right;
-  margin-top: 6rem;
+  margin-top: 2.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-11{
+.page-11, .page-17, 
+.page-19, .page-23, 
+.page-25{
   text-align: left;
-  margin-top: 12.5rem;
+  margin-top: 6.5rem;
   margin-left: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .page-12{
   text-align: right;
-  margin-top: 10rem;
+  margin-top: 9.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-13{
   text-align: left;
-  margin-top: 4.5rem;
+  margin-top: 11rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-14{
+.page-14, .page-20, .page-32{
   text-align: right;
-  margin-top: 13.5rem;
+  margin-top: 11rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-15{
+.page-15, .page-29{
   text-align: left;
-  margin-top: 13.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-16{
-  text-align: right;
-  margin-top: 10rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-17{
-  text-align: left;
-  margin-top: 4.5rem;
+  margin-top: 1.5rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-18{
   text-align: right;
-  margin-top: 13.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-19{
-  text-align: left;
-  margin-top: 13.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-20{
-  text-align: right;
-  margin-top: 10rem;
+  margin-top: 8.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-21{
   text-align: left;
-  margin-top: 4.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-22{
-  text-align: right;
-  margin-top: 13.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-23{
-  text-align: left;
-  margin-top: 13.5rem;
+  margin-top: 3rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-24{
   text-align: right;
-  margin-top: 10rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-25{
+.page-27, .page-33{
   text-align: left;
-  margin-top: 4.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-26{
-  text-align: right;
-  margin-top: 13.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-27{
-  text-align: left;
-  margin-top: 13.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-28{
-  text-align: right;
-  margin-top: 10rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-29{
-  text-align: left;
-  margin-top: 4.5rem;
+  margin-top: 9.5rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-30{
   text-align: right;
-  margin-top: 13.5rem;
+  margin-top: 3.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-31{
   text-align: left;
-  margin-top: 13.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-32{
-  text-align: right;
-  margin-top: 10rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.page-33{
-  text-align: left;
-  margin-top: 4.5rem;
+  margin-top: 9.5rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .page-34{
   text-align: right;
-  margin-top: 13.5rem;
+  margin-top: 3rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
