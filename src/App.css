@@ -104,7 +104,7 @@
 
 .chapter-page-number:hover{
   background-color: white;
-  border: none;
+  border: solid 1px white;
 }
 
 .music-button{
