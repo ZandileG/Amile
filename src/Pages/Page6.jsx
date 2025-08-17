@@ -15,7 +15,7 @@ function Page6(){
 
       <p className="page-text">Amile nodded, but she felt a quiet storm growing inside her.</p>
 
-      <section className="page-number-even">6</section>
+      <section className="page-6">6</section>
     </section>
   );
 }

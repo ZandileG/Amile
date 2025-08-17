@@ -12,7 +12,7 @@ function Page19(){
       <p className="page-text"><q>I don’t know, maybe this one is special,</q> said Amile. <q>I want to 
        name it Thingo, my little rainbow flower,</q> she continued.</p>
 
-      <section className="page-number-odd">19</section>
+      <section className="page-19">19</section>
     </section>
   );
 }

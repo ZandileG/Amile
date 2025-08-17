@@ -12,7 +12,7 @@ function Page23(){
 
       <p className="page-text"><q>Mimi where are you?</q> said her mom, <q>Khaya’s here to say goodbye.</q> Amile said nothing.</p>
 
-      <section className="page-number-odd">23</section>
+      <section className="page-23">23</section>
     </section>
   );
 }

@@ -14,7 +14,7 @@ function Page22(){
        love talking to you, I love looking after you,</q> she sighed.
       </p>
 
-      <section className="page-number-even">22</section>
+      <section className="page-22">22</section>
     </section>
   );
 }

@@ -14,7 +14,7 @@ function Page9(){
       <p className="page-text"><q>It really is,</q> Amile agreed. She held it gently in her hands then said, 
                                <q>I think we should plant it and see what kind of flower it becomes.</q></p>
 
-      <section className="page-number-odd">9</section>
+      <section className="page-9">9</section>
     </section>
   );
 }

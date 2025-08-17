@@ -13,7 +13,7 @@ function Page3(){
         strength and resilience they saw within her.
       </p>
       
-      <section className="page-number-odd">3</section>
+      <section className="page-3">3</section>
     </section>
   );
 }

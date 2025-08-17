@@ -13,7 +13,7 @@ function Page2(){
         the river that used to hum had dried into a narrow, muddy trail.
       </p>
 
-      <section className="page-number-even">2</section>
+      <section className="page-2">2</section>
     </section>
   );
 }

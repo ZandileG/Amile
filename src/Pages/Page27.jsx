@@ -9,7 +9,7 @@ function Page27(){
 
       <p className="page-text">This is the content of Page 27.</p>
 
-      <section className="page-number-odd">27</section>
+      <section className="page-27">27</section>
     </section>
   );
 }

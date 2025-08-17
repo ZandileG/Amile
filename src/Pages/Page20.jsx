@@ -9,7 +9,7 @@ function Page20(){
 
       <p className="page-text"><q>I hope we don’t get in trouble for this</q> said Khaya shaking her head.</p>
 
-      <section className="page-number-even">20</section>
+      <section className="page-20">20</section>
     </section>
   );
 }

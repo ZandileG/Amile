@@ -15,7 +15,7 @@ function Page4(){
         laughter rising higher than the trees.
       </p>
 
-      <section className="page-number-even">4</section>
+      <section className="page-4">4</section>
     </section>
   );
 }

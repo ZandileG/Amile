@@ -13,7 +13,7 @@ function Page29(){
       <p className="page-text">This is the content of Page 29.</p>
 
       <img src={Image29} alt="Page 29" className="page-image" />
-      <section className="page-number-odd">29</section>
+      <section className="page-29">29</section>
     </section>
   );
 }

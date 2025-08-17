@@ -12,7 +12,7 @@ function Page11(){
       <p className="page-text">The girls ran back to Amile’s house, found a quiet patch behind the shed, and dug a 
        tiny hole. Amile planted the seed and gently patted the dry soil around it.</p>
 
-      <section className="page-number-odd">11</section>
+      <section className="page-11">11</section>
     </section>
   );
 }

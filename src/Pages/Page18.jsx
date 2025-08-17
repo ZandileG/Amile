@@ -11,7 +11,7 @@ function Page18(){
 
       <p className="page-text"><q>Yes, it did! It knew it! I knew it would grow!</q> exclaimed Amile.</p>
 
-      <section className="page-number-even">18</section>
+      <section className="page-18">18</section>
     </section>
   );
 }

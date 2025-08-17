@@ -18,7 +18,7 @@ function Page1(){
       </p>
 
       <img src={Image1} alt="Page 1" className="page-image" />
-      <section className="page-chapter">1</section>
+      <section className="page-1">1</section>
     </section>
   );
 }

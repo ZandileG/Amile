@@ -13,7 +13,7 @@ function Page7(){
       <p className="page-text">while wandering near the edge of a dried-up riverbed, Amile and Khaya spotted something odd.</p>
 
       <img src={Image7} alt="Page 7" className="page-image" />
-      <section className="page-chapter">7</section>
+      <section className="page-7">7</section>
     </section>
   );
 }

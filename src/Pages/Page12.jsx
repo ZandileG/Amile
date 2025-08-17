@@ -10,7 +10,7 @@ function Page12(){
       <p className="page-text"><q>Wait here,</q> Amile said to Khaya, then hurried into the shed to 
        fetch water. Khaya crossed her arms as she watched Amile go, giving her a disapproving look.</p>
 
-      <section className="page-number-even">12</section>
+      <section className="page-12">12</section>
     </section>
   );
 }

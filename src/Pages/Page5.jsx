@@ -16,7 +16,7 @@ function Page5(){
       <p className="page-text"><q>Mimi,</q> her mom said softly, <q>the town’s water is 
        gone, and the food is running out.</q></p>
 
-      <section className="page-number-odd">5</section>
+      <section className="page-5">5</section>
     </section>
   );
 }

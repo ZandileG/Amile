@@ -15,7 +15,7 @@ function Page21(){
        they glowed softly in the moonlight.</p>
 
       <img src={Image21} alt="Page 21" className="page-image" />
-      <section className="page-chapter">21</section>
+      <section className="page-21">21</section>
     </section>
   );
 }

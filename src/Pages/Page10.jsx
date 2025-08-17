@@ -15,7 +15,7 @@ function Page10(){
       <p className="page-text"><q>Where are we even going to find water?</q> Khaya 
        continued, secretly proud that she sounded so smart.</p>
 
-      <section className="page-number-even">10</section>
+      <section className="page-10">10</section>
     </section>
   );
 }

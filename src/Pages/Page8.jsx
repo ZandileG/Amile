@@ -12,7 +12,7 @@ function Page8(){
       <p className="page-text">Tucked between pebbles and weeds, was a small, round, glowing object. Its 
        shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.</p>
 
-      <section className="page-number-even">8</section>
+      <section className="page-8">8</section>
     </section>
   );
 }

@@ -13,7 +13,7 @@ function Page16(){
        moving company.
       </p>
 
-      <section className="page-number-even">16</section>
+      <section className="page-16">16</section>
     </section>
   );
 }
