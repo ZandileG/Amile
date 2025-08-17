@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.00cfa43a.css",
-    "main.js": "/Amile/static/js/main.623080f7.js",
+    "main.css": "/Amile/static/css/main.c5abfc62.css",
+    "main.js": "/Amile/static/js/main.27fdc6ed.js",
     "static/js/453.8f5315ff.chunk.js": "/Amile/static/js/453.8f5315ff.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Narration.mp3": "/Amile/static/media/Narration.cb60414a5c4c175f64d9.mp3",
-    "static/media/CoverImage.png": "/Amile/static/media/CoverImage.ab6e27f6afbb145017d0.png",
+    "static/media/Patterns.png": "/Amile/static/media/Patterns.5a193524c222e4754db8.png",
     "static/media/Image1.png": "/Amile/static/media/Image1.ab6e27f6afbb145017d0.png",
     "static/media/Image10.png": "/Amile/static/media/Image10.ab6e27f6afbb145017d0.png",
     "static/media/Image11.png": "/Amile/static/media/Image11.ab6e27f6afbb145017d0.png",
@@ -39,13 +39,14 @@
     "static/media/Rolly Polly.ttf": "/Amile/static/media/Rolly Polly.285c755856ce92cfd6ee.ttf",
     "static/media/Primer Print Bold.otf": "/Amile/static/media/Primer Print Bold.166a451a69617296cf60.otf",
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
+    "static/media/CoverImage.png": "/Amile/static/media/CoverImage.8cf7ece0ced4eeb44de1.png",
     "index.html": "/Amile/index.html",
-    "main.00cfa43a.css.map": "/Amile/static/css/main.00cfa43a.css.map",
-    "main.623080f7.js.map": "/Amile/static/js/main.623080f7.js.map",
+    "main.c5abfc62.css.map": "/Amile/static/css/main.c5abfc62.css.map",
+    "main.27fdc6ed.js.map": "/Amile/static/js/main.27fdc6ed.js.map",
     "453.8f5315ff.chunk.js.map": "/Amile/static/js/453.8f5315ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00cfa43a.css",
-    "static/js/main.623080f7.js"
+    "static/css/main.c5abfc62.css",
+    "static/js/main.27fdc6ed.js"
   ]
 }
