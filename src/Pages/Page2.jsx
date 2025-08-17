@@ -7,7 +7,11 @@ function Page2(){
     <section className="page">
       <img src={Image2} alt="Page 2" className="page-image" />
 
-      <p className="page-text">This is the content of Page 2.</p>
+      <p className="page-text">One day, a curse fell upon Dumakude. What once poured 
+        from the sky became a drizzle, then a whisper, then silence. The roads were 
+        cracked and the trees stood like skeletons. The hills were a dull brown and 
+        the river that used to hum had dried into a narrow, muddy trail.
+      </p>
 
       <section className="page-number-even">2</section>
     </section>

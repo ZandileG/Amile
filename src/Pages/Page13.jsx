@@ -7,7 +7,7 @@ function Page13(){
     <section className="page">
       <img src={Image13} alt="Page 13" className="page-image" />
 
-      <p className="page-text">This is the content of Page 13.</p>
+      <p className="page-text">After watering the plant, the girls grew bored and wandered back into the house.</p>
 
       <section className="page-number-odd">13</section>
     </section>

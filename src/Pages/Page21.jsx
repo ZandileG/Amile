@@ -4,12 +4,18 @@ import "../Styles/Page.css";
 
 function Page21(){
   return(
-    <section className="page">
+     <section className="page">
+    <section className="drop-cap-container">
+      <section className="drop-cap">E</section>
+      <section className="drop-cap-text">ACH DAY,</section>
+    </section>
+
+      <p className="page-text">Thingo grew taller and stranger, it changed colours daily and its stem 
+       twisted as if were stretching toward the sky. Its leaves were shaped like stars and at night, 
+       they glowed softly in the moonlight.</p>
+
       <img src={Image21} alt="Page 21" className="page-image" />
-
-      <p className="page-text">This is the content of Page 21.</p>
-
-      <section className="page-number-odd">21</section>
+      <section className="page-chapter">21</section>
     </section>
   );
 }

@@ -7,7 +7,11 @@ function Page16(){
     <section className="page">
       <img src={Image16} alt="Page 16" className="page-image" />
 
-      <p className="page-text">This is the content of Page 16.</p>
+      <p className="page-text">Days passed, and nothing happened. Amile kept 
+       watering it, and every day she hoped to see something new, anything, 
+       that would take her mind off all those boxes and phone calls with the 
+       moving company.
+      </p>
 
       <section className="page-number-even">16</section>
     </section>

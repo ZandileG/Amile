@@ -4,13 +4,14 @@ import "../Styles/Page.css";
 
 function Page25(){
   return(
-    <section className="page">
+   <section className="page">
       <img src={Image25} alt="Page 25" className="page-image" />
 
       <p className="page-text">This is the content of Page 25.</p>
 
       <section className="page-number-odd">25</section>
     </section>
+
   );
 }
 

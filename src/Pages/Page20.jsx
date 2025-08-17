@@ -7,7 +7,7 @@ function Page20(){
     <section className="page">
       <img src={Image20} alt="Page 20" className="page-image" />
 
-      <p className="page-text">This is the content of Page 20.</p>
+      <p className="page-text"><q>I hope we don’t get in trouble for this</q> said Khaya shaking her head.</p>
 
       <section className="page-number-even">20</section>
     </section>

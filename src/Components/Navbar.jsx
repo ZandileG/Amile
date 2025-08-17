@@ -9,14 +9,7 @@ import MusicImg from "../Images/Music.png";
 import NarrationImg from "../Images/Narration.png";
 import "../App.css";
 
-function Navbar({ pageCount, goToPage, visible }){
-//This is the tracks the page group in the navbar
-  const [pageGroup, setPageGroup] = useState(0);
-  const groupSize = 4;
-  const totalGroups = Math.ceil(pageCount / groupSize);
-
-  const start = pageGroup * groupSize;
-  const end = Math.min(start + groupSize, pageCount);
+function Navbar({ goToPage, visible }){
 
 //This plays the background music and narration
   const { musicPlaying, playMusic } = useContext(MusicContext);
@@ -41,6 +34,15 @@ function Navbar({ pageCount, goToPage, visible }){
     }
   }
 
+ //These are the pages that start each chapter
+  const chapters = [
+    { page: 1, label: "Chapter 1" },
+    { page: 7, label: "Chapter 2" },
+    { page: 15, label: "Chapter 3" },
+    { page: 21, label: "Chapter 4" },
+    { page: 29, label: "Chapter 5" },
+  ];
+
   return(
     <main className={`navbar ${visible ? "show" : ""}`}>
     <section className="navbar-audio-controls">
@@ -53,31 +55,14 @@ function Navbar({ pageCount, goToPage, visible }){
     </button>
     </section>
 
-    <section className="navbar-carousel-container">
-    <ul className="navbar-list carousel-slide">
-    {Array.from({ length: end - start }).map((_, i) => {
-    const pageIndex = start + i;
-    let label;
-
-    if (pageIndex === 0) label = "Cover";
-    else if (pageIndex === pageCount - 1) label = "Credits";
-    else label = pageIndex.toString();
-
-    return (
-      <li key={pageIndex}>
-        <button type="button" className="navbar-link" onClick={() => goToPage(pageIndex)}>
-          {label}
-        </button>
-      </li>
-    );
-  })}
-</ul>
-
-    <section className="carousel-dots">
-      {Array.from({ length: totalGroups }).map((_, i) => (
-    <span key={i} className={`carousel-dot ${i === pageGroup ? "active" : ""}`} onClick={() => setPageGroup(i)} />
-    ))}
-    </section>
+   <section className="navbar-chapters">
+   <ul className="navbar-list">
+   {chapters.map(({ page, label }) => (
+    <li key={page}>
+    <button type="button" className="navbar-link" onClick={() => goToPage(page)}>{label}</button>
+    </li>
+  ))}
+    </ul>
     </section>
     </main>
   );

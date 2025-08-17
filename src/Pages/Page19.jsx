@@ -4,10 +4,13 @@ import "../Styles/Page.css";
 
 function Page19(){
   return(
-    <section className="page">
+   <section className="page">
       <img src={Image19} alt="Page 19" className="page-image" />
 
-      <p className="page-text">This is the content of Page 19.</p>
+      <p className="page-text"><q>Why is it blue? Plants aren't supposed to be blue,</q> said Khaya.</p>
+
+      <p className="page-text"><q>I don’t know, maybe this one is special,</q> said Amile. <q>I want to 
+       name it Thingo, my little rainbow flower,</q> she continued.</p>
 
       <section className="page-number-odd">19</section>
     </section>
