@@ -34,14 +34,14 @@ function Navbar({ goToPage, visible }){
     }
   }
 
- //These are the pages that start each chapter
+ //These are the chapters as well as the pages that belong to each one
   const chapters = [
-    { page: 1, label: "Chapter 1" },
-    { page: 7, label: "Chapter 2" },
-    { page: 15, label: "Chapter 3" },
-    { page: 21, label: "Chapter 4" },
-    { page: 29, label: "Chapter 5" },
-  ];
+  { page: 1, label: "Chapter 1", range: [1, 6] },
+  { page: 7, label: "Chapter 2", range: [7, 14] },
+  { page: 15, label: "Chapter 3", range: [15, 20] },
+  { page: 21, label: "Chapter 4", range: [21, 28] },
+  { page: 29, label: "Chapter 5", range: [29, 34] },
+];
 
   return(
     <main className={`navbar ${visible ? "show" : ""}`}>
@@ -56,13 +56,23 @@ function Navbar({ goToPage, visible }){
     </section>
 
    <section className="navbar-chapters">
-   <ul className="navbar-list">
-   {chapters.map(({ page, label }) => (
-    <li key={page}>
-    <button type="button" className="navbar-link" onClick={() => goToPage(page)}>{label}</button>
-    </li>
+  <ul className="navbar-list">
+  {chapters.map(({ page, label, range }) => (
+  <li key={page} className="chapter-nav-item">
+      <div className="chapter-pages-container">
+        {Array.from({ length: range[1] - range[0] + 1 }, (_, i) => (
+          <button type="button"className="chapter-page-number" key={range[0] + i} onClick={() => goToPage(range[0] + i)}>
+            {range[0] + i}
+          </button>
+        ))}
+      </div>
+
+      <button type="button" className="navbar-link" onClick={() => goToPage(page)}>
+        {label}
+      </button>
+  </li>
   ))}
-    </ul>
+</ul>
     </section>
     </main>
   );

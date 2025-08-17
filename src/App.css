@@ -63,13 +63,59 @@
   cursor: pointer;
 }
 
+.chapter-nav-item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chapter-pages-container{
+  display: flex;
+  position: absolute;
+  left: 40%;
+  bottom: -25%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: opacity 0.2s, transform 0.2s;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+  opacity: 0;
+  z-index: 10;
+}
+
+.chapter-nav-item:hover .chapter-pages-container,
+.chapter-nav-item:focus-within .chapter-pages-container{
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.chapter-page-number{
+  font-size: 0.95rem;
+  font-family: "Rolly";
+  color: rgb(42, 42, 42);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  background-color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+
+.chapter-page-number:hover{
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+}
+
 .music-button{
-  background-color:transparent; 
+  background-color: transparent; 
+  border: none;
   transition: transform 0.3s ease;
 }
 
 .narration-button{
   background-color: transparent; 
+  border: none;
   transition: transform 0.3s ease;
 }
 
