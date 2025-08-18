@@ -10,7 +10,7 @@ function Page32(){
     <section className="page">
       <p className="page-text">After a while, Khaya ran back home to celebrate with her family.</p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

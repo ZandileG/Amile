@@ -17,16 +17,16 @@ function Page8(){
        like a rainbow, as if it had captured the sun and the moon’s light all at once.</p>
     </section>
     
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
       <section className="page-8">8</section>
     </section>

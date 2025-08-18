@@ -19,16 +19,16 @@ function Page30(){
       <p>Thingo had awakened something in the town, magic that was thought to be gone.</p>
       </section>
 
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
       <section className="page-30">30</section>
     </section>

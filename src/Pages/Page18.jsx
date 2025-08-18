@@ -14,16 +14,16 @@ function Page18(){
       <p><q>Yes, it did! It knew it! I knew it would grow!</q> exclaimed Amile.</p>
     </section>
 
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
     <img src={Image18} alt="Page 18" className="page-image" />
 

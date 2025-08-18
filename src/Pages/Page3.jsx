@@ -16,7 +16,7 @@ function Page3(){
         strength and resilience they saw within her.
       </p>
       
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

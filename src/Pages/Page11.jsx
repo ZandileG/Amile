@@ -17,16 +17,16 @@ function Page11(){
        tiny hole. Amile planted the seed and gently patted the dry soil around it.</p>
     </section>
    
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
       <section className="page-11">11</section>
     </section>

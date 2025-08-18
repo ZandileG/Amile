@@ -20,16 +20,16 @@ function Page24(){
       <p><q>Your friend?</q> said Khaya eyes narrowed, and arms across her chest.</p>
     </section>
 
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
     <img src={Image24} alt="Page 24" className="page-image" />
 

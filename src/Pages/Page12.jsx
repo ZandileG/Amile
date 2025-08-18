@@ -11,7 +11,7 @@ function Page12(){
       <p className="page-text"><q>Wait here,</q> Amile said to Khaya, then hurried into the shed to 
        fetch water. Khaya crossed her arms as she watched Amile go, giving her a disapproving look.</p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

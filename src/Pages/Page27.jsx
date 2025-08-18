@@ -14,7 +14,7 @@ function Page27(){
        quickly stood up and took a step back. Khaya and Amile’s mom did the same.
       </p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

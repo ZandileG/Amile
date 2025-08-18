@@ -7,7 +7,7 @@ function Page1(){
   const { currentTime } = useContext(MusicContext);
 
   const transcript = [
-    { text: "in a distant land named Dumakude,", start: 0, end: 3 },
+    { text: "in a distant land named Rileytown,", start: 0, end: 3 },
     { text: "there were green hills, where you would see mountain goats grazing.", start: 4, end: 9 },
     { text: "There were clear rivers where little fishes and frogs used to play.", start: 10, end: 12 },
     { text: "There was also a neighbourhood that was full of life,", start: 13, end: 15 },

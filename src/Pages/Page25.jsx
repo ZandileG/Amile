@@ -16,7 +16,7 @@ function Page25(){
        the roots of the plant.
       </p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
@@ -26,7 +26,7 @@ function Page25(){
           );
         })}
       </p>
-      
+
       <section className="page-25">25</section>
     </section>
 

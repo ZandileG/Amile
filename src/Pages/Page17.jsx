@@ -17,16 +17,16 @@ function Page17(){
       <p>Amile gasped, <q>You’re alive!</q> She ran over to Khaya’s house and brought her over to see it.</p>
      </section>
      
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
       <section className="page-17">17</section>
     </section>

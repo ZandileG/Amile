@@ -13,7 +13,7 @@ function Page28(){
        through the soil and spread across the garden, up the hill, and down the streets of Dumakude.
       </p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

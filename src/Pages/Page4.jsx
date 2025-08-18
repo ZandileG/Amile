@@ -16,7 +16,7 @@ function Page4(){
         laughter rising higher than the trees.
       </p>
       
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

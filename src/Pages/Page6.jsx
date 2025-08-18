@@ -18,16 +18,16 @@ function Page6(){
       <p>Amile nodded, but she felt a quiet storm growing inside her.</p>
     </section>
 
-      <p className="page-chapter">
+      <section className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+          const isActive = currentTime >= line.start && currentTime <= line.end;
           return(
-            <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
-            </span>
+            <p key={i} className={isActive ? "highlight" : ""}>
+              {line.text}
+            </p>
           );
         })}
-      </p>
+      </section>
 
     <img src={Image6} alt="Page 6" className="page-image" />
 

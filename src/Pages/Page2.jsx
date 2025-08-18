@@ -16,7 +16,7 @@ function Page2(){
         the river that used to hum had dried into a narrow, muddy trail.
       </p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

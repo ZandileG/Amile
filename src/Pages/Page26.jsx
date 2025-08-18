@@ -13,7 +13,7 @@ function Page26(){
        her off the ground, whether she liked it or not.
       </p>
 
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(

@@ -12,7 +12,7 @@ function Page33(){
        a warm embrace. <q>I guess we’re staying,</q> they said, grinning through happy tears.
       </p>
       
-      <p className="page-chapter">
+      <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
