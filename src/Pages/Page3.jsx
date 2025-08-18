@@ -10,7 +10,7 @@ function Page3(){
     { text: "In this, now quiet town, lived a young girl named Amile.", start: 0, end: 3 },
     { text: "Amile lived with her parents Mandisa and Sinalo.", start: 4, end: 9 },
     { text: "They named her Amile, a name with many meanings.", start: 10, end: 12 },
-    { text: 'To them, it meant "still standing,"', start: 13, end: 15 },
+    { text: "To them, it meant “still standing,”", start: 13, end: 15 },
     { text: "a promise of the strength and resilience they saw within her.", start: 16, end: 18 },
   ];
 

@@ -6,30 +6,24 @@ import "../Styles/Page.css";
 function Page5(){
     const { currentTime } = useContext(MusicContext);
   
-const transcript = [
+    const transcript = [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 3 },
+    { text: "“Mimi,” he began gently,", start: 4, end: 9 },
+    { text: "“We have to leave Dumakude.”", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "Amile froze. Her eyes grew wide,", start: 10, end: 12 },
+    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 13, end: 15 },
+  ],
+  [
+    { text: "“Mimi,” her mom said softly, “the town’s water is gone, and the food is running out.”", start: 16, end: 18 },
   ]
 ];
 
   return(
     <section className="page">
       <img src={Image5} alt="Page 5" className="page-image" />
-
-    <section className="page-text">
-      <p>One night, at dinner, her dad reached across the table and held her hand. <q>Mimi,</q> he began 
-       gently, <q>We have to leave Dumakude.</q></p>
-        
-      <p>Amile froze. Her eyes grew wide, searching her dad’s face for some sign that it wasn’t true.</p> 
-
-      <p><q>Mimi,</q> her mom said softly, <q>the town’s water is gone, and the food is running out.</q></p>
-     </section>
      
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (

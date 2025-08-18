@@ -8,28 +8,20 @@ function Page6(){
   
     const transcript = [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "“But what about our neighbours? What about my friends?", start: 0, end: 3 },
+    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“I know it’s hard Mimi, but we can’t stay here anymore. Please understand,”", start: 10, end: 12 },
+    { text: "said her dad while gently squeezing her hand.", start: 13, end: 15 },
+  ],
+  [
+    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 16, end: 18 },
   ]
 ];
 
   return(
     <section className="page">
-    <section className="page-text">
-      <p><q>But what about our neighbours? What about my friends? I don’t want to 
-       leave Khaya.</q> said Amile with tears in her eyes.</p>
-
-      <p><q>I know it’s hard Mimi, but we can’t stay here anymore. Please understand,</q> 
-      said her dad while gently squeezing her hand.</p>
-
-      <p>Amile nodded, but she felt a quiet storm growing inside her.</p>
-    </section>
-
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (
     <p key={pIndex}>

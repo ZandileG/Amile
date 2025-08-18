@@ -10,6 +10,7 @@ function Page23(){
   [
     { text: "", start: 0, end: 3 },
     { text: "", start: 4, end: 9 },
+    { text: "", start: 4, end: 9 },
   ],
   [
     { text: "", start: 10, end: 12 },
