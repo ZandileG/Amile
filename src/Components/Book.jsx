@@ -1,4 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useContext } from "react";
+import { MusicContext } from "../Context/MusicContext";
 import HTMLFlipBook from "react-pageflip";
 
 import Bookmark from "../Images/Bookmark.png"
@@ -53,10 +54,12 @@ const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8,
 
 function Book(){
   const bookRef = useRef();
-  
+  const { narrationRef } = useContext(MusicContext);
+
   const [showNavbar, setShowNavbar] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [animateBookmark, setAnimateBookmark] = useState(false);
+
   const [currentPage, setCurrentPage] = useState(0); 
 
 //This animates the bookmark icon when the user wants to open or close the navbar
@@ -75,6 +78,15 @@ function navbarToggle(){
     }
   }, 600); 
 }
+
+//These are the chapters with page ranges and chapter numbers
+  const chapters = [
+    { page: 1, label: "Chapter 1", range: [1, 6], chapterNumber: 1 },
+    { page: 7, label: "Chapter 2", range: [7, 14], chapterNumber: 2 },
+    { page: 15, label: "Chapter 3", range: [15, 20], chapterNumber: 3 },
+    { page: 21, label: "Chapter 4", range: [21, 28], chapterNumber: 4 },
+    { page: 29, label: "Chapter 5", range: [29, 34], chapterNumber: 5 },
+  ];
 
   return(
   <main className="book-container">
@@ -104,7 +116,9 @@ function navbarToggle(){
     
   {pages.map((PageComponent, index) => (
   <section key={index} className="book-page">
-  <section className="page-content"><PageComponent /></section>
+  <section className="page-content">
+    <PageComponent />
+  </section>
   </section>
   ))}
   </HTMLFlipBook>
@@ -116,7 +130,8 @@ function navbarToggle(){
     setShowNavbar(false);
     setNavbarVisible(false);
   }}
-    visible={navbarVisible}/>
+    visible={navbarVisible} 
+    chapters={chapters}/>
 )}
   </main>
   );
