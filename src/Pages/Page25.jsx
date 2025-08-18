@@ -7,24 +7,18 @@ function Page25(){
     const { currentTime } = useContext(MusicContext);
 
      const transcript = [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "Amile’s mom shook her head.", start: 0, end: 3 },
+    { text: "“Uh, uh Amile, we have to go now,” said her mom,", start: 4, end: 9 },
+    { text: "firmly as she reached for the plant.", start: 10, end: 12 },
+    { text: "Amile pushed her mom’s hand away and covered Thingo with her arms.", start: 13, end: 15 },
+    { text: "Tears welled in her eyes.", start: 16, end: 18 },
+    { text: "She tried to hold them back,", start: 16, end: 18 },
+    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 16, end: 18 },
   ];
   
   return(
    <section className="page">
       <img src={Image25} alt="Page 25" className="page-image" />
-
-      <p className="page-text">Amile’s mom shook her head. <q>Uh, uh Amile, we have to go now,</q> said her mom, 
-       firmly as she reached for the plant. Amile pushed her mom’s hand away and covered Thingo with her arms. 
-       Tears welled in her eyes. She tried to hold them back, but they tumbled down her cheeks and splashed onto 
-       the roots of the plant.
-      </p>
 
       <p className="page-text">
         {transcript.map((line, i) => {

@@ -7,18 +7,14 @@ function Page33(){
     const { currentTime } = useContext(MusicContext);
   
      const transcript = [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Amile’s parents hurried over, still in shock,", start: 0, end: 3 },
+    { text: "and wrapped her in a warm embrace.", start: 4, end: 9 },
+    { text: "I guess we’re staying,", start: 10, end: 12 },
+    { text: "they said, grinning through happy tears.", start: 13, end: 15 },
   ];
 
   return(
     <section className="page">
-      <p className="page-text">Amile’s parents hurried over, still in shock, and wrapped her in 
-       a warm embrace. <q>I guess we’re staying,</q> they said, grinning through happy tears.
-      </p>
-      
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;

@@ -7,21 +7,15 @@ function Page16(){
     const { currentTime } = useContext(MusicContext);
   
      const transcript = [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Days passed, and nothing happened.", start: 0, end: 3 },
+    { text: "Amile kept watering it,", start: 4, end: 9 },
+    { text: "and every day she hoped to see something new,", start: 10, end: 12 },
+    { text: "anything, that would take her mind off all those boxes and phone calls with the moving company.", start: 13, end: 15 },
   ];
 
   return(
     <section className="page">
       <img src={Image16} alt="Page 16" className="page-image" />
-
-      <p className="page-text">Days passed, and nothing happened. Amile kept 
-       watering it, and every day she hoped to see something new, anything, 
-       that would take her mind off all those boxes and phone calls with the 
-       moving company.
-      </p>
 
       <p className="page-text">
         {transcript.map((line, i) => {

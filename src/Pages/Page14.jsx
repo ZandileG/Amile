@@ -7,14 +7,12 @@ function Page14(){
     const { currentTime } = useContext(MusicContext);
 
      const transcript = [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "Unnoticed by them,", start: 4, end: 9 },
+    { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 4, end: 9 },
   ];
 
   return(
     <section className="page">
-      <p className="page-text">Unnoticed by them, a soft glow shimmered across the ground where the seed had been planted.</p>
-
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;

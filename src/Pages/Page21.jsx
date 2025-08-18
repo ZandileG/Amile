@@ -7,10 +7,10 @@ function Page21(){
     const { currentTime } = useContext(MusicContext);
 
      const transcript = [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Thingo grew taller and stranger,", start: 0, end: 3 },
+    { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 4, end: 9 },
+    { text: "Its leaves were shaped like stars and at night,", start: 10, end: 12 },
+    { text: "they glowed softly in the moonlight.", start: 13, end: 15 },
   ];
   
   return(
@@ -19,10 +19,6 @@ function Page21(){
       <section className="drop-cap">E</section>
       <section className="drop-cap-text">ACH DAY,</section>
     </section>
-
-      <p className="page-chapter">Thingo grew taller and stranger, it changed colours daily and its stem 
-       twisted as if were stretching toward the sky. Its leaves were shaped like stars and at night, 
-       they glowed softly in the moonlight.</p>
 
       <p className="page-chapter">
         {transcript.map((line, i) => {

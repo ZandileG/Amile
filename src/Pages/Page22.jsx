@@ -8,30 +8,20 @@ function Page22(){
 
     const transcript = [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "On moving day,", start: 0, end: 3 },
+    { text: "Amile sneaked out of the house to talk to Thingo.", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "“I don’t want to leave you,” she whispered,", start: 10, end: 12 },
+    { text: "brushing her fingers gently over one of its leaves.", start: 13, end: 15 },
+    { text: "“Even though you're just a plant, you’re still my friend.", start: 16, end: 18 },
+    { text: "I love talking to you, I love looking after you,” she sighed.", start: 19, end: 21 },
   ]
 ];
   
   return(
     <section className="page">
       <img src={Image22} alt="Page 22" className="page-image" />
-
-    <section className="page-text">
-      <p>On moving day, Amile sneaked out of the house to talk to Thingo.</p>
-
-      <p><q>I don’t want to leave you,</q> she whispered, brushing her fingers 
-       gently over one of its leaves. <q>Even though you're just a plant, you’re 
-       still my friend. I love talking to you, I love looking after you,</q> 
-       she sighed.
-      </p>
-    </section>
 
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (

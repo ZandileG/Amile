@@ -8,40 +8,28 @@ function Page24(){
 
     const transcript = [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 4, end: 9 },
+    { text: "Khaya knew where Amile was,", start: 0, end: 3 },
+    { text: "and she showed Amile’s parents where she was hiding.", start: 4, end: 9 },
+    { text: "They found her behind the shed, pouring water onto Thingo’s soil.", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Amile,” her dad sighed,", start: 10, end: 12 },
+    { text: "“what are you doing?", start: 13, end: 15 },
+    { text: "We told you that saving water is important.", start: 16, end: 18 },
+    { text: "You can’t waste it on this thing.", start: 19, end: 21 },
   ],
    [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "“But…I’m not wasting water!”", start: 10, end: 12 },
+    { text: "Amile shouted. “Thingo is my friend.”", start: 13, end: 15 },
   ],
    [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "“Your friend?” said Khaya", start: 10, end: 12 },
+    { text: "eyes narrowed with her arms across her chest.", start: 13, end: 15 },
   ]
 ];
   
   return(
     <section className="page">
-      <section className="page-text">
-      <p>Khaya knew where Amile was, and she showed Amile’s parents where she was hiding. 
-       They found her behind the shed, pouring water onto Thingo’s soil.</p>
-
-      <p><q>Amile,</q> her dad sighed, <q>what are you doing? We told you that saving water 
-       is important. You can’t waste it on this thing.</q></p>
-
-      <p><q>But…I’m not wasting water!</q> Amile shouted. <q>Thingo is my friend.</q></p>
-
-      <p><q>Your friend?</q> said Khaya eyes narrowed, and arms across her chest.</p>
-    </section>
-
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (
     <p key={pIndex}>

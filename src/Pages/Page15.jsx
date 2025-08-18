@@ -7,10 +7,10 @@ function Page15(){
     const { currentTime } = useContext(MusicContext);
 
      const transcript = [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 3 },
+    { text: "Her parents would’ve been angry if they found out,", start: 4, end: 9 },
+    { text: "but she couldn’t help it,", start: 10, end: 12 },
+    { text: "she needed to know what that seed would become.", start: 13, end: 15 },
   ];
   
   return(
@@ -19,11 +19,6 @@ function Page15(){
       <section className="drop-cap">E</section>
       <section className="drop-cap-text">VERY MORNING,</section>
     </section>
-
-      <p className="page-chapter">Amile sneaked outside with a cup of water and poured it 
-       over the plant. Her parents would’ve been angry if they found out, but she couldn’t help it, she 
-       needed to know what that seed would become.
-      </p>
 
       <p className="page-chapter">
         {transcript.map((line, i) => {

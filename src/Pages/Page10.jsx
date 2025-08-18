@@ -8,30 +8,20 @@ function Page10(){
   
     const transcript = [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "“I don’t think that’s a good idea,” said Khaya,", start: 0, end: 3 },
+    { text: "“don’t you know that flowers need good soil to grow, and our town is so dry.”", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
+    { text: "“I know…” said Amile, frowning a little.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Where are we even going to find water?” Khaya continued,", start: 13, end: 15 },
+    { text: "secretly proud that she sounded so smart.", start: 16, end: 18 },
   ]
 ];
 
   return(
     <section className="page">
-    <section className="page-text">
-      <p><q>I don’t think that’s a good idea,</q> said Khaya, <q>don’t you 
-       know that flowers need good soil to grow, and our town is so dry.</q></p>
-
-      <p><q>I know…</q> said Amile, frowning a little.</p>
-
-      <p><q>Where are we even going to find water?</q> Khaya continued, secretly 
-       proud that she sounded so smart.</p>
-     </section>
-      
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (
     <p key={pIndex}>

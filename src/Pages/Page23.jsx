@@ -8,26 +8,18 @@ function Page23(){
 
     const transcript = [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 4, end: 9 },
+    { text: "Amile stepped into the shed,", start: 0, end: 3 },
+    { text: "reaching for the last bit of water sitting at the bottom of the water container.", start: 4, end: 9 },
+    { text: "Suddenly, she heard her parents’ voices calling out to her.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Mimi where are you?” said her mom,", start: 13, end: 15 },
+    { text: "“Khaya’s here to say goodbye.”", start: 16, end: 18 },
   ]
 ];
   return(
     <section className="page">
       <img src={Image23} alt="Page 23" className="page-image" />
-
-    <section className="page-text">
-       <p>Amile stepped into the shed, reaching for the last bit of water sitting at the bottom of the water 
-       container. Suddenly, she heard her parents’ voices calling out to her.</p>
-
-      <p><q>Mimi where are you?</q> said her mom, <q>Khaya’s here to say goodbye.</q> Amile said nothing.</p>
-    </section>
 
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (

@@ -8,22 +8,16 @@ function Page18(){
 
     const transcript = [
   [
-    { text: "", start: 0, end: 3 },
+    { text: "“It grew?” said Khaya, surprised.", start: 0, end: 3 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "“Yes, it did!", start: 10, end: 12 },
+    { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 13, end: 15 },
   ]
 ];
   
   return(
     <section className="page">
-    <section className="page-text">
-      <p><q>It grew?</q> said Khaya, surprised.</p>
-
-      <p><q>Yes, it did! It knew it! I knew it would grow!</q> exclaimed Amile.</p>
-    </section>
-
     <section className="page-text">
     {transcript.map((paragraph, pIndex) => (
     <p key={pIndex}>
