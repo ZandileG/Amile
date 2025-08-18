@@ -16,16 +16,12 @@ export function MusicProvider({ children }){
   const narrationRef = useRef(null);
   const [narrationPlaying, setNarrationPlaying] = useState(false);
   const [currentChapter, setCurrentChapter] = useState(null);
+  const [currentTime, setCurrentTime] = useState(0);
 
-  const chapters = {
-    1: Chapter1,
-    2: Chapter2,
-    3: Chapter3,
-    4: Chapter4,
-    5: Chapter5,
-  };
+//These are the chapters and the narration audio files that go with each one
+  const chapters = { 1: Chapter1, 2: Chapter2, 3: Chapter3, 4: Chapter4, 5: Chapter5 };
 
-  //When the button is clicked, the music will play
+  //When the buttons are clicked, the music/narration will play
   function playMusic(){
     if (!musicRef.current){
       musicRef.current = new Audio(Music);
@@ -42,33 +38,30 @@ export function MusicProvider({ children }){
     }
   }
 
-function playNarration(chapterNumber) {
-    const audioFile = chapters[chapterNumber];
-    if (!audioFile) return;
+function playNarration(chapterNumber){
+  const audioFile = chapters[chapterNumber];
+  if (!audioFile) return;
 
-//If we are already playing this chapter, do nothing
-    if (currentChapter === chapterNumber && narrationRef.current){
-      narrationRef.current.play().catch(console.error);
-      setNarrationPlaying(true);
-      return;
-    }
-
-  //This stops the previous narration
-    if (narrationRef.current){
-      narrationRef.current.pause();
-      narrationRef.current.currentTime = 0;
-    }
-
-    narrationRef.current = new Audio(audioFile);
-    narrationRef.current.play().catch(console.error);
-    setNarrationPlaying(true);
-    setCurrentChapter(chapterNumber);
-
-    narrationRef.current.onended = () => {
-      setNarrationPlaying(false);
-      setCurrentChapter(null);
-    };
+  if (narrationRef.current){
+    narrationRef.current.pause();
+    narrationRef.current.currentTime = 0;
   }
+
+  narrationRef.current = new Audio(audioFile);
+  narrationRef.current.play().catch(console.error);
+  setNarrationPlaying(true);
+  setCurrentChapter(chapterNumber);
+
+  narrationRef.current.ontimeupdate = () => {
+    setCurrentTime(narrationRef.current.currentTime);
+  };
+
+  narrationRef.current.onended = () => {
+    setNarrationPlaying(false);
+    setCurrentChapter(null);
+    setCurrentTime(0);
+  };
+}
 
   function toggleNarration(){
     if (!narrationRef.current) return;
@@ -82,7 +75,8 @@ function playNarration(chapterNumber) {
   }
 
   return(
-    <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, currentChapter } }>
+    <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, 
+                                 toggleNarration, currentChapter, narrationRef, currentTime } }>
       {children}
     </MusicContext.Provider>
   );

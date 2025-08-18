@@ -1,7 +1,5 @@
-.highlight {
-  background: rgb(216, 216, 138);
-  border-radius: 4px;
-  transition: background 0.3s ease;
+.highlight{
+  font-weight: 600;
 }
 
 .page-cover{
@@ -328,6 +326,7 @@
 .drop-cap-text{
   font-size: 2.5rem;
   color: rgb(42, 42, 42);
+  font-family: "Rolly";
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){

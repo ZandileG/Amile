@@ -8,11 +8,24 @@ import MusicImg from "../Images/Music.png";
 import NarrationImg from "../Images/Narration.png";
 import "../App.css";
 
-function Navbar({ goToPage, visible, chapters }){
-
-//This plays the background music and narration
+function Navbar({ goToPage, visible, chapters, currentPage }){
   const { musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration } = useContext(MusicContext);
   
+//I want to check what is the current chapter based on the page number
+  const currentChapterObj = chapters.find(ch => currentPage >= ch.range[0] && currentPage <= ch.range[1]);
+  const currentChapterNumber = currentChapterObj ? currentChapterObj.chapterNumber : null;
+
+//When the narration button is clicked, it plays the narration for the current chapter
+  function handleNarrationClick(){
+    if (!currentChapterNumber) return; 
+    if (!narrationPlaying){
+      playNarration(currentChapterNumber);
+    } else {
+    //This pauses/resumes the narration
+      toggleNarration();
+    }
+  }
+
   return(
     <main className={`navbar ${visible ? "show" : ""}`}>
     <section className="navbar-audio-controls">
@@ -20,12 +33,12 @@ function Navbar({ goToPage, visible, chapters }){
     <img src={musicPlaying ? MusicImg : MusicOff} alt="Music" />
     </button>
     
-    <button type="button" className="narration-button" onClick={toggleNarration}>
+    <button type="button" className="narration-button" onClick={handleNarrationClick}>
     <img src={narrationPlaying ? NarrationImg : NarrationOff} alt="Narration" />
     </button>
     </section>
 
-   <section className="navbar-chapters">
+  <section className="navbar-chapters">
   <ul className="navbar-list">
   {chapters.map(({ page, label, range, chapterNumber }) => (
   <li key={page} className="chapter-nav-item">
@@ -37,10 +50,9 @@ function Navbar({ goToPage, visible, chapters }){
         ))}
       </section>
 
-      <button type="button" className="navbar-link" 
-        onClick={() => { goToPage(page); 
-                         chapters[chapterNumber - 1] && chapters[chapterNumber - 1].play();
-                       }}>
+      <button type="button" className="navbar-link" onClick={() => { goToPage(page); 
+        playNarration(chapterNumber); 
+     }}>
         {label}
       </button>
   </li>

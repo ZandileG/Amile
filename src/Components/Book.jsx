@@ -1,5 +1,4 @@
-import React, { useRef, useState, useContext } from "react";
-import { MusicContext } from "../Context/MusicContext";
+import React, { useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 import Bookmark from "../Images/Bookmark.png"
@@ -54,7 +53,6 @@ const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8,
 
 function Book(){
   const bookRef = useRef();
-  const { narrationRef } = useContext(MusicContext);
 
   const [showNavbar, setShowNavbar] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
@@ -79,7 +77,7 @@ function navbarToggle(){
   }, 600); 
 }
 
-//These are the chapters with page ranges and chapter numbers
+//These are the pages that start each chapter as well as the pages that are within each chapter
   const chapters = [
     { page: 1, label: "Chapter 1", range: [1, 6], chapterNumber: 1 },
     { page: 7, label: "Chapter 2", range: [7, 14], chapterNumber: 2 },
@@ -91,7 +89,7 @@ function navbarToggle(){
   return(
   <main className="book-container">
 
-  {/*Only show bookmark for the book's pages not the cover and credits pages*/}
+  {/*I want to only show bookmark for the book's pages not the cover and credits pages*/}
     {(currentPage !== 0 && currentPage !== pages.length - 1) && (
     <button type="button" className="navbar-toggle" onClick={navbarToggle}>
     <img className={animateBookmark ? "animate" : ""} src={Bookmark} alt="Bookmark" /> 
@@ -123,7 +121,7 @@ function navbarToggle(){
   ))}
   </HTMLFlipBook>
 
-{/*This renders the navigation bar with links to all the pages.*/}
+{/*This renders the navigation bar with links to all the chapters and pages.*/}
  {showNavbar && (
   <Navbar pageCount={pages.length} goToPage={(index) => {
     bookRef.current.pageFlip().turnToPage(index);
@@ -131,7 +129,8 @@ function navbarToggle(){
     setNavbarVisible(false);
   }}
     visible={navbarVisible} 
-    chapters={chapters}/>
+    chapters={chapters}
+    currentPage={currentPage}/>
 )}
   </main>
   );
