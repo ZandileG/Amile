@@ -9,7 +9,7 @@ function Page26(){
      const transcript = [
     { text: "Amile’s mom placed her hands on her hips,", start: 0, end: 3 },
     { text: "her face less friendly than before.", start: 4, end: 9 },
-    { text: "Amile’s dad noticed the look and stepped forward,", start: 10, end: 12 },
+    { text: "Her dad noticed the look and stepped forward,", start: 10, end: 12 },
     { text: "reaching toward Amile ready to lift her off the ground,", start: 13, end: 15 },
     { text: "whether she liked it or not.", start: 16, end: 18 },
   ];

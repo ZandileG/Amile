@@ -9,11 +9,11 @@ function Page34(){
     const transcript = [
   [
     { text: "Amile approached Thingo,", start: 0, end: 3 },
-    { text: "now a tall, blossoming tree with silver-blue petals and a soft glow still pulsing in its trunk.", start: 4, end: 9 },
+    { text: "now a tall, blossoming tree with silver-blue petals and a soft glow pulsing in its trunk.", start: 4, end: 9 },
     { text: "Her eyes sparkled with happiness as she wrapped her arms around it.", start: 10, end: 12 },
   ],
   [
-    { text: "“Thank you so much, my little rainbow flower,” she whispered,", start: 13, end: 15 },
+    { text: "“Thank you Thingo,” she whispered,", start: 13, end: 15 },
     { text: "I'm so glad I get to stay here with you.”", start: 16, end: 18 },
   ]
 ];

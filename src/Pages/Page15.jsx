@@ -8,7 +8,7 @@ function Page15(){
 
      const transcript = [
     { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 3 },
-    { text: "Her parents would’ve been angry if they found out,", start: 4, end: 9 },
+    { text: "Her parents would have been angry if they found out,", start: 4, end: 9 },
     { text: "but she couldn’t help it,", start: 10, end: 12 },
     { text: "she needed to know what that seed would become.", start: 13, end: 15 },
   ];
