@@ -6,22 +6,23 @@ import "../Styles/Page.css";
 function Page4(){
     const { currentTime } = useContext(MusicContext);
   
+      const transcript = [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+    { text: "", start: 16, end: 18 },
+  ];
+
   return(
     <section className="page">
-      <p className="page-text">Every evening, Amile sat on the stoep of her house, watching 
-        the wind dance with the dust. She missed the scent of damp, red dirt and the gentle 
-        growl of thunder which used to give her a little fright, but now, it felt like a song 
-        she wanted to hear again. She also missed the days when she and her best friend Khaya 
-        splashed around in muddy puddles and played hide-and-seek in the backyard, their 
-        laughter rising higher than the trees.
-      </p>
-      
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
-              {line.text + " "}
+              {line.text + " "} 
             </span>
           );
         })}

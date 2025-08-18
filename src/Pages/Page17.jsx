@@ -6,6 +6,18 @@ import "../Styles/Page.css";
 function Page17(){
     const { currentTime } = useContext(MusicContext);
   
+    const transcript = [
+  [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+  ],
+  [
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+];
+
   return(
     <section className="page">
       <img src={Image17} alt="Page 17" className="page-image" />
@@ -17,16 +29,20 @@ function Page17(){
       <p>Amile gasped, <q>You’re alive!</q> She ran over to Khaya’s house and brought her over to see it.</p>
      </section>
      
-      <section className="page-text">
-        {transcript.map((line, i) => {
-          const isActive = currentTime >= line.start && currentTime <= line.end;
-          return(
-            <p key={i} className={isActive ? "highlight" : ""}>
-              {line.text}
-            </p>
-          );
-        })}
-      </section>
+    <section className="page-text">
+    {transcript.map((paragraph, pIndex) => (
+    <p key={pIndex}>
+      {paragraph.map((line, i) => {
+        const isActive = currentTime >= line.start && currentTime <= line.end;
+        return (
+          <span key={i} className={isActive ? "highlight" : ""}>
+            {line.text + " "}
+          </span>
+        );
+      })}
+    </p>
+    ))}
+   </section>
 
       <section className="page-17">17</section>
     </section>

@@ -6,15 +6,17 @@ import "../Styles/Page.css";
 function Page2(){
     const { currentTime } = useContext(MusicContext);
   
+      const transcript = [
+    { text: "One day, a curse fell upon Dumakude.", start: 20, end: 23 },
+    { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 24, end: 29 },
+    { text: "The roads were cracked and the trees stood like skeletons.", start: 30, end: 32 },
+    { text: "The hills were a dull brown and the river that used to hum", start: 33, end: 35 },
+    { text: "had dried into a narrow, muddy trail.", start: 36, end: 38 },
+  ];
+
   return(
     <section className="page">
       <img src={Image2} alt="Page 2" className="page-image" />
-
-      <p className="page-text">One day, a curse fell upon Dumakude. What once poured 
-        from the sky became a drizzle, then a whisper, then silence. The roads were 
-        cracked and the trees stood like skeletons. The hills were a dull brown and 
-        the river that used to hum had dried into a narrow, muddy trail.
-      </p>
 
       <p className="page-text">
         {transcript.map((line, i) => {
