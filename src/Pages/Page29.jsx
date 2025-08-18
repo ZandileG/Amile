@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MusicContext } from "../Context/MusicContext";
 import Image29 from "../Images/Image29.png";
 import "../Styles/Page.css";
 
 function Page29(){
+    const { currentTime } = useContext(MusicContext);
+  
   return(
      <section className="page">
     <section className="drop-cap-container">
@@ -14,6 +17,17 @@ function Page29(){
        The clouds, once pale and lifeless, turned heavy and grey. Thunder clapped, the 
        wind shifted, there were tiny drops, big, bold splashes. Then Rain! Cool, glorious, 
        sweet-smelling rain!
+      </p>
+
+      <p className="page-chapter">
+        {transcript.map((line, i) => {
+          const isActive =currentTime >= line.start && currentTime <= line.end;
+          return(
+            <span key={i} className={isActive ? "highlight" : ""}>
+              {line.text + " "}
+            </span>
+          );
+        })}
       </p>
 
       <img src={Image29} alt="Page 29" className="page-image-1" />

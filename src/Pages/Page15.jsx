@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MusicContext } from "../Context/MusicContext";
 import Image15 from "../Images/Image15.png";
 import "../Styles/Page.css";
 
 function Page15(){
+    const { currentTime } = useContext(MusicContext);
+  
   return(
     <section className="page">
     <section className="drop-cap-container">
@@ -13,6 +16,17 @@ function Page15(){
       <p className="page-chapter">Amile sneaked outside with a cup of water and poured it 
        over the plant. Her parents would’ve been angry if they found out, but she couldn’t help it, she 
        needed to know what that seed would become.
+      </p>
+
+      <p className="page-chapter">
+        {transcript.map((line, i) => {
+          const isActive =currentTime >= line.start && currentTime <= line.end;
+          return(
+            <span key={i} className={isActive ? "highlight" : ""}>
+              {line.text + " "}
+            </span>
+          );
+        })}
       </p>
 
       <img src={Image15} alt="Page 15" className="page-image-1" />

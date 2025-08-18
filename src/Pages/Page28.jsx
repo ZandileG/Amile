@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MusicContext } from "../Context/MusicContext";
 import Image28 from "../Images/Image28.png";
 import "../Styles/Page.css";
 
 function Page28(){
+    const { currentTime } = useContext(MusicContext);
+  
   return(
     <section className="page">
       <p className="page-text">A low hum filled the air and Thingo began to glow. Its leaves 
        stretched upward and released a soft chime, like tiny bells in the wind. The glow rippled 
        through the soil and spread across the garden, up the hill, and down the streets of Dumakude.
+      </p>
+
+      <p className="page-chapter">
+        {transcript.map((line, i) => {
+          const isActive =currentTime >= line.start && currentTime <= line.end;
+          return(
+            <span key={i} className={isActive ? "highlight" : ""}>
+              {line.text + " "}
+            </span>
+          );
+        })}
       </p>
 
       <img src={Image28} alt="Page 28" className="page-image" />

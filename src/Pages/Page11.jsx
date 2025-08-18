@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { MusicContext } from "../Context/MusicContext";
 import Image11 from "../Images/Image11.png";
 import "../Styles/Page.css";
 
 function Page11(){
+    const { currentTime } = useContext(MusicContext);
+  
   return(
     <section className="page">
       <img src={Image11} alt="Page 11" className="page-image" />
@@ -14,6 +17,17 @@ function Page11(){
        tiny hole. Amile planted the seed and gently patted the dry soil around it.</p>
     </section>
    
+      <p className="page-chapter">
+        {transcript.map((line, i) => {
+          const isActive =currentTime >= line.start && currentTime <= line.end;
+          return(
+            <span key={i} className={isActive ? "highlight" : ""}>
+              {line.text + " "}
+            </span>
+          );
+        })}
+      </p>
+
       <section className="page-11">11</section>
     </section>
   );
