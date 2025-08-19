@@ -5,8 +5,8 @@ import "../Styles/Page.css";
 
 function Page29(){
   const { currentTime, language } = useContext(MusicContext);
-//A RUMBLE ECHOED
-    const transcripts = {
+  
+  const transcripts = {
       en: {
       dropCap: "A",
       dropCapText: " RUMBLE ECHOED",

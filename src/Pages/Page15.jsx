@@ -5,8 +5,8 @@ import "../Styles/Page.css";
 
 function Page15(){
   const { currentTime, language } = useContext(MusicContext);
-//EVERY MORNING,
-     const transcripts = {
+  
+  const transcripts = {
      en: {
       dropCap: "E",
       dropCapText: "VERY MORNING,",

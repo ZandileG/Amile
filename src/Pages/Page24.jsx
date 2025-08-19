@@ -54,7 +54,7 @@ function Page24(){
 ]
     }
 };
-  const transcript = transcripts[language];
+    const { paragraphs } = transcripts[language];
 
   return(
     <section className="page">

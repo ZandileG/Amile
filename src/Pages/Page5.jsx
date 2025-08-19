@@ -8,7 +8,7 @@ function Page5(){
   
     const transcripts = {
       en: {
-        paragrgraphs: [
+        paragraphs: [
   [
     { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 3 },
     { text: "“Mimi,” he began gently,", start: 4, end: 9 },
@@ -28,14 +28,14 @@ function Page5(){
   [
     { text: "", start: 0, end: 3 },
     { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 11 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "", start: 12, end: 13 },
+    { text: "", start: 14, end: 15 },
   ],
    [
-    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
   ]
 ]
     }

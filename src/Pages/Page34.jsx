@@ -18,7 +18,10 @@ function Page34(){
     { text: "“Thank you Thingo,” she whispered,", start: 13, end: 15 },
     { text: "I'm so glad I get to stay here with you.”", start: 16, end: 18 },
   ]
-      ]
+    ],
+      end: [
+      { text: "The End!"},
+    ]
 },
       zu: {
       paragraphs: [
@@ -31,10 +34,13 @@ function Page34(){
     { text: "", start: 13, end: 15 },
     { text: "", start: 16, end: 18 },
   ]
-]
+],
+     end: [
+      { text: "Isiphetho!"},
+    ]
     }
 };
-    const { paragraphs } = transcripts[language];
+    const { paragraphs, end } = transcripts[language];
 
   return(
     <section className="page">
@@ -55,7 +61,7 @@ function Page34(){
     ))}
    </section>
 
-         <section className="end">The End!</section>
+      <section className="end">{end[0].text}</section>
 
       <section className="page-34">34</section>
     </section>
