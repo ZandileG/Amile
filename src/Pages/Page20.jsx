@@ -4,7 +4,7 @@ import Image20 from "../Images/Image20.png";
 import "../Styles/Page.css";
 
 function Page20(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
 
      const transcript = [
     { text: "“I hope we don’t get in trouble for this” said Khaya shaking her head.", start: 0, end: 3 },

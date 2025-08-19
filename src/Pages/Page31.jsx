@@ -4,7 +4,7 @@ import Image31 from "../Images/Image31.png";
 import "../Styles/Page.css";
 
 function Page31(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "Amile laughed and danced,", start: 0, end: 3 },

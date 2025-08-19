@@ -4,24 +4,26 @@ import Image15 from "../Images/Image15.png";
 import "../Styles/Page.css";
 
 function Page15(){
-    const { currentTime } = useContext(MusicContext);
-
+  const { currentTime, language } = useContext(MusicContext);
+//EVERY MORNING,
      const transcript = [
     { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 3 },
     { text: "Her parents would have been angry if they found out,", start: 4, end: 9 },
     { text: "but she couldn’t help it,", start: 10, end: 12 },
     { text: "she needed to know what that seed would become.", start: 13, end: 15 },
   ];
+
+      const { dropCap, dropCapText, lines } = transcripts[language];
   
   return(
     <section className="page">
     <section className="drop-cap-container">
-      <section className="drop-cap">E</section>
-      <section className="drop-cap-text">VERY MORNING,</section>
+      <section className="drop-cap">{dropCap}</section>
+      <section className="drop-cap-text">{dropCapText}</section>
     </section>
 
       <p className="page-chapter">
-        {transcript.map((line, i) => {
+        {lines.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

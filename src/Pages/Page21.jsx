@@ -4,8 +4,8 @@ import Image21 from "../Images/Image21.png";
 import "../Styles/Page.css";
 
 function Page21(){
-    const { currentTime } = useContext(MusicContext);
-
+  const { currentTime, language } = useContext(MusicContext);
+//EACH DAY,
      const transcript = [
     { text: "Thingo grew taller and stranger,", start: 0, end: 3 },
     { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 4, end: 9 },
@@ -13,15 +13,17 @@ function Page21(){
     { text: "they glowed softly in the moonlight.", start: 13, end: 15 },
   ];
   
+      const { dropCap, dropCapText, lines } = transcripts[language];
+
   return(
      <section className="page">
     <section className="drop-cap-container">
-      <section className="drop-cap">E</section>
-      <section className="drop-cap-text">ACH DAY,</section>
+      <section className="drop-cap">{dropCap}</section>
+      <section className="drop-cap-text">{dropCapText}</section>
     </section>
 
       <p className="page-chapter">
-        {transcript.map((line, i) => {
+        {lines.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

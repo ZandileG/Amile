@@ -4,7 +4,7 @@ import Image12 from "../Images/Image12.png";
 import "../Styles/Page.css";
 
 function Page12(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "“Wait here,” Amile said to Khaya,", start: 0, end: 3 },

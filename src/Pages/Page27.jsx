@@ -4,7 +4,7 @@ import Image27 from "../Images/Image27.png";
 import "../Styles/Page.css";
 
 function Page27(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "Suddenly, the ground trembled.", start: 0, end: 3 },

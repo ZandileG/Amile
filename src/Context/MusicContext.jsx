@@ -25,18 +25,18 @@ export function MusicProvider({ children }){
   const [currentTime, setCurrentTime] = useState(0);
   const [language, setLanguage] = useState("en");
 
-//These are the chapters and the narration audio files that go with each one
+//These are the naarrations in zulu and english for each chapter and the audio files that go with each one
   const narrations = {
     en: { 1: Chapter1, 2: Chapter2, 3: Chapter3, 4: Chapter4, 5: Chapter5 },
     zu: { 1: Chapter1_Z, 2: Chapter2_Z, 3: Chapter3_Z, 4: Chapter4_Z, 5: Chapter5_Z },
   };
 
+//This will the language of the narration when the button is clicked
 function changeLanguage(){
   setLanguage(prev => prev === "en" ? "zu" : "en");
 }
 
-
-  //When the buttons are clicked, the music/narration will play
+//When the buttons are clicked, the music/narration will play
   function playMusic(){
     if (!musicRef.current){
       musicRef.current = new Audio(Music);
@@ -91,8 +91,7 @@ function playNarration(chapterNumber){
 
   return(
     <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, 
-                                    language, changeLanguage, currentChapter, narrationRef, currentTime } }>
-      {children}
+                           language, changeLanguage, currentChapter, narrationRef, currentTime } }>{children}
     </MusicContext.Provider>
   );
 }

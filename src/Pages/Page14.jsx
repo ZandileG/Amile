@@ -4,7 +4,7 @@ import Image14 from "../Images/Image14.png";
 import "../Styles/Page.css";
 
 function Page14(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
 
      const transcript = [
     { text: "Unnoticed by them,", start: 4, end: 9 },

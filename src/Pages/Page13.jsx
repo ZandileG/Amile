@@ -4,7 +4,7 @@ import Image13 from "../Images/Image13.png";
 import "../Styles/Page.css";
 
 function Page13(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "After watering the plant,", start: 0, end: 3 },

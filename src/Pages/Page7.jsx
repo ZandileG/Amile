@@ -4,22 +4,24 @@ import Image7 from "../Images/Image7.png";
 import "../Styles/Page.css";
 
 function Page7(){
-    const { currentTime } = useContext(MusicContext);
-
+  const { currentTime, language } = useContext(MusicContext);
+//THE NEXT DAY,
      const transcript = [
     { text: "while wandering near the edge of a dried-up riverbed,", start: 0, end: 3 },
     { text: "Amile and Khaya spotted something odd.", start: 4, end: 6 },
   ];
 
+    const { dropCap, dropCapText, lines } = transcripts[language];
+
   return(
     <section className="page">
     <section className="drop-cap-container">
-      <section className="drop-cap">T</section>
-      <section className="drop-cap-text">HE NEXT DAY,</section>
+      <section className="drop-cap">{dropCap}</section>
+      <section className="drop-cap-text">{dropCapText}</section>
     </section>
 
       <p className="page-chapter">
-        {transcript.map((line, i) => {
+        {lines.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

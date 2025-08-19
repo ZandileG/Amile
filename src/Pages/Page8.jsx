@@ -4,7 +4,7 @@ import Image8 from "../Images/Image8.png";
 import "../Styles/Page.css";
 
 function Page8(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
     const transcript = [
   [

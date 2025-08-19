@@ -12,7 +12,8 @@ import English from "../Images/English.png";
 import "../App.css";
 
 function Navbar({ goToPage, visible, chapters, currentPage }){
-  const { musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, language, changeLanguage } = useContext(MusicContext);
+  const { musicPlaying, playMusic, narrationPlaying, playNarration, 
+          toggleNarration, language, changeLanguage } = useContext(MusicContext);
   
 //I want to check what is the current chapter based on the page number
   const currentChapterObj = chapters.find(ch => currentPage >= ch.range[0] && currentPage <= ch.range[1]);

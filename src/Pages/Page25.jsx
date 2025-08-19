@@ -4,7 +4,7 @@ import Image25 from "../Images/Image25.png";
 import "../Styles/Page.css";
 
 function Page25(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
 
      const transcript = [
     { text: "Amile’s mom shook her head.", start: 0, end: 3 },

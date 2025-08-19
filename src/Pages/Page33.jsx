@@ -4,7 +4,7 @@ import Image33 from "../Images/Image33.png";
 import "../Styles/Page.css";
 
 function Page33(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "Amile’s parents hurried over, still in shock,", start: 0, end: 3 },

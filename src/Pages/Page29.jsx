@@ -4,8 +4,8 @@ import Image29 from "../Images/Image29.png";
 import "../Styles/Page.css";
 
 function Page29(){
-    const { currentTime } = useContext(MusicContext);
-
+  const { currentTime, language } = useContext(MusicContext);
+//A RUMBLE ECHOED
     const transcript = [
     { text: "in the sky.", start: 0, end: 3 },
     { text: "Amile, Khaya and her parents looked up.", start: 4, end: 9 },
@@ -15,15 +15,17 @@ function Page29(){
     { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 19, end: 21 },
   ];
 
+      const { dropCap, dropCapText, lines } = transcripts[language];
+
   return(
      <section className="page">
     <section className="drop-cap-container">
-      <section className="drop-cap">A</section>
-      <section className="drop-cap-text">RUMBLE ECHOED</section>
+      <section className="drop-cap">{dropCap}</section>
+      <section className="drop-cap-text">{dropCapText}</section>
     </section>
 
       <p className="page-chapter">
-        {transcript.map((line, i) => {
+        {lines.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

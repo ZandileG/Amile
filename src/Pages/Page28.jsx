@@ -4,7 +4,7 @@ import Image28 from "../Images/Image28.png";
 import "../Styles/Page.css";
 
 function Page28(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "A low hum filled the air and Thingo began to glow.", start: 0, end: 3 },

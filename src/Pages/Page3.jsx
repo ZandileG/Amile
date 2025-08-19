@@ -4,7 +4,7 @@ import Image3 from "../Images/Image3.png";
 import "../Styles/Page.css";
 
 function Page3(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
       const transcript = [
     { text: "In this, now quiet town, lived a young girl named Amile.", start: 0, end: 3 },

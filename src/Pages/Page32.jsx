@@ -4,7 +4,7 @@ import Image32 from "../Images/Image32.png";
 import "../Styles/Page.css";
 
 function Page32(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "After a while,", start: 0, end: 3 },

@@ -4,7 +4,7 @@ import Image2 from "../Images/Image2.png";
 import "../Styles/Page.css";
 
 function Page2(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
       const transcript = [
     { text: "One day, a curse fell upon Dumakude.", start: 20, end: 23 },

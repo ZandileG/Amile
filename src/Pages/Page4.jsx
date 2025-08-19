@@ -4,7 +4,7 @@ import Image4 from "../Images/Image4.png";
 import "../Styles/Page.css";
 
 function Page4(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
       const transcript = [
     { text: "Every evening, Amile sat on the stoep of her house,", start: 0, end: 3 },

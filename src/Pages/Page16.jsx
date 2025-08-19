@@ -4,7 +4,7 @@ import Image16 from "../Images/Image16.png";
 import "../Styles/Page.css";
 
 function Page16(){
-    const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
   
      const transcript = [
     { text: "Days passed, and nothing happened.", start: 0, end: 3 },
