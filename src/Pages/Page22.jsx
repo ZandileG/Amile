@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page22(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcripts = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "On moving day,", start: 0, end: 3 },
     { text: "Amile sneaked out of the house to talk to Thingo.", start: 4, end: 9 },
@@ -24,16 +26,16 @@ function Page22(){
   [
     { text: "", start: 0, end: 3 },
     { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
   ],
   [
+    { text: "", start: 10, end: 12 },
     { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
     { text: "", start: 16, end: 18 },
   ]
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
   
   return(

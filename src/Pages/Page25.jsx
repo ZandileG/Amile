@@ -26,7 +26,6 @@ function Page25(){
     { text: "", start: 16, end: 18 },
   ]
 };
-  
     const transcript = transcripts[language];
 
   return(

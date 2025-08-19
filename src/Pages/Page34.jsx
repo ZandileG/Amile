@@ -34,7 +34,6 @@ function Page34(){
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
 
   return(

@@ -40,7 +40,6 @@ function Page5(){
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
 
   return(

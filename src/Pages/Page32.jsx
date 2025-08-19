@@ -16,7 +16,6 @@ function Page32(){
     { text: "", start: 4, end: 9 },
   ]
 };
-
     const transcript = transcripts[language];
 
   return(

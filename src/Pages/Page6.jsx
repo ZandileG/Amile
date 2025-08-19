@@ -38,7 +38,6 @@ function Page6(){
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
 
   return(

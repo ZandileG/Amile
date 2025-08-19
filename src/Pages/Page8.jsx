@@ -30,7 +30,6 @@ function Page8(){
 ]
     }
 };
-
   const { paragraphs } = transcripts[language];
 
   return(

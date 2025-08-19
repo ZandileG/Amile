@@ -29,7 +29,6 @@ function Page21(){
       ]
     }
   };
-  
       const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(

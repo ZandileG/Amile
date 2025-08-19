@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page10(){
   const { currentTime, language } = useContext(MusicContext);
   
-    const transcripts = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "“I don’t think that’s a good idea,” said Khaya,", start: 0, end: 3 },
     { text: "“don’t you know that flowers need good soil to grow, and our town is so dry.”", start: 4, end: 9 },
@@ -25,6 +27,8 @@ function Page10(){
   [
     { text: "", start: 0, end: 3 },
     { text: "", start: 4, end: 9 },
+  ],
+  [
     { text: "", start: 10, end: 12 },
   ],
   [
@@ -34,7 +38,6 @@ function Page10(){
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
 
   return(

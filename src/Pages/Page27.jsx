@@ -18,7 +18,6 @@ function Page27(){
     { text: "", start: 10, end: 12 },
   ]
 };
-
     const transcript = transcripts[language];
 
   return(

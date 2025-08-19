@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page19(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcripts = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "“Why is it blue?", start: 0, end: 3 },
     { text: "Plants aren't supposed to be blue,” said Khaya.", start: 4, end: 9 },
@@ -16,16 +18,22 @@ function Page19(){
     { text: "“I want to name it Thingo,", start: 13, end: 15 },
     { text: "my little rainbow flower” she continued.", start: 16, end: 18 },
   ]
-   ],
-      zu: [
+      ]
+},
+      zu: {
+      paragraphs: [
+  [
     { text: "", start: 0, end: 3 },
+    { text: "", start: 0, end: 3 },
+  ],
+  [
     { text: "", start: 4, end: 9 },
     { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "", start: 10, end: 12 },
   ]
-};  
-
+]
+    }
+};
     const { paragraphs } = transcripts[language];
 
   return(

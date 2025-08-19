@@ -30,7 +30,6 @@ function Page1(){
   ]
 }
   };
-
     const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(

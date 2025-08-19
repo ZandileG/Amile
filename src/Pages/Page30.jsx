@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page30(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcripts = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "People poured into the streets.", start: 0, end: 3 },
     { text: "Children squealed.", start: 4, end: 9 },
@@ -31,6 +33,13 @@ function Page30(){
     { text: "", start: 0, end: 3 },
     { text: "", start: 4, end: 9 },
     { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 10, end: 12 },
   ],
   [
     { text: "", start: 13, end: 15 },
@@ -39,7 +48,6 @@ function Page30(){
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
 
   return(

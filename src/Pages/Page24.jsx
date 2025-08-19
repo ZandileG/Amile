@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page24(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcripts = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "Khaya knew where Amile was,", start: 0, end: 3 },
     { text: "and she showed Amile’s parents where she was hiding.", start: 4, end: 9 },
@@ -35,6 +37,16 @@ function Page24(){
     { text: "", start: 4, end: 9 },
     { text: "", start: 10, end: 12 },
   ],
+    [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+    { text: "", start: 16, end: 18 },
+    { text: "", start: 16, end: 18 },
+  ],
+    [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ],
   [
     { text: "", start: 13, end: 15 },
     { text: "", start: 16, end: 18 },
@@ -42,7 +54,6 @@ function Page24(){
 ]
     }
 };
-
   const transcript = transcripts[language];
 
   return(

@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page23(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcripts = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "Amile stepped into the shed,", start: 0, end: 3 },
     { text: "reaching for the last bit of water sitting at the bottom of the water container.", start: 4, end: 9 },
@@ -32,7 +34,6 @@ function Page23(){
 ]
     }
 };
-
     const { paragraphs } = transcripts[language];
 
   return(
