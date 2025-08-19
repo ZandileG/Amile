@@ -7,12 +7,12 @@ import MusicOff from "../Images/MusicOff.png";
 import MusicImg from "../Images/Music.png";
 import NarrationImg from "../Images/Narration.png";
 
-//import Zulu from "../Images/Zulu.png";
+import Zulu from "../Images/Zulu.png";
 import English from "../Images/English.png";
 import "../App.css";
 
 function Navbar({ goToPage, visible, chapters, currentPage }){
-  const { musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration } = useContext(MusicContext);
+  const { musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, language, changeLanguage } = useContext(MusicContext);
   
 //I want to check what is the current chapter based on the page number
   const currentChapterObj = chapters.find(ch => currentPage >= ch.range[0] && currentPage <= ch.range[1]);
@@ -40,8 +40,8 @@ function Navbar({ goToPage, visible, chapters, currentPage }){
     <img src={narrationPlaying ? NarrationImg : NarrationOff} alt="Narration" />
     </button>
 
-    <button type="button" className="language-button">
-    <img src={English} alt="English" />
+    <button type="button" className="language-button" onClick={changeLanguage}>
+    <img src={language === "en" ? English : Zulu} alt={language === "en" ? "English" : "Zulu"} />
     </button>
     </section>
 

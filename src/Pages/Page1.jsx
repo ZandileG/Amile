@@ -4,25 +4,44 @@ import Image1 from "../Images/Image1.png";
 import "../Styles/Page.css";
 
 function Page1(){
-  const { currentTime } = useContext(MusicContext);
+  const { currentTime, language } = useContext(MusicContext);
 
-  const transcript = [
+  const transcripts = {
+    en: {
+      dropCap: "O",
+      dropCapText: "NCE UPON A TIME,",
+      lines: [
     { text: "in a distant land named Dumakude,", start: 0, end: 3 },
     { text: "there were green hills, where you would see mountain goats grazing.", start: 4, end: 9 },
     { text: "There were clear rivers where little fishes and frogs used to play.", start: 10, end: 12 },
     { text: "There was also a neighbourhood that was full of life,", start: 13, end: 15 },
     { text: "where joy was shared, and every moment was a reason to celebrate.", start: 16, end: 18 },
-  ];
+  ]
+},
+  zu: {
+    dropCap: "",
+    dropCapText: "",
+    lines: [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+}
+  };
+
+    const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(
     <section className="page">
     <section className="drop-cap-container">
-      <section className="drop-cap">O</section>
-      <section className="drop-cap-text">NCE UPON A TIME,</section>
+      <section className="drop-cap">{dropCap}</section>
+      <section className="drop-cap-text">{dropCapText}</section>
     </section>
 
       <p className="page-chapter">
-        {transcript.map((line, i) => {
+        {lines.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

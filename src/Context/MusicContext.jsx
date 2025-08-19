@@ -7,6 +7,12 @@ import Chapter3 from "../Sound/Chapter3.mp3";
 import Chapter4 from "../Sound/Chapter4.mp3";
 import Chapter5 from "../Sound/Chapter5.mp3";
 
+import Chapter1_Z from "../Sound/Chapter1-Z.mp3";
+import Chapter2_Z from "../Sound/Chapter2-Z.mp3";
+import Chapter3_Z from "../Sound/Chapter3-Z.mp3";
+import Chapter4_Z from "../Sound/Chapter4-Z.mp3";
+import Chapter5_Z from "../Sound/Chapter5-Z.mp3";
+
 export const MusicContext = createContext();
 
 export function MusicProvider({ children }){
@@ -17,9 +23,18 @@ export function MusicProvider({ children }){
   const [narrationPlaying, setNarrationPlaying] = useState(false);
   const [currentChapter, setCurrentChapter] = useState(null);
   const [currentTime, setCurrentTime] = useState(0);
+  const [language, setLanguage] = useState("en");
 
 //These are the chapters and the narration audio files that go with each one
-  const chapters = { 1: Chapter1, 2: Chapter2, 3: Chapter3, 4: Chapter4, 5: Chapter5 };
+  const narrations = {
+    en: { 1: Chapter1, 2: Chapter2, 3: Chapter3, 4: Chapter4, 5: Chapter5 },
+    zu: { 1: Chapter1_Z, 2: Chapter2_Z, 3: Chapter3_Z, 4: Chapter4_Z, 5: Chapter5_Z },
+  };
+
+function changeLanguage(){
+  setLanguage(prev => prev === "en" ? "zu" : "en");
+}
+
 
   //When the buttons are clicked, the music/narration will play
   function playMusic(){
@@ -39,7 +54,7 @@ export function MusicProvider({ children }){
   }
 
 function playNarration(chapterNumber){
-  const audioFile = chapters[chapterNumber];
+  const audioFile = narrations[language][chapterNumber];
   if (!audioFile) return;
 
   if (narrationRef.current){
@@ -75,8 +90,8 @@ function playNarration(chapterNumber){
   }
 
   return(
-    <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, 
-                                 toggleNarration, currentChapter, narrationRef, currentTime } }>
+    <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, 
+                                    language, changeLanguage, currentChapter, narrationRef, currentTime } }>
       {children}
     </MusicContext.Provider>
   );

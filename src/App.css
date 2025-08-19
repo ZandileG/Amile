@@ -119,7 +119,7 @@
 .music-button:hover,
 .language-button:hover,
 .navbar-link:hover{
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .music-button img,
