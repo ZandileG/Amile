@@ -6,12 +6,21 @@ import "../Styles/Page.css";
 function Page33(){
   const { currentTime, language } = useContext(MusicContext);
   
-     const transcript = [
+     const transcripts = {
+      en: [
     { text: "Amile’s parents hurried over, still in shock,", start: 0, end: 3 },
     { text: "and wrapped her in a warm embrace.", start: 4, end: 9 },
     { text: "I guess we’re staying,", start: 10, end: 12 },
     { text: "they said, grinning through happy tears.", start: 13, end: 15 },
-  ];
+   ],
+      zu: [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+};
 
     const transcript = transcripts[language];
 

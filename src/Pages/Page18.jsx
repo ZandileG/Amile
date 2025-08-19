@@ -6,7 +6,7 @@ import "../Styles/Page.css";
 function Page18(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcript = [
+    const transcripts = [
   [
     { text: "“It grew?” said Khaya, surprised.", start: 0, end: 3 },
   ],
@@ -14,8 +14,23 @@ function Page18(){
     { text: "“Yes, it did!", start: 10, end: 12 },
     { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 13, end: 15 },
   ]
-];
-  
+      ]
+},
+      zu: {
+      paragraphs: [
+  [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+  ],
+  [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+]
+    }
+};
+ 
   const transcript = transcripts[language];
 
   return(

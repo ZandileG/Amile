@@ -6,13 +6,22 @@ import "../Styles/Page.css";
 function Page2(){
   const { currentTime, language } = useContext(MusicContext);
   
-      const transcript = [
+  const transcripts = {
+      en: [
     { text: "One day, a curse fell upon Dumakude.", start: 20, end: 23 },
     { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 24, end: 29 },
     { text: "The roads were cracked and the trees stood like skeletons.", start: 30, end: 32 },
     { text: "The hills were a dull brown and the river that used to hum", start: 33, end: 35 },
     { text: "had dried into a narrow, muddy trail.", start: 36, end: 38 },
-  ];
+     ],
+      zu: [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+};
 
     const transcript = transcripts[language];
 

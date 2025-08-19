@@ -6,7 +6,7 @@ import "../Styles/Page.css";
 function Page11(){
   const { currentTime, language } = useContext(MusicContext);
   
-    const transcript = [
+    const transcripts = [
   [
     { text: "“Oh, I have an idea!” exclaimed Amile,", start: 0, end: 3 },
     { text: "her eyes lighting up with excitement.", start: 4, end: 9 },
@@ -16,7 +16,22 @@ function Page11(){
     { text: "and dug a tiny hole.", start: 13, end: 15 },
     { text: "Amile planted the seed and gently patted the dry soil around it.", start: 16, end: 18 },
   ]
-];
+      ]
+},
+      zu: {
+      paragraphs: [
+  [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+  ],
+  [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+]
+    }
+};
 
   const transcript = transcripts[language];
 

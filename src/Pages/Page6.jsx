@@ -6,7 +6,7 @@ import "../Styles/Page.css";
 function Page6(){
   const { currentTime, language } = useContext(MusicContext);
   
-    const transcript = [
+    const transcripts = [
   [
     { text: "“But what about our neighbours? What about my friends?", start: 0, end: 3 },
     { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 4, end: 9 },
@@ -18,7 +18,22 @@ function Page6(){
   [
     { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 16, end: 18 },
   ]
-];
+      ]
+},
+      zu: {
+      paragraphs: [
+  [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+  ],
+  [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+]
+    }
+};
 
   const transcript = transcripts[language];
 

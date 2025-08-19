@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page34(){
   const { currentTime, language } = useContext(MusicContext);
 
-    const transcript = [
+    const transcripts = {
+      en: {
+      paragraphs: [
   [
     { text: "Amile approached Thingo,", start: 0, end: 3 },
     { text: "now a tall, blossoming tree with silver-blue petals and a soft glow pulsing in its trunk.", start: 4, end: 9 },
@@ -16,8 +18,23 @@ function Page34(){
     { text: "“Thank you Thingo,” she whispered,", start: 13, end: 15 },
     { text: "I'm so glad I get to stay here with you.”", start: 16, end: 18 },
   ]
-];
-  
+      ]
+},
+      zu: {
+      paragraphs: [
+  [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+  ],
+  [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+]
+    }
+};
+
   const transcript = transcripts[language];
 
   return(

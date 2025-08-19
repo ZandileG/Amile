@@ -6,7 +6,7 @@ import "../Styles/Page.css";
 function Page8(){
   const { currentTime, language } = useContext(MusicContext);
   
-    const transcript = [
+    const transcripts = [
   [
     { text: "“What’s that?” asked Khaya, pointing at the mysterious object on the ground.", start: 0, end: 3 },
   ],
@@ -14,7 +14,22 @@ function Page8(){
     { text: "Tucked between pebbles and weeds, was a small, round, glowing object.", start: 4, end: 9 },
     { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 4, end: 9 },
   ]
-];
+      ]
+},
+      zu: {
+      paragraphs: [
+  [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+  ],
+  [
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+  ]
+]
+    }
+};
 
   const transcript = transcripts[language];
 
