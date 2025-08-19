@@ -6,7 +6,8 @@ import "../Styles/Page.css";
 function Page28(){
   const { currentTime, language } = useContext(MusicContext);
   
-     const transcripts = [
+     const transcripts = {
+      en: [
     { text: "A low hum filled the air and Thingo began to glow.", start: 0, end: 3 },
     { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 4, end: 9 },
     { text: "The glow rippled through the soil and spread across the garden,", start: 10, end: 12 },

@@ -6,7 +6,8 @@ import "../Styles/Page.css";
 function Page12(){
   const { currentTime, language } = useContext(MusicContext);
   
-     const transcripts = [
+     const transcripts = {
+      en: [
     { text: "“Wait here,” Amile said to Khaya,", start: 0, end: 3 },
     { text: "then hurried into the shed to fetch water.", start: 4, end: 9 },
     { text: "Khaya crossed her arms as she watched Amile go,", start: 10, end: 12 },
@@ -17,7 +18,6 @@ function Page12(){
     { text: "", start: 4, end: 9 },
     { text: "", start: 10, end: 12 },
     { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
   ]
 };
     const transcript = transcripts[language];

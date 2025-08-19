@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page5(){
   const { currentTime, language } = useContext(MusicContext);
   
-    const transcripts = [
+    const transcripts = {
+      en: {
+        paragrgraphs: [
   [
     { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 3 },
     { text: "“Mimi,” he began gently,", start: 4, end: 9 },
@@ -31,21 +33,24 @@ function Page5(){
   [
     { text: "", start: 13, end: 15 },
     { text: "", start: 16, end: 18 },
+  ],
+   [
+    { text: "", start: 13, end: 15 },
   ]
 ]
     }
 };
 
-  const transcript = transcripts[language];
+    const { paragraphs } = transcripts[language];
 
   return(
     <section className="page">
       <img src={Image5} alt="Page 5" className="page-image" />
      
     <section className="page-text">
-    {transcript.map((paragraph, pIndex) => (
+    {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
-      {paragraph.map((line, i) => {
+      {para.map((line, i) => {
         const isActive = currentTime >= line.start && currentTime <= line.end;
         return (
           <span key={i} className={isActive ? "highlight" : ""}>

@@ -6,7 +6,8 @@ import "../Styles/Page.css";
 function Page4(){
   const { currentTime, language } = useContext(MusicContext);
   
-      const transcripts = [
+      const transcripts = {
+        en: [
     { text: "Every evening, Amile sat on the stoep of her house,", start: 0, end: 3 },
     { text: "watching the wind dance with the dust.", start: 4, end: 9 },
     { text: "She missed the scent of damp, red dirt and the gentle growl of thunder", start: 10, end: 12 },
@@ -19,6 +20,7 @@ function Page4(){
     { text: "", start: 4, end: 9 },
     { text: "", start: 10, end: 12 },
     { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
     { text: "", start: 16, end: 18 },
   ]
 };

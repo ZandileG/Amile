@@ -6,7 +6,8 @@ import "../Styles/Page.css";
 function Page3(){
   const { currentTime, language } = useContext(MusicContext);
   
-      const transcripts = [
+      const transcripts = {
+        en: [
     { text: "In this, now quiet town, lived a young girl named Amile.", start: 0, end: 3 },
     { text: "Amile lived with her parents Mandisa and Sinalo.", start: 4, end: 9 },
     { text: "They named her Amile, a name with many meanings.", start: 10, end: 12 },

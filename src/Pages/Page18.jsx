@@ -31,14 +31,14 @@ function Page18(){
     }
 };
  
-  const transcript = transcripts[language];
+    const { paragraphs } = transcripts[language];
 
   return(
     <section className="page">
     <section className="page-text">
-    {transcript.map((paragraph, pIndex) => (
+    {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
-      {paragraph.map((line, i) => {
+      {para.map((line, i) => {
         const isActive = currentTime >= line.start && currentTime <= line.end;
         return (
           <span key={i} className={isActive ? "highlight" : ""}>

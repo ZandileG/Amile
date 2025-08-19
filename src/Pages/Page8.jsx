@@ -6,7 +6,9 @@ import "../Styles/Page.css";
 function Page8(){
   const { currentTime, language } = useContext(MusicContext);
   
-    const transcripts = [
+    const transcripts = {
+      en: {
+        paragraphs: [
   [
     { text: "“What’s that?” asked Khaya, pointing at the mysterious object on the ground.", start: 0, end: 3 },
   ],
@@ -20,8 +22,6 @@ function Page8(){
       paragraphs: [
   [
     { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
   ],
   [
     { text: "", start: 13, end: 15 },
@@ -31,16 +31,16 @@ function Page8(){
     }
 };
 
-  const transcript = transcripts[language];
+  const { paragraphs } = transcripts[language];
 
   return(
     <section className="page">
       <img src={Image8} alt="Page 8" className="page-image" />
     
     <section className="page-text">
-    {transcript.map((paragraph, pIndex) => (
+    {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
-      {paragraph.map((line, i) => {
+      {para.map((line, i) => {
         const isActive = currentTime >= line.start && currentTime <= line.end;
         return (
           <span key={i} className={isActive ? "highlight" : ""}>

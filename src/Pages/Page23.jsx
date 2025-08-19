@@ -33,16 +33,16 @@ function Page23(){
     }
 };
 
-  const transcript = transcripts[language];
+    const { paragraphs } = transcripts[language];
 
   return(
     <section className="page">
       <img src={Image23} alt="Page 23" className="page-image" />
 
     <section className="page-text">
-    {transcript.map((paragraph, pIndex) => (
+    {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
-      {paragraph.map((line, i) => {
+      {para.map((line, i) => {
         const isActive = currentTime >= line.start && currentTime <= line.end;
         return (
           <span key={i} className={isActive ? "highlight" : ""}>

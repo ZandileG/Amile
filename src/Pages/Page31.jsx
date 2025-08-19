@@ -6,7 +6,8 @@ import "../Styles/Page.css";
 function Page31(){
   const { currentTime, language } = useContext(MusicContext);
   
-     const transcripts = [
+     const transcripts = {
+      en: [
     { text: "Amile laughed and danced,", start: 0, end: 3 },
     { text: "arms wide, as the sky wept with joy.", start: 4, end: 9 },
     { text: "Khaya ran to her, and together they spun around,", start: 10, end: 12 },
@@ -17,7 +18,6 @@ function Page31(){
     { text: "", start: 4, end: 9 },
     { text: "", start: 10, end: 12 },
     { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
   ]
 };
 

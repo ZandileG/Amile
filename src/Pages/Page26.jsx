@@ -6,7 +6,8 @@ import "../Styles/Page.css";
 function Page26(){
   const { currentTime, language } = useContext(MusicContext);
   
-     const transcripts = [
+     const transcripts = {
+      en: [
     { text: "Amile’s mom placed her hands on her hips,", start: 0, end: 3 },
     { text: "her face less friendly than before.", start: 4, end: 9 },
     { text: "Her dad noticed the look and stepped forward,", start: 10, end: 12 },
