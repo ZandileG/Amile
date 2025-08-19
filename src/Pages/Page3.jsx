@@ -14,6 +14,8 @@ function Page3(){
     { text: "a promise of the strength and resilience they saw within her.", start: 16, end: 18 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image3} alt="Page 3" className="page-image" />

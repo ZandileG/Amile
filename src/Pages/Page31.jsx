@@ -13,6 +13,8 @@ function Page31(){
     { text: "laughing and dancing in the rain just like they used to.", start: 13, end: 15 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image31} alt="Page 31" className="page-image" />

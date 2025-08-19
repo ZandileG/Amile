@@ -13,6 +13,8 @@ function Page12(){
     { text: "giving her a disapproving look.", start: 13, end: 15 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">

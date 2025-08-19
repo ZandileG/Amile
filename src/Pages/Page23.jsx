@@ -17,6 +17,9 @@ function Page23(){
     { text: "“Khaya’s here to say goodbye.”", start: 16, end: 18 },
   ]
 ];
+
+  const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image23} alt="Page 23" className="page-image" />

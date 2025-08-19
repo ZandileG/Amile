@@ -15,6 +15,8 @@ function Page4(){
     { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 19, end: 21 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">

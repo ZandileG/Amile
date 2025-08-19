@@ -13,6 +13,8 @@ function Page16(){
     { text: "anything, that would take her mind off all those boxes and phone calls with the moving company.", start: 13, end: 15 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image16} alt="Page 16" className="page-image" />

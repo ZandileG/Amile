@@ -11,6 +11,8 @@ function Page14(){
     { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 4, end: 9 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">

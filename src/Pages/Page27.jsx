@@ -12,6 +12,8 @@ function Page27(){
     { text: "Khaya and Amile’s mom did the same.", start: 10, end: 12 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image27} alt="Page 27" className="page-image" />

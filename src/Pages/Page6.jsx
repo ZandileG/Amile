@@ -20,6 +20,8 @@ function Page6(){
   ]
 ];
 
+  const transcript = transcripts[language];
+
   return(
     <section className="page">
     <section className="page-text">

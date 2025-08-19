@@ -10,6 +10,8 @@ function Page20(){
     { text: "“I hope we don’t get in trouble for this” said Khaya shaking her head.", start: 0, end: 3 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">

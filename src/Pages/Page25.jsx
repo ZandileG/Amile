@@ -16,6 +16,8 @@ function Page25(){
     { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 16, end: 18 },
   ];
   
+    const transcript = transcripts[language];
+
   return(
    <section className="page">
       <img src={Image25} alt="Page 25" className="page-image" />

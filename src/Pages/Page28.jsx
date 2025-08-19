@@ -13,6 +13,8 @@ function Page28(){
     { text: "up the hill, and down the streets of Dumakude.", start: 13, end: 15 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">

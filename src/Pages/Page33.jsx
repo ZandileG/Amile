@@ -13,6 +13,8 @@ function Page33(){
     { text: "they said, grinning through happy tears.", start: 13, end: 15 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">

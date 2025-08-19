@@ -18,6 +18,8 @@ function Page22(){
     { text: "I love talking to you, I love looking after you,” she sighed.", start: 19, end: 21 },
   ]
 ];
+
+  const transcript = transcripts[language];
   
   return(
     <section className="page">

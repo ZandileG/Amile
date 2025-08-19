@@ -11,6 +11,8 @@ function Page13(){
     { text: "the girls grew bored and wandered back into the house.", start: 4, end: 9 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image13} alt="Page 13" className="page-image" />

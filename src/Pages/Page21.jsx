@@ -6,12 +6,29 @@ import "../Styles/Page.css";
 function Page21(){
   const { currentTime, language } = useContext(MusicContext);
 //EACH DAY,
-     const transcript = [
+     const transcripts = {
+      en: {
+      dropCap: "E",
+      dropCapText: "ACH DAY,",
+      lines: [
     { text: "Thingo grew taller and stranger,", start: 0, end: 3 },
     { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 4, end: 9 },
     { text: "Its leaves were shaped like stars and at night,", start: 10, end: 12 },
     { text: "they glowed softly in the moonlight.", start: 13, end: 15 },
-  ];
+    ]
+  },
+    zu: {
+    dropCap: "",
+    dropCapText: "",
+    lines: [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+      ]
+    }
+  };
   
       const { dropCap, dropCapText, lines } = transcripts[language];
 

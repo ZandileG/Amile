@@ -5,11 +5,28 @@ import "../Styles/Page.css";
 
 function Page7(){
   const { currentTime, language } = useContext(MusicContext);
-//THE NEXT DAY,
-     const transcript = [
+
+  const transcripts = {
+    en: {
+      dropCap: "T",
+      dropCapText: "HE NEXT DAY,",
+      lines: [
     { text: "while wandering near the edge of a dried-up riverbed,", start: 0, end: 3 },
     { text: "Amile and Khaya spotted something odd.", start: 4, end: 6 },
-  ];
+    ]
+  },
+    zu: {
+    dropCap: "",
+    dropCapText: "",
+    lines: [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+      ]
+    }
+  };
 
     const { dropCap, dropCapText, lines } = transcripts[language];
 

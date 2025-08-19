@@ -14,6 +14,8 @@ function Page2(){
     { text: "had dried into a narrow, muddy trail.", start: 36, end: 38 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image2} alt="Page 2" className="page-image" />

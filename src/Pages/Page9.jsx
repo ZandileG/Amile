@@ -21,6 +21,8 @@ function Page9(){
   ]
 ];
 
+  const transcript = transcripts[language];
+
   return(
     <section className="page">
       <img src={Image9} alt="Page 9" className="page-image" />

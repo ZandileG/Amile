@@ -6,12 +6,29 @@ import "../Styles/Page.css";
 function Page15(){
   const { currentTime, language } = useContext(MusicContext);
 //EVERY MORNING,
-     const transcript = [
+     const transcripts = {
+     en: {
+      dropCap: "E",
+      dropCapText: "VERY MORNING,",
+      lines:[
     { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 3 },
     { text: "Her parents would have been angry if they found out,", start: 4, end: 9 },
     { text: "but she couldn’t help it,", start: 10, end: 12 },
     { text: "she needed to know what that seed would become.", start: 13, end: 15 },
-  ];
+    ]
+  },
+    zu: {
+    dropCap: "",
+    dropCapText: "",
+    lines: [
+    { text: "", start: 0, end: 3 },
+    { text: "", start: 4, end: 9 },
+    { text: "", start: 10, end: 12 },
+    { text: "", start: 13, end: 15 },
+    { text: "", start: 16, end: 18 },
+      ]
+    }
+  };
 
       const { dropCap, dropCapText, lines } = transcripts[language];
   

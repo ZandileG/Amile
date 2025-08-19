@@ -14,6 +14,8 @@ function Page26(){
     { text: "whether she liked it or not.", start: 16, end: 18 },
   ];
 
+    const transcript = transcripts[language];
+
   return(
     <section className="page">
       <p className="page-text">
