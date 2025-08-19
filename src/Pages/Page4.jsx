@@ -12,7 +12,7 @@ function Page4(){
     { text: "She missed the scent of damp, red dirt and the gentle growl of thunder", start: 10, end: 12 },
     { text: "which used to give her a little fright, but now, it felt like a song she wanted to hear again.", start: 13, end: 15 },
     { text: "She also missed the days when she and her best friend Khaya splashed around in muddy puddles", start: 16, end: 18 },
-    { text: "and played hide-and-seek in the backyard, their laughter rising higher than the trees.", start: 19, end: 21 },
+    { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 19, end: 21 },
   ];
 
   return(

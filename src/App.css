@@ -107,13 +107,9 @@
   border: solid 1px white;
 }
 
-.music-button{
-  background-color: transparent; 
-  border: none;
-  transition: transform 0.3s ease;
-}
-
-.narration-button{
+.music-button, 
+.narration-button,
+.language-button{
   background-color: transparent; 
   border: none;
   transition: transform 0.3s ease;
@@ -121,14 +117,16 @@
 
 .narration-button:hover,
 .music-button:hover,
+.language-button:hover,
 .navbar-link:hover{
     transform: scale(1.05);
 }
 
 .music-button img,
-.narration-button img{
-  width: 4rem;
-  height: 4rem;
+.narration-button img,
+.language-button img{
+  width: 3rem;
+  height: 3rem;
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){

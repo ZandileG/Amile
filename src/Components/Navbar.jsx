@@ -6,6 +6,9 @@ import MusicOff from "../Images/MusicOff.png";
 
 import MusicImg from "../Images/Music.png";
 import NarrationImg from "../Images/Narration.png";
+
+//import Zulu from "../Images/Zulu.png";
+import English from "../Images/English.png";
 import "../App.css";
 
 function Navbar({ goToPage, visible, chapters, currentPage }){
@@ -35,6 +38,10 @@ function Navbar({ goToPage, visible, chapters, currentPage }){
     
     <button type="button" className="narration-button" onClick={handleNarrationClick}>
     <img src={narrationPlaying ? NarrationImg : NarrationOff} alt="Narration" />
+    </button>
+
+    <button type="button" className="language-button">
+    <img src={English} alt="English" />
     </button>
     </section>
 
