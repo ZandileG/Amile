@@ -15,11 +15,10 @@ function Page26(){
     { text: "whether she liked it or not.", start: 16, end: 18 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 0, end: 3 },
+    { text: "ebukeka ethukuthele kunakuqala.", start: 4, end: 9 },
+    { text: "Ubab’ wakhe wakubona lokho waguqa phambi kukaAmile", start: 10, end: 12 },
+    { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 13, end: 15 },
   ]
 };
     const transcript = transcripts[language];

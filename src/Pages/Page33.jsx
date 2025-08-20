@@ -14,10 +14,9 @@ function Page33(){
     { text: "they said, grinning through happy tears.", start: 13, end: 15 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 0, end: 3 },
+    { text: "“Ngicabanga ukuthi sizohlala,”", start: 4, end: 9 },
+    { text: "“Ngicabanga ukuthi sizohlala,” kusho bona, kwehla izinyembezi zenjabulo.", start: 10, end: 12 },
   ]
 };
     const transcript = transcripts[language];

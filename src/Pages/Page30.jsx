@@ -30,20 +30,19 @@ function Page30(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
+    { text: "Abantu basemphakathini batheleka emigwaqweni.", start: 0, end: 3 },
+    { text: "Izingane zamemeza.", start: 4, end: 9 },
+    { text: "Umfula wagcwala.", start: 10, end: 12 },
+    { text: "Izihlahla zanyakaza.", start: 10, end: 12 },
+    { text: "Kwacula izinyoni.", start: 10, end: 12 },
+    { text: "Amagquma aphenduka abe luhlaza futhi.", start: 10, end: 12 },
+    { text: "Izimbali zaqhuma emhlabathini njengeziqhumane.", start: 10, end: 12 },
+    { text: "Izingadi ezingazange ziqhakaze ezinyangeni eziningi manje zase ziqhakaza ngemibala.", start: 10, end: 12 },
+    { text: "Umoya wawunuka njengesiqalo esisha,", start: 10, end: 12 },
+    { text: "kwangathi umhlaba kade ubambe umphefumulo wawo isikhathi eside.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "UThingo wayevuse okuthile eDumakude, umlingo okwakuthiwa awuseko.", start: 13, end: 15 },
   ]
 ]
     }

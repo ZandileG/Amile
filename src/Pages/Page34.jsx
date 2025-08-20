@@ -26,13 +26,14 @@ function Page34(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "UAmile wasondela kuThingo,", start: 0, end: 3 },
+    { text: "manje eseyisihlahla eside, esinezimbali ezinamacembe aluhlaza okwesibhakabhaka", start: 4, end: 9 },
+    { text: "kanye nokukhanya okusuka esiqwini sakhe.", start: 10, end: 12 },
+    { text: "Amehlo kaAmile akhazimula ngenjabulo njengoba emgona.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Ngiyabonga Thingo,” ehleba,", start: 13, end: 15 },
+    { text: "“ngiyajabula kakhulu ukuthi ngizokwazi ukuhlala nawe.”", start: 16, end: 18 },
   ]
 ],
      end: [

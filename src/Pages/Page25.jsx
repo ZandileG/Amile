@@ -17,13 +17,13 @@ function Page25(){
     { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 16, end: 18 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "Umama kaAmile wanikina ikhanda.", start: 0, end: 3 },
+    { text: "“Ah, ah Amile, sekumele sihambe manje,”", start: 4, end: 9 },
+    { text: "kusho unina, efinyelela esitshalweni.", start: 10, end: 12 },
+    { text: "UAmile wasusa isandla sikama wakhe wamboza uThingo ngezingalo zakhe.", start: 13, end: 15 },
+    { text: "Izinyembezi zagcwala emehlweni akhe.", start: 16, end: 18 },
+    { text: "Wazama ukuzibamba,", start: 16, end: 18 },
+    { text: "kodwa zawa ezihlathini zakhe zafafaza ezimpandeni zesitshalo.", start: 16, end: 18 },
   ]
 };
     const transcript = transcripts[language];

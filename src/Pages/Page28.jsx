@@ -14,10 +14,9 @@ function Page28(){
     { text: "up the hill, and down the streets of Dumakude.", start: 13, end: 15 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Kube nokuthula emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 3 },
+    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 4, end: 9 },
+    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 10, end: 12 },
   ]
 };
     const transcript = transcripts[language];

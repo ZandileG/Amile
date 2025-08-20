@@ -13,9 +13,9 @@ function Page27(){
     { text: "Khaya and Amile’s mom did the same.", start: 10, end: 12 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "Gwiqiqi, kwavevezela umhlaba.", start: 0, end: 3 },
+    { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 4, end: 9 },
+    { text: "UKhaya noma kaAmile benza okufanayo.", start: 10, end: 12 },
   ]
 };
     const transcript = transcripts[language];

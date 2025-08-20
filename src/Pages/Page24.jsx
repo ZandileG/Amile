@@ -33,23 +33,21 @@ function Page24(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "UKhaya bekazi ukuthi uAmile ukuphi,", start: 0, end: 3 },
+    { text: "futhi wakhombisa abazali bakaAmile lapho ayecashe khona.", start: 4, end: 9 },
+    { text: "Bamthola ethela amanzi enhlabathini kaThingo.", start: 10, end: 12 },
   ],
     [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Amile,” kusho ubab’ wakhe,", start: 13, end: 15 },
+    { text: "“wenzani? Sakutshela ukuthi ukonga amanzi kubalulekile.", start: 16, end: 18 },
+    { text: "Awukwazi ukuwachitha kulokhula.” ", start: 16, end: 18 },
   ],
     [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Kodwa...akuwona ukhula!” kusho uAmile ememeza.", start: 13, end: 15 },
+    { text: "“UThingo ungumngane wami.”", start: 16, end: 18 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“UMngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 13, end: 15 },
   ]
 ]
     }

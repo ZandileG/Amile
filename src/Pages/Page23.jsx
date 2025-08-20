@@ -17,19 +17,21 @@ function Page23(){
   [
     { text: "“Mimi where are you?” said her mom,", start: 13, end: 15 },
     { text: "“Khaya’s here to say goodbye.”", start: 16, end: 18 },
+    { text: "Amile said nothing.", start: 16, end: 18 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "UAmile wangena egumbini lokugcina amanzi,", start: 0, end: 3 },
+    { text: "ukuze azonisela uThingo okokugcina.", start: 4, end: 9 },
+    { text: "Ngokuphazima kweso, wezwa amazwi wabazali bakhe bememeza.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Mimi ukuphi?” kusho uma wakhe,", start: 13, end: 15 },
+    { text: "“uKhaya uzile ukuzovalelisa.”", start: 16, end: 18 },
+    { text: "UAmile wathula.", start: 16, end: 18 },
   ]
 ]
     }

@@ -14,10 +14,10 @@ function Page31(){
     { text: "laughing and dancing in the rain just like they used to.", start: 13, end: 15 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 0, end: 3 },
+    { text: "lapho isibhakabhaka sikhala ngenjabulo.", start: 4, end: 9 },
+    { text: "UKhaya wagijima waya kuye, futhi ndawonye bazungeza,", start: 10, end: 12 },
+    { text: "behleka futhi bedansa emvuleni njengoba babevame ukwenza.", start: 13, end: 15 },
   ]
 };
     const transcript = transcripts[language];

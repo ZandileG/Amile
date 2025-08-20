@@ -12,8 +12,8 @@ function Page32(){
     { text: "Khaya ran back home to celebrate with her family.", start: 4, end: 9 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "Ngemva kwesikhashana,", start: 0, end: 3 },
+    { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 4, end: 9 },
   ]
 };
     const transcript = transcripts[language];

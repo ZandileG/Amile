@@ -20,15 +20,14 @@ function Page29(){
       ]
   },
     zu: {
-    dropCap: "",
-    dropCapText: "",
+    dropCap: "K",
+    dropCapText: "WADUMA IZULU.",
     lines: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 0, end: 3 },
+    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 4, end: 9 },
+    { text: "Umoya washintsha,", start: 10, end: 12 },
+    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 13, end: 15 },
+    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 16, end: 18 },
       ]
     }
   };
