@@ -367,11 +367,17 @@
 }
 
 @media (min-width: 450px) and (max-width: 550px){
-
+ .text-overlay{
+  width: 100vw;
+  justify-content: center; 
+}
 }
 
 @media (min-width: 400px) and (max-width: 450px){
-
+ .text-overlay{
+  width: 100vw;
+  justify-content: center; 
+}
 }
 
 @media (min-width: 300px) and (max-width: 400px){
@@ -382,8 +388,21 @@
   .subtitle{
     font-size: 0.5rem;
   }
+
+   .text-overlay{
+  width: 100vw;
+  justify-content: center; 
+}
 }
 
 @media (max-width: 300px){
+ .text-overlay{
+  width: 100vw;
+  justify-content: center; 
+}
 
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page13, .page15, .page17, .page-19, .page-21, .page23{
+  text-align: right;
+}
 }
