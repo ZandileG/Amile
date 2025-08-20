@@ -88,7 +88,6 @@ function navbarToggle(){
 
   return(
   <main className="book-container">
-
   {/*I want to only show bookmark for the book's pages not the cover and credits pages*/}
     {(currentPage !== 0 && currentPage !== pages.length - 1) && (
     <button type="button" className="navbar-toggle" onClick={navbarToggle}>

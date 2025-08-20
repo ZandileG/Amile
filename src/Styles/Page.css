@@ -33,7 +33,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 50vw;
+  width: 100%;
   height: 100vh;
   z-index: 2;
   display: flex;
@@ -359,24 +359,38 @@
 }
 
 @media (min-width: 550px) and (max-width: 600px){
-
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page13, .page15, .page17, .page-19, .page-21, .page23,
+.page-25, .page-27, .page-29, .page-31, .page-33{
+  text-align: right;
+  margin-right: 0.5rem;
+}
 }
 
 @media (min-width: 500px) and (max-width: 600px){
-
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page13, .page15, .page17, .page-19, .page-21, .page23,
+.page-25, .page-27, .page-29, .page-31, .page-33{
+  text-align: right;
+  margin-right: 0.5rem;
+}
 }
 
 @media (min-width: 450px) and (max-width: 550px){
- .text-overlay{
-  width: 100vw;
-  justify-content: center; 
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page13, .page15, .page17, .page-19, .page-21, .page23,
+.page-25, .page-27, .page-29, .page-31, .page-33{
+  text-align: right;
+  margin-right: 0.5rem;
 }
 }
 
 @media (min-width: 400px) and (max-width: 450px){
- .text-overlay{
-  width: 100vw;
-  justify-content: center; 
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page13, .page15, .page17, .page-19, .page-21, .page23,
+.page-25, .page-27, .page-29, .page-31, .page-33{
+  text-align: right;
+  margin-right: 0.5rem;
 }
 }
 
@@ -388,21 +402,13 @@
   .subtitle{
     font-size: 0.5rem;
   }
-
-   .text-overlay{
-  width: 100vw;
-  justify-content: center; 
-}
 }
 
 @media (max-width: 300px){
- .text-overlay{
-  width: 100vw;
-  justify-content: center; 
-}
-
 .page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page13, .page15, .page17, .page-19, .page-21, .page23{
+.page13, .page15, .page17, .page-19, .page-21, .page23,
+.page-25, .page-27, .page-29, .page-31, .page-33{
   text-align: right;
+  margin-right: 0.5rem;
 }
 }
