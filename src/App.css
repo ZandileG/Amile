@@ -130,7 +130,17 @@
 }
 
 @media (min-width: 2240px) and (max-width: 3648px){
+  .navbar-link{
+  width: 15rem;
+  height: 12rem;
+  margin-right: 5rem;
+  font-size: xx-large;
+}
 
+.navbar-audio-controls button{
+  margin-left: 15rem;
+  margin-right: 8rem;
+}
 }
 
 @media (min-width: 1950px) and (max-width: 2240px){
