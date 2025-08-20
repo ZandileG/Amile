@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.a46d207d.css",
-    "main.js": "/Amile/static/js/main.c028a327.js",
+    "main.css": "/Amile/static/css/main.e039de21.css",
+    "main.js": "/Amile/static/js/main.8e06624b.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter1-Z.mp3": "/Amile/static/media/Chapter1-Z.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter1.mp3": "/Amile/static/media/Chapter1.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter2-Z.mp3": "/Amile/static/media/Chapter2-Z.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter2.mp3": "/Amile/static/media/Chapter2.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter3-Z.mp3": "/Amile/static/media/Chapter3-Z.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter3.mp3": "/Amile/static/media/Chapter3.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter4-Z.mp3": "/Amile/static/media/Chapter4-Z.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter4.mp3": "/Amile/static/media/Chapter4.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter5-Z.mp3": "/Amile/static/media/Chapter5-Z.cb60414a5c4c175f64d9.mp3",
-    "static/media/Chapter5.mp3": "/Amile/static/media/Chapter5.cb60414a5c4c175f64d9.mp3",
+    "static/media/Chapter1-Z.mp3": "/Amile/static/media/Chapter1-Z.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter1.mp3": "/Amile/static/media/Chapter1.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter2-Z.mp3": "/Amile/static/media/Chapter2-Z.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter2.mp3": "/Amile/static/media/Chapter2.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter3-Z.mp3": "/Amile/static/media/Chapter3-Z.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter3.mp3": "/Amile/static/media/Chapter3.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter4-Z.mp3": "/Amile/static/media/Chapter4-Z.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter4.mp3": "/Amile/static/media/Chapter4.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter5-Z.mp3": "/Amile/static/media/Chapter5-Z.b6015367de44e77cc42a.mp3",
+    "static/media/Chapter5.mp3": "/Amile/static/media/Chapter5.b6015367de44e77cc42a.mp3",
     "static/media/Patterns.png": "/Amile/static/media/Patterns.5a193524c222e4754db8.png",
     "static/media/Image1.png": "/Amile/static/media/Image1.ab6e27f6afbb145017d0.png",
     "static/media/Image10.png": "/Amile/static/media/Image10.ab6e27f6afbb145017d0.png",
@@ -54,12 +54,12 @@
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
     "static/media/CoverImage.png": "/Amile/static/media/CoverImage.8cf7ece0ced4eeb44de1.png",
     "index.html": "/Amile/index.html",
-    "main.a46d207d.css.map": "/Amile/static/css/main.a46d207d.css.map",
-    "main.c028a327.js.map": "/Amile/static/js/main.c028a327.js.map",
+    "main.e039de21.css.map": "/Amile/static/css/main.e039de21.css.map",
+    "main.8e06624b.js.map": "/Amile/static/js/main.8e06624b.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a46d207d.css",
-    "static/js/main.c028a327.js"
+    "static/css/main.e039de21.css",
+    "static/js/main.8e06624b.js"
   ]
 }
