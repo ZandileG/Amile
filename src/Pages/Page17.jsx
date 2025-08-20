@@ -24,14 +24,14 @@ function Page17(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "Kodwa ngenye intambama, uAmile wabona isithombo sihluma emhlabathini.", start: 0, end: 3 },
+    { text: "Ngokungafani notshani obunsundu obuzungezile,", start: 4, end: 9 },
+    { text: "leli hlumela laliluhlaza okwesibhakabhaka futhi likhazimula elangeni.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "Ha, uyaphila!”", start: 13, end: 15 },
+    { text: "kusho uAmile ngokumangala.", start: 16, end: 18 },
+    { text: "Wagijima wayolanda uKhaya kubo wamletha ukuze ayibone.", start: 16, end: 18 },
   ]
 ]
     }

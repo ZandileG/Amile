@@ -21,11 +21,11 @@ function Page8(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
+    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 0, end: 3 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 13, end: 15 },
+    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 16, end: 18 },
   ]
 ]
     }

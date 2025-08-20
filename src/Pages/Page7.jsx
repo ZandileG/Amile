@@ -16,11 +16,11 @@ function Page7(){
     ]
   },
     zu: {
-    dropCap: "",
-    dropCapText: "",
+    dropCap: "N",
+    dropCapText: "GOSUKU OLULANDELAYO",
     lines: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "ngenkathi bezulazula eduze komfula owomile,", start: 0, end: 3 },
+    { text: "uAmile noKhaya babona into eyinqaba.", start: 4, end: 9 },
       ]
     }
   };

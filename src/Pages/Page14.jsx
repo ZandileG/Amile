@@ -12,8 +12,8 @@ function Page14(){
     { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 4, end: 9 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "Benganakile,", start: 0, end: 3 },
+    { text: "kwavela ukukhanya okukhazimulayo emhlabathini lapho batshale khona imbewu.", start: 4, end: 9 },
   ]
 };
     const transcript = transcripts[language];

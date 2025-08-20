@@ -26,16 +26,16 @@ function Page9(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "UAmile wayicosha, wayifaka ezandleni zakhe wase ethi,", start: 0, end: 3 },
+    { text: "“Ibukeka njengembewu.”", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 13, end: 15 }, 
+    { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 13, end: 15 }, 
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "uAmile naye wavuma.", start: 13, end: 15 },
+    { text: "Wayibamba ngobumnene ezandleni zakhe wabe esethi,", start: 16, end: 18 },
+    { text: "“Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 16, end: 18 },
   ]
 ]
     }

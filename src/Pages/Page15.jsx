@@ -18,13 +18,13 @@ function Page15(){
     ]
   },
     zu: {
-    dropCap: "",
-    dropCapText: "",
+    dropCap: "N",
+    dropCapText: "JALO EKUSENI,",
     lines: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "uAmile wayenyonyoba ngaphandle nenkomishi yamanzi bese ayithela esitshalweni.", start: 0, end: 3 },
+    { text: "Abazali bakhe babeyothukuthela kabi uma bengamthola,", start: 4, end: 9 },
+    { text: "kodwa wayengakwazi ukuzibamba,", start: 10, end: 12 },
+    { text: "wayedinga ukwazi ukuthi leyo mbewu izoba yini.", start: 13, end: 15 },
       ]
     }
   };

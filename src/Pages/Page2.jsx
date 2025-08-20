@@ -15,11 +15,12 @@ function Page2(){
     { text: "had dried into a narrow, muddy trail.", start: 36, end: 38 },
      ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "Ngelinye ilanga, isiqalekiso sawela kuDumakude.", start: 0, end: 3 },
+    { text: "Okwake kwatheleka esibhakabhakeni kwaba ukuconsa,", start: 4, end: 9 },
+    { text: "kwase kuba ukuhleba, kwathula kwathi cwaka.", start: 10, end: 12 },
+    { text: "Imigwaqo yayiqhekekile futhi izihlahla zazimile njengamathambo.", start: 13, end: 15 },
+    { text: "Amagquma ayensundu ngokufiphele futhi umfula owawuvame ukugeleza", start: 16, end: 18 },
+    { text: "wawusomile waba umzila omncane onodaka.", start: 16, end: 18 },
   ]
 };
     const transcript = transcripts[language];

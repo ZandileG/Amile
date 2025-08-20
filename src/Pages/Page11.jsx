@@ -23,13 +23,13 @@ function Page11(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "“O, nginecebo!” kubabaza uAmile,", start: 0, end: 3 },
+    { text: "amehlo akhe ekhanya ngenjabulo.", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "Amantombazane agijima abuyela khabo Amile, athola indawo ethule ngemuva kwendlu,", start: 10, end: 12 },
+    { text: "agubha umgodi omncane.", start: 13, end: 15 },
+    { text: "UAmile watshala imbewu futhi wabambatha inhlabathi eyizungezile.", start: 16, end: 18 },
   ]
 ]
     }

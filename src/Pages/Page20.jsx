@@ -11,7 +11,7 @@ function Page20(){
     { text: "“I hope we don’t get in trouble for this” said Khaya shaking her head.", start: 0, end: 3 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
+    { text: "“Ngiyethemba ukuthi ngeke singene enkingeni ngalokhu,” kusho uKhaya, enikina ikhanda.", start: 0, end: 3 },
   ]
 };
     const transcript = transcripts[language];

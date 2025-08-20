@@ -25,15 +25,15 @@ function Page10(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "“Angicabangi ukuthi kuwumqondo omuhle lowo,” kusho uKhaya,", start: 0, end: 3 },
+    { text: "“awazi yini ukuthi izimbali zidinga inhlabathi enhle ukuze zikhule, futhi idolobha lethu lomile kakhulu.”", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
+    { text: "“Ngiyazi...” kusho uAmile, ehwaqabala kancane.", start: 10, end: 12 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Sizowatholaphi ngisho namanzi?” waqhubeka uKhaya,", start: 13, end: 15 },
+    { text: "eyaziqhenya ngokuthi wayezwakala ehlakaniphile.", start: 16, end: 18 },
   ]
 ]
     }

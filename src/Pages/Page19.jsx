@@ -23,13 +23,13 @@ function Page19(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 0, end: 3 },
+    { text: "Kungani iluhlaza okwesibhakabhaka?", start: 0, end: 3 },
+    { text: "Izitshalo akufanele zibe nombala onje,” kusho uKhaya.", start: 0, end: 3 },
   ],
   [
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 10, end: 12 },
+    { text: "“Angazi, mhlawumbe lena ihlukile,” kusho uAmile.", start: 4, end: 9 },
+    { text: "“Ngifuna ukuyiqamba igama elithi Thingo,", start: 10, end: 12 },
+    { text: "ngoba enemibala emihle,” eqhubeka.", start: 10, end: 12 },
   ]
 ]
     }

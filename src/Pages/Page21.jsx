@@ -18,14 +18,13 @@ function Page21(){
     ]
   },
     zu: {
-    dropCap: "",
-    dropCapText: "",
+    dropCap: "U",
+    dropCapText: "SUKU NOSUKU,",
     lines: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "uThingo wayekhula eba mude,", start: 0, end: 3 },
+    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 4, end: 9 },
+    { text: "Amaqabunga akhe ayemile njengezinkanyezi,", start: 10, end: 12 },
+    { text: "futhi ebusuku, ayekhazimula ekukhanyeni kwenyanga.", start: 13, end: 15 },
       ]
     }
   };

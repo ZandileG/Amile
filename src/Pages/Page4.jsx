@@ -16,12 +16,12 @@ function Page4(){
     { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 19, end: 21 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 3 },
+    { text: "ebuka umoya udanisa nothuli.", start: 4, end: 9 },
+    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma okwakuvame ukumethusa kancane,", start: 10, end: 12 },
+    { text: "kodwa manje, kwakuyiculo afuna ukulizwa futhi.", start: 13, end: 15 },
+    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngane wakhe omkhulu uKhaya bechaphazana odakeni", start: 16, end: 18 },
+    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 16, end: 18 },
   ]
 };
     const transcript = transcripts[language];

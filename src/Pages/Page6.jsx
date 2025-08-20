@@ -25,15 +25,15 @@ function Page6(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 0, end: 3 },
+    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 13, end: 15 },
+    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 16, end: 18 },
   ],
    [
-    { text: "", start: 16, end: 18 },
+    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 16, end: 18 },
   ]
 ]
     }

@@ -19,14 +19,13 @@ function Page1(){
   ]
 },
   zu: {
-    dropCap: "",
-    dropCapText: "",
+    dropCap: "K",
+    dropCapText: "WASUKASUKELA,",
     lines: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "ezweni elikude elibizwa Dumakude,", start: 0, end: 3 },
+    { text: "kwakunamagquma aluhlaza, lapho wawungabona khona izimbuzi zasentabeni zidla.", start: 4, end: 9 },
+    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 10, end: 12 },
+    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 13, end: 15 },
   ]
 }
   };

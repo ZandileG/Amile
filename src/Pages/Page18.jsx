@@ -21,11 +21,11 @@ function Page18(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
+    { text: "“Sikhulile?” kusho uKhaya, emangele.", start: 0, end: 3 },
   ],
   [
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
+    { text: "“Yebo, sikhulile!", start: 4, end: 9 },
+    { text: "Bengazi! Bengazi ukuthi sizokhula!” kubabaza uAmile.", start: 10, end: 12 },
   ]
 ]
     }

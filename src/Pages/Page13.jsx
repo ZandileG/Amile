@@ -12,8 +12,8 @@ function Page13(){
     { text: "the girls grew bored and wandered back into the house.", start: 4, end: 9 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "Ngemuva kokunisela lesi sitshalo,", start: 0, end: 3 },
+    { text: "amantombazane abuyela endlini.", start: 4, end: 9 },
   ]
 };
     const transcript = transcripts[language];

@@ -14,10 +14,10 @@ function Page12(){
     { text: "giving her a disapproving look.", start: 13, end: 15 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "“Linda kancane,” kusho uAmile kuKhaya,", start: 0, end: 3 },
+    { text: "wabe esephuthuma wangena egumbini lokugcina amanzi.", start: 4, end: 9 },
+    { text: "UKhaya weqa izingalo zakhe ebuka uAmile,", start: 10, end: 12 },
+    { text: "ubuso bakhe bungaqinisekile.", start: 13, end: 15 },
   ]
 };
     const transcript = transcripts[language];

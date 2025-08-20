@@ -15,11 +15,11 @@ function Page3(){
     { text: "a promise of the strength and resilience they saw within her.", start: 16, end: 18 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
+    { text: "Kulelidolobha, kwakuhlala intombazanyana okuthiwa nguAmile.", start: 0, end: 3 },
+    { text: "UAmile wayehlala nabazali bakhe uMandisa noSinalo.", start: 4, end: 9 },
+    { text: "Bamqamba uAmile, igama elinencazelo eziningi.", start: 10, end: 12 },
+    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 13, end: 15 },
+    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 16, end: 18 },
   ]
 };
     const transcript = transcripts[language];

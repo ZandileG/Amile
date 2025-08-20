@@ -24,14 +24,14 @@ function Page22(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
+    { text: "Ngosuku lokuthutha,", start: 0, end: 3 },
+    { text: "uAmile waphumela ngaphandle eyokhuluma noThingo.", start: 4, end: 9 },
   ],
   [
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
-    { text: "", start: 16, end: 18 },
-    { text: "", start: 16, end: 18 },
+    { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 10, end: 12 },
+    { text: "ehambisa iminwe yakhe ngobumnene kwelinye lamaqabunga.", start: 13, end: 15 },
+    { text: "“Noma uyisitshalo nje, usengumngane wami.", start: 16, end: 18 },
+    { text: "Ngiyathanda ukukhuluma nawe futhi ngiyathanda ukukunakekela,” eqhubeka.", start: 16, end: 18 },
   ]
 ]
     }

@@ -14,10 +14,10 @@ function Page16(){
     { text: "anything, that would take her mind off all those boxes and phone calls with the moving company.", start: 13, end: 15 },
    ],
       zu: [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 12 },
-    { text: "", start: 13, end: 15 },
+    { text: "Zadlula izinsuku kungenzeki lutho.", start: 0, end: 3 },
+    { text: "UAmile wayelokhu eyinisela,", start: 4, end: 9 },
+    { text: "futhi nsuku zonke wayenethemba lokubona okuthile okusha,", start: 10, end: 12 },
+    { text: "noma yini, eyayizosusa ingqondo yakhe kuwo wonke lawo mabhokisi kanye nezingcingo nenkampani yokuthutha.", start: 13, end: 15 },
   ]
 };
     const transcript = transcripts[language];

@@ -26,16 +26,16 @@ function Page5(){
       zu: {
       paragraphs: [
   [
-    { text: "", start: 0, end: 3 },
-    { text: "", start: 4, end: 9 },
-    { text: "", start: 10, end: 11 },
+    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 3 },
+    { text: "“Mimi,” washo ngesineke,", start: 4, end: 9 },
+    { text: "“kufanele sihambe eDumakude.”", start: 10, end: 11 },
   ],
   [
-    { text: "", start: 12, end: 13 },
-    { text: "", start: 14, end: 15 },
+    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 12, end: 13 },
+    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 14, end: 15 },
   ],
    [
-    { text: "", start: 16, end: 18 },
+    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi, “amanzi awasekho futhi nokudla sekuyaphela.”", start: 16, end: 18 },
   ]
 ]
     }
