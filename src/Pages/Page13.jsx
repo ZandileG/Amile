@@ -8,12 +8,12 @@ function Page13(){
   
      const transcripts = {
       en: [
-    { text: "After watering the plant,", start: 0, end: 3 },
-    { text: "the girls grew bored and wandered back into the house.", start: 4, end: 9 },
+    { text: "After watering the plant,", start: 122, end: 126 },
+    { text: "the girls grew bored and wandered back into the house.", start: 127, end: 132 },
    ],
       zu: [
-    { text: "Ngemuva kokunisela lesi sitshalo,", start: 0, end: 3 },
-    { text: "amantombazane abuyela endlini.", start: 4, end: 9 },
+    { text: "Ngemuva kokunisela lesi sitshalo,", start: 122, end: 126 },
+    { text: "amantombazane abuyela endlini.", start: 127, end: 132 },
   ]
 };
     const transcript = transcripts[language];

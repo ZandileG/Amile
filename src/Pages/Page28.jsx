@@ -8,15 +8,15 @@ function Page28(){
   
      const transcripts = {
       en: [
-    { text: "A low hum filled the air and Thingo began to glow.", start: 0, end: 3 },
-    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 4, end: 9 },
-    { text: "The glow rippled through the soil and spread across the garden,", start: 10, end: 12 },
-    { text: "up the hill, and down the streets of Dumakude.", start: 13, end: 15 },
+    { text: "A low hum filled the air and Thingo began to glow.", start: 168, end: 172 },
+    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 173, end: 178 },
+    { text: "The glow rippled through the soil and spread across the garden,", start: 179, end: 182 },
+    { text: "up the hill, and down the streets of Dumakude.", start: 183, end: 186 },
    ],
       zu: [
-    { text: "Kube nokuthula emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 3 },
-    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 4, end: 9 },
-    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 10, end: 12 },
+    { text: "Kube nokuthula emoyeni bese uThingo waqala ukukhanya.", start: 163, end: 168 },
+    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 169, end: 174 },
+    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 175, end: 177 },
   ]
 };
     const transcript = transcripts[language];

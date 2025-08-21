@@ -10,30 +10,30 @@ function Page6(){
       en: {
         paragraphs: [
   [
-    { text: "“But what about our neighbours? What about my friends?", start: 0, end: 3 },
-    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 4, end: 9 },
+    { text: "“But what about our neighbours? What about my friends?", start: 131, end: 135 },
+    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 136, end: 140 },
   ],
   [
-    { text: "“I know it’s hard Mimi, but we can’t stay here anymore. Please understand,”", start: 10, end: 12 },
-    { text: "said her dad while gently squeezing her hand.", start: 13, end: 15 },
+    { text: "“I know it’s hard Mimi, but we can’t stay here anymore. Please understand,”", start: 141, end: 145 },
+    { text: "said her dad while gently squeezing her hand.", start: 146, end: 150 },
   ],
   [
-    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 16, end: 18 },
+    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 151, end: 155 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 0, end: 3 },
-    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 4, end: 9 },
+    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 131, end: 135 },
+    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 136, end: 140 },
   ],
   [
-    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 13, end: 15 },
-    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 16, end: 18 },
+    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 141, end: 145 },
+    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 146, end: 150 },
   ],
    [
-    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 16, end: 18 },
+    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 151, end: 155 },
   ]
 ]
     }

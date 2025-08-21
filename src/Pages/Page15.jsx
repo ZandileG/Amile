@@ -11,20 +11,20 @@ function Page15(){
       dropCap: "E",
       dropCapText: "VERY MORNING,",
       lines:[
-    { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 3 },
-    { text: "Her parents would have been angry if they found out,", start: 4, end: 9 },
-    { text: "but she couldn’t help it,", start: 10, end: 12 },
-    { text: "she needed to know what that seed would become.", start: 13, end: 15 },
+    { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 8 },
+    { text: "Her parents would have been angry if they found out,", start: 9, end: 15 },
+    { text: "but she couldn’t help it,", start: 16, end: 18 },
+    { text: "she needed to know what that seed would become.", start: 19, end: 21 },
     ]
   },
     zu: {
     dropCap: "N",
     dropCapText: "JALO EKUSENI,",
     lines: [
-    { text: "uAmile wayenyonyoba ngaphandle nenkomishi yamanzi bese ayithela esitshalweni.", start: 0, end: 3 },
-    { text: "Abazali bakhe babeyothukuthela kabi uma bengamthola,", start: 4, end: 9 },
-    { text: "kodwa wayengakwazi ukuzibamba,", start: 10, end: 12 },
-    { text: "wayedinga ukwazi ukuthi leyo mbewu izoba yini.", start: 13, end: 15 },
+    { text: "uAmile wayenyonyoba ngaphandle nenkomishi yamanzi bese ayithela esitshalweni.", start: 0, end: 8 },
+    { text: "Abazali bakhe babeyothukuthela kabi uma bengamthola,", start: 9, end: 15 },
+    { text: "kodwa wayengakwazi ukuzibamba,", start: 16, end: 18 },
+    { text: "wayedinga ukwazi ukuthi leyo mbewu izoba yini.", start: 19, end: 21 },
       ]
     }
   };

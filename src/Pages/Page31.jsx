@@ -8,16 +8,16 @@ function Page31(){
   
      const transcripts = {
       en: [
-    { text: "Amile laughed and danced,", start: 0, end: 3 },
-    { text: "arms wide, as the sky wept with joy.", start: 4, end: 9 },
-    { text: "Khaya ran to her, and together they spun around,", start: 10, end: 12 },
-    { text: "laughing and dancing in the rain just like they used to.", start: 13, end: 15 },
+    { text: "Amile laughed and danced,", start: 79, end: 83 },
+    { text: "arms wide, as the sky wept with joy.", start: 84, end: 89 },
+    { text: "Khaya ran to her, and together they spun around,", start: 90, end: 94 },
+    { text: "laughing and dancing in the rain just like they used to.", start: 95, end: 100 },
    ],
       zu: [
-    { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 0, end: 3 },
-    { text: "lapho isibhakabhaka sikhala ngenjabulo.", start: 4, end: 9 },
-    { text: "UKhaya wagijima waya kuye, futhi ndawonye bazungeza,", start: 10, end: 12 },
-    { text: "behleka futhi bedansa emvuleni njengoba babevame ukwenza.", start: 13, end: 15 },
+    { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 79, end: 83 },
+    { text: "lapho isibhakabhaka sikhala ngenjabulo.", start: 84, end: 89 },
+    { text: "UKhaya wagijima waya kuye, futhi ndawonye bazungeza,", start: 90, end: 94 },
+    { text: "behleka futhi bedansa emvuleni njengoba babevame ukwenza.", start: 95, end: 100 },
   ]
 };
     const transcript = transcripts[language];

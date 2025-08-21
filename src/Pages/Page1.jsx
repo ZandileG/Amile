@@ -13,9 +13,9 @@ function Page1(){
       lines: [
     { text: "in a distant land named Dumakude,", start: 0, end: 3 },
     { text: "there were green hills, where you would see mountain goats grazing.", start: 4, end: 9 },
-    { text: "There were clear rivers where little fishes and frogs used to play.", start: 10, end: 12 },
-    { text: "There was also a neighbourhood that was full of life,", start: 13, end: 15 },
-    { text: "where joy was shared, and every moment was a reason to celebrate.", start: 16, end: 18 },
+    { text: "There were clear rivers where little fishes and frogs used to play.", start: 10, end: 15 },
+    { text: "There was also a neighbourhood that was full of life,", start: 16, end: 20 },
+    { text: "where joy was shared, and every moment was a reason to celebrate.", start: 21, end: 25 },
   ]
 },
   zu: {
@@ -24,8 +24,8 @@ function Page1(){
     lines: [
     { text: "ezweni elikude elibizwa Dumakude,", start: 0, end: 3 },
     { text: "kwakunamagquma aluhlaza, lapho wawungabona khona izimbuzi zasentabeni zidla.", start: 4, end: 9 },
-    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 10, end: 12 },
-    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 13, end: 15 },
+    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 10, end: 15 },
+    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 16, end: 20 },
   ]
 }
   };

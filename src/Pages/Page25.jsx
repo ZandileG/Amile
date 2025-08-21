@@ -8,22 +8,22 @@ function Page25(){
 
      const transcripts = {
       en: [
-    { text: "Amile’s mom shook her head.", start: 0, end: 3 },
-    { text: "“Uh, uh Amile, we have to go now,” said her mom,", start: 4, end: 9 },
-    { text: "firmly as she reached for the plant.", start: 10, end: 12 },
-    { text: "Amile pushed her mom’s hand away and covered Thingo with her arms.", start: 13, end: 15 },
-    { text: "Tears welled in her eyes.", start: 16, end: 18 },
-    { text: "She tried to hold them back,", start: 16, end: 18 },
-    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 16, end: 18 },
+    { text: "Amile’s mom shook her head.", start: 106, end: 108 },
+    { text: "“Uh, uh Amile, we have to go now,” said her mom,", start: 109, end: 113 },
+    { text: "firmly as she reached for the plant.", start: 114, end: 116 },
+    { text: "Amile pushed her mom’s hand away and covered Thingo with her arms.", start: 117, end: 121 },
+    { text: "Tears welled in her eyes.", start: 122, end: 124 },
+    { text: "She tried to hold them back,", start: 125, end: 127 },
+    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 128, end: 132 },
    ],
       zu: [
-    { text: "Umama kaAmile wanikina ikhanda.", start: 0, end: 3 },
-    { text: "“Ah, ah Amile, sekumele sihambe manje,”", start: 4, end: 9 },
-    { text: "kusho unina, efinyelela esitshalweni.", start: 10, end: 12 },
-    { text: "UAmile wasusa isandla sikama wakhe wamboza uThingo ngezingalo zakhe.", start: 13, end: 15 },
-    { text: "Izinyembezi zagcwala emehlweni akhe.", start: 16, end: 18 },
-    { text: "Wazama ukuzibamba,", start: 16, end: 18 },
-    { text: "kodwa zawa ezihlathini zakhe zafafaza ezimpandeni zesitshalo.", start: 16, end: 18 },
+    { text: "Umama kaAmile wanikina ikhanda.", start: 106, end: 108 },
+    { text: "“Ah, ah Amile, sekumele sihambe manje,”", start: 109, end: 113 },
+    { text: "kusho unina, efinyelela esitshalweni.", start: 114, end: 116 },
+    { text: "UAmile wasusa isandla sikama wakhe wamboza uThingo ngezingalo zakhe.", start: 117, end: 121 },
+    { text: "Izinyembezi zagcwala emehlweni akhe.", start: 122, end: 124 },
+    { text: "Wazama ukuzibamba,", start: 125, end: 127 },
+    { text: "kodwa zawa ezihlathini zakhe zafafaza ezimpandeni zesitshalo.", start: 128, end: 132 },
   ]
 };
     const transcript = transcripts[language];

@@ -11,23 +11,23 @@ function Page29(){
       dropCap: "A",
       dropCapText: " RUMBLE ECHOED",
       lines: [
-    { text: "in the sky.", start: 0, end: 3 },
-    { text: "Amile, Khaya and her parents looked up.", start: 4, end: 9 },
-    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 10, end: 12 },
-    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 13, end: 15 },
-    { text: "big, bold splashes.", start: 16, end: 18 },
-    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 19, end: 21 },
+    { text: "in the sky.", start: 0, end: 5 },
+    { text: "Amile, Khaya and her parents looked up.", start: 6, end: 10 },
+    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 11, end: 15 },
+    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 16, end: 20 },
+    { text: "big, bold splashes.", start: 21, end: 23 },
+    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 24, end: 26 },
       ]
   },
     zu: {
     dropCap: "K",
     dropCapText: "WADUMA IZULU.",
     lines: [
-    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 0, end: 3 },
-    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 4, end: 9 },
-    { text: "Umoya washintsha,", start: 10, end: 12 },
-    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 13, end: 15 },
-    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 16, end: 18 },
+    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 0, end: 5 },
+    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 6, end: 10 },
+    { text: "Umoya washintsha,", start: 11, end: 15 },
+    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 16, end: 20 },
+    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 21, end: 26 },
       ]
     }
   };

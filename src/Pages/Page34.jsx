@@ -10,13 +10,13 @@ function Page34(){
       en: {
       paragraphs: [
   [
-    { text: "Amile approached Thingo,", start: 0, end: 3 },
-    { text: "now a tall, blossoming tree with silver-blue petals and a soft glow pulsing in its trunk.", start: 4, end: 9 },
-    { text: "Her eyes sparkled with happiness as she wrapped her arms around it.", start: 10, end: 12 },
+    { text: "Amile approached Thingo,", start: 132, end: 135 },
+    { text: "now a tall, blossoming tree with silver-blue petals and a soft glow pulsing in its trunk.", start: 136, end: 142 },
+    { text: "Her eyes sparkled with happiness as she wrapped her arms around it.", start: 143, end: 147 },
   ],
   [
-    { text: "“Thank you Thingo,” she whispered,", start: 13, end: 15 },
-    { text: "I'm so glad I get to stay here with you.”", start: 16, end: 18 },
+    { text: "“Thank you Thingo,” she whispered,", start: 148, end: 150 },
+    { text: "I'm so glad I get to stay here with you.”", start: 151, end: 153 },
   ]
     ],
       end: [
@@ -26,14 +26,14 @@ function Page34(){
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wasondela kuThingo,", start: 0, end: 3 },
-    { text: "manje eseyisihlahla eside, esinezimbali ezinamacembe aluhlaza okwesibhakabhaka", start: 4, end: 9 },
-    { text: "kanye nokukhanya okusuka esiqwini sakhe.", start: 10, end: 12 },
-    { text: "Amehlo kaAmile akhazimula ngenjabulo njengoba emgona.", start: 10, end: 12 },
+    { text: "UAmile wasondela kuThingo,", start: 132, end: 135 },
+    { text: "manje eseyisihlahla eside, esinezimbali ezinamacembe aluhlaza okwesibhakabhaka", start: 136, end: 142 },
+    { text: "kanye nokukhanya okusuka esiqwini sakhe.", start: 143, end: 147 },
+    { text: "Amehlo kaAmile akhazimula ngenjabulo njengoba emgona.", start: 143, end: 147 },
   ],
   [
-    { text: "“Ngiyabonga Thingo,” ehleba,", start: 13, end: 15 },
-    { text: "“ngiyajabula kakhulu ukuthi ngizokwazi ukuhlala nawe.”", start: 16, end: 18 },
+    { text: "“Ngiyabonga Thingo,” ehleba,", start: 148, end: 150 },
+    { text: "“ngiyajabula kakhulu ukuthi ngizokwazi ukuhlala nawe.”", start: 151, end: 153 },
   ]
 ],
      end: [

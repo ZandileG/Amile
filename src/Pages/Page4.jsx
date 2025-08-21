@@ -8,20 +8,20 @@ function Page4(){
   
       const transcripts = {
         en: [
-    { text: "Every evening, Amile sat on the stoep of her house,", start: 0, end: 3 },
-    { text: "watching the wind dance with the dust.", start: 4, end: 9 },
-    { text: "She missed the scent of damp, red dirt and the gentle growl of thunder", start: 10, end: 12 },
-    { text: "which used to give her a little fright, but now, it felt like a song she wanted to hear again.", start: 13, end: 15 },
-    { text: "She also missed the days when she and her best friend Khaya splashed around in muddy puddles", start: 16, end: 18 },
-    { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 19, end: 21 },
+    { text: "Every evening, Amile sat on the stoep of her house,", start: 76, end: 80 },
+    { text: "watching the wind dance with the dust.", start: 81, end: 85 },
+    { text: "She missed the scent of damp, red dirt and the gentle growl of thunder", start: 86, end: 90 },
+    { text: "which used to give her a little fright, but now, it felt like a song she wanted to hear again.", start: 91, end: 95 },
+    { text: "She also missed the days when she and her best friend Khaya splashed around in muddy puddles", start: 96, end: 100 },
+    { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 101, end: 105 },
    ],
       zu: [
-    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 3 },
-    { text: "ebuka umoya udanisa nothuli.", start: 4, end: 9 },
-    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma okwakuvame ukumethusa kancane,", start: 10, end: 12 },
-    { text: "kodwa manje, kwakuyiculo afuna ukulizwa futhi.", start: 13, end: 15 },
-    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngane wakhe omkhulu uKhaya bechaphazana odakeni", start: 16, end: 18 },
-    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 16, end: 18 },
+    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 76, end: 80 },
+    { text: "ebuka umoya udanisa nothuli.", start: 81, end: 85 },
+    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma okwakuvame ukumethusa kancane,", start: 86, end: 90 },
+    { text: "kodwa manje, kwakuyiculo afuna ukulizwa futhi.", start: 91, end: 95 },
+    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngane wakhe omkhulu uKhaya bechaphazana odakeni", start: 96, end: 100 },
+    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 101, end: 105 },
   ]
 };
     const transcript = transcripts[language];

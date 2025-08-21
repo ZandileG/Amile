@@ -10,26 +10,26 @@ function Page11(){
       en: {
       paragraphs: [
   [
-    { text: "“Oh, I have an idea!” exclaimed Amile,", start: 0, end: 3 },
-    { text: "her eyes lighting up with excitement.", start: 4, end: 9 },
+    { text: "“Oh, I have an idea!” exclaimed Amile,", start: 80, end: 85 },
+    { text: "her eyes lighting up with excitement.", start: 86, end: 91 },
   ],
   [
-    { text: "The girls ran back to Amile’s house, found a quiet patch behind the shed,", start: 10, end: 12 },
-    { text: "and dug a tiny hole.", start: 13, end: 15 },
-    { text: "Amile planted the seed and gently patted the dry soil around it.", start: 16, end: 18 },
+    { text: "The girls ran back to Amile’s house, found a quiet patch behind the shed,", start: 92, end: 94 },
+    { text: "and dug a tiny hole.", start: 95, end: 97 },
+    { text: "Amile planted the seed and gently patted the dry soil around it.", start: 98, end: 100 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“O, nginecebo!” kubabaza uAmile,", start: 0, end: 3 },
-    { text: "amehlo akhe ekhanya ngenjabulo.", start: 4, end: 9 },
+    { text: "“O, nginecebo!” kubabaza uAmile,", start: 80, end: 85 },
+    { text: "amehlo akhe ekhanya ngenjabulo.", start: 86, end: 91 },
   ],
   [
-    { text: "Amantombazane agijima abuyela khabo Amile, athola indawo ethule ngemuva kwendlu,", start: 10, end: 12 },
-    { text: "agubha umgodi omncane.", start: 13, end: 15 },
-    { text: "UAmile watshala imbewu futhi wabambatha inhlabathi eyizungezile.", start: 16, end: 18 },
+    { text: "Amantombazane agijima abuyela khabo Amile, athola indawo ethule ngemuva kwendlu,", start: 92, end: 94 },
+    { text: "agubha umgodi omncane.", start: 95, end: 97 },
+    { text: "UAmile watshala imbewu futhi wabambatha inhlabathi eyizungezile.", start: 98, end: 100 },
   ]
 ]
     }

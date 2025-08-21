@@ -8,18 +8,18 @@ function Page3(){
   
       const transcripts = {
         en: [
-    { text: "In this, now quiet town, lived a young girl named Amile.", start: 0, end: 3 },
-    { text: "Amile lived with her parents Mandisa and Sinalo.", start: 4, end: 9 },
-    { text: "They named her Amile, a name with many meanings.", start: 10, end: 12 },
-    { text: "To them, it meant “still standing,”", start: 13, end: 15 },
-    { text: "a promise of the strength and resilience they saw within her.", start: 16, end: 18 },
+    { text: "In this, now quiet town, lived a young girl named Amile.", start: 51, end: 55 },
+    { text: "Amile lived with her parents Mandisa and Sinalo.", start: 56, end: 60 },
+    { text: "They named her Amile, a name with many meanings.", start: 61, end: 65 },
+    { text: "To them, it meant “still standing,”", start: 66, end: 70 },
+    { text: "a promise of the strength and resilience they saw within her.", start: 71, end: 75 },
    ],
       zu: [
-    { text: "Kulelidolobha, kwakuhlala intombazanyana okuthiwa nguAmile.", start: 0, end: 3 },
-    { text: "UAmile wayehlala nabazali bakhe uMandisa noSinalo.", start: 4, end: 9 },
-    { text: "Bamqamba uAmile, igama elinencazelo eziningi.", start: 10, end: 12 },
-    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 13, end: 15 },
-    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 16, end: 18 },
+    { text: "Kulelidolobha, kwakuhlala intombazanyana okuthiwa nguAmile.", start: 51, end: 55 },
+    { text: "UAmile wayehlala nabazali bakhe uMandisa noSinalo.", start: 56, end: 60 },
+    { text: "Bamqamba uAmile, igama elinencazelo eziningi.", start: 61, end: 65 },
+    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 66, end: 70 },
+    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 71, end: 75 },
   ]
 };
     const transcript = transcripts[language];

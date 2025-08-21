@@ -8,10 +8,10 @@ function Page20(){
 
      const transcripts = {
       en: [
-    { text: "“I hope we don’t get in trouble for this” said Khaya shaking her head.", start: 0, end: 3 },
+    { text: "“I hope we don’t get in trouble for this” said Khaya shaking her head.", start: 104, end: 108 },
    ],
       zu: [
-    { text: "“Ngiyethemba ukuthi ngeke singene enkingeni ngalokhu,” kusho uKhaya, enikina ikhanda.", start: 0, end: 3 },
+    { text: "“Ngiyethemba ukuthi ngeke singene enkingeni ngalokhu,” kusho uKhaya, enikina ikhanda.", start: 104, end: 108 },
   ]
 };
     const transcript = transcripts[language];

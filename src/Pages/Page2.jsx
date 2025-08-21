@@ -8,19 +8,19 @@ function Page2(){
   
   const transcripts = {
       en: [
-    { text: "One day, a curse fell upon Dumakude.", start: 20, end: 23 },
-    { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 24, end: 29 },
-    { text: "The roads were cracked and the trees stood like skeletons.", start: 30, end: 32 },
-    { text: "The hills were a dull brown and the river that used to hum", start: 33, end: 35 },
-    { text: "had dried into a narrow, muddy trail.", start: 36, end: 38 },
+    { text: "One day, a curse fell upon Dumakude.", start: 26, end: 30 },
+    { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 31, end: 36 },
+    { text: "The roads were cracked and the trees stood like skeletons.", start: 37, end: 42 },
+    { text: "The hills were a dull brown and the river that used to hum", start: 43, end: 47 },
+    { text: "had dried into a narrow, muddy trail.", start: 48, end: 50 },
      ],
       zu: [
-    { text: "Ngelinye ilanga, isiqalekiso sawela kuDumakude.", start: 0, end: 3 },
-    { text: "Okwake kwatheleka esibhakabhakeni kwaba ukuconsa,", start: 4, end: 9 },
-    { text: "kwase kuba ukuhleba, kwathula kwathi cwaka.", start: 10, end: 12 },
-    { text: "Imigwaqo yayiqhekekile futhi izihlahla zazimile njengamathambo.", start: 13, end: 15 },
-    { text: "Amagquma ayensundu ngokufiphele futhi umfula owawuvame ukugeleza", start: 16, end: 18 },
-    { text: "wawusomile waba umzila omncane onodaka.", start: 16, end: 18 },
+    { text: "Ngelinye ilanga, isiqalekiso sawela kuDumakude.", start: 21, end: 25 },
+    { text: "Okwake kwatheleka esibhakabhakeni kwaba ukuconsa,", start: 26, end: 30 },
+    { text: "kwase kuba ukuhleba, kwathula kwathi cwaka.", start: 31, end: 35 },
+    { text: "Imigwaqo yayiqhekekile futhi izihlahla zazimile njengamathambo.", start: 36, end: 40 },
+    { text: "Amagquma ayensundu ngokufiphele futhi umfula owawuvame ukugeleza", start: 41, end: 45 },
+    { text: "wawusomile waba umzila omncane onodaka.", start: 46, end: 50 },
   ]
 };
     const transcript = transcripts[language];

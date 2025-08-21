@@ -10,22 +10,22 @@ function Page18(){
       en: {
       paragraphs: [
   [
-    { text: "“It grew?” said Khaya, surprised.", start: 0, end: 3 },
+    { text: "“It grew?” said Khaya, surprised.", start: 73, end: 78 },
   ],
   [
-    { text: "“Yes, it did!", start: 10, end: 12 },
-    { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 13, end: 15 },
+    { text: "“Yes, it did!", start: 79, end: 81 },
+    { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 82, end: 84 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Sikhulile?” kusho uKhaya, emangele.", start: 0, end: 3 },
+    { text: "“Sikhulile?” kusho uKhaya, emangele.", start: 73, end: 78 },
   ],
   [
-    { text: "“Yebo, sikhulile!", start: 4, end: 9 },
-    { text: "Bengazi! Bengazi ukuthi sizokhula!” kubabaza uAmile.", start: 10, end: 12 },
+    { text: "“Yebo, sikhulile!", start: 79, end: 81 },
+    { text: "Bengazi! Bengazi ukuthi sizokhula!” kubabaza uAmile.", start: 82, end: 84 },
   ]
 ]
     }

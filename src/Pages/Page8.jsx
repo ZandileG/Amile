@@ -10,22 +10,22 @@ function Page8(){
       en: {
         paragraphs: [
   [
-    { text: "“What’s that?” asked Khaya, pointing at the mysterious object on the ground.", start: 0, end: 3 },
+    { text: "“What’s that?” asked Khaya, pointing at the mysterious object on the ground.", start: 11, end: 15 },
   ],
   [
-    { text: "Tucked between pebbles and weeds, was a small, round, glowing object.", start: 4, end: 9 },
-    { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 4, end: 9 },
+    { text: "Tucked between pebbles and weeds, was a small, round, glowing object.", start: 16, end: 20 },
+    { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 21, end: 25 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 0, end: 3 },
+    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 11, end: 15 },
   ],
   [
-    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 13, end: 15 },
-    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 16, end: 18 },
+    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 16, end: 20 },
+    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 21, end: 25 },
   ]
 ]
     }

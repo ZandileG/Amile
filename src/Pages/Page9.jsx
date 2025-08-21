@@ -10,32 +10,32 @@ function Page9(){
       en: {
         paragraphs: [
   [
-    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 3 },
-    { text: "“It looks like a seed.”", start: 4, end: 9 },
+    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 26, end: 31 },
+    { text: "“It looks like a seed.”", start: 32, end: 36 },
   ],
   [
-    { text: "“It’s so pretty,” said Khaya.", start: 10, end: 12 },
+    { text: "“It’s so pretty,” said Khaya.", start: 37, end: 41 },
   ],
   [
-    { text: "“It really is,” Amile agreed.", start: 13, end: 15 },
-    { text: "She held it gently in her hands then said,", start: 16, end: 18 },
-    { text: "“I think we should plant it and see what kind of flower it becomes.”", start: 16, end: 18 },
+    { text: "“It really is,” Amile agreed.", start: 42, end: 46 },
+    { text: "She held it gently in her hands then said,", start: 47, end: 50 },
+    { text: "“I think we should plant it and see what kind of flower it becomes.”", start: 51, end: 55 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wayicosha, wayifaka ezandleni zakhe wase ethi,", start: 0, end: 3 },
-    { text: "“Ibukeka njengembewu.”", start: 4, end: 9 },
+    { text: "UAmile wayicosha, wayifaka ezandleni zakhe wase ethi,", start: 26, end: 31 },
+    { text: "“Ibukeka njengembewu.”", start: 32, end: 36 },
   ],
   [
-    { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 13, end: 15 }, 
+    { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 37, end: 41 },
   ],
   [
-    { text: "uAmile naye wavuma.", start: 13, end: 15 },
-    { text: "Wayibamba ngobumnene ezandleni zakhe wabe esethi,", start: 16, end: 18 },
-    { text: "“Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 16, end: 18 },
+    { text: "uAmile naye wavuma.", start: 42, end: 46 },
+    { text: "Wayibamba ngobumnene ezandleni zakhe wabe esethi,", start: 47, end: 50 },
+    { text: "“Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 51, end: 55 },
   ]
 ]
     }

@@ -11,16 +11,16 @@ function Page7(){
       dropCap: "T",
       dropCapText: "HE NEXT DAY,",
       lines: [
-    { text: "while wandering near the edge of a dried-up riverbed,", start: 0, end: 3 },
-    { text: "Amile and Khaya spotted something odd.", start: 4, end: 6 },
+    { text: "while wandering near the edge of a dried-up riverbed,", start: 0, end: 5 },
+    { text: "Amile and Khaya spotted something odd.", start: 6, end: 10 },
     ]
   },
     zu: {
     dropCap: "N",
     dropCapText: "GOSUKU OLULANDELAYO",
     lines: [
-    { text: "ngenkathi bezulazula eduze komfula owomile,", start: 0, end: 3 },
-    { text: "uAmile noKhaya babona into eyinqaba.", start: 4, end: 9 },
+    { text: "ngenkathi bezulazula eduze komfula owomile,", start: 0, end: 5 },
+    { text: "uAmile noKhaya babona into eyinqaba.", start: 6, end: 10 },
       ]
     }
   };

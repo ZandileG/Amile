@@ -8,15 +8,15 @@ function Page33(){
   
      const transcripts = {
       en: [
-    { text: "Amile’s parents hurried over, still in shock,", start: 0, end: 3 },
-    { text: "and wrapped her in a warm embrace.", start: 4, end: 9 },
-    { text: "I guess we’re staying,", start: 10, end: 12 },
-    { text: "they said, grinning through happy tears.", start: 13, end: 15 },
+    { text: "Amile’s parents hurried over, still in shock,", start: 110, end: 115 },
+    { text: "and wrapped her in a warm embrace.", start: 116, end: 121 },
+    { text: "I guess we’re staying,", start: 122, end: 124 },
+    { text: "they said, grinning through happy tears.", start: 125, end: 131 },
    ],
       zu: [
-    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 0, end: 3 },
-    { text: "“Ngicabanga ukuthi sizohlala,”", start: 4, end: 9 },
-    { text: "“Ngicabanga ukuthi sizohlala,” kusho bona, kwehla izinyembezi zenjabulo.", start: 10, end: 12 },
+    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 110, end: 119 },
+    { text: "“Ngicabanga ukuthi sizohlala,”", start: 120, end: 124 },
+    { text: "“Ngicabanga ukuthi sizohlala,” kusho bona, kwehla izinyembezi zenjabulo.", start: 125, end: 131 },
   ]
 };
     const transcript = transcripts[language];

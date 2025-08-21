@@ -11,20 +11,20 @@ function Page21(){
       dropCap: "E",
       dropCapText: "ACH DAY,",
       lines: [
-    { text: "Thingo grew taller and stranger,", start: 0, end: 3 },
-    { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 4, end: 9 },
-    { text: "Its leaves were shaped like stars and at night,", start: 10, end: 12 },
-    { text: "they glowed softly in the moonlight.", start: 13, end: 15 },
+    { text: "Thingo grew taller and stranger,", start: 0, end: 8 },
+    { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 9, end: 18 },
+    { text: "Its leaves were shaped like stars and at night,", start: 19, end: 21 },
+    { text: "they glowed softly in the moonlight.", start: 22, end: 24 },
     ]
   },
     zu: {
     dropCap: "U",
     dropCapText: "SUKU NOSUKU,",
     lines: [
-    { text: "uThingo wayekhula eba mude,", start: 0, end: 3 },
-    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 4, end: 9 },
-    { text: "Amaqabunga akhe ayemile njengezinkanyezi,", start: 10, end: 12 },
-    { text: "futhi ebusuku, ayekhazimula ekukhanyeni kwenyanga.", start: 13, end: 15 },
+    { text: "uThingo wayekhula eba mude,", start: 0, end: 8 },
+    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 9, end: 18 },
+    { text: "Amaqabunga akhe ayemile njengezinkanyezi,", start: 19, end: 21 },
+    { text: "futhi ebusuku, ayekhazimula ekukhanyeni kwenyanga.", start: 22, end: 24 },
       ]
     }
   };
