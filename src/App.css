@@ -129,7 +129,7 @@
   height: 3rem;
 }
 
-@media (min-width: 2240px) and (max-width: 3648px){
+@media (min-width: 2240px) and (max-width: 2734px){
   .navbar-link{
   width: 15rem;
   height: 12rem;
@@ -215,7 +215,11 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 900px){
+@media (min-width: 700px) and (max-width: 900px){
+
+}
+
+@media (min-width: 600px) and (max-width: 700px){
   .navbar-link{
   width: 5.5rem;
   height: 5rem;
