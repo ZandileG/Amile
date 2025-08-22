@@ -76,42 +76,42 @@
 }
 
 .page-image-2{
-  width: 65%;
-  height: auto;
-  margin: auto;
-  padding-top: 2rem;
-}
-
-.page-image-3{
   width: 70%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
 }
 
+.page-image-3{
+  width: 68%;
+  height: auto;
+  margin: auto;
+  padding-top: 2rem;
+}
+
 .page-image-4{
-  width: 59%;
+  width: 54%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
 }
 
 .page-image-5{
-  width: 55%;
+  width: 50%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
 }
 
 .page-image-6{
-  width: 60%;
+  width: 58%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
 }
 
 .page-image-7{
-  width: 67%;
+  width: 65%;
   height: auto;
   margin: auto;
   padding-bottom: 2rem;
@@ -119,21 +119,21 @@
 }
 
 .page-image-8{
-  width: 64%;
+  width: 62%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
 }
 
 .page-image-9{
-  width: 60%;
+  width: 58%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
 }
 
 .page-image-10{
-  width: 60%;
+  width: 58%;
   height: auto;
   margin: auto;
   padding-top: 2rem;
@@ -314,7 +314,7 @@
   padding-top: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   text-align: justify;
   font-weight: 500;
   font-family: "Primer";
@@ -324,7 +324,7 @@
   padding-left: 5rem;
   padding-right: 5rem;
   margin-top: -0.5rem;
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   text-align: justify;
   font-weight: 500;
   font-family: "Primer";
