@@ -96,7 +96,7 @@ function navbarToggle(){
   )}
 
   <HTMLFlipBook
-   width={window.innerWidth < 800 ? window.innerWidth : 840}
+   width={window.innerWidth < 800 ? window.innerWidth : 860}
    height={window.innerWidth < 700 ? window.innerHeight : 800}
    size="stretch"
    drawShadow={true}
