@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.61724040.css",
-    "main.js": "/Amile/static/js/main.1a468e38.js",
+    "main.css": "/Amile/static/css/main.f28d4a58.css",
+    "main.js": "/Amile/static/js/main.088086da.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Chapter1-Z.mp3": "/Amile/static/media/Chapter1-Z.b6015367de44e77cc42a.mp3",
@@ -15,7 +15,7 @@
     "static/media/Chapter5-Z.mp3": "/Amile/static/media/Chapter5-Z.b6015367de44e77cc42a.mp3",
     "static/media/Chapter5.mp3": "/Amile/static/media/Chapter5.b6015367de44e77cc42a.mp3",
     "static/media/Background.png": "/Amile/static/media/Background.793afe46b3f476935efe.png",
-    "static/media/Image1.png": "/Amile/static/media/Image1.00d79cf1cff4bff39d33.png",
+    "static/media/Image1.png": "/Amile/static/media/Image1.d6f6541032b55fb2dc90.png",
     "static/media/Image10.png": "/Amile/static/media/Image10.00d79cf1cff4bff39d33.png",
     "static/media/Image11.png": "/Amile/static/media/Image11.00d79cf1cff4bff39d33.png",
     "static/media/Image12.png": "/Amile/static/media/Image12.00d79cf1cff4bff39d33.png",
@@ -55,12 +55,12 @@
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "static/media/Puffberry-Demo.ttf": "/Amile/static/media/Puffberry-Demo.10e74b241437da4442c2.ttf",
     "index.html": "/Amile/index.html",
-    "main.61724040.css.map": "/Amile/static/css/main.61724040.css.map",
-    "main.1a468e38.js.map": "/Amile/static/js/main.1a468e38.js.map",
+    "main.f28d4a58.css.map": "/Amile/static/css/main.f28d4a58.css.map",
+    "main.088086da.js.map": "/Amile/static/js/main.088086da.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61724040.css",
-    "static/js/main.1a468e38.js"
+    "static/css/main.f28d4a58.css",
+    "static/js/main.088086da.js"
   ]
 }
