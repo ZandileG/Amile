@@ -13,7 +13,7 @@
   height: 15rem; 
   background-color: white;
   padding: 1rem 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.311);
   z-index: 20;
   display: flex;
   align-items: center;
@@ -39,7 +39,8 @@
 .navbar-link{
   color: black;
   background-color: rgb(192, 192, 192);
-  border: solid 2px black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.179);
+  border: solid 1px black;
   border-radius: 1rem;
   cursor: pointer;
   text-decoration: none;
@@ -96,7 +97,8 @@
   font-family: "Rolly";
   color: rgb(42, 42, 42);
   padding: 0.2rem 0.4rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
+  border: 0.5px solid black;
   background-color: rgb(192, 192, 192);
   cursor: pointer;
   transition: transform 0.3s ease;

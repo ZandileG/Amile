@@ -2,11 +2,15 @@ html, body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "PrimerBold", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "PrimerBold", "Puffberry-Demo", "GlorytyaDemo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
   cursor: grab;
+}
+
+a{
+  color: #045f76;
 }
 
 @font-face{
@@ -26,6 +30,20 @@ html, body{
 @font-face{
   font-family: "PrimerBold";
   src: url("./Fonts/Primer\ Print\ Bold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Puffberry-Demo";
+  src: url("./Fonts/Puffberry-Demo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "GlorytyaDemo";
+  src: url("./Fonts/Gloryta\ Demo.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
