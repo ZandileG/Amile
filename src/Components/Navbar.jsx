@@ -58,7 +58,7 @@ function Navbar({ goToPage, visible, chapters, currentPage }){
         ))}
       </section>
 
-      <button type="button" className="navbar-link" onClick={() => { goToPage(page); 
+      <button type="button" className={`navbar-link navbar-link-${chapterNumber}`} onClick={() => { goToPage(page); 
         playNarration(chapterNumber); 
      }}>
         {label}

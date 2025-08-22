@@ -4,7 +4,7 @@
   height: 100vh;
   overflow: hidden;
   overflow-x: hidden;
-  background: url("../Images/Patterns.png") no-repeat center center;
+  background: url("../Images/Background.png") no-repeat center center;
   background-size: cover;
 }
 
