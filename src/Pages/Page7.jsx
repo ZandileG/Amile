@@ -44,7 +44,7 @@ function Page7(){
         })}
       </p>
 
-      <img src={Image7} alt="Page 7" className="page-image-1" />
+      <img src={Image7} alt="Page 7" className="page-image-7" />
       <section className="page-7">7</section>
     </section>
   );

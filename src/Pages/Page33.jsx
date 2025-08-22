@@ -34,7 +34,7 @@ function Page33(){
         })}
       </p>
 
-      <img src={Image33} alt="Page 33" className="page-image" />
+      <img src={Image33} alt="Page 33" className="page-image-33" />
 
       <section className="page-33">33</section>
     </section>

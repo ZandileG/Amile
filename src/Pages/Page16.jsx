@@ -24,7 +24,7 @@ function Page16(){
 
   return(
     <section className="page">
-      <img src={Image16} alt="Page 16" className="page-image" />
+      <img src={Image16} alt="Page 16" className="page-image-16" />
 
       <p className="page-text">
         {transcript.map((line, i) => {

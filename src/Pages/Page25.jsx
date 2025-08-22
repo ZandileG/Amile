@@ -30,7 +30,7 @@ function Page25(){
 
   return(
    <section className="page">
-      <img src={Image25} alt="Page 25" className="page-image" />
+      <img src={Image25} alt="Page 25" className="page-image-25" />
 
       <p className="page-text">
         {transcript.map((line, i) => {

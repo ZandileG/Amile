@@ -34,7 +34,7 @@ function Page8(){
 
   return(
     <section className="page">
-      <img src={Image8} alt="Page 8" className="page-image" />
+      <img src={Image8} alt="Page 8" className="page-image-8" />
     
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (

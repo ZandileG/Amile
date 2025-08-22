@@ -71,7 +71,7 @@ function Page24(){
     ))}
    </section>
 
-    <img src={Image24} alt="Page 24" className="page-image" />
+    <img src={Image24} alt="Page 24" className="page-image-24" />
 
       <section className="page-24">24</section>
     </section>
