@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: flex-start;
   box-shadow: 16px 0 32px -8px rgba(0, 0, 0, 0.486);  
-  border: solid 1px rgb(212, 209, 209);
+  border: solid 1px black;
   border-radius: 4%;
 }
 
