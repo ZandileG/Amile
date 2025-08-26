@@ -14,6 +14,18 @@
   align-items: stretch;
   justify-content: stretch;
   overflow: hidden;
+  box-shadow: inset 0 0 50px 8px rgba(27, 27, 27, 0.25);
+}
+
+.page-credits{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .cover-image{
@@ -47,6 +59,7 @@
 .text-overlay .subtitle{
   margin-top: 3rem; 
   color: black;
+  text-shadow: 0 2px 8px rgba(255,255,255,0.7); 
   z-index: 3;
   pointer-events: auto;
 }
@@ -386,7 +399,7 @@
     text-align: center;
     font-size: 3rem;
     font-family: "Rolly";
-    color: black;
+    color: #125c59;
 }
 
 .credit{
@@ -415,6 +428,7 @@
 .drop-cap{
   font-size: 6rem;
   font-family: "GlorytyaDemo";
+  color: #125c59;
 }
 
 .drop-cap-text{

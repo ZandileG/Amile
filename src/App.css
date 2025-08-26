@@ -40,7 +40,10 @@
 .navbar-link{
   color: black;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.179);
-  border: solid 1px black;
+  border-bottom: solid 2px black;
+  border-right: solid 2px black;
+  border-top: none;
+  border-left: none;
   border-radius: 1rem;
   cursor: pointer;
   text-decoration: none;
@@ -53,19 +56,23 @@
 }
 
 .navbar-link-1{ 
-  background: #FFD6E0; 
+  background: #f27795; 
 }
 .navbar-link-2{ 
-  background: #FFF6B3; 
+  background: #faee93; 
 }
 .navbar-link-3{ 
-  background: #C8F7DC; 
+  background: #a2f5c5; 
 }
 .navbar-link-4{ 
-  background: #E0D7FF; 
+  background: #c0b1f2; 
 }
 .navbar-link-5{ 
-  background: #FFE0B2; 
+  background: #f2d1a0; 
+}
+
+.chapter-page-number.active{
+  cursor: not-allowed;
 }
 
 .navbar-audio-controls button{
@@ -111,18 +118,33 @@
 .chapter-page-number{
   font-size: 0.95rem;
   font-family: "Rolly";
-  color: rgb(42, 42, 42);
+  color: black;
   padding: 0.2rem 0.4rem;
   border-radius: 0.75rem;
-  border: 0.5px solid black;
-  background-color: #9be9f1;
+  border: none;
+  background-color: white;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.chapter-page-number:hover{
-  background-color: #fff0c9;
-  border: solid 0.5px black;
+.chapter-1:hover{
+  background-color: #f27795;
+}
+
+.chapter-2:hover{
+  background-color: #faee93;
+}
+
+.chapter-3:hover{
+  background-color: #a2f5c5;
+}
+
+.chapter-4:hover{
+  background-color: #c0b1f2;
+}
+
+.chapter-5:hover{
+  background-color: #f2d1a0;
 }
 
 .music-button, 
@@ -141,10 +163,16 @@
 }
 
 .music-button img,
-.narration-button img,
-.language-button img{
+.narration-button img{
   width: 3rem;
   height: 3rem;
+  border-radius: 50%;
+}
+
+.language-button img{
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 2525px) and (max-width: 3648px){

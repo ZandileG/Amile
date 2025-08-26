@@ -52,7 +52,11 @@ function Navbar({ goToPage, visible, chapters, currentPage }){
   <li key={page} className="chapter-nav-item">
       <section className="chapter-pages-container">
         {Array.from({ length: range[1] - range[0] + 1 }, (_, i) => (
-          <button type="button"className="chapter-page-number" key={range[0] + i} onClick={() => goToPage(range[0] + i)}>
+          <button
+            type="button"
+            className={`chapter-page-number chapter-${chapterNumber} ${currentPage === range[0] + i ? " active" : ""}`}
+            key={range[0] + i}
+            onClick={() => goToPage(range[0] + i)}>
             {range[0] + i}
           </button>
         ))}

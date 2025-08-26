@@ -3,7 +3,7 @@ import "../Styles/Page.css";
 
 function Credits(){
   return(
-    <section className="page">
+    <section className="page-credits">
       <h1 className="title">Credits</h1>
 
     <h2 className="page-heading">Site Developed by</h2>
