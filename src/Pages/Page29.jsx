@@ -7,24 +7,37 @@ function Page29(){
 const { currentTime, language } = useContext(MusicContext);
   
      const transcripts = {
-      en: [
-    { text: "A low hum filled the air and Thingo began to glow.", start: 16, end: 20 },
-    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 21, end: 27 },
-    { text: "The glow rippled through the soil and spread across the garden,", start: 28, end: 32 },
-    { text: "up the hill, and down the streets of Dumakude.", start: 33, end: 36 },
-   ],
-      zu: [
-    { text: "Kube nokuthula emoyeni bese uThingo waqala ukukhanya.", start: 16, end: 20 },
-    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 21, end: 32 },
-    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 33, end: 36 },
+        en: {
+      dropCap: "A ",
+      dropCapText: " LOW HUM",
+      lines: [
+    { text: "filled the air and Thingo began to glow.", start: 0, end: 10 },
+    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 11, end: 18 },
+    { text: "The glow rippled through the soil and spread across the garden,", start: 19, end: 21 },
+    { text: "up the hill, and down the streets of Dumakude.", start: 22, end: 25 },
   ]
+},
+       zu: {
+    dropCap: "K",
+    dropCapText: "UBE NOKUTHULA",
+    lines: [
+    { text: "emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 10 },
+    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 11, end: 19 },
+    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 20, end: 25 },
+  ]
+}
 };
-    const transcript = transcripts[language];
+      const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(
     <section className="page">
-      <p className="page-text">
-        {transcript.map((line, i) => {
+    <section className="drop-cap-container">
+      <section className="drop-cap">{dropCap}</section>
+      <section className="drop-cap-text">{dropCapText}</section>
+    </section>
+
+      <p className="page-chapter">
+        {lines.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

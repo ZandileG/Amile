@@ -8,20 +8,20 @@ function Page30(){
   
   const transcripts = {
       en: [
-    { text: "A rumble echoed in the sky.", start: 37, end: 40 },
-    { text: "Amile, Khaya and her parents looked up.", start: 40, end: 42 },
-    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 43, end: 46 },
-    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 47, end: 50 },
-    { text: "big, bold splashes.", start: 51, end: 52 },
-    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 53, end: 56 },
+    { text: "A rumble echoed in the sky.", start: 26, end: 30 },
+    { text: "Amile, Khaya and her parents looked up.", start: 31, end: 34 },
+    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 35, end: 40 },
+    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 41, end: 45 },
+    { text: "big, bold splashes.", start: 46, end: 47 },
+    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 48, end: 55 },
       ],
     zu: [
-    { text: "Kwaduma izulu.", start: 37, end: 38 },
-    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 39, end: 42 },
-    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 43, end: 46 },
-    { text: "Umoya washintsha,", start: 47, end: 48 },
-    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 49, end: 52 },
-    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 53, end: 56 },
+    { text: "Kwaduma izulu.", start: 26, end: 30 },
+    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 31, end: 34 },
+    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 35, end: 40 },
+    { text: "Umoya washintsha,", start: 41, end: 42 },
+    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 43, end: 48 },
+    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 49, end: 55 },
       ]
   };
     const transcript = transcripts[language];

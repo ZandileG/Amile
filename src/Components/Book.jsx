@@ -99,8 +99,8 @@ function handleKeyDown(e){
     { page: 1, label: "Chapter 1", range: [1, 6], chapterNumber: 1 },
     { page: 7, label: "Chapter 2", range: [7, 14], chapterNumber: 2 },
     { page: 15, label: "Chapter 3", range: [15, 20], chapterNumber: 3 },
-    { page: 21, label: "Chapter 4", range: [21, 27], chapterNumber: 4 },
-    { page: 28, label: "Chapter 5", range: [28, 36], chapterNumber: 5 },
+    { page: 21, label: "Chapter 4", range: [21, 28], chapterNumber: 4 },
+    { page: 29, label: "Chapter 5", range: [29, 36], chapterNumber: 5 },
   ];
 
   return(

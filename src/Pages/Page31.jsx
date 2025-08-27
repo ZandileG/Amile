@@ -10,7 +10,7 @@ const { currentTime, language } = useContext(MusicContext);
       en: {
       paragraphs: [
   [
-    { text: "People poured into the streets.", start: 57, end: 60 },
+    { text: "People poured into the streets.", start: 56, end: 60 },
     { text: "Children squealed.", start: 61, end: 62 },
     { text: "The river trickled.", start: 63, end: 64 },
     { text: "Trees swayed.", start: 65, end: 66 },
@@ -29,7 +29,7 @@ const { currentTime, language } = useContext(MusicContext);
       zu: {
       paragraphs: [
   [
-    { text: "Abantu basemphakathini batheleka emigwaqweni.", start: 57, end: 60 },
+    { text: "Abantu basemphakathini batheleka emigwaqweni.", start: 56, end: 60 },
     { text: "Izingane zamemeza.", start: 61, end: 62 },
     { text: "Umfula wagcwala.", start: 63, end: 64 },
     { text: "Izihlahla zanyakaza.", start: 65, end: 66 },
