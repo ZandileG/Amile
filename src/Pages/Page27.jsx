@@ -8,22 +8,23 @@ function Page27(){
   
      const transcripts = {
       en: [
-    { text: "Suddenly, the ground trembled.", start: 152, end: 156 },
-    { text: "Amile and her dad quickly stood up and took a step back.", start: 157, end: 162 },
-    { text: "Khaya and Amile’s mom did the same.", start: 163, end: 167 },
+    { text: "Amile’s mom placed her hands on her hips,", start: 133, end: 136 },
+    { text: "her face less friendly than before.", start: 137, end: 142 },
+    { text: "Her dad noticed the look and stepped forward,", start: 143, end: 145 },
+    { text: "reaching toward Amile ready to lift her off the ground,", start: 146, end: 148 },
+    { text: "whether she liked it or not.", start: 149, end: 151 },
    ],
       zu: [
-    { text: "Gwiqiqi, kwavevezela umhlaba.", start: 149, end: 152 },
-    { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 153, end: 157 },
-    { text: "UKhaya noma kaAmile benza okufanayo.", start: 158, end: 162 },
+    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 133, end: 136 },
+    { text: "ebukeka ethukuthele kunakuqala.", start: 137, end: 142 },
+    { text: "Ubab’ wakhe wakubona lokho waguqa phambi kukaAmile", start: 143, end: 145 },
+    { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 146, end: 148 },
   ]
 };
     const transcript = transcripts[language];
 
   return(
     <section className="page">
-      <img src={Image27} alt="Page 27" className="page-image-27" />
-
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
@@ -34,6 +35,8 @@ function Page27(){
           );
         })}
       </p>
+
+      <img src={Image27} alt="Page 27" className="page-image-27" />
 
       <section className="page-27">27</section>
     </section>

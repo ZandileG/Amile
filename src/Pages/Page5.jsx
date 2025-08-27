@@ -17,9 +17,6 @@ function Page5(){
   [
     { text: "Amile froze. Her eyes grew wide,", start: 121, end: 123 },
     { text: "searching her dad’s face for some sign that it wasn’t true.", start: 124, end: 126 },
-  ],
-  [
-    { text: "“Mimi,” her mom said softly, “the town’s water is gone, and the food is running out.”", start: 127, end: 130 },
   ]
       ]
 },
@@ -33,9 +30,6 @@ function Page5(){
   [
     { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 121, end: 123 },
     { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 124, end: 126 },
-  ],
-   [
-    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi, “amanzi awasekho futhi nokudla sekuyaphela.”", start: 127, end: 130 },
   ]
 ]
     }

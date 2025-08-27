@@ -10,7 +10,7 @@ function Page10(){
       en: {
       paragraphs: [
   [
-    { text: "“I don’t think that’s a good idea,” said Khaya,", start: 56, end: 60 },
+    { text: "“I don’t think that’s a good idea,” said Khaya,", start: 51, end: 60 },
     { text: "“don’t you know that flowers need good soil to grow, and our town is so dry.”", start: 61, end: 70 },
   ],
   [
@@ -25,7 +25,7 @@ function Page10(){
       zu: {
       paragraphs: [
   [
-    { text: "“Angicabangi ukuthi kuwumqondo omuhle lowo,” kusho uKhaya,", start: 56, end: 60 },
+    { text: "“Angicabangi ukuthi kuwumqondo omuhle lowo,” kusho uKhaya,", start: 51, end: 60 },
     { text: "“awazi yini ukuthi izimbali zidinga inhlabathi enhle ukuze zikhule, futhi idolobha lethu lomile kakhulu.”", start: 61, end: 70 },
   ],
   [

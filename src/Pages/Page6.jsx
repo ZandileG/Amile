@@ -10,30 +10,32 @@ function Page6(){
       en: {
         paragraphs: [
   [
-    { text: "“But what about our neighbours? What about my friends?", start: 131, end: 135 },
-    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 136, end: 140 },
+    { text: "“But what about our neighbours? What about my friends?", start: 127, end: 132 },
+    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 133, end: 138 },
   ],
   [
-    { text: "“I know it’s hard Mimi, but we can’t stay here anymore. Please understand,”", start: 141, end: 145 },
-    { text: "said her dad while gently squeezing her hand.", start: 146, end: 150 },
+    { text: "“I know it’s hard Mimi, but there's no more water,", start: 139, end: 143 },
+    { text: "we can’t stay here anymore. Please understand,”", start: 144, end: 147 },
+    { text: "said her dad while gently squeezing her hand.", start: 148, end: 152 },
   ],
   [
-    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 151, end: 155 },
+    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 153, end: 158 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 131, end: 135 },
-    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 136, end: 140 },
+    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 127, end: 132 },
+    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 133, end: 138 },
   ],
   [
-    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 141, end: 145 },
-    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 146, end: 150 },
+    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 139, end: 143 },
+    { text: "ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 144, end: 147 },
+    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 148, end: 152 },
   ],
    [
-    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 151, end: 155 },
+    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 153, end: 158 },
   ]
 ]
     }

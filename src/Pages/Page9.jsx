@@ -17,9 +17,7 @@ function Page9(){
     { text: "“It’s so pretty,” said Khaya.", start: 37, end: 41 },
   ],
   [
-    { text: "“It really is,” Amile agreed.", start: 42, end: 46 },
-    { text: "She held it gently in her hands then said,", start: 47, end: 50 },
-    { text: "“I think we should plant it and see what kind of flower it becomes.”", start: 51, end: 55 },
+    { text: "Amile nodded. “I think we should plant it and see what kind of flower it becomes.”", start: 42, end: 50 },
   ]
       ]
 },
@@ -33,9 +31,7 @@ function Page9(){
     { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 37, end: 41 },
   ],
   [
-    { text: "uAmile naye wavuma.", start: 42, end: 46 },
-    { text: "Wayibamba ngobumnene ezandleni zakhe wabe esethi,", start: 47, end: 50 },
-    { text: "“Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 51, end: 55 },
+    { text: "UAmile wavuma naye. “Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 42, end: 50 },
   ]
 ]
     }

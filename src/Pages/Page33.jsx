@@ -8,21 +8,24 @@ function Page33(){
   
      const transcripts = {
       en: [
-    { text: "Amile’s parents hurried over, still in shock,", start: 110, end: 115 },
-    { text: "and wrapped her in a warm embrace.", start: 116, end: 121 },
-    { text: "I guess we’re staying,", start: 122, end: 124 },
-    { text: "they said, grinning through happy tears.", start: 125, end: 131 },
+    { text: "Amile laughed and danced,", start: 99, end: 101 },
+    { text: "arms wide, as the sky wept with joy.", start: 102, end: 104 },
+    { text: "Khaya ran to her, and together they spun around,", start: 105, end: 107 },
+    { text: "laughing and dancing in the rain just like they used to.", start: 108, end: 112 },
    ],
       zu: [
-    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 110, end: 119 },
-    { text: "“Ngicabanga ukuthi sizohlala,”", start: 120, end: 124 },
-    { text: "“Ngicabanga ukuthi sizohlala,” kusho bona, kwehla izinyembezi zenjabulo.", start: 125, end: 131 },
+    { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 99, end: 101 },
+    { text: "lapho isibhakabhaka sikhala ngenjabulo.", start: 102, end: 104 },
+    { text: "UKhaya wagijima waya kuye, futhi ndawonye bazungeza,", start: 105, end: 107 },
+    { text: "behleka futhi bedansa emvuleni njengoba babevame ukwenza.", start: 108, end: 112 },
   ]
 };
     const transcript = transcripts[language];
 
   return(
     <section className="page">
+      <img src={Image33} alt="Page 33" className="page-image-33" />
+
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
@@ -33,8 +36,6 @@ function Page33(){
           );
         })}
       </p>
-
-      <img src={Image33} alt="Page 33" className="page-image-33" />
 
       <section className="page-33">33</section>
     </section>

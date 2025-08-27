@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 import Bookmark from "../Images/Bookmark.png"
@@ -18,8 +18,8 @@ import Page9 from "../Pages/Page9";
 import Page10 from "../Pages/Page10";
 import Page11 from "../Pages/Page11";
 import Page12 from "../Pages/Page12";
-
 import Page13 from "../Pages/Page13";
+
 import Page14 from "../Pages/Page14";
 import Page15 from "../Pages/Page15";
 import Page16 from "../Pages/Page16";
@@ -31,8 +31,8 @@ import Page21 from "../Pages/Page21";
 import Page22 from "../Pages/Page22";
 import Page23 from "../Pages/Page23";
 import Page24 from "../Pages/Page24";
-
 import Page25 from "../Pages/Page25";
+
 import Page26 from "../Pages/Page26";
 import Page27 from "../Pages/Page27";
 import Page28 from "../Pages/Page28";
@@ -42,6 +42,8 @@ import Page31 from "../Pages/Page31";
 import Page32 from "../Pages/Page32";
 import Page33 from "../Pages/Page33";
 import Page34 from "../Pages/Page34";
+import Page35 from "../Pages/Page35";
+import Page36 from "../Pages/Page36";
 import Credits from "../Pages/Credits";
 
 //These are the pages of my book
@@ -49,7 +51,7 @@ const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8,
                Page9, Page10, Page11, Page12, Page13, Page14, Page15, Page16, 
                Page17, Page18, Page19, Page20, Page21, Page22, Page23, Page24,
                Page25, Page26, Page27, Page28, Page29, Page30, Page31, Page32, 
-               Page33, Page34, Credits];
+               Page33, Page34, Page35, Page36, Credits];
 
 function Book(){
   const bookRef = useRef();
@@ -77,13 +79,28 @@ function navbarToggle(){
   }, 600); 
 }
 
+//The user can turn the pages using their keyboard but the page turning effect won't be visible
+useEffect(() => {
+function handleKeyDown(e){
+      if (!bookRef.current) return;
+      if (e.key === "ArrowLeft") {
+        bookRef.current.pageFlip().turnToPrevPage();
+      } else if (e.key === "ArrowRight"){
+        bookRef.current.pageFlip().turnToNextPage();
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
+
 //These are the pages that start each chapter as well as the pages that are within each chapter
   const chapters = [
     { page: 1, label: "Chapter 1", range: [1, 6], chapterNumber: 1 },
     { page: 7, label: "Chapter 2", range: [7, 14], chapterNumber: 2 },
     { page: 15, label: "Chapter 3", range: [15, 20], chapterNumber: 3 },
-    { page: 21, label: "Chapter 4", range: [21, 28], chapterNumber: 4 },
-    { page: 29, label: "Chapter 5", range: [29, 34], chapterNumber: 5 },
+    { page: 21, label: "Chapter 4", range: [21, 27], chapterNumber: 4 },
+    { page: 28, label: "Chapter 5", range: [28, 36], chapterNumber: 5 },
   ];
 
   return(

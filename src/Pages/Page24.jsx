@@ -4,7 +4,7 @@ import Image24 from "../Images/Image24.png";
 import "../Styles/Page.css";
 
 function Page24(){
-  const { currentTime, language } = useContext(MusicContext);
+const { currentTime, language } = useContext(MusicContext);
 
     const transcripts = {
       en: {
@@ -19,14 +19,6 @@ function Page24(){
     { text: "“what are you doing?", start: 88, end: 90 },
     { text: "We told you that saving water is important.", start: 91, end: 93 },
     { text: "You can’t waste it on this thing.", start: 94, end: 96 },
-  ],
-   [
-    { text: "“But…I’m not wasting water!”", start: 97, end: 99 },
-    { text: "Amile shouted. “Thingo is my friend.”", start: 100, end: 102 },
-  ],
-   [
-    { text: "“Your friend?” said Khaya", start: 103, end: 105 },
-    { text: "eyes narrowed with her arms across her chest.", start: 106, end: 108 },
   ]
       ]
 },
@@ -41,13 +33,6 @@ function Page24(){
     { text: "“Amile,” kusho ubab’ wakhe,", start: 85, end: 87 },
     { text: "“wenzani? Sakutshela ukuthi ukonga amanzi kubalulekile.", start: 88, end: 90 },
     { text: "Awukwazi ukuwachitha kulokhula.” ", start: 91, end: 93 },
-  ],
-    [
-    { text: "“Kodwa...akuwona ukhula!” kusho uAmile ememeza.", start: 97, end: 99 },
-    { text: "“UThingo ungumngane wami.”", start: 100, end: 102 },
-  ],
-  [
-    { text: "“UMngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 103, end: 105 },
   ]
 ]
     }
@@ -71,7 +56,7 @@ function Page24(){
     ))}
    </section>
 
-    <img src={Image24} alt="Page 24" className="page-image-24" />
+    <img src={Image24} alt="Page 24" className="page-image-24" />  
 
       <section className="page-24">24</section>
     </section>
