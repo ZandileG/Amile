@@ -400,30 +400,50 @@
 
 }
 
-@media (min-width: 600px) and (max-width: 900px){
+@media (min-width: 629px) and (max-width: 900px){
+  .book-page{
+  border-radius: 2%;
+ }
+}
 
+@media (min-width: 600px) and (max-width: 629px){
+ .book-page{
+  border-radius: 0%;
+ }
 }
 
 @media (min-width: 550px) and (max-width: 600px){
-
+ .book-page{
+  border-radius: 0%;
+ }
 }
 
 @media (min-width: 500px) and (max-width: 600px){
-
+ .book-page{
+  border-radius: 0%;
+ }
 }
 
 @media (min-width: 450px) and (max-width: 550px){
-
+ .book-page{
+  border-radius: 0%;
+ }
 }
 
 @media (min-width: 400px) and (max-width: 450px){
-
+ .book-page{
+  border-radius: 0%;
+ }
 }
 
 @media (min-width: 300px) and (max-width: 400px){
-
+ .book-page{
+  border-radius: 0%;
+ }
 }
 
 @media (max-width: 300px){
-
+ .book-page{
+  border-radius: 0%;
+ }
 }
