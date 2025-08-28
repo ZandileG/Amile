@@ -88,14 +88,14 @@
 }
 
 .page-image-2{
-  width: 68%;
+  width: 66%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-3{
-  width: 68%;
+  width: 66%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -109,7 +109,7 @@
 }
 
 .page-image-5{
-  width: 62%;
+  width: 61%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -123,7 +123,7 @@
 }
 
 .page-image-7{
-  width: 64%;
+  width: 65%;
   height: auto;
   margin: auto;
   padding-bottom: 1.5rem;
@@ -131,14 +131,14 @@
 }
 
 .page-image-8{
-  width: 62%;
+  width: 61%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-9{
-  width: 58%;
+  width: 57%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -152,7 +152,7 @@
 }
 
 .page-image-11{
-  width: 63%;
+  width: 62%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -188,14 +188,14 @@
 }
 
 .page-image-16{
-  width: 73%;
+  width: 72%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-17{
-  width: 63%;
+  width: 62%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -209,7 +209,7 @@
 }
 
 .page-image-19{
-  width: 73%;
+  width: 72%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -231,14 +231,14 @@
 }
 
 .page-image-22{
-  width: 58%;
+  width: 57%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-23{
-  width: 63%;
+  width: 62%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -259,7 +259,7 @@
 }
 
 .page-image-26{
-  width: 61%;
+  width: 60%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -273,7 +273,7 @@
 }
 
 .page-image-28{
-  width: 77%;
+  width: 80%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -288,35 +288,35 @@
 }
 
 .page-image-30{
-  width: 65%;
+  width: 66%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-31{
-  width: 58%;
+  width: 57%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-32{
-  width: 74%;
+  width: 73%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-33{
-  width: 78%;
+  width: 77%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
 }
 
 .page-image-34{
-  width: 78%;
+  width: 80%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -330,7 +330,7 @@
 }
 
 .page-image-36{
-  width: 56%;
+  width: 55%;
   height: auto;
   margin: auto;
   padding-top: 1.5rem;
@@ -381,12 +381,8 @@
   text-align: center;
 }
 
-.page-13, .page-14, .page-20, .page-27, .page-34{
+.page-14, .page-20{
   margin-top: 1rem;
-}
-
-.page-32{
-  margin-top: 3.5rem;
 }
 
 .page-image-2, .page-image-3, .page-image-5,
@@ -422,8 +418,8 @@
 }
 
 .credit{
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .subtitle{
@@ -469,11 +465,6 @@
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   margin-right: 0.75rem;
-}
-
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
  .page-chapter, .page-text{
@@ -530,11 +521,6 @@
   margin-right: 0.75rem;
 }
 
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
  .page-chapter, .page-text{
   font-size: 1.25rem;
 }
@@ -587,11 +573,6 @@
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   margin-right: 0.75rem;
-}
-
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
  .page-chapter, .page-text{
@@ -652,11 +633,6 @@ a{
   margin-right: 0.75rem;
 }
 
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
  .page-chapter, .page-text{
   font-size: 1.25rem;
 }
@@ -715,11 +691,6 @@ a{
   margin-right: 0.75rem;
 }
 
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .page-heading, .page-chapter, .page-text, .page-list{
   font-size: 1.25rem;
 }
@@ -774,11 +745,6 @@ a{
   margin-right: 0.75rem;
 }
 
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .page-heading, .page-chapter, .page-text, .page-list{
   font-size: 1.45rem;
 }
@@ -827,11 +793,6 @@ a{
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: right;
   margin-right: 0.75rem;
-}
-
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .page-heading, .page-chapter, .page-text, .page-list{
@@ -888,11 +849,6 @@ a{
   margin-right: 0.75rem;
 }
 
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .page-heading, .page-chapter, .page-text, .page-list{
   font-size: 1.45rem;
 }
@@ -945,11 +901,6 @@ a{
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: right;
   margin-right: 0.75rem;
-}
-
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .page-heading, .page-chapter, .page-text, .page-list{
@@ -1013,11 +964,6 @@ a{
   .subtitle{
     font-size: 1rem;
   }
-  
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 
 .page-heading, .page-chapter, .page-text, .page-list{
   font-size: 1.45rem;
@@ -1081,11 +1027,6 @@ a{
   margin-right: 0.75rem;
 }
 
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .page-heading, .page-chapter, .page-text, .page-list{
   font-size: 1.45rem;
 }
@@ -1147,11 +1088,6 @@ a{
   .subtitle{
     font-size: 1rem;
   }
-
-  .credit{
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 
 .page-heading, .page-chapter, .page-text, .page-list{
   font-size: 1.45rem;
