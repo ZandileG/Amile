@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.a917c5d2.css",
-    "main.js": "/Amile/static/js/main.0c10bfd3.js",
+    "main.js": "/Amile/static/js/main.9da1110f.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Chapter1-Z.mp3": "/Amile/static/media/Chapter1-Z.b6015367de44e77cc42a.mp3",
@@ -38,8 +38,8 @@
     "static/media/Image8.png": "/Amile/static/media/Image8.7cb397de72f5bbfa383f.png",
     "static/media/Image15.png": "/Amile/static/media/Image15.ba1aca0a813f7be50cf1.png",
     "static/media/Image21.png": "/Amile/static/media/Image21.8cc94ac18b425f30da36.png",
-    "static/media/Image11.png": "/Amile/static/media/Image11.f308a952e8b4e38c5260.png",
     "static/media/Image4.png": "/Amile/static/media/Image4.b920db8c676a33c5f635.png",
+    "static/media/Image11.png": "/Amile/static/media/Image11.fef2fdb73dcb2d67da00.png",
     "static/media/Image5.png": "/Amile/static/media/Image5.f25f6cc424c9b46fc839.png",
     "static/media/Image22.png": "/Amile/static/media/Image22.c8e9e05fd851b889745b.png",
     "static/media/Image1.png": "/Amile/static/media/Image1.ec45223c8582cebddf66.png",
@@ -49,7 +49,7 @@
     "static/media/Image9.png": "/Amile/static/media/Image9.54fb0eeb4e4e22dc6a4b.png",
     "static/media/Image23.png": "/Amile/static/media/Image23.56ca852b6b3c826e2e1f.png",
     "static/media/Image17.png": "/Amile/static/media/Image17.fe404c27c76cf8db226d.png",
-    "static/media/Image36.png": "/Amile/static/media/Image36.be91bbb5f95a0b4e709d.png",
+    "static/media/Image36.png": "/Amile/static/media/Image36.601d6d978a037371ff71.png",
     "static/media/Image31.png": "/Amile/static/media/Image31.278489f775dda8fe014f.png",
     "static/media/Rolly Polly.ttf": "/Amile/static/media/Rolly Polly.285c755856ce92cfd6ee.ttf",
     "static/media/Primer Print Bold.otf": "/Amile/static/media/Primer Print Bold.166a451a69617296cf60.otf",
@@ -59,11 +59,11 @@
     "static/media/CoverImage.png": "/Amile/static/media/CoverImage.c9833a7938fc64ea8805.png",
     "index.html": "/Amile/index.html",
     "main.a917c5d2.css.map": "/Amile/static/css/main.a917c5d2.css.map",
-    "main.0c10bfd3.js.map": "/Amile/static/js/main.0c10bfd3.js.map",
+    "main.9da1110f.js.map": "/Amile/static/js/main.9da1110f.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a917c5d2.css",
-    "static/js/main.0c10bfd3.js"
+    "static/js/main.9da1110f.js"
   ]
 }
