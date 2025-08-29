@@ -23,6 +23,8 @@ function Page28(){
 
   return(
     <section className="page">
+    <img src={Image28} alt="Page 28" className="page-image-28" />
+
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;
@@ -33,8 +35,6 @@ function Page28(){
           );
         })}
       </p>
-
-      <img src={Image28} alt="Page 28" className="page-image-28" />
 
       <section className="page-28">28</section>
     </section>

@@ -19,7 +19,6 @@ const { currentTime, language } = useContext(MusicContext);
 
   return(
     <section className="page">
-      <img src={Image32} alt="Page 32" className="page-image-32" />
 
       <p className="page-text">
         {transcript.map((line, i) => {
@@ -31,6 +30,8 @@ const { currentTime, language } = useContext(MusicContext);
           );
         })}
       </p>
+
+      <img src={Image32} alt="Page 32" className="page-image-32" />
 
       <section className="page-32">32</section>
     </section>
