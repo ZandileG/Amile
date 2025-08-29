@@ -54,7 +54,7 @@
 }
 
 .page-text{
-  padding-top: 1.5rem;
+  padding-top: 1.45rem;
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1.5rem;
@@ -67,7 +67,7 @@
   padding-left: 5rem;
   padding-right: 5rem;
   margin-top: -0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: justify;
   font-weight: 500;
   font-family: "Primer";
@@ -472,7 +472,7 @@ a{
   margin-right: 0.75rem;
 }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.25rem;
 }
 
@@ -526,7 +526,7 @@ a{
   margin-right: 0.75rem;
 }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
@@ -561,7 +561,7 @@ a{
   margin-right: 0.75rem;
 }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
@@ -600,7 +600,7 @@ a{
   margin-right: 0.75rem;
 }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
@@ -639,7 +639,7 @@ a{
   margin-right: 0.75rem;
 }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
@@ -682,7 +682,7 @@ a{
     font-size: 2rem;
   }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
@@ -725,7 +725,7 @@ a{
   margin-right: 0.75rem;
 }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
@@ -783,7 +783,7 @@ a{
     font-size: 2rem;
   }
 
-.page-heading, .page-chapter, .page-text, .page-list{
+.page-heading, .page-list{
   font-size: 1.45rem;
 }
 
