@@ -4,8 +4,7 @@ import "../Styles/Page.css";
 function Cover(){
   return(
     <section className="page">
-    <section className="page-cover">
-    </section>
+    <section className="page-cover"></section>
     </section>
   );
 }
