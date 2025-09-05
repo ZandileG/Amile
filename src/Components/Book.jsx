@@ -61,6 +61,10 @@ function Book(){
   const [animateBookmark, setAnimateBookmark] = useState(false);
 
   const [currentPage, setCurrentPage] = useState(0); 
+  const [viewport, setViewport] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
 
 //This animates the bookmark icon when the user wants to open or close the navbar
 function navbarToggle(){
@@ -93,6 +97,20 @@ function handleKeyDown(e){
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
+useEffect(() => {
+    const handleResize = () => {
+      setViewport({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const isPortrait = viewport.width < 1024;
+
 
 //These are the pages that start each chapter as well as the pages that are within each chapter
   const chapters = [
@@ -113,20 +131,21 @@ function handleKeyDown(e){
   )}
 
   <HTMLFlipBook
-   width={window.innerWidth < 800 ? window.innerWidth : 860}
-   height={window.innerWidth < 700 ? window.innerHeight : 800}
+   width={isPortrait ? viewport.width * 0.9 : 900}
+   height={isPortrait ? viewport.height * 0.8 : 800}
    size="stretch"
    drawShadow={true}
-   minWidth={315}
+   minWidth={525}
    maxWidth={1000}
    minHeight={400}
    maxHeight={1536}
    maxShadowOpacity={0.5}
    showCover={true}
-   mobileScrollSupport={true}  
+   mobileScrollSupport={true}
    className="flipbook"
    ref={bookRef}
-   onFlip={e => setCurrentPage(e.data)}>
+   onFlip={e => setCurrentPage(e.data)}
+   usePortrait={isPortrait}>
     
   {pages.map((PageComponent, index) => (
   <section key={index} className="book-page">
