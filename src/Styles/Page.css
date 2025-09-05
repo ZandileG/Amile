@@ -9,10 +9,9 @@
   margin: 0;
   width: 100%;
   height: 100vh;
-  background: none;
+  background: url("../Images/CoverImage.png") no-repeat center center;
+  background-size: cover;
   display: flex;
-  align-items: stretch;
-  justify-content: stretch;
   overflow: hidden;
   box-shadow: inset 0 0 50px 8px rgba(27, 27, 27, 0.25);
 }
@@ -263,6 +262,11 @@
   margin-right: 0.75rem;
 }
 
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
+
  .page-chapter, .page-text{
   font-size: 1.25rem;
 }
@@ -293,6 +297,21 @@
 .drop-cap-text{
   font-size: 2rem;
 }
+
+.page-image-1, .page-image-2, .page-image-3, 
+.page-image-4, .page-image-5, .page-image-6,
+.page-image-7, .page-image-8, .page-image-9, 
+.page-image-10, .page-image-11, .page-image-12,
+.page-image-13, .page-image-14, .page-image-15, 
+.page-image-16, .page-image-17, .page-image-18,
+.page-image-19, .page-image-20, .page-image-21, 
+.page-image-22, .page-image-23, .page-image-24,
+.page-image-25, .page-image-26, .page-image-27, 
+.page-image-28, .page-image-29, .page-image-30,
+.page-image-31, .page-image-32, .page-image-33, 
+.page-image-34, .page-image-35, .page-image-36{
+  width: 70%;
+}
 }
 
 @media (min-width: 1050px) and (max-width: 1200px){
@@ -300,6 +319,11 @@
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
 }
 
  .page-chapter, .page-text{
@@ -356,6 +380,11 @@
   margin-right: 0.75rem;
 }
 
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
+
  .page-chapter, .page-text{
   font-size: 1.25rem;
 }
@@ -407,11 +436,31 @@ a{
 }
 }
 
+@media (min-width: 970px) and (max-width: 1024px){
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
+.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+  text-align: right;
+  margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
+}
+
 @media (min-width: 900px) and (max-width: 970px){
 .page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+  text-align: right;
   margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
 }
 
  .page-chapter, .page-text{
@@ -469,7 +518,13 @@ a{
 .page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+  text-align: right;
   margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
 }
 
 .page-heading, .page-list{
@@ -526,6 +581,11 @@ a{
   margin-right: 0.75rem;
 }
 
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
+
 .page-heading, .page-list{
   font-size: 1.45rem;
 }
@@ -559,6 +619,11 @@ a{
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: right;
   margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
 }
 
 .page-heading, .page-list{
@@ -600,6 +665,11 @@ a{
   margin-right: 0.75rem;
 }
 
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
+
 .page-heading, .page-list{
   font-size: 1.45rem;
 }
@@ -637,6 +707,11 @@ a{
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: right;
   margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
 }
 
 .page-heading, .page-list{
@@ -678,6 +753,11 @@ a{
   margin-right: 0.75rem;
 }
 
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
+
   .title{
     font-size: 2rem;
   }
@@ -717,6 +797,11 @@ a{
   .title{
     font-size: 2rem;
   }
+
+  .page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
+}
 
 .page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
@@ -777,6 +862,11 @@ a{
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: right;
   margin-right: 0.75rem;
+}
+
+.page-cover{
+  background: url("../Images/CoverImage1.png") no-repeat center center;
+  background-size: cover;
 }
 
   .title{
