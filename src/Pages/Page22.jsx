@@ -10,28 +10,28 @@ function Page22(){
       en: {
       paragraphs: [
   [
-    { text: "On moving day,", start: 25, end: 28 },
-    { text: "Amile sneaked out of the house to talk to Thingo.", start: 29, end: 34 },
+    { text: "On moving day,", start: 0, end: 2 },
+    { text: "Amile sneaked out of the house to talk to Thingo.", start: 3, end: 6 },
   ],
   [
-    { text: "“I don’t want to leave you,” she whispered,", start: 35, end: 37 },
-    { text: "brushing her fingers gently over one of its leaves.", start: 38, end: 40 },
-    { text: "“Even though you're just a plant, you’re still my friend.", start: 41, end: 43 },
-    { text: "I love talking to you, I love looking after you,” she sighed.", start: 44, end: 46 },
+    { text: "“I don’t want to leave you,” she whispered,", start: 7, end: 9 },
+    { text: "brushing her fingers gently over one of its leaves.", start: 10, end: 13 },
+    { text: "“Even though you're just a plant, you’re still my friend.", start: 14, end: 16 },
+    { text: "I love talking to you, I love looking after you,” she sighed.", start: 17, end: 19 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Ngosuku lokuthutha,", start: 25, end: 28 },
-    { text: "uAmile waphumela ngaphandle eyokhuluma noThingo.", start: 29, end: 34 },
+    { text: "Ngosuku lokuthutha,", start: 0, end: 2 },
+    { text: "uAmile waphumela ngaphandle eyokhuluma noThingo.", start: 3, end: 6 },
   ],
   [
-    { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 35, end: 37 },
-    { text: "ehambisa iminwe yakhe ngobumnene kwelinye lamaqabunga.", start: 38, end: 40 },
-    { text: "“Noma uyisitshalo nje, usengumngane wami.", start: 41, end: 43 },
-    { text: "Ngiyathanda ukukhuluma nawe futhi ngiyathanda ukukunakekela,” eqhubeka.", start: 44, end: 46 },
+    { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 7, end: 9 },
+    { text: "ehambisa iminwe yakhe ngobumnene kwelinye lamaqabunga.", start: 10, end: 13 },
+    { text: "“Noma uyisitshalo nje, usengumngane wami.", start: 14, end: 16 },
+    { text: "Ngiyathanda ukukhuluma nawe futhi ngiyathanda ukukunakekela,” eqhubeka.", start: 17, end: 19 },
   ]
 ]
     }

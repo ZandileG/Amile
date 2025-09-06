@@ -8,12 +8,12 @@ function Page14(){
 
      const transcripts = {
       en: [
-    { text: "Unnoticed by them,", start: 133, end: 137 },
-    { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 138, end: 143 },
+    { text: "Unnoticed by them,", start: 0, end: 1 },
+    { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 2, end: 5 },
    ],
       zu: [
-    { text: "Benganakile,", start: 133, end: 137 },
-    { text: "kwavela ukukhanya okukhazimulayo emhlabathini lapho batshale khona imbewu.", start: 138, end: 143 },
+    { text: "Benganakile,", start: 0, end: 1 },
+    { text: "kwavela ukukhanya okukhazimulayo emhlabathini lapho batshale khona imbewu.", start: 2, end: 5 },
   ]
 };
     const transcript = transcripts[language];

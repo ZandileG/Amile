@@ -8,15 +8,15 @@ function Page28(){
 
   const transcripts = {
      en: [
-    { text: "Suddenly, the ground trembled.", start: 152, end: 155 },
-    { text: "Amile and her dad quickly stood up and took a step back.", start: 156, end: 160 },
-    { text: "Khaya and Amile’s mom did the same.", start: 161, end: 164 },
+    { text: "Suddenly, the ground trembled.", start: 0, end: 3 },
+    { text: "Amile and her dad quickly stood up and took a step back.", start: 4, end: 8 },
+    { text: "Khaya and Amile’s mom did the same.", start: 9, end: 11 },
     ],
   
      zu: [
-    { text: "kwavevezela umhlaba", start: 149, end: 150 },
-    { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 151, end: 155 },
-    { text: "UKhaya noma kaAmile benza okufanayo.", start: 156, end: 158 },
+    { text: "kwavevezela umhlaba", start: 0, end: 3 },
+    { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 4, end: 8 },
+    { text: "UKhaya noma kaAmile benza okufanayo.", start: 9, end: 11 },
     ]
   };
     const transcript = transcripts[language];

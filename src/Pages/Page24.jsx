@@ -10,29 +10,29 @@ function Page24(){
       en: {
       paragraphs: [
   [
-    { text: "Khaya knew where Amile was,", start: 69, end: 72 },
-    { text: "and she showed Amile’s parents where she was hiding.", start: 73, end: 78 },
-    { text: "They found her behind the shed, pouring water onto Thingo’s soil.", start: 79, end: 84 },
+    { text: "Khaya knew where Amile was,", start: 0, end: 3 },
+    { text: "and she showed Amile’s parents where she was hiding.", start: 4, end: 8 },
+    { text: "They found her behind the shed, pouring water onto Thingo’s soil.", start: 9, end: 13 },
   ],
   [
-    { text: "“Amile,” her dad sighed,", start: 85, end: 87 },
-    { text: "“what are you doing?", start: 88, end: 90 },
-    { text: "We told you that saving water is important.", start: 91, end: 93 },
-    { text: "You can’t waste it on this thing.", start: 94, end: 96 },
+    { text: "“Amile,” her dad sighed,", start: 14, end: 15 },
+    { text: "“what are you doing?", start: 16, end: 17 },
+    { text: "We told you that saving water is important.", start: 18, end: 20 },
+    { text: "You can’t waste it on this thing.", start: 21, end: 23 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "UKhaya bekazi ukuthi uAmile ukuphi,", start: 69, end: 72 },
-    { text: "futhi wakhombisa abazali bakaAmile lapho ayecashe khona.", start: 73, end: 78 },
-    { text: "Bamthola ethela amanzi enhlabathini kaThingo.", start: 79, end: 84 },
+    { text: "UKhaya bekazi ukuthi uAmile ukuphi,", start: 0, end: 3 },
+    { text: "futhi wakhombisa abazali bakaAmile lapho ayecashe khona.", start: 4, end: 8 },
+    { text: "Bamthola ethela amanzi enhlabathini kaThingo.", start: 9, end: 13 },
   ],
     [
-    { text: "“Amile,” kusho ubab’ wakhe,", start: 85, end: 87 },
-    { text: "“wenzani? Sakutshela ukuthi ukonga amanzi kubalulekile.", start: 88, end: 90 },
-    { text: "Awukwazi ukuwachitha kulokhula.” ", start: 91, end: 93 },
+    { text: "“Amile,” kusho ubab’ wakhe,", start: 14, end: 15 },
+    { text: "“wenzani? Sakutshela ukuthi ukonga amanzi kubalulekile.", start: 16, end: 17 },
+    { text: "Awukwazi ukuwachitha kulokhula.” ", start: 18, end: 19 },
   ]
 ]
     }

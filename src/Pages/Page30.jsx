@@ -8,20 +8,20 @@ function Page30(){
   
   const transcripts = {
       en: [
-    { text: "A rumble echoed in the sky.", start: 26, end: 30 },
-    { text: "Amile, Khaya and her parents looked up.", start: 31, end: 34 },
-    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 35, end: 40 },
-    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 41, end: 45 },
-    { text: "big, bold splashes.", start: 46, end: 47 },
-    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 48, end: 55 },
+    { text: "A rumble echoed in the sky.", start: 0, end: 2 },
+    { text: "Amile, Khaya and her parents looked up.", start: 3, end: 5 },
+    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 6, end: 8 },
+    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 9, end: 11 },
+    { text: "big, bold splashes.", start: 12, end: 13 },
+    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 14, end: 16 },
       ],
     zu: [
-    { text: "Kwaduma izulu.", start: 26, end: 30 },
-    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 31, end: 34 },
-    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 35, end: 40 },
-    { text: "Umoya washintsha,", start: 41, end: 42 },
-    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 43, end: 48 },
-    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 49, end: 55 },
+    { text: "Kwaduma izulu.", start: 0, end: 2 },
+    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 3, end: 5 },
+    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 6, end: 9 },
+    { text: "Umoya washintsha,", start: 10, end: 11 },
+    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 12, end: 14 },
+    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 15, end: 19 },
       ]
   };
     const transcript = transcripts[language];

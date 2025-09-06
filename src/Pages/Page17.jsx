@@ -10,28 +10,28 @@ function Page17(){
       en: {
       paragraphs: [
   [
-    { text: "But one afternoon, Amile saw a sprout poking through the soil.", start: 43, end: 48 },
-    { text: "Unlike the brittle brown grass around it,", start: 49, end: 54 },
-    { text: "this sprout was blue-green and sparkled in the sunlight.", start: 55, end: 60 },
+    { text: "But one afternoon, Amile saw a sprout poking through the soil.", start: 0, end: 5 },
+    { text: "Unlike the brittle brown grass around it,", start: 6, end: 9 },
+    { text: "this sprout was blue-green and sparkled in the sunlight.", start: 10, end: 13 },
   ],
   [
-    { text: "Amile gasped,", start: 61, end: 63 },
-    { text: "You’re alive!", start: 64, end: 69 },
-    { text: "She ran over to Khaya’s house and brought her over to see it.", start: 70, end: 72 },
+    { text: "Amile gasped,", start: 14, end: 15 },
+    { text: "You’re alive!", start: 16, end: 17 },
+    { text: "She ran over to Khaya’s house and brought her over to see it.", start: 18, end: 22 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Kodwa ngenye intambama, uAmile wabona isithombo sihluma emhlabathini.", start: 43, end: 48 },
-    { text: "Ngokungafani notshani obunsundu obuzungezile,", start: 49, end: 54 },
-    { text: "leli hlumela laliluhlaza okwesibhakabhaka futhi likhazimula elangeni.", start: 55, end: 60 },
+    { text: "Kodwa ngenye intambama, uAmile wabona isithombo sihluma emhlabathini.", start: 0, end: 5 },
+    { text: "Ngokungafani notshani obunsundu obuzungezile,", start: 6, end: 9 },
+    { text: "leli hlumela laliluhlaza okwesibhakabhaka futhi likhazimula elangeni.", start: 10, end: 13 },
   ],
   [
-    { text: "Ha, uyaphila!”", start: 61, end: 63 },
-    { text: "kusho uAmile ngokumangala.", start: 64, end: 69 },
-    { text: "Wagijima wayolanda uKhaya kubo wamletha ukuze ayibone.", start: 70, end: 72 },
+    { text: "Ha, uyaphila!”", start: 14, end: 15 },
+    { text: "kusho uAmile ngokumangala.", start: 16, end: 17 },
+    { text: "Wagijima wayolanda uKhaya kubo wamletha ukuze ayibone.", start: 18, end: 22 },
   ]
 ]
     }

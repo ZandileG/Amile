@@ -10,28 +10,28 @@ function Page23(){
       en: {
       paragraphs: [
   [
-    { text: "Amile stepped into the shed,", start: 47, end: 50 },
-    { text: "reaching for the last bit of water sitting at the bottom of the water container.", start: 51, end: 56 },
-    { text: "Suddenly, she heard her parents’ voices calling out to her.", start: 57, end: 59 },
+    { text: "Amile stepped into the shed,", start: 0, end: 3 },
+    { text: "reaching for the last bit of water sitting at the bottom of the water container.", start: 4, end: 9 },
+    { text: "Suddenly, she heard her parents’ voices calling out to her.", start: 10, end: 12 },
   ],
   [
-    { text: "“Mimi where are you?” said her mom,", start: 60, end: 62 },
-    { text: "“Khaya’s here to say goodbye.”", start: 63, end: 65 },
-    { text: "Amile said nothing.", start: 66, end: 68 },
+    { text: "“Mimi where are you?” said her mom,", start: 13, end: 14 },
+    { text: "“Khaya’s here to say goodbye.”", start: 15, end: 16 },
+    { text: "Amile said nothing.", start: 17, end: 18 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wangena egumbini lokugcina amanzi,", start: 47, end: 50 },
-    { text: "ukuze azonisela uThingo okokugcina.", start: 51, end: 56 },
-    { text: "Ngokuphazima kweso, wezwa amazwi wabazali bakhe bememeza.", start: 57, end: 59 },
+    { text: "UAmile wangena egumbini lokugcina amanzi,", start: 0, end: 3 },
+    { text: "ukuze azonisela uThingo okokugcina.", start: 4, end: 9 },
+    { text: "Ngokuphazima kweso, wezwa amazwi wabazali bakhe bememeza.", start: 10, end: 12 },
   ],
   [
-    { text: "“Mimi ukuphi?” kusho uma wakhe,", start: 60, end: 62 },
-    { text: "“uKhaya uzile ukuzovalelisa.”", start: 63, end: 65 },
-    { text: "UAmile wathula.", start: 66, end: 68 },
+    { text: "“Mimi ukuphi?” kusho uma wakhe,", start: 13, end: 14 },
+    { text: "“uKhaya uzile ukuzovalelisa.”", start: 15, end: 16 },
+    { text: "UAmile wathula.", start: 17, end: 18 },
   ]
 ]
     }

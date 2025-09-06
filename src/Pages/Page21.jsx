@@ -12,9 +12,9 @@ function Page21(){
       dropCapText: "ACH DAY,",
       lines: [
     { text: "Thingo grew taller and stranger,", start: 0, end: 8 },
-    { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 9, end: 18 },
-    { text: "Its leaves were shaped like stars and at night,", start: 19, end: 21 },
-    { text: "they glowed softly in the moonlight.", start: 22, end: 24 },
+    { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 9, end: 16 },
+    { text: "Its leaves were shaped like stars and at night,", start: 17, end: 19 },
+    { text: "they glowed softly in the moonlight.", start: 20, end: 22 },
     ]
   },
     zu: {
@@ -22,9 +22,9 @@ function Page21(){
     dropCapText: "SUKU NOSUKU,",
     lines: [
     { text: "uThingo wayekhula eba mude,", start: 0, end: 8 },
-    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 9, end: 18 },
-    { text: "Amaqabunga akhe ayemile njengezinkanyezi,", start: 19, end: 21 },
-    { text: "futhi ebusuku, ayekhazimula ekukhanyeni kwenyanga.", start: 22, end: 24 },
+    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 9, end: 16 },
+    { text: "Amaqabunga akhe ayemile njengezinkanyezi,", start: 17, end: 19 },
+    { text: "futhi ebusuku, ayekhazimula ekukhanyeni kwenyanga.", start: 20, end: 22 },
       ]
     }
   };

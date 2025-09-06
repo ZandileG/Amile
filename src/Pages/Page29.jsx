@@ -11,19 +11,19 @@ function Page29(){
       dropCap: "A ",
       dropCapText: " LOW HUM",
       lines: [
-    { text: "filled the air and Thingo began to glow.", start: 0, end: 10 },
-    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 11, end: 18 },
-    { text: "The glow rippled through the soil and spread across the garden,", start: 19, end: 21 },
-    { text: "up the hill, and down the streets of Dumakude.", start: 22, end: 25 },
+    { text: "filled the air and Thingo began to glow.", start: 0, end: 6 },
+    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 7, end: 12 },
+    { text: "The glow rippled through the soil and spread across the garden,", start: 13, end: 15 },
+    { text: "up the hill, and down the streets of Dumakude.", start: 16, end: 19 },
   ]
 },
        zu: {
     dropCap: "K",
     dropCapText: "UBE NOKUTHULA",
     lines: [
-    { text: "emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 10 },
-    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 11, end: 19 },
-    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 20, end: 25 },
+    { text: "emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 6 },
+    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 7, end: 12 },
+    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 13, end: 15 },
   ]
 }
 };

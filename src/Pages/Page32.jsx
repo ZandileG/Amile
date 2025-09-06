@@ -8,11 +8,11 @@ function Page32(){
 
     const transcripts = {
       en: [
-    { text: "Thingo had awakened something in the town,", start: 91, end: 95 },
-    { text: "magic that was thought to be gone.", start: 96, end: 98 },
+    { text: "Thingo had awakened something in the town,", start: 0, end: 2 },
+    { text: "magic that was thought to be gone.", start: 3, end: 5 },
   ],
       zu: [
-    { text: "UThingo wayevuse okuthile eDumakude, umlingo okwakuthiwa awuseko.", start: 91, end: 98 },
+    { text: "UThingo wayevuse okuthile eDumakude, umlingo okwakuthiwa awuseko.", start: 0, end: 2 },
   ]
 };
     const transcript = transcripts[language];

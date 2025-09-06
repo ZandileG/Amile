@@ -10,23 +10,23 @@ function Page25(){
       en: {
       paragraphs: [
    [
-    { text: "“But…I’m not wasting water!”", start: 97, end: 99 },
-    { text: "Amile shouted. “Thingo is my friend.”", start: 100, end: 102 },
+    { text: "“But…I’m not wasting water!”", start: 0, end: 2 },
+    { text: "Amile shouted. “Thingo is my friend.”", start: 3, end: 5 },
   ],
    [
-    { text: "“Your friend?” said Khaya", start: 103, end: 105 },
-    { text: "eyes narrowed with her arms across her chest.", start: 106, end: 108 },
+    { text: "“Your friend?” said Khaya", start: 6, end: 8 },
+    { text: "eyes narrowed with her arms across her chest.", start: 9, end: 11 },
   ]
       ]
 },
       zu: {
       paragraphs: [
     [
-    { text: "“Kodwa...akuwona ukhula!” kusho uAmile ememeza.", start: 97, end: 99 },
-    { text: "“UThingo ungumngane wami.”", start: 100, end: 102 },
+    { text: "“Kodwa...akuwona ukhula!” kusho uAmile ememeza.", start: 0, end: 2 },
+    { text: "“UThingo ungumngane wami.”", start: 3, end: 5 },
   ],
   [
-    { text: "“UMngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 103, end: 105 },
+    { text: "“UMngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 6, end: 8 },
   ]
 ]
     }

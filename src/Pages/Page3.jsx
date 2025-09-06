@@ -4,7 +4,7 @@ import Image3 from "../Images/Image3.png";
 import "../Styles/Page.css";
 
 function Page3(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
   
       const transcripts = {
         en: [

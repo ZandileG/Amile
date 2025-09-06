@@ -8,17 +8,17 @@ function Page27(){
   
      const transcripts = {
       en: [
-    { text: "Amile’s mom placed her hands on her hips,", start: 133, end: 136 },
-    { text: "her face less friendly than before.", start: 137, end: 142 },
-    { text: "Her dad noticed the look and stepped forward,", start: 143, end: 145 },
-    { text: "reaching toward Amile ready to lift her off the ground,", start: 146, end: 148 },
-    { text: "whether she liked it or not.", start: 149, end: 151 },
+    { text: "Amile’s mom placed her hands on her hips,", start: 0, end: 4 },
+    { text: "her face less friendly than before.", start: 5, end: 7 },
+    { text: "Her dad noticed the look and stepped forward,", start: 8, end: 11 },
+    { text: "reaching toward Amile ready to lift her off the ground,", start: 12, end: 14 },
+    { text: "whether she liked it or not.", start: 15, end: 16 },
    ],
       zu: [
-    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 133, end: 136 },
-    { text: "ebukeka ethukuthele kunakuqala.", start: 137, end: 142 },
-    { text: "Ubab’ wakhe wakubona lokho waguqa phambi kukaAmile", start: 143, end: 145 },
-    { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 146, end: 148 },
+    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 0, end: 4 },
+    { text: "ebukeka ethukuthele kunakuqala.", start: 5, end: 7 },
+    { text: "Ubab’ wakhe wakubona lokho waguqa phambi kukaAmile", start: 8, end: 11 },
+    { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 12, end: 14 },
   ]
 };
     const transcript = transcripts[language];

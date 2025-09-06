@@ -10,26 +10,26 @@ function Page19(){
       en: {
       paragraphs: [
   [
-    { text: "“Why is it blue?", start: 85, end: 88 },
-    { text: "Plants aren't supposed to be blue,” said Khaya.", start: 89, end: 94 },
+    { text: "“Why is it blue?", start: 0, end: 2 },
+    { text: "Plants aren't supposed to be blue,” said Khaya.", start: 3, end: 6 },
   ],
   [
-    { text: "“I don’t know, maybe this one is special,” said Amile.", start: 95, end: 97 },
-    { text: "“I want to name it Thingo,", start: 98, end: 100 },
-    { text: "my little rainbow flower” she continued.", start: 101, end: 103 },
+    { text: "“I don’t know, maybe this one is special,” said Amile.", start: 7, end: 10 },
+    { text: "“I want to name it Thingo,", start: 11, end: 13 },
+    { text: "my little rainbow flower” she continued.", start: 14, end: 17 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Kungani iluhlaza okwesibhakabhaka?", start: 85, end: 88 },
-    { text: "Izitshalo akufanele zibe nombala onje,” kusho uKhaya.", start: 89, end: 94 },
+    { text: "Kungani iluhlaza okwesibhakabhaka?", start: 0, end: 2 },
+    { text: "Izitshalo akufanele zibe nombala onje,” kusho uKhaya.", start: 3, end: 6 },
   ],
   [
-    { text: "“Angazi, mhlawumbe lena ihlukile,” kusho uAmile.", start: 95, end: 97 },
-    { text: "“Ngifuna ukuyiqamba igama elithi Thingo,", start: 98, end: 100 },
-    { text: "ngoba enemibala emihle,” eqhubeka.", start: 101, end: 103 },
+    { text: "“Angazi, mhlawumbe lena ihlukile,” kusho uAmile.", start: 7, end: 10 },
+    { text: "“Ngifuna ukuyiqamba igama elithi Thingo,", start: 11, end: 13 },
+    { text: "ngoba enemibala emihle,” eqhubeka.", start: 14, end: 17 },
   ]
 ]
     }

@@ -8,12 +8,12 @@ function Page34(){
   
      const transcripts = {
       en: [
-    { text: "After a while,", start: 113, end: 114 },
-    { text: "Khaya ran back home to celebrate with her family.", start: 115, end: 117 },
+    { text: "After a while,", start: 0, end: 1 },
+    { text: "Khaya ran back home to celebrate with her family.", start: 2, end: 5 },
    ],
       zu: [
-    { text: "Ngemva kwesikhashana,", start: 113, end: 114 },
-    { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 115, end: 117 },
+    { text: "Ngemva kwesikhashana,", start: 0, end: 1 },
+    { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 2, end: 5 },
   ]
 };
     const transcript = transcripts[language];
