@@ -4,7 +4,7 @@ import Image8 from "../Images/Image8.png";
 import "../Styles/Page.css";
 
 function Page8(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
   
     const transcripts = {
       en: {
@@ -14,7 +14,7 @@ function Page8(){
   ],
   [
     { text: "Tucked between pebbles and weeds, was a small, round, glowing object.", start: 9, end: 15 },
-    { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 16, end: 25 },
+    { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 16, end: 23 },
   ]
       ]
 },
@@ -25,7 +25,7 @@ function Page8(){
   ],
   [
     { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 9, end: 15 },
-    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 16, end: 25 },
+    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 16, end: 23 },
   ]
 ]
     }

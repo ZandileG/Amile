@@ -4,38 +4,38 @@ import Image6 from "../Images/Image6.png";
 import "../Styles/Page.css";
 
 function Page6(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
   
     const transcripts = {
       en: {
         paragraphs: [
   [
-    { text: "“But what about our neighbours? What about my friends?", start: 0, end: 9 },
-    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 10, end: 15 },
+    { text: "“But what about our neighbours? What about my friends?", start: 0, end: 4 },
+    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 5, end: 9 },
   ],
   [
-    { text: "“I know it’s hard Mimi, but there's no more water,", start: 16, end: 18 },
-    { text: "we can’t stay here anymore. Please understand,”", start: 19, end: 22 },
-    { text: "said her dad while gently squeezing her hand.", start: 23, end: 27 },
+    { text: "“I know it’s hard Mimi, but there's no more water,", start: 10, end: 14 },
+    { text: "we can’t stay here anymore. Please understand,”", start: 15, end: 19 },
+    { text: "said her dad while gently squeezing her hand.", start: 20, end: 24 },
   ],
   [
-    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 28, end: 32 },
+    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 25, end: 28 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 0, end: 9 },
-    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 10, end: 15 },
+    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 0, end: 4 },
+    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 5, end: 9 },
   ],
   [
-    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 16, end: 18 },
-    { text: "ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 19, end: 22 },
-    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 23, end: 27 },
+    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 10, end: 14 },
+    { text: "ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 15, end: 19 },
+    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 20, end: 24 },
   ],
    [
-    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 28, end: 32 },
+    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 25, end: 28 },
   ]
 ]
     }

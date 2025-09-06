@@ -4,34 +4,34 @@ import Image9 from "../Images/Image9.png";
 import "../Styles/Page.css";
 
 function Page9(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
   
     const transcripts = {
       en: {
         paragraphs: [
   [
-    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 7 },
-    { text: "“It looks like a seed.”", start: 8, end: 9 },
+    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 4 },
+    { text: "“It looks like a seed.”", start: 5, end: 6 },
   ],
   [
-    { text: "“It’s so pretty,” said Khaya.", start: 10, end: 12 },
+    { text: "“It’s so pretty,” said Khaya.", start: 7, end: 8 },
   ],
   [
-    { text: "Amile nodded. “I think we should plant it and see what kind of flower it becomes.”", start: 13, end: 20 },
+    { text: "Amile nodded. “I think we should plant it and see what kind of flower it becomes.”", start: 9, end: 12 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wayicosha, wayifaka ezandleni zakhe wase ethi,", start: 26, end: 31 },
-    { text: "“Ibukeka njengembewu.”", start: 32, end: 36 },
+    { text: "UAmile wayicosha, wayifaka ezandleni zakhe wase ethi,", start: 0, end: 4 },
+    { text: "“Ibukeka njengembewu.”", start: 5, end: 6 },
   ],
   [
-    { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 37, end: 41 },
+    { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 7, end: 8 },
   ],
   [
-    { text: "UAmile wavuma naye. “Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 42, end: 50 },
+    { text: "UAmile wavuma naye. “Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 9, end: 13 },
   ]
 ]
     }

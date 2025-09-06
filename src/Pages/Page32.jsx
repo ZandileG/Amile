@@ -4,7 +4,7 @@ import Image32 from "../Images/Image32.png";
 import "../Styles/Page.css";
 
 function Page32(){
-const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
 
     const transcripts = {
       en: [

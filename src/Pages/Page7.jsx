@@ -4,7 +4,7 @@ import Image7 from "../Images/Image7.png";
 import "../Styles/Page.css";
 
 function Page7(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
 
   const transcripts = {
     en: {
@@ -12,7 +12,7 @@ function Page7(){
       dropCapText: "HE NEXT DAY,",
       lines: [
     { text: "while wandering near the edge of a dried-up riverbed,", start: 0, end: 5 },
-    { text: "Amile and Khaya spotted something odd.", start: 6, end: 10 },
+    { text: "Amile and Khaya spotted something odd.", start: 6, end: 8 },
     ]
   },
     zu: {
@@ -20,7 +20,7 @@ function Page7(){
     dropCapText: "GOSUKU OLULANDELAYO",
     lines: [
     { text: "ngenkathi bezulazula eduze komfula owomile,", start: 0, end: 5 },
-    { text: "uAmile noKhaya babona into eyinqaba.", start: 6, end: 10 },
+    { text: "uAmile noKhaya babona into eyinqaba.", start: 6, end: 8 },
       ]
     }
   };

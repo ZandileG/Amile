@@ -4,32 +4,32 @@ import Image5 from "../Images/Image5.png";
 import "../Styles/Page.css";
 
 function Page5(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
   
     const transcripts = {
       en: {
         paragraphs: [
   [
-    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 10 },
-    { text: "“Mimi,” he began gently,", start: 11, end: 15 },
-    { text: "“We have to leave Dumakude.”", start: 16, end: 20 },
+    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 5 },
+    { text: "“Mimi,” he began gently,", start: 6, end: 8 },
+    { text: "“We have to leave Dumakude.”", start: 9, end: 11 },
   ],
   [
-    { text: "Amile froze. Her eyes grew wide,", start: 21, end: 23 },
-    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 24, end: 26 },
+    { text: "Amile froze. Her eyes grew wide,", start: 12, end: 14 },
+    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 15, end: 18 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 15 },
-    { text: "“Mimi,” washo ngesineke,", start: 16, end: 20 },
-    { text: "“kufanele sihambe eDumakude.”", start: 21, end: 25 },
+    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 6 },
+    { text: "“Mimi,” washo ngesineke,", start: 7, end: 11 },
+    { text: "“kufanele sihambe eDumakude.”", start: 12, end: 16 },
   ],
   [
-    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 26, end: 28 },
-    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 29, end: 31 },
+    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 17, end: 19 },
+    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 20, end: 23 },
   ]
 ]
     }
