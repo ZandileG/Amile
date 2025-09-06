@@ -17,7 +17,7 @@ function Page20(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page">
+    <section className="page-even">
       <p className="page-text">
         {transcript.map((line, i) => {
           const isActive =currentTime >= line.start && currentTime <= line.end;

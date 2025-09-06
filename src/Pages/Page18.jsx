@@ -33,7 +33,7 @@ function Page18(){
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page">
+    <section className="page-even">
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>

@@ -18,7 +18,7 @@ const { currentTime, language } = useContext(MusicContext);
     const transcript = transcripts[language];
 
   return(
-    <section className="page">
+    <section className="page-even">
 
       <p className="page-text">
         {transcript.map((line, i) => {

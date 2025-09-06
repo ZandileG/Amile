@@ -1,10 +1,13 @@
 import React from "react";
+import CoverImage from "../Images/CoverImage.png";
+import CoverImage2 from "../Images/CoverImage2.png";
 import "../Styles/Page.css";
 
 function Cover(){
   return(
     <section className="page">
-    <section className="page-cover"></section>
+      <img src={CoverImage} alt="Cover" className="cover-image" />
+      <img src={CoverImage2} alt="Cover" className="cover-image2" />
     </section>
   );
 }

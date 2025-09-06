@@ -23,7 +23,7 @@ function Page33(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page">
+    <section className="page-odd">
       <img src={Image33} alt="Page 33" className="page-image-33" />
 
       <p className="page-text">

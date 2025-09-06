@@ -48,7 +48,7 @@ const { currentTime, language } = useContext(MusicContext);
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page">
+    <section className="page-odd">
       <img src={Image31} alt="Page 31" className="page-image-31" />
 
     <section className="page-text">

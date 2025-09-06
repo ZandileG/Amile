@@ -31,7 +31,7 @@ function Page21(){
       const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(
-     <section className="page">
+     <section className="page-odd">
     <section className="drop-cap-container">
       <section className="drop-cap">{dropCap}</section>
       <section className="drop-cap-text">{dropCapText}</section>
