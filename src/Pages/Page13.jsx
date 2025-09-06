@@ -24,7 +24,7 @@ function Page13(){
 
       <p className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 13 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}

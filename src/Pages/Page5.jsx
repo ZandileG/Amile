@@ -10,26 +10,26 @@ function Page5(){
       en: {
         paragraphs: [
   [
-    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 106, end: 110 },
-    { text: "“Mimi,” he began gently,", start: 111, end: 115 },
-    { text: "“We have to leave Dumakude.”", start: 116, end: 120 },
+    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 10 },
+    { text: "“Mimi,” he began gently,", start: 11, end: 15 },
+    { text: "“We have to leave Dumakude.”", start: 16, end: 20 },
   ],
   [
-    { text: "Amile froze. Her eyes grew wide,", start: 121, end: 123 },
-    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 124, end: 126 },
+    { text: "Amile froze. Her eyes grew wide,", start: 21, end: 23 },
+    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 24, end: 26 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 106, end: 110 },
-    { text: "“Mimi,” washo ngesineke,", start: 111, end: 115 },
-    { text: "“kufanele sihambe eDumakude.”", start: 116, end: 120 },
+    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 15 },
+    { text: "“Mimi,” washo ngesineke,", start: 16, end: 20 },
+    { text: "“kufanele sihambe eDumakude.”", start: 21, end: 25 },
   ],
   [
-    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 121, end: 123 },
-    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 124, end: 126 },
+    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 26, end: 28 },
+    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 29, end: 31 },
   ]
 ]
     }
@@ -44,7 +44,7 @@ function Page5(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {
-        const isActive = currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 5 && currentTime >= line.start && currentTime <= line.end;
         return (
           <span key={i} className={isActive ? "highlight" : ""}>
             {line.text + " "}

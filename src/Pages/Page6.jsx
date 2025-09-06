@@ -10,32 +10,32 @@ function Page6(){
       en: {
         paragraphs: [
   [
-    { text: "“But what about our neighbours? What about my friends?", start: 127, end: 132 },
-    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 133, end: 138 },
+    { text: "“But what about our neighbours? What about my friends?", start: 0, end: 9 },
+    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 10, end: 15 },
   ],
   [
-    { text: "“I know it’s hard Mimi, but there's no more water,", start: 139, end: 143 },
-    { text: "we can’t stay here anymore. Please understand,”", start: 144, end: 147 },
-    { text: "said her dad while gently squeezing her hand.", start: 148, end: 152 },
+    { text: "“I know it’s hard Mimi, but there's no more water,", start: 16, end: 18 },
+    { text: "we can’t stay here anymore. Please understand,”", start: 19, end: 22 },
+    { text: "said her dad while gently squeezing her hand.", start: 23, end: 27 },
   ],
   [
-    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 153, end: 158 },
+    { text: "Amile nodded, but she felt a quiet storm growing inside her.", start: 28, end: 32 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 127, end: 132 },
-    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 133, end: 138 },
+    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 0, end: 9 },
+    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 10, end: 15 },
   ],
   [
-    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 139, end: 143 },
-    { text: "ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 144, end: 147 },
-    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 148, end: 152 },
+    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 16, end: 18 },
+    { text: "ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 19, end: 22 },
+    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 23, end: 27 },
   ],
    [
-    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 153, end: 158 },
+    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kuye.", start: 28, end: 32 },
   ]
 ]
     }
@@ -48,8 +48,8 @@ function Page6(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {
-        const isActive = currentTime >= line.start && currentTime <= line.end;
-        return (
+        const isActive = currentPage === 6 && currentTime >= line.start && currentTime <= line.end;
+        return(
           <span key={i} className={isActive ? "highlight" : ""}>
             {line.text + " "}
           </span>

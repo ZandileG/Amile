@@ -11,7 +11,7 @@ import Zulu from "../Images/Zulu.png";
 import English from "../Images/English.png";
 import "../App.css";
 
-function Navbar({ goToPage, visible, chapters, currentPage }){
+function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){
   const { musicPlaying, playMusic, narrationPlaying, playNarration, 
           toggleNarration, language, changeLanguage } = useContext(MusicContext);
   
@@ -21,13 +21,12 @@ function Navbar({ goToPage, visible, chapters, currentPage }){
 
 //When the narration button is clicked, it plays the narration for the current chapter
   function handleNarrationClick(){
-    if (!currentChapterNumber) return; 
-    if (!narrationPlaying){
-      playNarration(currentChapterNumber);
-    } else {
-    //This pauses/resumes the narration
-      toggleNarration();
-    }
+   if (currentPage === 0 || currentPage === pageCount - 1) return; 
+   if (!narrationPlaying) {
+    playNarration(currentPage);
+  } else {
+    toggleNarration();
+  }
   }
 
   return(

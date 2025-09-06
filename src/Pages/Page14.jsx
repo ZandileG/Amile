@@ -22,7 +22,7 @@ function Page14(){
     <section className="page-even">
       <p className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 14 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}

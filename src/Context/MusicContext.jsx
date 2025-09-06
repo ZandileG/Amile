@@ -87,7 +87,7 @@ export function MusicProvider({ children }){
 
   const narrationRef = useRef(null);
   const [narrationPlaying, setNarrationPlaying] = useState(false);
-  const [currentChapter, setCurrentChapter] = useState(null);
+  const [currentPage, setCurrentPage] = useState(null);
   const [currentTime, setCurrentTime] = useState(0);
   const [language, setLanguage] = useState("en");
 
@@ -97,7 +97,7 @@ export function MusicProvider({ children }){
           12: Page12, 13: Page13, 14: Page14, 15: Page15, 16: Page16, 17: Page17, 18: Page18, 19: Page19, 20: Page20, 
           21: Page21, 22: Page22, 23: Page23, 24: Page24, 25: Page25, 26: Page26, 27: Page27, 28: Page28, 29: Page29, 
           30: Page30, 31: Page31, 32: Page32, 33: Page33, 34: Page34, 35: Page35, 36: Page36 },
-          
+
     zu: { 1: Page1_Z, 2: Page2_Z, 3: Page3_Z, 4: Page4_Z, 5: Page5_Z , 6: Page6_Z, 7: Page7_Z, 8: Page8_Z, 9: Page9_Z, 
           10: Page10_Z, 11: Page11_Z, 12: Page12_Z, 13: Page13_Z, 14: Page14_Z, 15: Page15_Z, 16: Page16_Z, 17: Page17_Z, 
           18: Page18_Z, 19: Page19_Z, 20: Page20_Z, 21: Page21_Z, 22: Page22_Z, 23: Page23_Z, 24: Page24_Z, 25: Page25_Z, 
@@ -127,8 +127,8 @@ function changeLanguage(){
     }
   }
 
-function playNarration(chapterNumber){
-  const audioFile = narrations[language][chapterNumber];
+function playNarration(pageNumber){
+  const audioFile = narrations[language][pageNumber];
   if (!audioFile) return;
 
   if (narrationRef.current){
@@ -136,19 +136,27 @@ function playNarration(chapterNumber){
     narrationRef.current.currentTime = 0;
   }
 
-  narrationRef.current = new Audio(audioFile);
-  narrationRef.current.play().catch(console.error);
+  const audio = new Audio(audioFile);
+  narrationRef.current = audio;
+  setCurrentPage(pageNumber); 
   setNarrationPlaying(true);
-  setCurrentChapter(chapterNumber);
 
-  narrationRef.current.ontimeupdate = () => {
-    setCurrentTime(narrationRef.current.currentTime);
+  audio.play().catch(console.error);
+
+  audio.ontimeupdate = () => {
+    setCurrentTime(audio.currentTime);
   };
 
-  narrationRef.current.onended = () => {
+  audio.onended = () => {
     setNarrationPlaying(false);
-    setCurrentChapter(null);
     setCurrentTime(0);
+
+    const nextPage = pageNumber + 1;
+    if (narrations[language][nextPage]){
+      playNarration(nextPage); 
+    } else {
+      setCurrentPage(null); 
+    }
   };
 }
 
@@ -165,7 +173,7 @@ function playNarration(chapterNumber){
 
   return(
     <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, 
-                           language, changeLanguage, currentChapter, narrationRef, currentTime } }>{children}
+                           language, changeLanguage, currentPage, narrationRef, currentTime } }>{children}
     </MusicContext.Provider>
   );
 }

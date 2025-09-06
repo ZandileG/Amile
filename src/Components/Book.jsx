@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, useContext } from "react";
+import { MusicContext } from "../Context/MusicContext";
 import HTMLFlipBook from "react-pageflip";
 
 import Bookmark from "../Images/Bookmark.png"
@@ -55,6 +56,7 @@ const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8,
 
 function Book(){
   const bookRef = useRef();
+  const { playNarration } = useContext(MusicContext);
 
   const [showNavbar, setShowNavbar] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
@@ -143,8 +145,8 @@ useEffect(() => {
    mobileScrollSupport={true}
    className="flipbook"
    ref={bookRef}
-   onFlip={e => setCurrentPage(e.data)}
-   usePortrait={isPortrait}>
+   usePortrait={isPortrait}
+   onFlip={(e) => setCurrentPage(e.data)}>
     
   {pages.map((PageComponent, index) => (
   <section key={index} className="book-page">

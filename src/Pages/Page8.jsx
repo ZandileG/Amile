@@ -10,22 +10,22 @@ function Page8(){
       en: {
         paragraphs: [
   [
-    { text: "“What’s that?” asked Khaya, pointing at the mysterious object on the ground.", start: 11, end: 15 },
+    { text: "“What’s that?” asked Khaya, pointing at the mysterious object on the ground.", start: 0, end: 8 },
   ],
   [
-    { text: "Tucked between pebbles and weeds, was a small, round, glowing object.", start: 16, end: 20 },
-    { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 21, end: 25 },
+    { text: "Tucked between pebbles and weeds, was a small, round, glowing object.", start: 9, end: 15 },
+    { text: "Its shell shimmered like a rainbow, as if it had captured the sun and the moon’s light all at once.", start: 16, end: 25 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 11, end: 15 },
+    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 0, end: 8 },
   ],
   [
-    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 16, end: 20 },
-    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 21, end: 25 },
+    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 9, end: 15 },
+    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 16, end: 25 },
   ]
 ]
     }
@@ -40,8 +40,8 @@ function Page8(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {
-        const isActive = currentTime >= line.start && currentTime <= line.end;
-        return (
+        const isActive = currentPage === 8 && currentTime >= line.start && currentTime <= line.end;
+        return(
           <span key={i} className={isActive ? "highlight" : ""}>
             {line.text + " "}
           </span>

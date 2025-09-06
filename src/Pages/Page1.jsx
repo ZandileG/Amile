@@ -4,7 +4,7 @@ import Image1 from "../Images/Image1.png";
 import "../Styles/Page.css";
 
 function Page1(){
-  const { currentTime, language } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
 
   const transcripts = {
     en: {
@@ -40,7 +40,7 @@ function Page1(){
 
       <p className="page-chapter">
         {lines.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 1 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}

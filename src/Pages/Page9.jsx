@@ -10,14 +10,14 @@ function Page9(){
       en: {
         paragraphs: [
   [
-    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 26, end: 31 },
-    { text: "“It looks like a seed.”", start: 32, end: 36 },
+    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 7 },
+    { text: "“It looks like a seed.”", start: 8, end: 9 },
   ],
   [
-    { text: "“It’s so pretty,” said Khaya.", start: 37, end: 41 },
+    { text: "“It’s so pretty,” said Khaya.", start: 10, end: 12 },
   ],
   [
-    { text: "Amile nodded. “I think we should plant it and see what kind of flower it becomes.”", start: 42, end: 50 },
+    { text: "Amile nodded. “I think we should plant it and see what kind of flower it becomes.”", start: 13, end: 20 },
   ]
       ]
 },
@@ -46,7 +46,7 @@ function Page9(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {
-        const isActive = currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 9 && currentTime >= line.start && currentTime <= line.end;
         return (
           <span key={i} className={isActive ? "highlight" : ""}>
             {line.text + " "}

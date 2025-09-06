@@ -38,7 +38,7 @@ const { currentTime, language } = useContext(MusicContext);
 
       <p className="page-chapter">
         {lines.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 29 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}

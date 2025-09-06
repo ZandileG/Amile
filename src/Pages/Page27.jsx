@@ -27,7 +27,7 @@ function Page27(){
     <section className="page-odd">
       <p className="page-text">
         {transcript.map((line, i) => {
-          const isActive =currentTime >= line.start && currentTime <= line.end;
+        const isActive = currentPage === 27 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}
