@@ -199,7 +199,7 @@
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: left;
   margin-left: 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .page-2, .page-4, .page-6, .page-8, .page-10, .page-12,
@@ -207,7 +207,7 @@
 .page-26, .page-28, .page-30, .page-32, .page-34, .page-36{
   text-align: right;
   margin-right: 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .title{
@@ -383,7 +383,7 @@
 }
 }
 
-@media (min-width: 970px) and (max-width: 1050px){
+@media (min-width: 1024px) and (max-width: 1050px){
 .page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
@@ -392,20 +392,12 @@
 
  .page-chapter, .page-text{
   font-size: 1.25rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 
-.page-heading{
-  font-size: 1.45rem;
-}
-
-.page-text{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.page-chapter{
-  padding-left: 4rem;
-  padding-right: 4rem;
+  .drop-cap-container{
+  margin-left: 4rem;
 }
 
 a{
@@ -413,12 +405,13 @@ a{
 }
 }
 
-@media (min-width: 970px) and (max-width: 1024px){
+@media (min-width: 970px) and (max-width: 1023px){
 .page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
 .page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
 .page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
   text-align: right;
-  margin-right: 0.75rem;
+  margin-right: 1.75rem;
+  padding-top: 4rem;
 }
 
 .page-chapter, .page-text{
@@ -427,12 +420,20 @@ a{
   font-size: 1.5rem;
 }
 
+.page-heading{
+  font-size: 1.45rem;
+}
+
 .page-odd, .page-even{
   padding-top: 2rem;
 }
 
 .drop-cap-container{
   margin-left: 9rem;
+}
+
+a{
+ font-size: 1.25rem;
 }
 }
 
@@ -444,14 +445,14 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 3rem;
+  margin-right: 1.5rem;
   padding-top: 4rem;
 }
 
  .page-chapter, .page-text{
   font-size: 1.25rem;
-  padding-left: 9rem;
-  padding-right: 9rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .page-heading{
@@ -463,7 +464,7 @@ a{
 }
 
 .drop-cap-container{
-  margin-left: 8rem;
+  margin-left: 7rem;
 }
 
 .drop-cap{
@@ -485,7 +486,6 @@ a{
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
   margin-right: 2rem;
-  margin-bottom: 1rem;
   padding-top: 4rem;
 }
 
@@ -562,7 +562,7 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 2rem;
+  margin-right: 1.25rem;
   padding-top: 2rem;
 }
 
@@ -601,7 +601,7 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 2rem;
+  margin-right: 1.25rem;
   padding-top: 2rem;
 }
 
@@ -644,7 +644,7 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 2rem;
+  margin-right: 2.5rem;
   padding-top: 3rem;
 }
 
@@ -687,7 +687,7 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 3rem;
+  margin-right: 2.75rem;
   padding-top: 2rem;
 }
 
@@ -738,7 +738,7 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 2.75rem;
+  margin-right: 2.5rem;
   padding-top: 2rem;
 }
 
@@ -781,7 +781,7 @@ a{
 .page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
 .page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
   text-align: right;
-  margin-right: 2rem;
+  margin-right: 1.75rem;
   padding-top: 2rem;
 }
 
@@ -820,7 +820,7 @@ a{
 }
 }
 
-@media (min-width: 250px) and (max-width: 800px){
+@media (max-width: 1023px){
   .cover-image{
     display: none;
   }
