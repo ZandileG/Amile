@@ -179,7 +179,7 @@
 .page-image-25-25, .page-image-26-26, .page-image-27-27, 
 .page-image-28-28, .page-image-29-29, .page-image-30-30,
 .page-image-31-31, .page-image-32-32, .page-image-33-33, 
-.page-image-34-34, .page-image-35-35{
+.page-image-34-34, .page-image-35-35, .page-image-36-36{
   display: none;
   width: 70%;
   height: auto;
@@ -211,7 +211,7 @@
 .page-image-22, .page-image-22-22, .page-image-23, .page-image-23-23,
 .page-image-26, .page-image-26-26, .page-image-28, .page-image-28-28,
 .page-image-30, .page-image-30-30, .page-image-31, .page-image-31-31,
-.page-image-33, .page-image-33-33, .page-image-36{
+.page-image-33, .page-image-33-33, .page-image-36, .page-image-36-36{
   margin-top: 3.5rem;
 }
 
@@ -628,7 +628,7 @@ a{
 .page-image-25-25, .page-image-26-26, .page-image-27-27, 
 .page-image-28-28, .page-image-29-29, .page-image-30-30,
 .page-image-31-31, .page-image-32-32, .page-image-33-33, 
-.page-image-34-34, .page-image-35-35{
+.page-image-34-34, .page-image-35-35, .page-image-36-36{
   display: block;
 }
 
