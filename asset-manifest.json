@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.a80b43d1.css",
-    "main.js": "/Amile/static/js/main.6cf0026f.js",
+    "main.js": "/Amile/static/js/main.9f2188b7.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -95,8 +95,8 @@
     "static/media/Image16-16.png": "/Amile/static/media/Image16-16.9e5b3a595260ab998426.png",
     "static/media/Image3-3.png": "/Amile/static/media/Image3-3.3e16bdf328d221f413a3.png",
     "static/media/Image15-15.png": "/Amile/static/media/Image15-15.8072e466477cfd4ff3a3.png",
+    "static/media/Image24-24.png": "/Amile/static/media/Image24-24.e5e89b74c1934b5c238b.png",
     "static/media/Image21-21.png": "/Amile/static/media/Image21-21.982e52f6b91a0abaf6db.png",
-    "static/media/Image24-24.png": "/Amile/static/media/Image24-24.f5a1dd3ecbf1d87657c9.png",
     "static/media/Image9-9.png": "/Amile/static/media/Image9-9.fff3c0283860833b3ab2.png",
     "static/media/Image11-11.png": "/Amile/static/media/Image11-11.cb799f4bda979d771ab6.png",
     "static/media/Image1-1.png": "/Amile/static/media/Image1-1.0b685d47ca658611af25.png",
@@ -111,7 +111,7 @@
     "static/media/Image6-6.png": "/Amile/static/media/Image6-6.fad3f1d8c1cf28ec379c.png",
     "static/media/Image23-23.png": "/Amile/static/media/Image23-23.8ddb9c657602b15f0e76.png",
     "static/media/Image31-31.png": "/Amile/static/media/Image31-31.8febbcc681680745c99a.png",
-    "static/media/Image4-4.png": "/Amile/static/media/Image4-4.75ad5f64a37bd1f5a8a3.png",
+    "static/media/Image4-4.png": "/Amile/static/media/Image4-4.0db20e51d06879b2569b.png",
     "static/media/Image20.png": "/Amile/static/media/Image20.0f4d264be1431eaee968.png",
     "static/media/Image34.png": "/Amile/static/media/Image34.67bfc660ee628897d949.png",
     "static/media/Image35.png": "/Amile/static/media/Image35.2a6fc3c8feae9dc1de70.png",
@@ -155,11 +155,11 @@
     "static/media/Puffberry-Demo.ttf": "/Amile/static/media/Puffberry-Demo.10e74b241437da4442c2.ttf",
     "index.html": "/Amile/index.html",
     "main.a80b43d1.css.map": "/Amile/static/css/main.a80b43d1.css.map",
-    "main.6cf0026f.js.map": "/Amile/static/js/main.6cf0026f.js.map",
+    "main.9f2188b7.js.map": "/Amile/static/js/main.9f2188b7.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a80b43d1.css",
-    "static/js/main.6cf0026f.js"
+    "static/js/main.9f2188b7.js"
   ]
 }
