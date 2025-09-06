@@ -109,7 +109,7 @@ useEffect(() => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isPortrait = viewport.width < 1024;
+  const isPortrait = viewport.width < 1500;
 
 
 //These are the pages that start each chapter as well as the pages that are within each chapter
