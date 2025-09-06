@@ -462,10 +462,6 @@ a{
 .drop-cap-container{
   margin-left: 9rem;
 }
-
-a{
- font-size: 1.25rem;
-}
 }
 
 @media (min-width: 900px) and (max-width: 970px){
@@ -530,10 +526,6 @@ a{
 
 .drop-cap-text{
   font-size: 1.5rem;
-}
-
-a{
- font-size: 0.8rem;
 }
 }
 
@@ -695,7 +687,7 @@ a{
 }
 
 a{
- font-size: 0.75rem;
+ font-size: 1.75rem;
 }
 }
 
@@ -738,7 +730,7 @@ a{
 }
 
 a{
- font-size: 0.75rem;
+ font-size: 1.5rem;
 }
 }
 
@@ -785,7 +777,7 @@ a{
 }
 
 a{
- font-size: 0.75rem;
+ font-size: 1.25rem;
 }
 }
 
@@ -832,7 +824,7 @@ a{
 }
 
 a{
- font-size: 0.75rem;
+ font-size: 1rem;
 }
 }
 
@@ -879,6 +871,6 @@ a{
 }
 
 a{
- font-size: 0.75rem;
+ font-size: 0.95rem;
 }
 }
