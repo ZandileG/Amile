@@ -37,21 +37,12 @@
   box-shadow: 16px 0 32px -8px rgba(0, 0, 0, 0.486);  
   border: solid 1px black;
   border-radius: 3%;
-
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
 }
 
 .page-content{
   flex: 1;
   overflow-y: auto;
   z-index: 1;
-
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
 }
 
 .book-page,

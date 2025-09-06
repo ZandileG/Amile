@@ -109,8 +109,15 @@ useEffect(() => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isPortrait = viewport.width < 1500;
+    useEffect(() => {
+    const images = document.querySelectorAll("img");
+    images.forEach((img) => {
+      const preloader = new Image();
+      preloader.src = img.src;
+    });
+  }, []);
 
+  const isPortrait = viewport.width < 1024;
 
 //These are the pages that start each chapter as well as the pages that are within each chapter
   const chapters = [
