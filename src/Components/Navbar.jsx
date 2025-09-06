@@ -14,12 +14,8 @@ import "../App.css";
 function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){
   const { musicPlaying, playMusic, narrationPlaying, playNarration, 
           toggleNarration, language, changeLanguage } = useContext(MusicContext);
-  
-//I want to check what is the current chapter based on the page number
-  const currentChapterObj = chapters.find(ch => currentPage >= ch.range[0] && currentPage <= ch.range[1]);
-  const currentChapterNumber = currentChapterObj ? currentChapterObj.chapterNumber : null;
 
-//When the narration button is clicked, it plays the narration for the current chapter
+//When the narration button is clicked, it plays the narration for the current page
   function handleNarrationClick(){
    if (currentPage === 0 || currentPage === pageCount - 1) return; 
    if (!narrationPlaying) {

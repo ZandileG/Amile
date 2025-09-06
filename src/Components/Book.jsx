@@ -1,5 +1,4 @@
-import React, { useRef, useEffect, useState, useContext } from "react";
-import { MusicContext } from "../Context/MusicContext";
+import React, { useRef, useEffect, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 import Bookmark from "../Images/Bookmark.png"
@@ -56,7 +55,6 @@ const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8,
 
 function Book(){
   const bookRef = useRef();
-  const { playNarration } = useContext(MusicContext);
 
   const [showNavbar, setShowNavbar] = useState(false);
   const [navbarVisible, setNavbarVisible] = useState(false);
