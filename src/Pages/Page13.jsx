@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image13 from "../Images/Image13.png";
+import Image13_13 from "../Images/Image13-13.png";
 import "../Styles/Page.css";
 
 function Page13(){
@@ -20,7 +21,8 @@ function Page13(){
 
   return(
     <section className="page-odd">
-      <img src={Image13} alt="Page 13" className="page-image-13" />
+        <img src={Image13} alt="Page 13" className="page-image-13" />
+        <img src={Image13_13} alt="Page 13" className="page-image-13-13" />
 
       <p className="page-text">
         {transcript.map((line, i) => {

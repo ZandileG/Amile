@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image26 from "../Images/Image26.png";
+import Image26_26 from "../Images/Image26.png";
 import "../Styles/Page.css";
 
 function Page26(){
@@ -31,6 +32,7 @@ function Page26(){
   return(
    <section className="page-even">
       <img src={Image26} alt="Page 26" className="page-image-26" />
+      <img src={Image26_26} alt="Page 26" className="page-image-26-26" />
 
       <p className="page-text">
         {transcript.map((line, i) => {

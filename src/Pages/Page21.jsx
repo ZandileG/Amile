@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image21 from "../Images/Image21.png";
+import Image21_21 from "../Images/Image21-21.png";
 import "../Styles/Page.css";
 
 function Page21(){
@@ -49,6 +50,8 @@ function Page21(){
       </p>
 
       <img src={Image21} alt="Page 21" className="page-image-21" />
+      <img src={Image21_21} alt="Page 21" className="page-image-21-21" />
+
       <section className="page-21">21</section>
     </section>
   );
