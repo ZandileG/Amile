@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.8c4d96dd.css",
-    "main.js": "/Amile/static/js/main.6875575a.js",
+    "main.js": "/Amile/static/js/main.27fdd72b.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -85,11 +85,11 @@
     "static/media/Image12-12.png": "/Amile/static/media/Image12-12.944e086ec03a2e0fa287.png",
     "static/media/Image34-34.png": "/Amile/static/media/Image34-34.7c49a0240b026ce54ee4.png",
     "static/media/Image32-32.png": "/Amile/static/media/Image32-32.f3c1a52c2f0f241ac539.png",
+    "static/media/Image27-27.png": "/Amile/static/media/Image27-27.c0165b3adc4ea92a352e.png",
     "static/media/Image35-35.png": "/Amile/static/media/Image35-35.6c60890facf12127131a.png",
-    "static/media/Image25-25.png": "/Amile/static/media/Image25-25.dd91c66802234dcbcae9.png",
-    "static/media/Image27-27.png": "/Amile/static/media/Image27-27.dad487cd2b2321c910f5.png",
+    "static/media/Image25-25.png": "/Amile/static/media/Image25-25.6f2c4ae457c59f1ea5de.png",
+    "static/media/Image28-28.png": "/Amile/static/media/Image28-28.1cae02c89c59d13a3bdc.png",
     "static/media/Image16-16.png": "/Amile/static/media/Image16-16.799b1290857154a58250.png",
-    "static/media/Image28-28.png": "/Amile/static/media/Image28-28.4684b79c8f7d619eeefe.png",
     "static/media/Image15-15.png": "/Amile/static/media/Image15-15.b6e0bfe80d8256259e25.png",
     "static/media/Image21-21.png": "/Amile/static/media/Image21-21.9c7d31e9a2a79515f6fe.png",
     "static/media/Image19-19.png": "/Amile/static/media/Image19-19.0d29af9e155853c0244c.png",
@@ -99,15 +99,15 @@
     "static/media/Image3-3.png": "/Amile/static/media/Image3-3.3e16bdf328d221f413a3.png",
     "static/media/Image9-9.png": "/Amile/static/media/Image9-9.afaba9f35eb2dff7ef61.png",
     "static/media/Image22-22.png": "/Amile/static/media/Image22-22.69255a59c4f94490c6c3.png",
+    "static/media/Image24-24.png": "/Amile/static/media/Image24-24.348bbe008db0417a6192.png",
     "static/media/Image11-11.png": "/Amile/static/media/Image11-11.c439ff28b72b952be4be.png",
-    "static/media/Image24-24.png": "/Amile/static/media/Image24-24.e5e89b74c1934b5c238b.png",
-    "static/media/Image29-29.png": "/Amile/static/media/Image29-29.85037031219c2e1cce3d.png",
+    "static/media/Image29-29.png": "/Amile/static/media/Image29-29.fdb801ba13f31e1dc0e1.png",
     "static/media/Image1-1.png": "/Amile/static/media/Image1-1.0b685d47ca658611af25.png",
     "static/media/Image23-23.png": "/Amile/static/media/Image23-23.107f7507817d2a409674.png",
     "static/media/Image17-17.png": "/Amile/static/media/Image17-17.4500f435a9944e169ed9.png",
+    "static/media/Image30-30.png": "/Amile/static/media/Image30-30.8cd4a4e6a2aafcf342a6.png",
     "static/media/Image2-2.png": "/Amile/static/media/Image2-2.ba52cf15e03d7dccaee2.png",
-    "static/media/Image30-30.png": "/Amile/static/media/Image30-30.00a9ca1c9a1aa2245b8a.png",
-    "static/media/Image26-26.png": "/Amile/static/media/Image26-26.699f432cf1f1bfcc81d0.png",
+    "static/media/Image26-26.png": "/Amile/static/media/Image26-26.2bd35f988027bd558e9e.png",
     "static/media/Image10-10.png": "/Amile/static/media/Image10-10.4bdc5458bf2c296de178.png",
     "static/media/Image36-36.png": "/Amile/static/media/Image36-36.3a487c868ef540251516.png",
     "static/media/Image6-6.png": "/Amile/static/media/Image6-6.fad3f1d8c1cf28ec379c.png",
@@ -156,11 +156,11 @@
     "static/media/Puffberry-Demo.ttf": "/Amile/static/media/Puffberry-Demo.10e74b241437da4442c2.ttf",
     "index.html": "/Amile/index.html",
     "main.8c4d96dd.css.map": "/Amile/static/css/main.8c4d96dd.css.map",
-    "main.6875575a.js.map": "/Amile/static/js/main.6875575a.js.map",
+    "main.27fdd72b.js.map": "/Amile/static/js/main.27fdd72b.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c4d96dd.css",
-    "static/js/main.6875575a.js"
+    "static/js/main.27fdd72b.js"
   ]
 }
