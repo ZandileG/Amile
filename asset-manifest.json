@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.8c4d96dd.css",
+    "main.css": "/Amile/static/css/main.172d1979.css",
     "main.js": "/Amile/static/js/main.04ff0496.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
@@ -150,17 +150,15 @@
     "static/media/Image36.png": "/Amile/static/media/Image36.601d6d978a037371ff71.png",
     "static/media/Image31.png": "/Amile/static/media/Image31.278489f775dda8fe014f.png",
     "static/media/Rolly Polly.ttf": "/Amile/static/media/Rolly Polly.285c755856ce92cfd6ee.ttf",
-    "static/media/Primer Print Bold.otf": "/Amile/static/media/Primer Print Bold.166a451a69617296cf60.otf",
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
-    "static/media/Puffberry-Demo.ttf": "/Amile/static/media/Puffberry-Demo.10e74b241437da4442c2.ttf",
     "index.html": "/Amile/index.html",
-    "main.8c4d96dd.css.map": "/Amile/static/css/main.8c4d96dd.css.map",
+    "main.172d1979.css.map": "/Amile/static/css/main.172d1979.css.map",
     "main.04ff0496.js.map": "/Amile/static/js/main.04ff0496.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c4d96dd.css",
+    "static/css/main.172d1979.css",
     "static/js/main.04ff0496.js"
   ]
 }
