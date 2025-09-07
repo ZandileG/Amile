@@ -746,10 +746,6 @@ a{
   padding-top: 2rem;
 }
 
-  .title{
-    font-size: 2rem;
-  }
-
 .page-heading, .page-list{
   font-size: 1.45rem;
 }
@@ -782,10 +778,6 @@ a{
 }
 
 @media (min-width: 300px) and (max-width: 400px){
-  .title{
-    font-size: 2rem;
-  }
-
 .page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
 .page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
 .page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
@@ -841,7 +833,7 @@ a{
 }
 
   .title{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
 .page-heading, .page-list{
