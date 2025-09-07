@@ -333,6 +333,27 @@
   margin-right: 0.75rem;
 }
 
+.credit{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.page-list li{
+    margin-bottom: 1.5rem;
+}
+
+.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
+.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
+.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+  margin-bottom: 0rem;
+}
+
+.page-2, .page-4, .page-6, .page-8, .page-10, .page-12,
+.page-14, .page-16, .page-18, .page-20, .page-22, .page-24,
+.page-26, .page-28, .page-30, .page-32, .page-34, .page-36{
+  margin-bottom: 0rem;
+}
+
  .page-chapter, .page-text{
   font-size: 1.25rem;
 }
