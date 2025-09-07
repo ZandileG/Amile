@@ -373,6 +373,10 @@
 .navbar-list{
   margin-left: 0rem;
 }
+
+.chapter-pages-container{
+  left: 45%;
+}
 }
 
 @media (min-width: 1120px) and (max-width: 1200px){
