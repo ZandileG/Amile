@@ -2,15 +2,11 @@ html, body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "PrimerBold", "Puffberry-Demo", "GlorytyaDemo", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "GlorytyaDemo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
   cursor: grab;
-}
-
-a{
-  color: #125c59;
 }
 
 @font-face{
@@ -28,20 +24,6 @@ a{
 }
 
 @font-face{
-  font-family: "PrimerBold";
-  src: url("./Fonts/Primer\ Print\ Bold.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: "Puffberry-Demo";
-  src: url("./Fonts/Puffberry-Demo.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
   font-family: "GlorytyaDemo";
   src: url("./Fonts/Gloryta\ Demo.otf") format("truetype");
   font-weight: normal;
@@ -49,5 +31,5 @@ a{
 }
 
 code{
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Notepen", "Rolly", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Rolly", "Primer", "GlorytyaDemo", monospace;
 }
