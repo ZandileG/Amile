@@ -4,22 +4,35 @@
   overflow: hidden;
 }
 
-.install-button{
+.amile-logo{
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.install-section{
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 50%;
-  left: 50%;
+  right: 25%;
   transform: translate(-50%, -50%);
   z-index: 1000;
+}
+
+.install-button{
+  margin: auto;
   padding: 12px 24px;
   font-size: 16px;
-  background-color: #125c59;
+  font-weight: 600;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.2s;
-  font-family: "Rolly";
+  font-family: "Primer";
 }
 
 .install-button:hover{

@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
+import AmileLogo from "../Images/AmileLogo.png";
+import "../App.css";
 
+//This allows the user to install the book on their device without them having to go through the browser settings
 function InstallButton(){
   const [deferredPrompt, setDeferredPrompt] = useState(null);
 
@@ -28,9 +31,12 @@ function InstallButton(){
 
   return(
     deferredPrompt && (
-    <button className="install-button" onClick={handleInstall}>
+    <section className="install-section">
+      <img src={AmileLogo} alt="Amile Logo" className="amile-logo"/>
+      <button className="install-button" onClick={handleInstall}>
         Install Book
-      </button>
+    </button>
+    </section>
     )
   );
 }
