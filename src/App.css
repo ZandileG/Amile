@@ -7,21 +7,22 @@
 .amile-logo{
   width: 50%;
   height: auto;
-  margin: auto;
 }
 
 .install-section{
   display: flex;
   flex-direction: column;
+  gap: -3rem;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 50%;
-  right: 25%;
+  left: 25%;
   transform: translate(-50%, -50%);
   z-index: 1000;
 }
 
 .install-button{
-  margin: auto;
   padding: 12px 24px;
   font-size: 16px;
   font-weight: 600;
@@ -441,6 +442,13 @@
 
 .navbar-audio-controls button{
   margin-right: 5rem;
+}
+}
+
+@media (max-width: 1023px){
+  .install-section{
+  top: 50%;
+  left: 50%;
 }
 }
 
