@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function InstallButton() {
+function InstallButton(){
   const [deferredPrompt, setDeferredPrompt] = useState(null);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ function InstallButton() {
     if (!deferredPrompt) return;
     deferredPrompt.prompt(); 
     deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === "accepted") {
+      if (choiceResult.outcome === "accepted"){
         console.log("App installed!");
       } else {
         console.log("User dismissed the install prompt");
@@ -28,8 +28,8 @@ function InstallButton() {
 
   return(
     deferredPrompt && (
-      <button onClick={handleInstall}>
-        Install App
+    <button className="install-button" onClick={handleInstall}>
+        Install Book
       </button>
     )
   );
