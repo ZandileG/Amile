@@ -1,11 +1,7 @@
 const CACHE_NAME = "amile-cache-v1";
 const urlsToCache = [
-  "/Amile/",
-  "/Amile/index.html",
-  "/Amile/static/js/main.js",
-  "/Amile/static/css/main.css",
-  "/Amile/manifest.json",
-  "/Amile/favicon.ico",
+  "/amile/",
+  "/amile/index.html",
 ];
 
 self.addEventListener("install", event => {
