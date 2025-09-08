@@ -17,7 +17,7 @@ function Page19(){
   [
     { text: "“I don’t know, maybe this one is special,” said Amile.", start: 7, end: 10 },
     { text: "“I want to name it Thingo,", start: 11, end: 13 },
-    { text: "my little rainbow flower” she continued.", start: 14, end: 17 },
+    { text: "my little rainbow,” she continued.", start: 14, end: 17 },
   ]
       ]
 },

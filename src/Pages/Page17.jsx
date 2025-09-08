@@ -17,7 +17,7 @@ function Page17(){
   ],
   [
     { text: "Amile gasped,", start: 14, end: 15 },
-    { text: "You’re alive!", start: 16, end: 17 },
+    { text: "“You’re alive!”", start: 16, end: 17 },
     { text: "She ran over to Khaya’s house and brought her over to see it.", start: 18, end: 22 },
   ]
       ]
@@ -30,7 +30,7 @@ function Page17(){
     { text: "leli hlumela laliluhlaza okwesibhakabhaka futhi likhazimula elangeni.", start: 10, end: 13 },
   ],
   [
-    { text: "Ha, uyaphila!”", start: 14, end: 15 },
+    { text: "“Ha, uyaphila!”", start: 14, end: 15 },
     { text: "kusho uAmile ngokumangala.", start: 16, end: 17 },
     { text: "Wagijima wayolanda uKhaya kubo wamletha ukuze ayibone.", start: 18, end: 22 },
   ]
