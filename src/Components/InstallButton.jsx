@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import "../App.css";
 
-function InstallButton() {
+function InstallButton(){
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    function handler(e) {
+    function handler(e){
       e.preventDefault();
+      console.log("beforeinstallprompt fired!", e);
       setDeferredPrompt(e);
       setIsVisible(true);
     }
@@ -25,7 +26,7 @@ function InstallButton() {
     deferredPrompt.prompt();
     const choice = await deferredPrompt.userChoice;
 
-    if (choice.outcome === "accepted") {
+    if (choice.outcome === "accepted"){
       console.log("User accepted install");
     } else {
       console.log("User dismissed install");
@@ -35,7 +36,7 @@ function InstallButton() {
     setIsVisible(false);
   }
 
-  if (!isVisible) {
+  if (!isVisible){
     return null;
   }
 

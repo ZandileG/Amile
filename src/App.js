@@ -9,9 +9,9 @@ function App(){
     <main className="app-container">
       <MusicProvider>
       <Book />
-      <div style={{ marginTop: "20px", textAlign: "center" }}>
+      <section className="install-section">
           <InstallButton />
-        </div>
+      </section>
       </MusicProvider>
     </main>
   );

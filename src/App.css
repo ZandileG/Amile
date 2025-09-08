@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-.install-btn {
+.install-btn{
   padding: 10px 20px;
   background-color: #0070f3;
   color: white;
@@ -15,8 +15,13 @@
   transition: background-color 0.3s ease;
 }
 
-.install-btn:hover {
+.install-btn:hover{
   background-color: #0059c9;
+}
+
+.install-section{
+  margin-top: 20px;
+  text-align: center;
 }
 
 .navbar{
