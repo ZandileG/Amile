@@ -91,7 +91,7 @@ export function MusicProvider({ children }){
   const [currentTime, setCurrentTime] = useState(0);
   const [language, setLanguage] = useState("en");
 
-//These are the naarrations in zulu and english for each chapter and the audio files that go with each one
+//These are the narrations in zulu and english for each page and the audio files that go with each one
   const narrations = {
     en: { 1: Page1, 2: Page2, 3: Page3, 4: Page4, 5: Page5, 6: Page6, 7: Page7, 8: Page8, 9: Page9, 10: Page10, 11: Page11, 
           12: Page12, 13: Page13, 14: Page14, 15: Page15, 16: Page16, 17: Page17, 18: Page18, 19: Page19, 20: Page20, 

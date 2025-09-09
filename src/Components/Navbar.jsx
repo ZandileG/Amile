@@ -18,7 +18,7 @@ function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){
 //When the narration button is clicked, it plays the narration for the current page
   function handleNarrationClick(){
    if (currentPage === 0 || currentPage === pageCount - 1) return; 
-   if (!narrationPlaying) {
+   if (!narrationPlaying){
     playNarration(currentPage);
   } else {
     toggleNarration();

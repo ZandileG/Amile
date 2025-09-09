@@ -35,7 +35,7 @@ function InstallButton(){
       <img src={AmileLogo} alt="Amile Logo" className="amile-logo"/>
       <button className="install-button" onClick={handleInstall}>
         Install Book
-    </button>
+      </button>
     </section>
     )
   );

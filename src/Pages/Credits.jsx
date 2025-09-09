@@ -15,9 +15,9 @@ function Credits(){
     <h2 className="page-heading">Background Music by</h2>
 
     <section className="page-list">
-    <p className="credit">Adventure (remaster) by Alexander Nakarada <a href="https://www.creatorchords.com" target="_blank" rel="noopener noreferrer">(https://www.creatorchords.com)</a>
-      <br />Licensed under Creative Commons BY Attribution 4.0 License<br /> 
-    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">https://creativecommons.org/licenses/by/4.0/</a>
+    <p className="credit">Adventure (remaster) by Alexander Nakarada <a href="https://www.creatorchords.com" target="_blank" rel="noopener noreferrer"> (https://www.creatorchords.com)</a>
+      <br /> Licensed under Creative Commons BY Attribution 4.0 License<br /> 
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer"> https://creativecommons.org/licenses/by/4.0/</a>
     </p>
     </section>
     </section>

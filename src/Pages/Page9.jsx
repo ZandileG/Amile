@@ -49,7 +49,7 @@ function Page9(){
     <p key={pIndex}>
       {para.map((line, i) => {
         const isActive = currentPage === 9 && currentTime >= line.start && currentTime <= line.end;
-        return (
+        return(
           <span key={i} className={isActive ? "highlight" : ""}>
             {line.text + " "}
           </span>
