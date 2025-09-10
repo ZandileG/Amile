@@ -457,6 +457,13 @@
 }
 }
 
+@media (min-width: 970px) and (max-width: 1022px){
+  .amile-logo{
+  width: 45%;
+  height: auto;
+}
+}
+
 @media (min-width: 970px) and (max-width: 1025px){
   .navbar-link{
   width: 8rem;
@@ -483,6 +490,11 @@
   font-size: large;
 }
 
+.amile-logo{
+  width: 45%;
+  height: auto;
+}
+
 .navbar-list{
   margin-left: 0rem;
 }
@@ -506,6 +518,11 @@
   height: 7rem;
   margin-right: 0.5rem;
   font-size: medium;
+}
+
+.amile-logo{
+  width: 45%;
+  height: auto;
 }
 
 .chapter-pages-container{
@@ -537,6 +554,11 @@
   font-size: medium;
 }
 
+.amile-logo{
+  width: 45%;
+  height: auto;
+}
+
 .navbar-list{
   margin-left: 1rem;
 }
@@ -560,6 +582,11 @@
   height: 5rem;
   margin-right: 0.5rem;
   font-size: medium;
+}
+
+.amile-logo{
+  width: 45%;
+  height: auto;
 }
 
 .navbar-list{
