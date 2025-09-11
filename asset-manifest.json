@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.d3099948.css",
-    "main.js": "/Amile/static/js/main.6a3a9bfa.js",
+    "main.js": "/Amile/static/js/main.939d57fc.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -86,23 +86,24 @@
     "static/media/Image13-13.png": "/Amile/static/media/Image13-13.1b954b729367cf75fd98.png",
     "static/media/Image7-7.png": "/Amile/static/media/Image7-7.e74a9b3f9ae4f5f8550c.png",
     "static/media/Image12-12.png": "/Amile/static/media/Image12-12.944e086ec03a2e0fa287.png",
-    "static/media/Image2-2.png": "/Amile/static/media/Image2-2.3444e797a2d545d76fdd.png",
+    "static/media/Image3-3.png": "/Amile/static/media/Image3-3.abfcd4e73466e7a07551.png",
     "static/media/Image28-28.png": "/Amile/static/media/Image28-28.3b5c981d2f96e1811e07.png",
     "static/media/Image25-25.png": "/Amile/static/media/Image25-25.f17476bfcd93d92b8271.png",
     "static/media/Image27-27.png": "/Amile/static/media/Image27-27.c0165b3adc4ea92a352e.png",
-    "static/media/Image2.png": "/Amile/static/media/Image2.f24b7aeab0a1c5921c21.png",
+    "static/media/Image3.png": "/Amile/static/media/Image3.262b6b3965a83d2effbf.png",
     "static/media/Image33-33.png": "/Amile/static/media/Image33-33.bbe5618bdac89ded66f4.png",
     "static/media/Image1-1.png": "/Amile/static/media/Image1-1.a060adb4cf572a1ae065.png",
     "static/media/Image16-16.png": "/Amile/static/media/Image16-16.799b1290857154a58250.png",
+    "static/media/Image2-2.png": "/Amile/static/media/Image2-2.ca25f6332f72f7b197c3.png",
     "static/media/Image15-15.png": "/Amile/static/media/Image15-15.b6e0bfe80d8256259e25.png",
     "static/media/Image21-21.png": "/Amile/static/media/Image21-21.9c7d31e9a2a79515f6fe.png",
     "static/media/Image19-19.png": "/Amile/static/media/Image19-19.0d29af9e155853c0244c.png",
     "static/media/Image29-29.png": "/Amile/static/media/Image29-29.c0e22eae80926177654e.png",
     "static/media/Image1.png": "/Amile/static/media/Image1.a63fd099f4a83c5ed532.png",
     "static/media/Image5-5.png": "/Amile/static/media/Image5-5.fa8226cf40795f29929d.png",
+    "static/media/Image2.png": "/Amile/static/media/Image2.1dda886024b45cbad70c.png",
     "static/media/Image8-8.png": "/Amile/static/media/Image8-8.39847be436be726fb39b.png",
     "static/media/Image24-24.png": "/Amile/static/media/Image24-24.d7ec4c1fff9a2f85725c.png",
-    "static/media/Image3-3.png": "/Amile/static/media/Image3-3.3e16bdf328d221f413a3.png",
     "static/media/Image9-9.png": "/Amile/static/media/Image9-9.afaba9f35eb2dff7ef61.png",
     "static/media/Image22-22.png": "/Amile/static/media/Image22-22.57744cc0ccb4a415464e.png",
     "static/media/Image11-11.png": "/Amile/static/media/Image11-11.c439ff28b72b952be4be.png",
@@ -132,7 +133,6 @@
     "static/media/Image24.png": "/Amile/static/media/Image24.586c0d08f72ccaa22f2d.png",
     "static/media/Image19.png": "/Amile/static/media/Image19.b16753c36421c3d7358b.png",
     "static/media/Image30.png": "/Amile/static/media/Image30.93b7a5591e8b7f5dc0bb.png",
-    "static/media/Image3.png": "/Amile/static/media/Image3.4151ed98046756da3bc0.png",
     "static/media/Image26.png": "/Amile/static/media/Image26.a8d9d13a6fd208f29163.png",
     "static/media/Image8.png": "/Amile/static/media/Image8.7cb397de72f5bbfa383f.png",
     "static/media/Image15.png": "/Amile/static/media/Image15.ba1aca0a813f7be50cf1.png",
@@ -155,11 +155,11 @@
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "index.html": "/Amile/index.html",
     "main.d3099948.css.map": "/Amile/static/css/main.d3099948.css.map",
-    "main.6a3a9bfa.js.map": "/Amile/static/js/main.6a3a9bfa.js.map",
+    "main.939d57fc.js.map": "/Amile/static/js/main.939d57fc.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3099948.css",
-    "static/js/main.6a3a9bfa.js"
+    "static/js/main.939d57fc.js"
   ]
 }
