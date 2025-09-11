@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AmileLogo from "../Images/AmileLogo.png";
+import AmileLogo from "../Icons/AmileLogo.png";
 import "../App.css";
 
 //This allows the user to install the book on their device without them having to go through the browser settings

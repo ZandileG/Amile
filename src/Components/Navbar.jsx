@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 
-import NarrationOff from "../Images/NarrationOff.png";
-import MusicOff from "../Images/MusicOff.png";
+import NarrationOff from "../Icons/NarrationOff.png";
+import MusicOff from "../Icons/MusicOff.png";
 
-import MusicImg from "../Images/Music.png";
-import NarrationImg from "../Images/Narration.png";
+import MusicImg from "../Icons/Music.png";
+import NarrationImg from "../Icons/Narration.png";
 
-import Zulu from "../Images/Zulu.png";
-import English from "../Images/English.png";
+import Zulu from "../Icons/Zulu.png";
+import English from "../Icons/English.png";
 import "../App.css";
 
 function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){

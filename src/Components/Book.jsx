@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 
-import Bookmark from "../Images/Bookmark.png"
+import Bookmark from "../Icons/Bookmark.png"
 import Navbar from "./Navbar";
 import "../Styles/Book.css";
 
