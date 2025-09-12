@@ -16,7 +16,7 @@ function InstallButton(){
     return () => window.removeEventListener("beforeinstallprompt", handler);
   }, []);
 
-  const handleInstall = () => {
+  function installBook(){
     if (!deferredPrompt) return;
     deferredPrompt.prompt(); 
     deferredPrompt.userChoice.then((choiceResult) => {
@@ -29,11 +29,16 @@ function InstallButton(){
     });
   };
 
+function closeInstall(){
+  setDeferredPrompt(null);
+}
+
   return(
     deferredPrompt && (
     <section className="install-section">
+      <button type="button" className="close-button" onClick={closeInstall}>x</button>
       <img src={AmileLogo} alt="Amile Logo" className="amile-logo"/>
-      <button className="install-button" onClick={handleInstall}>
+      <button type="button" className="install-button" onClick={installBook}>
         Install Book
       </button>
     </section>

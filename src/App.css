@@ -4,6 +4,23 @@
   overflow: hidden;
 }
 
+.close-button{
+  top: 0;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-right: -12rem;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-weight: 600;
+  font-size: x-large;
+  cursor: pointer;
+  font-family: "Primer";
+  transition: transform 0.2s;
+}
+
 .amile-logo{
   width: 50%;
   height: auto;
@@ -37,7 +54,8 @@
   font-family: "Primer";
 }
 
-.install-button:hover{
+.install-button:hover, 
+.close-button:hover{
   transform: scale(1.05);
 }
 
