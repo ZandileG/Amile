@@ -11,26 +11,22 @@ function Page19(){
       en: {
       paragraphs: [
   [
-    { text: "“Why is it blue?", start: 0, end: 2 },
-    { text: "Plants aren't supposed to be blue,” said Khaya.", start: 3, end: 6 },
+    { text: "“It grew?” said Khaya, surprised.", start: 0, end: 3 },
   ],
   [
-    { text: "“I don’t know, maybe this one is special,” said Amile.", start: 7, end: 10 },
-    { text: "“I want to name it Thingo,", start: 11, end: 13 },
-    { text: "my little rainbow,” she continued.", start: 14, end: 17 },
+    { text: "“Yes, it did!", start: 4, end: 5 },
+    { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 6, end: 8 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Kungani iluhlaza okwesibhakabhaka?", start: 0, end: 2 },
-    { text: "Izitshalo akufanele zibe nombala onje,” kusho uKhaya.", start: 3, end: 6 },
+    { text: "“Sikhulile?” kusho uKhaya, emangele.", start: 0, end: 4 },
   ],
   [
-    { text: "“Angazi, mhlawumbe lena ihlukile,” kusho uAmile.", start: 7, end: 10 },
-    { text: "“Ngifuna ukuyiqamba igama elithi Thingo,", start: 11, end: 13 },
-    { text: "ngoba enemibala emihle,” eqhubeka.", start: 14, end: 17 },
+    { text: "“Yebo, sikhulile!", start: 5, end: 6 },
+    { text: "Bengazi! Bengazi ukuthi sizokhula!” kubabaza uAmile.", start: 7, end: 10 },
   ]
 ]
     }
