@@ -15,11 +15,22 @@
   }
 }
 
+.carousel-arrow{
+  background-color: transparent;
+  font-family: "Rolly";
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.carousel-arrow:disabled{
+  display: none;
+}
+
 .author-image{
-  width: 50%;
+  width: 35%;
   height: auto;
   margin: auto;
-  padding-top: 2rem;
 }
 
 .cover-image{
@@ -96,6 +107,7 @@ a{
 
 .page-heading{
   font-size: 1.75rem;
+  padding-top: 1rem;
   font-family: "Rolly";
   text-align: center;
   margin: 0;
@@ -104,7 +116,6 @@ a{
 .page-list{
   list-style-type: none;
   text-align: center;
-  margin-bottom: 2.75rem;
   font-size: 1.5rem;
   font-family: "Primer";
 }
@@ -260,10 +271,10 @@ a{
 
 .title{
     text-align: center;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     font-size: 3rem;
     font-family: "Rolly";
-    color: #125c59;
 }
 
 .credit{
@@ -593,6 +604,10 @@ a{
   padding-right: 5rem;
 }
 
+.author-image{
+  width: 52%;
+}
+
 .page-chapter{
   padding-left: 5rem;
   padding-right: 5rem;
@@ -609,6 +624,10 @@ a{
   padding-right: 5rem;
 }
 
+.author-image{
+  width: 50%;
+}
+
 .page-chapter{
   padding-left: 5rem;
   padding-right: 5rem;
@@ -623,6 +642,10 @@ a{
 .page-text{
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.author-image{
+  width: 48%;
 }
 
 .page-chapter{
@@ -645,6 +668,10 @@ a{
   text-align: right;
   margin-right: 1.25rem;
   padding-top: 2rem;
+}
+
+.author-image{
+  width: 48%;
 }
 
 .page-heading, .page-list{
@@ -761,6 +788,10 @@ a{
   padding-top: 3rem;
 }
 
+.author-image{
+  width: 48%;
+}
+
 .page-heading, .page-list{
   font-size: 1.45rem;
 }
@@ -802,6 +833,10 @@ a{
   text-align: right;
   margin-right: 2.75rem;
   padding-top: 2rem;
+}
+
+.author-image{
+  width: 48%;
 }
 
 .page-heading, .page-list{
@@ -847,6 +882,10 @@ a{
   padding-top: 2rem;
 }
 
+.author-image{
+  width: 48%;
+}
+
 .page-heading, .page-list{
   font-size: 1.45rem;
 }
@@ -888,6 +927,10 @@ a{
   text-align: right;
   margin-right: 1.75rem;
   padding-top: 2rem;
+}
+
+.author-image{
+  width: 48%;
 }
 
   .title{

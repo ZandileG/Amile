@@ -6,12 +6,6 @@ function Credits(){
     <section className="page-credits">
       <h1 className="title">Credits</h1>
 
-    <h2 className="page-heading">Site Developed by</h2>
-      <p className="page-list">Zandile Gebuza</p>
-
-    <h2 className="page-heading">Narrated & Illustrated by</h2>
-      <p className="page-list">Zandile Gebuza</p>
-
     <h2 className="page-heading">Background Music by</h2>
 
     <section className="page-list">
@@ -19,6 +13,9 @@ function Credits(){
       <br /> Licensed under Creative Commons BY Attribution 4.0 License<br /> 
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer"> https://creativecommons.org/licenses/by/4.0/</a>
     </p>
+
+    <h2 className="page-heading">Sound Effects by</h2>
+    <p className="page-list"></p>
     </section>
     </section>
   );
