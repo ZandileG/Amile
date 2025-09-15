@@ -13,7 +13,8 @@ function Page32(){
     { text: "magic that was thought to be gone.", start: 3, end: 5 },
   ],
       zu: [
-    { text: "UThingo wayevuse okuthile eDumakude, umlingo okwakuthiwa awuseko.", start: 0, end: 2 },
+    { text: "UThingo wayevuse okuthile eDumakude,", start: 0, end: 2 },
+    { text: "umlingo okwakuthiwa awuseko.", start: 0, end: 2 },
   ]
 };
     const transcript = transcripts[language];

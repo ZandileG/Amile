@@ -15,7 +15,7 @@ function Page28(){
     ],
   
      zu: [
-    { text: "kwavevezela umhlaba", start: 0, end: 3 },
+    { text: "Gwiqiqi, kwavevezela umhlaba", start: 0, end: 3 },
     { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 4, end: 8 },
     { text: "UKhaya noma kaAmile benza okufanayo.", start: 9, end: 11 },
     ]

@@ -17,7 +17,7 @@ function Page35(){
       zu: [
     { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 0, end: 4 },
     { text: "“Ngicabanga ukuthi sizohlala,”", start: 5, end: 6 },
-    { text: "“Ngicabanga ukuthi sizohlala,” kusho bona, kwehla izinyembezi zenjabulo.", start: 7, end: 12 },
+    { text: "kusho bona, kwehla izinyembezi zenjabulo.", start: 7, end: 12 },
   ]
 };
     const transcript = transcripts[language];
