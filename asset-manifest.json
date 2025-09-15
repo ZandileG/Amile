@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.90e96f83.css",
-    "main.js": "/Amile/static/js/main.ea942a52.js",
+    "main.js": "/Amile/static/js/main.8240ef7e.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -80,7 +80,7 @@
     "static/media/Image34-34.png": "/Amile/static/media/Image34-34.74da9fedc360d16d0c27.png",
     "static/media/Image14-14.png": "/Amile/static/media/Image14-14.5748e68445f491e8e2d2.png",
     "static/media/Image32-32.png": "/Amile/static/media/Image32-32.b8293f44b9946abe5f6c.png",
-    "static/media/Image18-18.png": "/Amile/static/media/Image18-18.f4a425933c244f957fe0.png",
+    "static/media/Image18-18.png": "/Amile/static/media/Image18-18.6b6c4660e2c7f2ac1d6e.png",
     "static/media/Image35-35.png": "/Amile/static/media/Image35-35.1858a3fc5f417206c015.png",
     "static/media/Image13-13.png": "/Amile/static/media/Image13-13.1b954b729367cf75fd98.png",
     "static/media/Image7-7.png": "/Amile/static/media/Image7-7.e74a9b3f9ae4f5f8550c.png",
@@ -88,21 +88,21 @@
     "static/media/Image3-3.png": "/Amile/static/media/Image3-3.d19934963ba31b47ee57.png",
     "static/media/Image28-28.png": "/Amile/static/media/Image28-28.3b5c981d2f96e1811e07.png",
     "static/media/Image27-27.png": "/Amile/static/media/Image27-27.c0165b3adc4ea92a352e.png",
-    "static/media/Image25-25.png": "/Amile/static/media/Image25-25.a4355d68ea8bfc87c017.png",
+    "static/media/Image25-25.png": "/Amile/static/media/Image25-25.1f1a27396282a05ed895.png",
+    "static/media/Image17-17.png": "/Amile/static/media/Image17-17.922db68b9e6280b70207.png",
     "static/media/Image3.png": "/Amile/static/media/Image3.ea939e93e675dd1bec10.png",
     "static/media/Image33-33.png": "/Amile/static/media/Image33-33.bbe5618bdac89ded66f4.png",
-    "static/media/Image20-20.png": "/Amile/static/media/Image20-20.7737c510c3acae6e1c00.png",
+    "static/media/Image20-20.png": "/Amile/static/media/Image20-20.924163373fa85f4011f1.png",
     "static/media/Image1-1.png": "/Amile/static/media/Image1-1.a060adb4cf572a1ae065.png",
     "static/media/Image5-5.png": "/Amile/static/media/Image5-5.c5faaddb30576974953e.png",
     "static/media/Image16-16.png": "/Amile/static/media/Image16-16.799b1290857154a58250.png",
-    "static/media/Image19-19.png": "/Amile/static/media/Image19-19.9533c9ba34f9ac3e9dc5.png",
+    "static/media/Image19-19.png": "/Amile/static/media/Image19-19.17837f0129078132cfca.png",
     "static/media/Image2-2.png": "/Amile/static/media/Image2-2.3059d48a40076400290d.png",
     "static/media/Image15-15.png": "/Amile/static/media/Image15-15.b6e0bfe80d8256259e25.png",
     "static/media/Image21-21.png": "/Amile/static/media/Image21-21.9c7d31e9a2a79515f6fe.png",
     "static/media/AuthorPage.png": "/Amile/static/media/AuthorPage.c0e22eae80926177654e.png",
     "static/media/Image29-29.png": "/Amile/static/media/Image29-29.c0e22eae80926177654e.png",
     "static/media/Image1.png": "/Amile/static/media/Image1.35ff190b0558f986e744.png",
-    "static/media/Image17-17.png": "/Amile/static/media/Image17-17.bf0857a28a645e9db483.png",
     "static/media/Image2.png": "/Amile/static/media/Image2.00eeb118a60482813720.png",
     "static/media/Image8-8.png": "/Amile/static/media/Image8-8.39847be436be726fb39b.png",
     "static/media/Image24-24.png": "/Amile/static/media/Image24-24.d7ec4c1fff9a2f85725c.png",
@@ -156,11 +156,11 @@
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "index.html": "/Amile/index.html",
     "main.90e96f83.css.map": "/Amile/static/css/main.90e96f83.css.map",
-    "main.ea942a52.js.map": "/Amile/static/js/main.ea942a52.js.map",
+    "main.8240ef7e.js.map": "/Amile/static/js/main.8240ef7e.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90e96f83.css",
-    "static/js/main.ea942a52.js"
+    "static/js/main.8240ef7e.js"
   ]
 }
