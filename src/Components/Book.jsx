@@ -5,7 +5,7 @@ import Bookmark from "../Icons/Bookmark.png"
 import Navbar from "./Navbar";
 import "../Styles/Book.css";
 
-import Cover from "../Pages/Cover";
+import FrontCover from "../Pages/FrontCover";
 import Page1 from "../Pages/Page1";
 import Page2 from "../Pages/Page2";
 import Page3 from "../Pages/Page3";
@@ -46,13 +46,14 @@ import Page35 from "../Pages/Page35";
 import Page36 from "../Pages/Page36";
 import AuthorPage from "../Pages/AuthorPage";
 import Credits from "../Pages/Credits";
+import BackCover from "../Pages/BackCover";
 
 //These are the pages of my book
-  const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, 
+  const pages = [FrontCover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, 
                  Page9, Page10, Page11, Page12, Page13, Page14, Page15, Page16, 
                  Page17, Page18, Page19, Page20, Page21, Page22, Page23, Page24,
                  Page25, Page26, Page27, Page28, Page29, Page30, Page31, Page32, 
-                 Page33, Page34, Page35, Page36, AuthorPage, Credits];
+                 Page33, Page34, Page35, Page36, AuthorPage, Credits, BackCover];
 
 function Book(){
   const bookRef = useRef();

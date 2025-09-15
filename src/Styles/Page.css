@@ -33,13 +33,13 @@
   margin: auto;
 }
 
-.cover-image{
+.cover-image, .back-cover-image{
   display: block;
   width: 100% !important;
   height: 100% !important;
 }
 
-.cover-image2{
+.cover-image2, .back-cover-image2{
   display: none;
   width: 100% !important;
   height: 100% !important;
@@ -61,7 +61,7 @@ a{
   background-color: transparent;
 }
 
-.cover-image{
+.cover-image, .back-cover-image{
   width: 100%;
   height: 100vh;
   object-fit: cover;
@@ -496,11 +496,11 @@ a{
 }
 
 @media (max-width: 1023px){
-  .cover-image{
+  .cover-image, .back-cover-image{
     display: none;
   }
 
-  .cover-image2{
+  .cover-image2, .back-cover-image2{
     display: block;
   }
 }

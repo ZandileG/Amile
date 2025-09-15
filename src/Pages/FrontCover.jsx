@@ -1,9 +1,9 @@
 import React from "react";
-import CoverImage from "../Images/CoverImage.png";
-import CoverImage2 from "../Images/CoverImage2.png";
+import CoverImage from "../Images/FrontCover.png";
+import CoverImage2 from "../Images/FrontCover2.png";
 import "../Styles/Page.css";
 
-function Cover(){
+function Cover1(){
   return(
     <section className="page">
       <img src={CoverImage} alt="Cover" className="cover-image" />
@@ -12,4 +12,4 @@ function Cover(){
   );
 }
 
-export default Cover;
+export default Cover1;

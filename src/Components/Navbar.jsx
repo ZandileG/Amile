@@ -25,7 +25,8 @@ function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){
   }
   }
 
-//When the screen size is less than or equal to 1023px, the chapter pages container will show 6 page numbers then be a carousel if there are more pages
+/*When the screen size is less than or equal to 1023px, the chapter pages container will 
+  show 6 page numbers then be a carousel if there are more pages*/
   const [carouselIndex, setCarouselIndex] = useState(0);
   const [isCarousel, setIsCarousel] = useState(
   typeof window !== "undefined" ? window.innerWidth <= 1023 : true
@@ -60,22 +61,25 @@ function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){
   <ul className="navbar-list">
   {chapters.map(({ page, label, range, chapterNumber }) => (
   <li key={page} className="chapter-nav-item">
-      <section className="chapter-pages-container">
-        {isCarousel && range[1] - range[0] + 1 >chaptersPerView && (
-      <button type="button" className="carousel-arrow" onClick={() => setCarouselIndex(Math.max(carouselIndex - chaptersPerView, 0))}
-       disabled={carouselIndex === 0}>←</button>
-      )}
-        {Array.from({ length: range[1] - range[0] + 1 }, (_, i) => range[0] + i)
-        .slice(carouselIndex, carouselIndex + chaptersPerView).map((pageNum) => (
-      <button type="button" className={`chapter-page-number chapter-${chapterNumber} ${currentPage === pageNum ? " active" : ""}`}
-        key={pageNum} onClick={() => goToPage(pageNum)}>{pageNum}</button>
-      ))}
-        {isCarousel && range[1] - range[0] + 1 > chaptersPerView && (
-      <button type="button" className="carousel-arrow" onClick={() => setCarouselIndex(Math.min(carouselIndex + chaptersPerView, range[1] - range[0] + 1 - chaptersPerView))}
-        disabled={carouselIndex + chaptersPerView >= range[1] - range[0] + 1}>→</button>
-      )}
-      </section>
-
+  <section className="chapter-pages-container">
+  {isCarousel && range[1] - range[0] + 1 > chaptersPerView && (
+    <button type="button" className="carousel-arrow" onClick={() => setCarouselIndex(Math.max(carouselIndex - chaptersPerView, 0))}
+     disabled={carouselIndex === 0}>←</button>
+     )}
+  {(isCarousel ? Array.from({ length: range[1] - range[0] + 1 }, (_, i) => range[0] + i)
+    .slice(carouselIndex, carouselIndex + chaptersPerView) : Array.from({ length: range[1] - range[0] + 1 }, (_, i) => range[0] + i))
+    .map((pageNum) => (
+    <button type="button" className={`chapter-page-number chapter-${chapterNumber} ${currentPage === pageNum ? " active" : ""}`}
+     key={pageNum} onClick={() => goToPage(pageNum)}>{pageNum}</button>
+  ))}
+  {isCarousel && range[1] - range[0] + 1 > chaptersPerView && (
+    <button type="button" className="carousel-arrow" onClick={() => setCarouselIndex(
+     Math.min(carouselIndex + chaptersPerView, range[1] - range[0] + 1 - chaptersPerView) 
+    )
+      }
+      disabled={carouselIndex + chaptersPerView >= range[1] - range[0] + 1}>→</button>
+  )}
+</section>
       <button type="button" className={`navbar-link navbar-link-${chapterNumber}`} onClick={() => { goToPage(page); 
      }}>
         {label}
