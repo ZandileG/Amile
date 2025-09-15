@@ -19,8 +19,8 @@ import Page10 from "../Pages/Page10";
 import Page11 from "../Pages/Page11";
 import Page12 from "../Pages/Page12";
 import Page13 from "../Pages/Page13";
-
 import Page14 from "../Pages/Page14";
+
 import Page15 from "../Pages/Page15";
 import Page16 from "../Pages/Page16";
 import Page17 from "../Pages/Page17";
@@ -32,8 +32,8 @@ import Page22 from "../Pages/Page22";
 import Page23 from "../Pages/Page23";
 import Page24 from "../Pages/Page24";
 import Page25 from "../Pages/Page25";
-
 import Page26 from "../Pages/Page26";
+
 import Page27 from "../Pages/Page27";
 import Page28 from "../Pages/Page28";
 import Page29 from "../Pages/Page29";
@@ -44,14 +44,15 @@ import Page33 from "../Pages/Page33";
 import Page34 from "../Pages/Page34";
 import Page35 from "../Pages/Page35";
 import Page36 from "../Pages/Page36";
+import AuthorPage from "../Pages/AuthorPage";
 import Credits from "../Pages/Credits";
 
 //These are the pages of my book
-const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, 
-               Page9, Page10, Page11, Page12, Page13, Page14, Page15, Page16, 
-               Page17, Page18, Page19, Page20, Page21, Page22, Page23, Page24,
-               Page25, Page26, Page27, Page28, Page29, Page30, Page31, Page32, 
-               Page33, Page34, Page35, Page36, Credits];
+  const pages = [Cover, Page1, Page2, Page3, Page4, Page5, Page6, Page7, Page8, 
+                 Page9, Page10, Page11, Page12, Page13, Page14, Page15, Page16, 
+                 Page17, Page18, Page19, Page20, Page21, Page22, Page23, Page24,
+                 Page25, Page26, Page27, Page28, Page29, Page30, Page31, Page32, 
+                 Page33, Page34, Page35, Page36, AuthorPage, Credits];
 
 function Book(){
   const bookRef = useRef();
