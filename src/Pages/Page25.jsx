@@ -27,7 +27,7 @@ function Page25(){
     { text: "“UThingo ungumngane wami.”", start: 3, end: 5 },
   ],
   [
-    { text: "“UMngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 6, end: 8 },
+    { text: "“UMngane wakho? Kanti angiyena yin umngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 6, end: 8 },
   ]
 ]
     }

@@ -17,7 +17,7 @@ function Page11(){
   [
     { text: "The girls ran back to Amile’s house, found a quiet patch behind the shed,", start: 9, end: 11 },
     { text: "and dug a tiny hole.", start: 12, end: 13 },
-    { text: "Amile planted the seed and gently patted the dry soil around it.", start: 14, end: 16 },
+    { text: "They planted the seed and gently patted the dry soil around it.", start: 14, end: 16 },
   ]
       ]
 },
@@ -30,7 +30,7 @@ function Page11(){
   [
     { text: "Amantombazane agijima abuyela khabo Amile, athola indawo ethule ngemuva kwendlu,", start: 9, end: 11 },
     { text: "agubha umgodi omncane.", start: 12, end: 13 },
-    { text: "UAmile watshala imbewu futhi wabambatha inhlabathi eyizungezile.", start: 14, end: 16 },
+    { text: "Bayitshala imbewu futhi babambatha nehlabathi eyizungezile.", start: 14, end: 16 },
   ]
 ]
     }

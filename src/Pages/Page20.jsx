@@ -17,7 +17,7 @@ function Page20(){
   [
     { text: "“I don’t know, maybe this one is special,” said Amile.", start: 7, end: 10 },
     { text: "“I want to name it Thingo,", start: 11, end: 13 },
-    { text: "my little rainbow,” she continued.", start: 14, end: 17 },
+    { text: "my little rainbow,” she continued, with a warm smile.", start: 14, end: 17 },
   ]
       ]
 },
@@ -30,7 +30,7 @@ function Page20(){
   [
     { text: "“Angazi, mhlawumbe lena ihlukile,” kusho uAmile.", start: 7, end: 10 },
     { text: "“Ngifuna ukuyiqamba igama elithi Thingo,", start: 11, end: 13 },
-    { text: "ngoba enemibala emihle,” eqhubeka.", start: 14, end: 17 },
+    { text: "ngoba enemibala emihle,” eqhubeka ngokumamatheka.", start: 14, end: 17 },
   ]
 ]
     }
