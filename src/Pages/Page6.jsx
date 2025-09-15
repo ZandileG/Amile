@@ -11,8 +11,8 @@ function Page6(){
       en: {
         paragraphs: [
   [
-    { text: "“But what about our neighbours? What about my friends?", start: 0, end: 4 },
-    { text: "I don’t want to leave Khaya.” said Amile with tears in her eyes.", start: 5, end: 9 },
+    { text: "“No Mama, we can't leave our home.", start: 0, end: 4 },
+    { text: "I don’t want to leave Khaya behind.” said Amile with tears in her eyes.", start: 5, end: 9 },
   ],
   [
     { text: "“I know it’s hard Mimi, but there's no more water,", start: 10, end: 14 },
@@ -27,12 +27,12 @@ function Page6(){
       zu: {
       paragraphs: [
   [
-    { text: "“Kodwa kuthiwani ngomakhelwane bethu, sizobashiya bebodwa?", start: 0, end: 4 },
-    { text: "UKhaya yena?” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 5, end: 9 },
+    { text: "“Cha Mama, asikwazi ukushiya ikhaya lethu.", start: 0, end: 4 },
+    { text: "Angifuni ukushiya nabangane bami ngemuva,” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 5, end: 9 },
   ],
   [
     { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 10, end: 14 },
-    { text: "ngeke sisakwazi ukuqhubeka noukuhlala lapha.", start: 15, end: 19 },
+    { text: "ngeke sisakwazi ukuqhubeka nokuhlala lapha.", start: 15, end: 19 },
     { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 20, end: 24 },
   ],
    [
