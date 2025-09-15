@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.90e96f83.css",
-    "main.js": "/Amile/static/js/main.e340bbb8.js",
+    "main.js": "/Amile/static/js/main.9e1a7e36.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -116,8 +116,8 @@
     "static/media/Image10-10.png": "/Amile/static/media/Image10-10.4bdc5458bf2c296de178.png",
     "static/media/Image4.png": "/Amile/static/media/Image4.12019f4aa1126fc40cfb.png",
     "static/media/Image31-31.png": "/Amile/static/media/Image31-31.509a1e02ea4880c4dba8.png",
-    "static/media/Image22-22.png": "/Amile/static/media/Image22-22.54c820c6c134404d9115.png",
     "static/media/Image36-36.png": "/Amile/static/media/Image36-36.3a487c868ef540251516.png",
+    "static/media/Image22-22.png": "/Amile/static/media/Image22-22.43cddc7a90506a538969.png",
     "static/media/Image6-6.png": "/Amile/static/media/Image6-6.de71205d50183c37c9c9.png",
     "static/media/Image18.png": "/Amile/static/media/Image18.dc131edd33268973d538.png",
     "static/media/Image34.png": "/Amile/static/media/Image34.3411ab0e43bd4ba0a125.png",
@@ -142,8 +142,8 @@
     "static/media/Image15.png": "/Amile/static/media/Image15.9ca586274078fb541fd0.png",
     "static/media/Image21.png": "/Amile/static/media/Image21.ce63710b05f5fcad1e91.png",
     "static/media/Image8.png": "/Amile/static/media/Image8.14c403080e49e2b70d2d.png",
-    "static/media/Image22.png": "/Amile/static/media/Image22.56e0321de3bc450a2413.png",
     "static/media/Image11.png": "/Amile/static/media/Image11.fef2fdb73dcb2d67da00.png",
+    "static/media/Image22.png": "/Amile/static/media/Image22.45762f4e2c188dba09dc.png",
     "static/media/Image29.png": "/Amile/static/media/Image29.8eb51fb76e5bf7a86261.png",
     "static/media/Image10.png": "/Amile/static/media/Image10.f485c180d4c4c76bf28d.png",
     "static/media/Image9.png": "/Amile/static/media/Image9.54fb0eeb4e4e22dc6a4b.png",
@@ -156,11 +156,11 @@
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "index.html": "/Amile/index.html",
     "main.90e96f83.css.map": "/Amile/static/css/main.90e96f83.css.map",
-    "main.e340bbb8.js.map": "/Amile/static/js/main.e340bbb8.js.map",
+    "main.9e1a7e36.js.map": "/Amile/static/js/main.9e1a7e36.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90e96f83.css",
-    "static/js/main.e340bbb8.js"
+    "static/js/main.9e1a7e36.js"
   ]
 }
