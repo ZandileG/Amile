@@ -54,8 +54,8 @@ function Page20(){
     ))}
    </section>
 
-      <img src={Image20} alt="Page 20" className={Zulu ? "page-image-small-desktop" : "page-image-20"} />
-      <img src={Image20_20} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image20} alt="Page 20" className={Zulu ? "page-image-small-desktop-20" : "page-image-20"} />
+      <img src={Image20_20} alt="Page 20" className={Zulu ? "page-image-small-mobile-20" : "page-image-20-20"} />
 
       <section className="page-20">20</section>
     </section>

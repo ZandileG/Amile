@@ -29,8 +29,8 @@ function Page30(){
 
   return(
      <section className="page-even">
-      <img src={Image30} alt="Page 30" className={Zulu ? "page-image-small-desktop" : "page-image-30"} />
-      <img src={Image30_30} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image30} alt="Page 30" className={Zulu ? "page-image-small-desktop-30" : "page-image-30"} />
+      <img src={Image30_30} alt="Page 30" className={Zulu ? "page-image-small-mobile-30" : "page-image-30-30"} />
 
       <p className="page-text">
         {transcript.map((line, i) => {

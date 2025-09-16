@@ -50,8 +50,8 @@ function Page31(){
 
   return(
     <section className="page-odd">
-      <img src={Image31} alt="Page 1" className={Zulu ? "page-image-small-desktop" : "page-image-1"} />
-      <img src={Image31_31} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image31} alt="Page 31" className={Zulu ? "page-image-small-desktop-31" : "page-image-31"} />
+      <img src={Image31_31} alt="Page 31" className={Zulu ? "page-image-small-mobile-31" : "page-image-31-31"} />
 
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (

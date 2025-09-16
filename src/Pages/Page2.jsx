@@ -27,8 +27,8 @@ function Page2(){
 
   return(
     <section className="page-even">
-      <img src={Image2} alt="Page 2" className={Zulu ? "page-image-big-desktop" : "page-image-2"} />
-      <img src={Image2_2} alt="Page 2" className={Zulu ? "page-image-big-mobile" : "page-image-2-2"} />
+      <img src={Image2} alt="Page 2" className={Zulu ? "page-image-big-desktop-2" : "page-image-2"} />
+      <img src={Image2_2} alt="Page 2" className={Zulu ? "page-image-big-mobile-2" : "page-image-2-2"} />
 
       <p className="page-text">
         {transcript.map((line, i) => {

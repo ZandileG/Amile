@@ -58,8 +58,8 @@ function Page10(){
     ))}
    </section>
 
-      <img src={Image10} alt="Page 10" className={Zulu ? "page-image-small-desktop" : "page-image-10"} />
-      <img src={Image10_10} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image10} alt="Page 10" className={Zulu ? "page-image-small-desktop-10" : "page-image-10"} />
+      <img src={Image10_10} alt="Page 10" className={Zulu ? "page-image-small-mobile-10" : "page-image-10-10"} />
 
       <section className="page-10">10</section>
     </section>

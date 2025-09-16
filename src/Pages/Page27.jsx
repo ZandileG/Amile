@@ -37,7 +37,7 @@ function Page27(){
         })}
       </p>
 
-      <img src={Image27} alt="Page 27" className={Zulu ? "page-image-big-desktop" : "page-image-27"} />
+      <img src={Image27} alt="Page 27" className={Zulu ? "page-image-big-desktop-27" : "page-image-27"} />
       <img src={Image27_27} alt="Page 27" className="page-image-27-27" />
 
       <section className="page-27">27</section>

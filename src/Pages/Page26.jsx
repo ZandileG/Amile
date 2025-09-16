@@ -32,7 +32,7 @@ function Page26(){
   return(
    <section className="page-even">
       <img src={Image26} alt="Page 26" className="page-image-26" />
-      <img src={Image26_26} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image26_26} alt="Page 26" className={Zulu ? "page-image-small-mobile-26" : "page-image-26-26"} />
 
       <p className="page-text">
         {transcript.map((line, i) => {

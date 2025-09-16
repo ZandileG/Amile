@@ -28,8 +28,8 @@ function Page3(){
 
   return(
     <section className="page-odd">
-      <img src={Image3} alt="Page 3" className={Zulu ? "page-image-small-desktop" : "page-image-3"} />
-      <img src={Image3_3} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image3} alt="Page 3" className={Zulu ? "page-image-small-desktop-3" : "page-image-3"} />
+      <img src={Image3_3} alt="Page 3" className={Zulu ? "page-image-small-mobile-3" : "page-image-3-3"} />
 
       <p className="page-text">
         {transcript.map((line, i) => {
