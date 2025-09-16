@@ -41,8 +41,8 @@ function Page4(){
       </p>
 
       <img src={Image4} alt="Page 4" className="page-image-4" />
-      <img src={Image4_4} alt="Page 4" className="page-image-4-4" />
-
+      <img src={Image4_4} alt="Page 4" className={Zulu ? "page-image-big-mobile" : "page-image-4-4"} />
+      
       <section className="page-4">4</section>
     </section>
   );

@@ -39,8 +39,8 @@ function Page5(){
 
   return(
     <section className="page-odd">
-      <img src={Image5} alt="Page 5" className="page-image-5" />
-      <img src={Image5_5} alt="Page 5" className="page-image-5-5" />
+      <img src={Image5} alt="Page 5" className={Zulu ? "page-image-small-desktop" : "page-image-5"} />
+      <img src={Image5_5} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
 
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (

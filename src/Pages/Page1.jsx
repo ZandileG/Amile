@@ -50,8 +50,8 @@ function Page1(){
         })}
       </p>
 
-      <img src={Image1} alt="Page 1" className={Zulu ? "page-image-1-zulu" : "page-image-1"} />
-      <img src={Image1_1} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      <img src={Image1} alt="Page 1" className={Zulu ? "page-image-big-desktop" : "page-image-1"} />
+      <img src={Image1_1} alt="Page 1" className={Zulu ? "page-image-big-mobile" : "page-image-1-1"} />
       
       <section className="page-1">1</section>
     </section>

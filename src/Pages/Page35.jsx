@@ -36,7 +36,7 @@ function Page35(){
       </p>
 
       <img src={Image35} alt="Page 35" className="page-image-35" />
-      <img src={Image35_35} alt="Page 35" className="page-image-35-35" />
+      <img src={Image35_35} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
 
       <section className="page-35">35</section>
     </section>

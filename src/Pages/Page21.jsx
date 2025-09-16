@@ -50,7 +50,7 @@ function Page21(){
       </p>
 
       <img src={Image21} alt="Page 21" className="page-image-21" />
-      <img src={Image21_21} alt="Page 21" className="page-image-21-21" />
+      <img src={Image21_21} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
 
       <section className="page-21">21</section>
     </section>

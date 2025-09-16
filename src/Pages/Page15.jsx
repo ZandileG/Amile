@@ -49,8 +49,8 @@ function Page15(){
         })}
       </p>
 
-      <img src={Image15} alt="Page 15" className="page-image-15" />
-      <img src={Image15_15} alt="Page 15" className="page-image-15-15" />
+      <img src={Image15} alt="Page 15" className={Zulu ? "page-image-small-desktop" : "page-image-15"} />
+      <img src={Image15_15} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
       
       <section className="page-15">15</section>
     </section>

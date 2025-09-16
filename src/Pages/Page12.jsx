@@ -37,8 +37,8 @@ function Page12(){
       </p>
 
       <img src={Image12} alt="Page 12" className="page-image-12" />
-      <img src={Image12_12} alt="Page 12" className="page-image-12-12" />
-
+      <img src={Image12_12} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
+      
       <section className="page-12">12</section>
     </section>
   );

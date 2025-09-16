@@ -130,14 +130,8 @@ a{
   text-align: center;
 }
 
-.page-image-1, .page-image-1-1, .page-image-1-zulu{
+.page-image-1, .page-image-1-1{
   padding-top: 1rem;
-}
-
-.page-image-1-zulu, .page-image-2-zulu{
-  width: 75%;
-  height: auto;
-  margin: auto;
 }
 
 .page-image-4, .page-image-4-4{
@@ -206,6 +200,18 @@ a{
 
 .page-image-35, .page-image-35-35{
   padding-top: 1rem;
+}
+
+.page-image-big-desktop, .page-image-big-mobile{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.page-image-small-desktop, .page-image-small-mobile{
+  width: 60%;
+  height: auto;
+  margin: auto;
 }
 
 .page-image-1-1, .page-image-2-2, .page-image-3-3, 

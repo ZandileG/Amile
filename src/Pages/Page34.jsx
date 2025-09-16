@@ -32,8 +32,8 @@ function Page34(){
         })}
       </p>
 
-      <img src={Image34} alt="Page 34" className="page-image-34" />
-      <img src={Image34_34} alt="Page 34" className="page-image-34-34" />
+      <img src={Image34} alt="Page 1" className={Zulu ? "page-image-1-zulu" : "page-image-1"} />
+      <img src={Image34_34} alt="Page 1" className={Zulu ? "page-image-1-1-zulu" : "page-image-1-1"} />
 
       <section className="page-34">34</section>
     </section>

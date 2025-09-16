@@ -21,8 +21,8 @@ function Page13(){
 
   return(
     <section className="page-odd">
-        <img src={Image13} alt="Page 13" className="page-image-13" />
-        <img src={Image13_13} alt="Page 13" className="page-image-13-13" />
+      <img src={Image13} alt="Page 13" className={Zulu ? "page-image-big-desktop" : "page-image-13"} />
+      <img src={Image13_13} alt="Page 13" className={Zulu ? "page-image-big-mobile" : "page-image-13-13"} />
 
       <p className="page-text">
         {transcript.map((line, i) => {
