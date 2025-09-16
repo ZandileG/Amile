@@ -90,6 +90,7 @@ export function MusicProvider({ children }){
   const [currentPage, setCurrentPage] = useState(null);
   const [currentTime, setCurrentTime] = useState(0);
   const [language, setLanguage] = useState("en");
+  const [Zulu, setZulu] = useState(false);
 
 //These are the narrations in zulu and english for each page and the audio files that go with each one
   const narrations = {
@@ -107,7 +108,11 @@ export function MusicProvider({ children }){
 
 //This will the language of the narration when the button is clicked
 function changeLanguage(){
-  setLanguage(prev => prev === "en" ? "zu" : "en");
+  setLanguage(prev => {
+    const nextLang = prev === "en" ? "zu" : "en";
+    setZulu(nextLang === "zu");
+    return nextLang;
+  });
 }
 
 //When the buttons are clicked, the music/narration will play
@@ -173,7 +178,7 @@ function playNarration(pageNumber){
 
   return(
     <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, 
-                           language, changeLanguage, currentPage, narrationRef, currentTime } }>{children}
+                           language, changeLanguage, Zulu, currentPage, narrationRef, currentTime } }>{children}
     </MusicContext.Provider>
   );
 }
