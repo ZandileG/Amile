@@ -60,7 +60,7 @@ function Page6(){
     ))}
    </section>
 
-      <img src={Image6} alt="Page 6" className={Zulu ? "ppage-image-small-desktop-6" : "page-image-6"} />
+      <img src={Image6} alt="Page 6" className={Zulu ? "page-image-small-desktop-6" : "page-image-6"} />
       <img src={Image6_6} alt="Page 6" className={Zulu ? "page-image-small-mobile-6" : "page-image-6-6"} />
 
       <section className="page-6">6</section>

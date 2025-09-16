@@ -225,7 +225,7 @@ a{
 .page-image-big-desktop-2, .page-image-big-mobile-2,
 .page-image-big-mobile-4, .page-image-big-desktop-11, 
 .page-image-big-mobile-11, .page-image-big-desktop-13, 
-.page-image-big-mobile-13{
+.page-image-big-mobile-13, .page-image-big-desktop-27{
   width: 78%;
   height: auto;
   margin: auto;
@@ -249,7 +249,7 @@ a{
 .page-image-small-mobile-34, .page-image-small-mobile-35,
 .page-image-small-desktop-36, .page-image-small-mobile-36
 {
-  width: 60%;
+  width: 68%;
   height: auto;
   margin: auto;
 }
@@ -318,7 +318,7 @@ a{
 .page-image-small-desktop-28, .page-image-small-mobile-28, .page-image-30, .page-image-30-30, 
 .page-image-small-desktop-30, .page-image-small-mobile-30, .page-image-31, .page-image-31-31,
 .page-image-small-desktop-31, .page-image-small-mobile-31, .page-image-33, .page-image-33-33, 
-.page-image-small-desktop-33, .page-image-small-mobile-33, .page-image-36, .page-image-36-36
+.page-image-small-desktop-33, .page-image-small-mobile-33, .page-image-36, .page-image-36-36,
 .page-image-small-desktop-36, .page-image-small-mobile-36{
   margin-top: 3.5rem;
 }
