@@ -5,7 +5,7 @@ import Image1_1 from "../Images/Image1-1.png";
 import "../Styles/Page.css";
 
 function Page1(){
-  const { currentTime, Zulu, language, currentPage } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
 
   const transcripts = {
     en: {
@@ -50,8 +50,8 @@ function Page1(){
         })}
       </p>
 
-      <img src={Image1} alt="Page 1" className={Zulu ? "page-image-big-desktop-1" : "page-image-1"} />
-      <img src={Image1_1} alt="Page 1" className={Zulu ? "page-image-big-mobile-1" : "page-image-1-1"} />
+      <img src={Image1} alt="Page 1" className="page-image-1" />
+      <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
       
       <section className="page-1">1</section>
     </section>

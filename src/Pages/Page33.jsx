@@ -5,7 +5,7 @@ import Image33_33 from "../Images/Image33-33.png";
 import "../Styles/Page.css";
 
 function Page33(){
-  const { currentTime, Zulu, language, currentPage } = useContext(MusicContext);
+  const { currentTime, language, currentPage } = useContext(MusicContext);
   
      const transcripts = {
       en: [
