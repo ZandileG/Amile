@@ -5,7 +5,7 @@ import "../Styles/Page.css";
 
 function Cover1(){
   return(
-    <section className="page">
+    <section className="cover-page">
       <img src={CoverImage} alt="Cover" className="cover-image" />
       <img src={CoverImage2} alt="Cover" className="cover-image2" />
     </section>

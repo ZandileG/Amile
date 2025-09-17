@@ -75,6 +75,35 @@ a{
 }
 
 .page{
+  margin: 0;
+  width: 100%;
+  height: 93.35vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.odd{
+  position: absolute;
+  text-align: left;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 10; 
+}
+
+.even{
+  position: absolute;
+  text-align: right;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 10;
+}
+
+.cover-page{
   padding: 0;
   margin: 0;
   width: 100%;
@@ -187,25 +216,9 @@ a{
   display: none;
 }
 
-.odd{
-  position: absolute;
-  text-align: left;
-  left: 1rem;
-  bottom: 1rem;
-  z-index: 10;
-}
-
-.even{
-  position: absolute;
-  text-align: right;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 10;
-}
-
 .title{
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 3rem;
     font-family: "Rolly";
@@ -281,6 +294,10 @@ a{
 
 @media (min-width: 1200px) and (max-width: 1400px){
 .odd{
+  left: 0.75rem;
+}
+
+.even{
   right: 0.75rem;
 }
 
@@ -300,10 +317,6 @@ a{
 
 a{
  font-size: 1.25rem;
-}
-
-.odd, .even{
-  bottom: 0rem;
 }
 
  .page-chapter, .page-text{
@@ -740,6 +753,9 @@ a{
 .odd, .even{
   text-align: right;
   right: 1.75rem;
+  position: absolute;
+  bottom: 1rem;
+  z-index: 10;
 }
 
 .author-image{
@@ -747,7 +763,7 @@ a{
 }
 
 .title{
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
 .page-heading, .page-list{
