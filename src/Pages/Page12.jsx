@@ -37,7 +37,7 @@ function Page12(){
       </p>
 
       <img src={Image12} alt="Page 12" className="page-image-12" />
-      <img src={Image12_12} alt="Page 12" className={Zulu ? "page-image-small-mobile-12" : "page-image-12-12"} />
+      <img src={Image12_12} alt="Page 12" className="page-image-12-12" />
       
       <section className="even">12</section>
     </section>

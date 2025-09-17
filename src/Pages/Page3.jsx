@@ -28,9 +28,9 @@ function Page3(){
 
   return(
     <section className="page">
-      <img src={Image3} alt="Page 3" className={Zulu ? "page-image-small-desktop-3" : "page-image-3"} />
-      <img src={Image3_3} alt="Page 3" className={Zulu ? "page-image-small-mobile-3" : "page-image-3-3"} />
-
+      <img src={Image3} alt="Page 3" className="page-image-3" />
+      <img src={Image3_3} alt="Page 3" className="page-image-3-3" />
+      
       <p className="page-text">
         {transcript.map((line, i) => {
          const isActive = currentPage === 3 && currentTime >= line.start && currentTime <= line.end;

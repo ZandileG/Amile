@@ -41,7 +41,7 @@ function Page4(){
       </p>
 
       <img src={Image4} alt="Page 4" className="page-image-4" />
-      <img src={Image4_4} alt="Page 4" className={Zulu ? "page-image-big-mobile-4" : "page-image-4-4"} />
+      <img src={Image4_4} alt="Page 4" className="page-image-4-4" />
       
       <section className="even">4</section>
     </section>

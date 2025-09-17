@@ -36,7 +36,7 @@ function Page35(){
       </p>
 
       <img src={Image35} alt="Page 35" className="page-image-35" />
-      <img src={Image35_35} alt="Page 35" className={Zulu ? "page-image-small-mobile-35" : "page-image-35-35"} />
+      <img src={Image35_35} alt="Page 35" className="page-image-35-35" />
 
       <section className="odd">35</section>
     </section>

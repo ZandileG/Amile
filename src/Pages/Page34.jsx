@@ -32,8 +32,8 @@ function Page34(){
         })}
       </p>
 
-      <img src={Image34} alt="Page 34" className={Zulu ? "page-image-small-desktop-34" : "page-image-34"} />
-      <img src={Image34_34} alt="Page 34" className={Zulu ? "page-image-small-mobile-34" : "page-image-34-34"} />
+      <img src={Image34} alt="Page 34" className="page-image-34" />
+      <img src={Image34_34} alt="Page 34" className="page-image-34-34" />
 
       <section className="even">34</section>
     </section>

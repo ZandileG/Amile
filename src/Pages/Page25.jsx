@@ -51,7 +51,7 @@ function Page25(){
     ))}
    </section>
 
-      <img src={Image25} alt="Page 25" className={Zulu ? "page-image-small-desktop-25" : "page-image-25"} />
+      <img src={Image25} alt="Page 25" className="page-image-25" />
       <img src={Image25_25} alt="Page 25" className="page-image-25-25" />
 
       <section className="odd">25</section>

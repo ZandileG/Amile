@@ -37,7 +37,7 @@ function Page18(){
    </p>
 
     <img src={Image18} alt="Page 18" className="page-image-18" />
-      <img src={Image18_18} alt="Page 18" className={Zulu ? "page-image-small-mobile-18" : "page-image-18-18"} />
+      <img src={Image18_18} alt="Page 18" className="page-image-18-18" />
 
       <section className="even">18</section>
     </section>

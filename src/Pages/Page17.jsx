@@ -25,7 +25,7 @@ function Page17(){
   return(
     <section className="page">
       <img src={Image17} alt="Page 17" className="page-image-17" />
-      <img src={Image17_17} alt="Page 17" className={Zulu ? "page-image-small-mobile-17" : "page-image-17-17"} />
+      <img src={Image17_17} alt="Page 17" className="page-image-17-17" />
 
     <p className="page-text">
     {transcript.map((line, i) => {

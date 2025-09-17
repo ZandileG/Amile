@@ -24,8 +24,8 @@ function Page28(){
 
   return(
     <section className="page">
-      <img src={Image28} alt="Page 28" className={Zulu ? "page-image-small-desktop-28" : "page-image-28"} />
-      <img src={Image28_28} alt="Page 28" className={Zulu ? "page-image-small-mobile-28" : "page-image-28-28"} />
+      <img src={Image28} alt="Page 28" className="page-image-28" />
+      <img src={Image28_28} alt="Page 28" className="page-image-28-28" />
 
       <p className="page-text">
         {transcript.map((line, i) => {

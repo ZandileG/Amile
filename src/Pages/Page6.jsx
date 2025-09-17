@@ -60,8 +60,8 @@ function Page6(){
     ))}
    </section>
 
- <img src={Image6} alt="Page 6" className="page-image-6" />
- <img src={Image6_6} alt="Page 6" className="page-image-6-6" />
+   <img src={Image6} alt="Page 6" className="page-image-6" />
+   <img src={Image6_6} alt="Page 6" className="page-image-6-6" />
 
       <section className="even">6</section>
     </section>

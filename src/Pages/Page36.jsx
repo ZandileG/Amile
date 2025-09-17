@@ -46,8 +46,8 @@ function Page36(){
 
   return(
     <section className="page">
-      <img src={Image36} alt="Page 36" className={Zulu ? "page-image-small-desktop-36" : "page-image-36"} />
-      <img src={Image36_36} alt="Page 36" className={Zulu ? "page-image-small-mobile-36" : "page-image-36-36"} />
+      <img src={Image36} alt="Page 36" className="page-image-36" />
+      <img src={Image36_36} alt="Page 36" className="page-image-36-36" />
       
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
