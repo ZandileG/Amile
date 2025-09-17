@@ -52,7 +52,6 @@ function Page1(){
 
       <img src={Image1} alt="Page 1" className="page-image-1" />
       <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
-      
       <section className="odd">1</section>
     </section>
   );
