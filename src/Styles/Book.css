@@ -4,7 +4,7 @@
   justify-content: center;
   position: relative;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   overflow-x: hidden;
   background: url("../Images/Background.png") no-repeat center center;

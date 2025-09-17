@@ -252,16 +252,16 @@ a{
 .odd{
   position: absolute;
   text-align: left;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+  left: 1rem;
+  bottom: 1rem;
   z-index: 10;
 }
 
 .even{
   position: absolute;
   text-align: right;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  right: 1rem;
+  bottom: 1rem;
   z-index: 10;
 }
 
@@ -363,7 +363,7 @@ a{
 
 @media (min-width: 1200px) and (max-width: 1400px){
 .odd{
-  margin-right: 0.75rem;
+  right: 0.75rem;
 }
 
 .credit{
@@ -385,7 +385,7 @@ a{
 }
 
 .odd, .even{
-  margin-bottom: 0rem;
+  bottom: 0rem;
 }
 
  .page-chapter, .page-text{
@@ -422,7 +422,7 @@ a{
 
 @media (min-width: 1050px) and (max-width: 1200px){
 .odd{
-  margin-right: 0.75rem;
+  right: 0.75rem;
 }
 
  .page-chapter, .page-text{
@@ -459,7 +459,7 @@ a{
 
 @media (min-width: 1024px) and (max-width: 1050px){
 .odd{
-  margin-right: 0.75rem;
+  right: 0.75rem;
 }
 
  .page-chapter, .page-text{
@@ -490,8 +490,7 @@ a{
 @media (min-width: 970px) and (max-width: 1023px){
 .odd{
   text-align: right;
-  margin-right: 1.75rem;
-  padding-top: 4rem;
+  right: 1.75rem;
 }
 
 .page-chapter, .page-text{
@@ -504,10 +503,6 @@ a{
   font-size: 1.45rem;
 }
 
-.page-odd, .page-even{
-  padding-top: 2rem;
-}
-
 .drop-cap-container{
   margin-left: 9rem;
 }
@@ -516,8 +511,7 @@ a{
 @media (min-width: 900px) and (max-width: 970px){
 .odd, .even{
   text-align: right;
-  margin-right: 1.5rem;
-  padding-top: 4rem;
+  right: 1.5rem;
 }
 
  .page-chapter, .page-text{
@@ -551,8 +545,7 @@ a{
 @media (min-width: 629px) and (max-width: 900px){
 .odd, .even{
   text-align: right;
-  margin-right: 2rem;
-  padding-top: 4rem;
+  right: 2rem;
 }
 
 .page-heading, .page-list{
@@ -631,8 +624,7 @@ a{
 @media (min-width: 600px) and (max-width: 629px){
 .odd, .even{
   text-align: right;
-  margin-right: 1.25rem;
-  padding-top: 2rem;
+  right: 1.25rem;
 }
 
 .author-image{
@@ -701,8 +693,7 @@ a{
 @media (min-width: 500px) and (max-width: 600px){
 .odd, .even{
   text-align: right;
-  margin-right: 1.25rem;
-  padding-top: 2rem;
+  right: 1.25rem;
 }
 
 .page-heading, .page-list{
@@ -739,8 +730,7 @@ a{
 @media (min-width: 450px) and (max-width: 550px){
 .odd, .even{
   text-align: right;
-  margin-right: 2.5rem;
-  padding-top: 3rem;
+  right: 2.5rem;
 }
 
 .author-image{
@@ -781,8 +771,7 @@ a{
 @media (min-width: 400px) and (max-width: 450px){
 .odd, .even{
   text-align: right;
-  margin-right: 2.75rem;
-  padding-top: 2rem;
+  right: 2.75rem;
 }
 
 .author-image{
@@ -823,8 +812,7 @@ a{
 @media (min-width: 300px) and (max-width: 400px){
 .odd, .even{
   text-align: right;
-  margin-right: 2.5rem;
-  padding-top: 2rem;
+  right: 2.5rem;
 }
 
 .author-image{
@@ -865,15 +853,14 @@ a{
 @media (max-width: 300px){
 .odd, .even{
   text-align: right;
-  margin-right: 1.75rem;
-  padding-top: 2rem;
+  right: 1.75rem;
 }
 
 .author-image{
   width: 48%;
 }
 
-  .title{
+.title{
     font-size: 2.5rem;
   }
 
