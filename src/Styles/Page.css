@@ -74,7 +74,7 @@ a{
   z-index: 1;
 }
 
-.page, .page-even, .page-odd{
+.page{
   padding: 0;
   margin: 0;
   width: 100%;
@@ -138,9 +138,7 @@ a{
   padding-top: 1rem;
 }
 
-.page-image-6, .page-image-6-6, 
-.page-image-small-desktop-6,
-.page-image-small-mobile-6{
+.page-image-6, .page-image-6-6{
   padding-top: 1rem;
 }
 
@@ -148,14 +146,11 @@ a{
   padding-top: 1rem;
 }
 
-.page-image-10, .page-image-10-10,
-.page-image-small-desktop-10,
-.page-image-small-mobile-10{
+.page-image-10, .page-image-10-10{
   padding-top: 1rem;
 }
 
-.page-image-12, .page-image-12-12,
-.page-image-small-mobile-12{
+.page-image-12, .page-image-12-12{
   padding-top: 1rem;
 }
 
@@ -163,25 +158,19 @@ a{
   padding-top: 1rem;
 }
 
-.page-image-15, .page-image-15-15,
-.page-image-small-desktop-15,
-.page-image-small-mobile-15{
+.page-image-15, .page-image-15-15{
   padding-top: 1rem;
 }
 
-.page-image-18, .page-image-18-18,
-.page-image-small-mobile-18{
+.page-image-18, .page-image-18-18{
   padding-top: 1rem;
 }
 
-.page-image-20, .page-image-20-20,
-.page-image-small-desktop-20,
-.page-image-small-mobile-20{
+.page-image-20, .page-image-20-20{
   padding-top: 1rem;
 }
 
-.page-image-21, .page-image-21-21,
-.page-image-small-desktop-21{
+.page-image-21, .page-image-21-21{
   padding-top: 1rem;
 }
 
@@ -189,13 +178,11 @@ a{
   padding-top: 1rem;
 }
 
-.page-image-25, .page-image-25-25,
-.page-image-small-desktop-25{
+.page-image-25, .page-image-25-25{
   padding-top: 1rem;
 }
 
-.page-image-27, .page-image-27-27,
-.page-image-big-desktop-27{
+.page-image-27, .page-image-27-27{
   padding-top: 1rem;
 }
 
@@ -207,84 +194,18 @@ a{
   padding-top: 1rem;
 }
 
-.page-image-34, .page-image-34-34,
-.page-image-small-desktop-34,
-.page-image-small-mobile-34{
+.page-image-34, .page-image-34-34{
   padding-top: 1rem;
 }
 
-.page-image-35, .page-image-35-35,
-.page-image-small-mobile-35{
+.page-image-35, .page-image-35-35{
   padding-top: 1rem;
 }
 
-.page-image-big-desktop-1, .page-image-big-mobile-1,
-.page-image-big-desktop-2, .page-image-big-mobile-2,
-.page-image-big-mobile-4, .page-image-big-desktop-11, 
-.page-image-big-mobile-11, .page-image-big-desktop-13, 
-.page-image-big-mobile-13, .page-image-big-desktop-27{
-  width: 75%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-small-desktop-3, .page-image-small-mobile-3,
-.page-image-small-desktop-5, .page-image-small-mobile-5,
-.page-image-small-mobile-8, .page-image-small-desktop-10, 
-.page-image-small-mobile-10, .page-image-small-mobile-12, 
-.page-image-small-desktop-15, .page-image-small-mobile-15,
-.page-image-small-desktop-16, .page-image-small-mobile-16,
-.page-image-small-mobile-17, .page-image-small-mobile-18,
-.page-image-small-mobile-21, .page-image-small-desktop-25, 
-.page-image-small-mobile-26, .page-image-small-desktop-28, 
-.page-image-small-mobile-28, .page-image-small-desktop-30, 
-.page-image-small-mobile-30, .page-image-small-desktop-31, 
-.page-image-small-mobile-31, .page-image-small-desktop-33, 
-.page-image-small-mobile-33, .page-image-small-mobile-35,
-.page-image-small-desktop-36, .page-image-small-mobile-36{
-  width: 65%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-small-desktop-6, .page-image-small-mobile-6{
-  width: 58%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-small-desktop-20, .page-image-small-mobile-20{
-  width: 60%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-small-desktop-34, .page-image-small-mobile-34{
-  width: 66%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-big-mobile-1, .page-image-big-mobile-2,
-.page-image-small-mobile-3, .page-image-big-mobile-4,
-.page-image-small-mobile-5, .page-image-small-mobile-6,
-.page-image-small-mobile-8, .page-image-small-mobile-10,
-.page-image-big-mobile-11, .page-image-small-mobile-12,
-.page-image-big-mobile-13, .page-image-small-mobile-15,
-.page-image-small-mobile-16, .page-image-small-mobile-17,
-.page-image-small-mobile-18, .page-image-small-mobile-20,
-.page-image-small-mobile-21, .page-image-small-mobile-26,
-.page-image-small-mobile-28, .page-image-small-mobile-30,
-.page-image-small-mobile-31, .page-image-small-mobile-33,
-.page-image-small-mobile-34, .page-image-small-mobile-35,
-.page-image-small-mobile-36{
-  display: none;
-}
-
-.page-image-1-1,  .page-image-2-2, .page-image-3-3, 
-.page-image-4-4,  .page-image-5-5, .page-image-6-6, 
+.page-image-1-1, .page-image-2-2, .page-image-3-3, 
+.page-image-4-4, .page-image-5-5, .page-image-6-6,
 .page-image-7-7, .page-image-8-8, .page-image-9-9, 
-.page-image-10-10, .page-image-11-11, .page-image-12-12, 
+.page-image-10-10, .page-image-11-11, .page-image-12-12,
 .page-image-13-13, .page-image-14-14, .page-image-15-15, 
 .page-image-16-16, .page-image-17-17, .page-image-18-18,
 .page-image-19-19, .page-image-20-20, .page-image-21-21, 
@@ -316,43 +237,37 @@ a{
   margin: auto;
 }
 
-.page-image-2, .page-image-2-2, .page-image-big-desktop-2, .page-image-big-mobile-2, 
-.page-image-3, .page-image-3-3, .page-image-small-desktop-3, .page-image-small-mobile-3,  
-.page-image-5, .page-image-5-5, .page-image-small-desktop-5, .page-image-small-mobile-5,   
-.page-image-8, .page-image-8-8, .page-image-small-mobile-8, .page-image-9, .page-image-9-9, 
-.page-image-11, .page-image-11-11, .page-image-big-desktop-11, .page-image-big-mobile-11, 
-.page-image-13, .page-image-13-13, .page-image-big-desktop-13, .page-image-big-mobile-13, 
-.page-image-16, .page-image-16-16, .page-image-small-desktop-16, .page-image-small-mobile-16,  
-.page-image-17, .page-image-17-17, .page-image-small-mobile-17, .page-image-19, .page-image-19-19,
-.page-image-22, .page-image-22-22, .page-image-23, .page-image-23-23, .page-image-26, 
-.page-image-26-26, .page-image-small-mobile-26, .page-image-28, .page-image-28-28, 
-.page-image-small-desktop-28, .page-image-small-mobile-28, .page-image-30, .page-image-30-30, 
-.page-image-small-desktop-30, .page-image-small-mobile-30, .page-image-31, .page-image-31-31,
-.page-image-small-desktop-31, .page-image-small-mobile-31, .page-image-33, .page-image-33-33, 
-.page-image-small-desktop-33, .page-image-small-mobile-33, .page-image-36, .page-image-36-36,
-.page-image-small-desktop-36, .page-image-small-mobile-36{
+.page-image-2, .page-image-2-2, .page-image-3, .page-image-3-3, 
+.page-image-5, .page-image-5-5, .page-image-8, .page-image-8-8, 
+.page-image-9, .page-image-9-9, .page-image-11, .page-image-11-11,
+.page-image-13, .page-image-13-13, .page-image-16, .page-image-16-16,
+.page-image-17, .page-image-17-17, .page-image-19, .page-image-19-19,
+.page-image-22, .page-image-22-22, .page-image-23, .page-image-23-23,
+.page-image-26, .page-image-26-26, .page-image-28, .page-image-28-28,
+.page-image-30, .page-image-30-30, .page-image-31, .page-image-31-31,
+.page-image-33, .page-image-33-33, .page-image-36, .page-image-36-36{
   margin-top: 3.5rem;
 }
 
-.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
-.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+.odd{
+  position: absolute;
   text-align: left;
   margin-left: 1rem;
   margin-bottom: 1rem;
+  z-index: 10;
 }
 
-.page-2, .page-4, .page-6, .page-8, .page-10, .page-12,
-.page-14, .page-16, .page-18, .page-20, .page-22, .page-24,
-.page-26, .page-28, .page-30, .page-32, .page-34, .page-36{
+.even{
+  position: absolute;
   text-align: right;
   margin-right: 1rem;
   margin-bottom: 1rem;
+  z-index: 10;
 }
 
 .title{
     text-align: center;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 3rem;
     font-family: "Rolly";
@@ -402,39 +317,12 @@ a{
   width: 75%;
 }
 
-.page-image-big-desktop-1, .page-image-big-desktop-2, 
-.page-image-big-desktop-11, .page-image-big-desktop-13, 
-.page-image-big-desktop-27{
-  width: 83%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-small-desktop-3, .page-image-small-desktop-5, 
-.page-image-small-desktop-6, .page-image-small-desktop-10, 
-.page-image-small-desktop-15, .page-image-small-desktop-16, 
-.page-image-small-desktop-20, .page-image-small-desktop-25, 
-.page-image-small-desktop-28, .page-image-small-desktop-30, 
-.page-image-small-desktop-31, .page-image-small-desktop-33, 
-.page-image-small-desktop-34, .page-image-small-mobile-35,
-.page-image-small-desktop-36{
-  width: 70%;
-  height: auto;
-  margin: auto;
-}
-
 .page-image-2, .page-image-3, .page-image-5,
 .page-image-8, .page-image-9, .page-image-11,
 .page-image-13, .page-image-16, .page-image-17,
 .page-image-19, .page-image-22, .page-image-23,
 .page-image-26, .page-image-28, .page-image-30,
-.page-image-31, .page-image-33, .page-image-36,
-.page-image-big-desktop-2, .page-image-small-desktop-3, 
-.page-image-small-desktop-5, .page-image-big-desktop-11,
-.page-image-big-desktop-13, .page-image-big-desktop-16, 
-.page-image-small-desktop-28, .page-image-small-desktop-30,
-.page-image-small-desktop-31, .page-image-small-desktop-33, 
-.page-image-small-desktop-36{
+.page-image-31, .page-image-33, .page-image-36{
   margin-top: 3.5rem;
 }
 
@@ -459,39 +347,12 @@ a{
   width: 75%;
 }
 
-.page-image-big-desktop-1, .page-image-big-desktop-2, 
-.page-image-big-desktop-11, .page-image-big-desktop-13, 
-.page-image-big-desktop-27{
-  width: 83%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-small-desktop-3, .page-image-small-desktop-5, 
-.page-image-small-desktop-6, .page-image-small-desktop-10, 
-.page-image-small-desktop-15, .page-image-small-desktop-16, 
-.page-image-small-desktop-20, .page-image-small-desktop-25, 
-.page-image-small-desktop-28, .page-image-small-desktop-30, 
-.page-image-small-desktop-31, .page-image-small-desktop-33, 
-.page-image-small-desktop-34, .page-image-small-mobile-35,
-.page-image-small-desktop-36{
-  width: 70%;
-  height: auto;
-  margin: auto;
-}
-
 .page-image-2, .page-image-3, .page-image-5,
 .page-image-8, .page-image-9, .page-image-11,
 .page-image-13, .page-image-16, .page-image-17,
 .page-image-19, .page-image-22, .page-image-23,
 .page-image-26, .page-image-28, .page-image-30,
-.page-image-31, .page-image-33, .page-image-36, 
-.page-image-big-desktop-2, .page-image-small-desktop-3,
-.page-image-small-desktop-5, .page-image-big-desktop-11,
-.page-image-big-desktop-13, .page-image-small-desktop-16,
-.page-image-small-desktop-28, .page-image-small-desktop-30,
-.page-image-small-desktop-31, .page-image-small-dektop-33,
-.page-image-small-desktop-36{
+.page-image-31, .page-image-33, .page-image-36{
   margin-top: 3.5rem;
 }
 
@@ -501,9 +362,7 @@ a{
 }
 
 @media (min-width: 1200px) and (max-width: 1400px){
-.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
-.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+.odd{
   margin-right: 0.75rem;
 }
 
@@ -525,15 +384,7 @@ a{
  font-size: 1.25rem;
 }
 
-.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
-.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
-  margin-bottom: 0rem;
-}
-
-.page-2, .page-4, .page-6, .page-8, .page-10, .page-12,
-.page-14, .page-16, .page-18, .page-20, .page-22, .page-24,
-.page-26, .page-28, .page-30, .page-32, .page-34, .page-36{
+.odd, .even{
   margin-bottom: 0rem;
 }
 
@@ -570,9 +421,7 @@ a{
 }
 
 @media (min-width: 1050px) and (max-width: 1200px){
-.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
-.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+.odd{
   margin-right: 0.75rem;
 }
 
@@ -609,9 +458,7 @@ a{
 }
 
 @media (min-width: 1024px) and (max-width: 1050px){
-.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
-.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+.odd{
   margin-right: 0.75rem;
 }
 
@@ -641,9 +488,7 @@ a{
 }
 
 @media (min-width: 970px) and (max-width: 1023px){
-.page-1, .page-3, .page-5, .page-7, .page-9, .page-11,
-.page-13, .page-15, .page-17, .page-19, .page-21, .page-23,
-.page-25, .page-27, .page-29, .page-31, .page-33, .page-35{
+.odd{
   text-align: right;
   margin-right: 1.75rem;
   padding-top: 4rem;
@@ -669,12 +514,7 @@ a{
 }
 
 @media (min-width: 900px) and (max-width: 970px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 1.5rem;
   padding-top: 4rem;
@@ -709,12 +549,7 @@ a{
 }
 
 @media (min-width: 629px) and (max-width: 900px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 2rem;
   padding-top: 4rem;
@@ -734,7 +569,7 @@ a{
 }
 
 @media (min-width: 800px) and (max-width: 900px){
-  .page-text{
+.page-text{
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -794,12 +629,7 @@ a{
 }
 
 @media (min-width: 600px) and (max-width: 629px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 1.25rem;
   padding-top: 2rem;
@@ -848,48 +678,28 @@ a{
 .page-image-25-25, .page-image-26-26, .page-image-27-27, 
 .page-image-28-28, .page-image-29-29, .page-image-30-30,
 .page-image-31-31, .page-image-32-32, .page-image-33-33, 
-.page-image-34-34, .page-image-35-35, .page-image-36-36, 
-.page-image-big-mobile-1, .page-image-big-mobile-2,
-.page-image-big-mobile-4, .page-image-big-mobile-11, 
-.page-image-big-mobile-13, .page-image-small-mobile-3, 
-.page-image-small-mobile-5, .page-image-small-mobile-6, 
-.page-image-small-mobile-8, .page-image-small-mobile-10, 
-.page-image-small-mobile-12, .page-image-small-mobile-15, 
-.page-image-small-mobile-16, .page-image-small-mobile-17, 
-.page-image-small-mobile-18, .page-image-small-mobile-20, 
-.page-image-small-mobile-21, .page-image-small-mobile-26, 
-.page-image-small-mobile-28, .page-image-small-mobile-30, 
-.page-image-small-mobile-31, .page-image-small-mobile-33, 
-.page-image-small-mobile-34, .page-image-small-mobile-35, 
-.page-image-small-mobile-36{
+.page-image-34-34, .page-image-35-35, .page-image-36-36{
   display: block;
 }
 
-.page-image-1, .page-image-1-zulu, .page-image-2, .page-image-2-zulu, 
-.page-image-3, .page-image-3-zulu, .page-image-4, .page-image-5, 
-.page-image-5-zulu, .page-image-6, .page-image-6-zulu, .page-image-7, 
-.page-image-8, .page-image-9, .page-image-10, .page-image-10-zulu, 
-.page-image-11, .page-image-11-zulu, .page-image-12, .page-image-13, 
-.page-image-13-zulu, .page-image-14, .page-image-15, .page-image-15-zulu,
-.page-image-16, .page-image-16-zulu, .page-image-17, .page-image-18, 
-.page-image-19, .page-image-20, .page-image-20-zulu, .page-image-21, 
-.page-image-22, .page-image-23, .page-image-24, .page-image-25, 
-.page-image-25-zulu, .page-image-26, .page-image-27, .page-image-27-zulu,
-.page-image-28, .page-image-28-zulu, .page-image-29, .page-image-30,
-.page-image-30-zulu, .page-image-31, .page-image-31-zulu, .page-image-32, 
-.page-image-33, .page-image-33-zulu, .page-image-34, .page-image-34-zulu, 
-.page-image-35, .page-image-36, .page-image-36-zulu{
+.page-image-1, .page-image-2, .page-image-3, 
+.page-image-4, .page-image-5, .page-image-6,
+.page-image-7, .page-image-8, .page-image-9, 
+.page-image-10, .page-image-11, .page-image-12,
+.page-image-13, .page-image-14, .page-image-15, 
+.page-image-16, .page-image-17, .page-image-18,
+.page-image-19, .page-image-20, .page-image-21, 
+.page-image-22, .page-image-23, .page-image-24,
+.page-image-25, .page-image-26, .page-image-27, 
+.page-image-28, .page-image-29, .page-image-30,
+.page-image-31, .page-image-32, .page-image-33, 
+.page-image-34, .page-image-35, .page-image-36{
   display: none
 }
 }
 
 @media (min-width: 500px) and (max-width: 600px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 1.25rem;
   padding-top: 2rem;
@@ -927,12 +737,7 @@ a{
 }
 
 @media (min-width: 450px) and (max-width: 550px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 2.5rem;
   padding-top: 3rem;
@@ -974,12 +779,7 @@ a{
 }
 
 @media (min-width: 400px) and (max-width: 450px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 2.75rem;
   padding-top: 2rem;
@@ -1021,12 +821,7 @@ a{
 }
 
 @media (min-width: 300px) and (max-width: 400px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 2.5rem;
   padding-top: 2rem;
@@ -1068,12 +863,7 @@ a{
 }
 
 @media (max-width: 300px){
-.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, 
-.page-7, .page-8, .page-9, .page-10, .page-11, .page-12, 
-.page-13, .page-14, .page-15, .page-16, .page-17, .page-18, 
-.page-19, .page-20, .page-21, .page-22, .page-23, .page-24, 
-.page-25, .page-26, .page-27, .page-28, .page-29, .page-30, 
-.page-31, .page-32, .page-33, .page-34, .page-35, .page-36{
+.odd, .even{
   text-align: right;
   margin-right: 1.75rem;
   padding-top: 2rem;

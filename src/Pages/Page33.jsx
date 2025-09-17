@@ -24,7 +24,7 @@ function Page33(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page-odd">
+    <section className="page">
       <img src={Image33} alt="Page 33" className={Zulu ? "page-image-small-desktop-33" : "page-image-33"} />
       <img src={Image33_33} alt="Page 33" className={Zulu ? "page-image-small-mobile-33" : "page-image-33-33"} />
 
@@ -39,7 +39,7 @@ function Page33(){
         })}
       </p>
 
-      <section className="page-33">33</section>
+      <section className="odd">33</section>
     </section>
   );
 }

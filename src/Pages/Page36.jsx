@@ -45,7 +45,7 @@ function Page36(){
     const { paragraphs, end } = transcripts[language];
 
   return(
-    <section className="page-even">
+    <section className="page">
       <img src={Image36} alt="Page 36" className={Zulu ? "page-image-small-desktop-36" : "page-image-36"} />
       <img src={Image36_36} alt="Page 36" className={Zulu ? "page-image-small-mobile-36" : "page-image-36-36"} />
       
@@ -66,7 +66,7 @@ function Page36(){
 
       <section className="end">{end[0].text}</section>
 
-      <section className="page-36">36</section>
+      <section className="even">36</section>
     </section>
   );
 }

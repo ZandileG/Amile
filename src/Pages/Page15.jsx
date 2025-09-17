@@ -32,7 +32,7 @@ function Page15(){
       const { dropCap, dropCapText, lines } = transcripts[language];
   
   return(
-    <section className="page-odd">
+    <section className="page">
     <section className="drop-cap-container">
       <section className="drop-cap">{dropCap}</section>
       <section className="drop-cap-text">{dropCapText}</section>
@@ -52,7 +52,7 @@ function Page15(){
       <img src={Image15} alt="Page 15" className={Zulu ? "page-image-small-desktop-15" : "page-image-15"} />
       <img src={Image15_15} alt="Page 15" className={Zulu ? "page-image-small-mobile-15" : "page-image-15-15"} />
       
-      <section className="page-15">15</section>
+      <section className="odd">15</section>
     </section>
   );
 }

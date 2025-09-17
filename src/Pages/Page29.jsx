@@ -31,7 +31,7 @@ function Page29(){
       const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(
-    <section className="page-odd">
+    <section className="page">
     <section className="drop-cap-container">
       <section className="drop-cap">{dropCap}</section>
       <section className="drop-cap-text">{dropCapText}</section>
@@ -51,7 +51,7 @@ function Page29(){
       <img src={Image29} alt="Page 29" className="page-image-29" />
       <img src={Image29_29} alt="Page 29" className="page-image-29-29" />
 
-      <section className="page-29">29</section>
+      <section className="odd">29</section>
     </section>
   );
 }

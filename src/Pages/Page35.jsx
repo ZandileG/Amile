@@ -23,7 +23,7 @@ function Page35(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page-odd">
+    <section className="page">
       <p className="page-text">
         {transcript.map((line, i) => {
         const isActive = currentPage === 35 && currentTime >= line.start && currentTime <= line.end;
@@ -38,7 +38,7 @@ function Page35(){
       <img src={Image35} alt="Page 35" className="page-image-35" />
       <img src={Image35_35} alt="Page 35" className={Zulu ? "page-image-small-mobile-35" : "page-image-35-35"} />
 
-      <section className="page-35">35</section>
+      <section className="odd">35</section>
     </section>
   );
 }

@@ -20,7 +20,7 @@ function Page14(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page-even">
+    <section className="page">
       <p className="page-text">
         {transcript.map((line, i) => {
         const isActive = currentPage === 14 && currentTime >= line.start && currentTime <= line.end;
@@ -35,7 +35,7 @@ function Page14(){
       <img src={Image14} alt="Page 14" className="page-image-14" />
       <img src={Image14_14} alt="Page 14" className="page-image-14-14" />
 
-      <section className="page-14">14</section>
+      <section className="even">14</section>
     </section>
   );
 }

@@ -20,7 +20,7 @@ function Page32(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page-even">
+    <section className="page">
 
       <p className="page-text">
         {transcript.map((line, i) => {
@@ -36,7 +36,7 @@ function Page32(){
       <img src={Image32} alt="Page 32" className="page-image-32" />
       <img src={Image32_32} alt="Page 32" className="page-image-32-32" />
 
-      <section className="page-32">32</section>
+      <section className="even">32</section>
     </section>
   );
 }

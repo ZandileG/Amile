@@ -35,7 +35,7 @@ function Page25(){
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page-odd">
+    <section className="page">
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
@@ -54,7 +54,7 @@ function Page25(){
       <img src={Image25} alt="Page 25" className={Zulu ? "page-image-small-desktop-25" : "page-image-25"} />
       <img src={Image25_25} alt="Page 25" className="page-image-25-25" />
 
-      <section className="page-25">25</section>
+      <section className="odd">25</section>
     </section>
   );
 }

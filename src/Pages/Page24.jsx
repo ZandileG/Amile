@@ -41,7 +41,7 @@ function Page24(){
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page-even">
+    <section className="page">
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
@@ -60,7 +60,7 @@ function Page24(){
     <img src={Image24} alt="Page 24" className="page-image-24" />  
     <img src={Image24_24} alt="Page 24" className="page-image-24-24" />  
 
-      <section className="page-24">24</section>
+      <section className="even">24</section>
     </section>
   );
 }

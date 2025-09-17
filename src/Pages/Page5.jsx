@@ -38,7 +38,7 @@ function Page5(){
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page-odd">
+    <section className="page">
       <img src={Image5} alt="Page 5" className={Zulu ? "page-image-small-desktop-5" : "page-image-5"} />
       <img src={Image5_5} alt="Page 1" className={Zulu ? "page-image-small-mobile-5" : "page-image-5-5"} />
 
@@ -57,7 +57,7 @@ function Page5(){
     ))}
    </section>
 
-      <section className="page-5">5</section>
+      <section className="odd">5</section>
     </section>
   );
 }

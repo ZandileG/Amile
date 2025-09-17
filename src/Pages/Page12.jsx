@@ -24,7 +24,7 @@ function Page12(){
     const transcript = transcripts[language];
 
   return(
-    <section className="page-even">
+    <section className="page">
       <p className="page-text">
         {transcript.map((line, i) => {
         const isActive = currentPage === 12 && currentTime >= line.start && currentTime <= line.end;
@@ -39,7 +39,7 @@ function Page12(){
       <img src={Image12} alt="Page 12" className="page-image-12" />
       <img src={Image12_12} alt="Page 12" className={Zulu ? "page-image-small-mobile-12" : "page-image-12-12"} />
       
-      <section className="page-12">12</section>
+      <section className="even">12</section>
     </section>
   );
 }

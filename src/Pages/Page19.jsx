@@ -34,7 +34,7 @@ function Page19(){
     const { paragraphs } = transcripts[language];
 
   return(
-   <section className="page-odd">
+   <section className="page">
       <img src={Image19} alt="Page 19" className="page-image-19" />
       <img src={Image19_19} alt="Page 19" className="page-image-19-19" />
 
@@ -53,7 +53,7 @@ function Page19(){
     ))}
    </section>
 
-      <section className="page-19">19</section>
+      <section className="odd">19</section>
     </section>
   );
 }

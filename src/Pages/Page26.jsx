@@ -30,7 +30,7 @@ function Page26(){
     const transcript = transcripts[language];
 
   return(
-   <section className="page-even">
+   <section className="page">
       <img src={Image26} alt="Page 26" className="page-image-26" />
       <img src={Image26_26} alt="Page 26" className={Zulu ? "page-image-small-mobile-26" : "page-image-26-26"} />
 
@@ -45,7 +45,7 @@ function Page26(){
         })}
       </p>
 
-      <section className="page-26">26</section>
+      <section className="even">26</section>
     </section>
 
   );

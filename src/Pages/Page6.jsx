@@ -44,7 +44,7 @@ function Page6(){
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page-even">
+    <section className="page">
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
@@ -60,10 +60,10 @@ function Page6(){
     ))}
    </section>
 
-      <img src={Image6} alt="Page 6" className={Zulu ? "page-image-small-desktop-6" : "page-image-6"} />
-      <img src={Image6_6} alt="Page 6" className={Zulu ? "page-image-small-mobile-6" : "page-image-6-6"} />
+ <img src={Image6} alt="Page 6" className="page-image-6" />
+ <img src={Image6_6} alt="Page 6" className="page-image-6-6" />
 
-      <section className="page-6">6</section>
+      <section className="even">6</section>
     </section>
   );
 }

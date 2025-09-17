@@ -32,7 +32,7 @@ function Page21(){
       const { dropCap, dropCapText, lines } = transcripts[language];
 
   return(
-     <section className="page-odd">
+     <section className="page">
     <section className="drop-cap-container">
       <section className="drop-cap">{dropCap}</section>
       <section className="drop-cap-text">{dropCapText}</section>
@@ -52,7 +52,7 @@ function Page21(){
       <img src={Image21} alt="Page 21" className="page-image-21" />
       <img src={Image21_21} alt="Page 21" className={Zulu ? "page-image-small-mobile-21" : "page-image-21-21"} />
 
-      <section className="page-21">21</section>
+      <section className="odd">21</section>
     </section>
   );
 }

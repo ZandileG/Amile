@@ -40,7 +40,7 @@ function Page22(){
     const { paragraphs } = transcripts[language];
   
   return(
-    <section className="page-even">
+    <section className="page">
       <img src={Image22} alt="Page 22" className="page-image-22" />
       <img src={Image22_22} alt="Page 22" className="page-image-22-22" />
 
@@ -59,7 +59,7 @@ function Page22(){
     ))}
    </section>
 
-      <section className="page-22">22</section>
+      <section className="even">22</section>
     </section>
   );
 }

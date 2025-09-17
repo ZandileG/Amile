@@ -40,7 +40,7 @@ function Page9(){
     const { paragraphs } = transcripts[language];
 
   return(
-    <section className="page-odd">
+    <section className="page">
       <img src={Image9} alt="Page 9" className="page-image-9" />
       <img src={Image9_9} alt="Page 9" className="page-image-9-9" />
 
@@ -59,7 +59,7 @@ function Page9(){
     ))}
    </section>
 
-      <section className="page-9">9</section>
+      <section className="odd">9</section>
     </section>
   );
 }
