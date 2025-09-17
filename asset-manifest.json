@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.f796372f.css",
+    "main.css": "/Amile/static/css/main.fb3b2e42.css",
     "main.js": "/Amile/static/js/main.9e4f4ac8.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
@@ -137,12 +137,12 @@
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "index.html": "/Amile/index.html",
-    "main.f796372f.css.map": "/Amile/static/css/main.f796372f.css.map",
+    "main.fb3b2e42.css.map": "/Amile/static/css/main.fb3b2e42.css.map",
     "main.9e4f4ac8.js.map": "/Amile/static/js/main.9e4f4ac8.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f796372f.css",
+    "static/css/main.fb3b2e42.css",
     "static/js/main.9e4f4ac8.js"
   ]
 }
