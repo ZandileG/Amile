@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image19 from "../Images/Image19.png";
-import Image19_19 from "../Images/Image19-19.png";
 import "../Styles/Page.css";
 
 function Page19(){
@@ -36,7 +35,6 @@ function Page19(){
   return(
    <section className="page">
       <img src={Image19} alt="Page 19" className="page-image-19" />
-      <img src={Image19_19} alt="Page 19" className="page-image-19-19" />
 
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (

@@ -130,122 +130,50 @@ a{
   text-align: center;
 }
 
-.page-image-1, .page-image-1-1{
+.page-image-1, .page-image-1-1, .page-image-4,
+.page-image-4-4, .page-image-6, .page-image-7,
+.page-image-10, .page-image-10-10, .page-image-12,
+.page-image-14, .page-image-14-14, .page-image-15,
+.page-image-15-15, .page-image-18, .page-image-20,
+.page-image-20-20, .page-image-21, .page-image-21-21,
+.page-image-24, .page-image-25, .page-image-27, 
+.page-image-29, .page-image-32, .page-image-34, 
+.page-image-35{
   padding-top: 1rem;
 }
 
-.page-image-4, .page-image-4-4{
-  padding-top: 1rem;
-}
-
-.page-image-6, .page-image-6-6{
-  padding-top: 1rem;
-}
-
-.page-image-7, .page-image-7-7{
-  padding-top: 1rem;
-}
-
-.page-image-10, .page-image-10-10{
-  padding-top: 1rem;
-}
-
-.page-image-12, .page-image-12-12{
-  padding-top: 1rem;
-}
-
-.page-image-14, .page-image-14-14{
-  padding-top: 1rem;
-}
-
-.page-image-15, .page-image-15-15{
-  padding-top: 1rem;
-}
-
-.page-image-18, .page-image-18-18{
-  padding-top: 1rem;
-}
-
-.page-image-20, .page-image-20-20{
-  padding-top: 1rem;
-}
-
-.page-image-21, .page-image-21-21{
-  padding-top: 1rem;
-}
-
-.page-image-24, .page-image-24-24{
-  padding-top: 1rem;
-}
-
-.page-image-25, .page-image-25-25{
-  padding-top: 1rem;
-}
-
-.page-image-27, .page-image-27-27{
-  padding-top: 1rem;
-}
-
-.page-image-29, .page-image-29-29{
-  padding-top: 1rem;
-}
-
-.page-image-32, .page-image-32-32{
-  padding-top: 1rem;
-}
-
-.page-image-34, .page-image-34-34{
-  padding-top: 1rem;
-}
-
-.page-image-35, .page-image-35-35{
-  padding-top: 1rem;
-}
-
-.page-image-1-1, .page-image-2-2, .page-image-3-3, 
-.page-image-4-4, .page-image-5-5, .page-image-6-6,
-.page-image-7-7, .page-image-8-8, .page-image-9-9, 
-.page-image-10-10, .page-image-11-11, .page-image-12-12,
-.page-image-13-13, .page-image-14-14, .page-image-15-15, 
-.page-image-16-16, .page-image-17-17, .page-image-18-18,
-.page-image-19-19, .page-image-20-20, .page-image-21-21, 
-.page-image-22-22, .page-image-23-23, .page-image-24-24,
-.page-image-25-25, .page-image-26-26, .page-image-27-27, 
-.page-image-28-28, .page-image-29-29, .page-image-30-30,
-.page-image-31-31, .page-image-32-32, .page-image-33-33, 
-.page-image-34-34, .page-image-35-35, .page-image-36-36{
-  display: none;
+.page-image-1, .page-image-1-1, .page-image-2, 
+.page-image-3, .page-image-4, .page-image-4-4, 
+.page-image-5, .page-image-5-5, .page-image-6,
+.page-image-7, .page-image-8, .page-image-8-8, 
+.page-image-9, .page-image-10, .page-image-10-10, 
+.page-image-11, .page-image-11-11, .page-image-12,
+.page-image-13, .page-image-14, .page-image-14-14,
+.page-image-15, .page-image-15-15, .page-image-16, 
+.page-image-17, .page-image-17-17, .page-image-18,
+.page-image-19, .page-image-20, .page-image-20-20,
+.page-image-21, .page-image-21-21, .page-image-22, 
+.page-image-23, .page-image-23-23, .page-image-24,
+.page-image-25, .page-image-26, .page-image-26-26,
+.page-image-27, .page-image-28, .page-image-28-28,
+.page-image-29, .page-image-30, .page-image-31, 
+.page-image-32, .page-image-33, .page-image-33-33,
+.page-image-34, .page-image-35, .page-image-36
+.page-image-36-36{
   width: 70%;
   height: auto;
   margin: auto;
 }
 
-.page-image-1, .page-image-2, .page-image-3, 
-.page-image-4, .page-image-5, .page-image-6,
-.page-image-7, .page-image-8, .page-image-9, 
-.page-image-10, .page-image-11, .page-image-12,
-.page-image-13, .page-image-14, .page-image-15, 
-.page-image-16, .page-image-17, .page-image-18,
-.page-image-19, .page-image-20, .page-image-21, 
-.page-image-22, .page-image-23, .page-image-24,
-.page-image-25, .page-image-26, .page-image-27, 
-.page-image-28, .page-image-29, .page-image-30,
-.page-image-31, .page-image-32, .page-image-33, 
-.page-image-34, .page-image-35, .page-image-36{
-  width: 70%;
-  height: auto;
-  margin: auto;
-}
-
-.page-image-2, .page-image-2-2, .page-image-3, .page-image-3-3, 
-.page-image-5, .page-image-5-5, .page-image-8, .page-image-8-8, 
-.page-image-9, .page-image-9-9, .page-image-11, .page-image-11-11,
-.page-image-13, .page-image-13-13, .page-image-16, .page-image-16-16,
-.page-image-17, .page-image-17-17, .page-image-19, .page-image-19-19,
-.page-image-22, .page-image-22-22, .page-image-23, .page-image-23-23,
-.page-image-26, .page-image-26-26, .page-image-28, .page-image-28-28,
-.page-image-30, .page-image-30-30, .page-image-31, .page-image-31-31,
-.page-image-33, .page-image-33-33, .page-image-36, .page-image-36-36{
+.page-image-2, .page-image-3, .page-image-5, 
+.page-image-5-5, .page-image-8, .page-image-8-8,
+.page-image-9, .page-image-11, .page-image-11-11, 
+.page-image-13, .page-image-16, .page-image-17, 
+.page-image-17-17, .page-image-19, .page-image-22, 
+.page-image-23, .page-image-23-23, .page-image-26, 
+.page-image-26-26, .page-image-28, .page-image-28-28, 
+.page-image-30, .page-image-31, .page-image-33, 
+.page-image-33-33, .page-image-36, .page-image-36-36{
   margin-top: 3.5rem;
 }
 
@@ -301,49 +229,25 @@ a{
   font-family: "Rolly";
 }
 
-@media (min-width: 2240px) and (max-width: 3010px){
-.page-image-1, .page-image-2, .page-image-3, 
-.page-image-4, .page-image-5, .page-image-6,
-.page-image-7, .page-image-8, .page-image-9, 
-.page-image-10, .page-image-11, .page-image-12,
-.page-image-13, .page-image-14, .page-image-15, 
-.page-image-16, .page-image-17, .page-image-18,
-.page-image-19, .page-image-20, .page-image-21, 
-.page-image-22, .page-image-23, .page-image-24,
-.page-image-25, .page-image-26, .page-image-27, 
-.page-image-28, .page-image-29, .page-image-30,
-.page-image-31, .page-image-32, .page-image-33, 
-.page-image-34, .page-image-35, .page-image-36{
-  width: 75%;
-}
-
-.page-image-2, .page-image-3, .page-image-5,
-.page-image-8, .page-image-9, .page-image-11,
-.page-image-13, .page-image-16, .page-image-17,
-.page-image-19, .page-image-22, .page-image-23,
-.page-image-26, .page-image-28, .page-image-30,
-.page-image-31, .page-image-33, .page-image-36{
-  margin-top: 3.5rem;
-}
-
-.page-text{
-  padding-top: 2rem;
-}
-}
-
-@media (min-width: 1950px) and (max-width: 2240px){
-.page-image-1, .page-image-2, .page-image-3, 
-.page-image-4, .page-image-5, .page-image-6,
-.page-image-7, .page-image-8, .page-image-9, 
-.page-image-10, .page-image-11, .page-image-12,
-.page-image-13, .page-image-14, .page-image-15, 
-.page-image-16, .page-image-17, .page-image-18,
-.page-image-19, .page-image-20, .page-image-21, 
-.page-image-22, .page-image-23, .page-image-24,
-.page-image-25, .page-image-26, .page-image-27, 
-.page-image-28, .page-image-29, .page-image-30,
-.page-image-31, .page-image-32, .page-image-33, 
-.page-image-34, .page-image-35, .page-image-36{
+@media (min-width: 1950px) and (max-width: 3010px){
+.page-image-1, .page-image-1-1, .page-image-2, 
+.page-image-3, .page-image-4, .page-image-4-4, 
+.page-image-5, .page-image-5-5, .page-image-6,
+.page-image-7, .page-image-8, .page-image-8-8, 
+.page-image-9, .page-image-10, .page-image-10-10, 
+.page-image-11, .page-image-11-11, .page-image-12,
+.page-image-13, .page-image-14, .page-image-14-14,
+.page-image-15, .page-image-15-15, .page-image-16, 
+.page-image-17, .page-image-17-17, .page-image-18,
+.page-image-19, .page-image-20, .page-image-20-20, 
+.page-image-21, .page-image-21-21, .page-image-22, 
+.page-image-23, .page-image-23, .page-image-24,
+.page-image-25, .page-image-26, .page-image-26-26,
+.page-image-27, .page-image-28, .page-image-28-28, 
+.page-image-29, .page-image-30, .page-image-31, 
+.page-image-32, .page-image-33, .page-image-33-33,
+.page-image-34, .page-image-35, .page-image-36,
+.page-image-36-36{
   width: 75%;
 }
 
@@ -655,38 +559,6 @@ a{
 
 .drop-cap-text{
   font-size: 1.5rem;
-}
-}
-
-@media (max-width: 600px){
-.page-image-1-1, .page-image-2-2, .page-image-3-3, 
-.page-image-4-4, .page-image-5-5, .page-image-6-6,
-.page-image-7-7, .page-image-8-8, .page-image-9-9, 
-.page-image-10-10, .page-image-11-11, .page-image-12-12,
-.page-image-13-13, .page-image-14-14, .page-image-15-15, 
-.page-image-16-16, .page-image-17-17, .page-image-18-18,
-.page-image-19-19, .page-image-20-20, .page-image-21-21, 
-.page-image-22-22, .page-image-23-23, .page-image-24-24,
-.page-image-25-25, .page-image-26-26, .page-image-27-27, 
-.page-image-28-28, .page-image-29-29, .page-image-30-30,
-.page-image-31-31, .page-image-32-32, .page-image-33-33, 
-.page-image-34-34, .page-image-35-35, .page-image-36-36{
-  display: block;
-}
-
-.page-image-1, .page-image-2, .page-image-3, 
-.page-image-4, .page-image-5, .page-image-6,
-.page-image-7, .page-image-8, .page-image-9, 
-.page-image-10, .page-image-11, .page-image-12,
-.page-image-13, .page-image-14, .page-image-15, 
-.page-image-16, .page-image-17, .page-image-18,
-.page-image-19, .page-image-20, .page-image-21, 
-.page-image-22, .page-image-23, .page-image-24,
-.page-image-25, .page-image-26, .page-image-27, 
-.page-image-28, .page-image-29, .page-image-30,
-.page-image-31, .page-image-32, .page-image-33, 
-.page-image-34, .page-image-35, .page-image-36{
-  display: none
 }
 }
 

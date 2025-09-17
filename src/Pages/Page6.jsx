@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image6 from "../Images/Image6.png";
-import Image6_6 from "../Images/Image6-6.png";
 import "../Styles/Page.css";
 
 function Page6(){
@@ -61,7 +60,6 @@ function Page6(){
    </section>
 
    <img src={Image6} alt="Page 6" className="page-image-6" />
-   <img src={Image6_6} alt="Page 6" className="page-image-6-6" />
 
       <section className="even">6</section>
     </section>
