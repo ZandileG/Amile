@@ -11,6 +11,7 @@ function Page21(){
 
    function stop(e){
     e.stopPropagation();
+    e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }

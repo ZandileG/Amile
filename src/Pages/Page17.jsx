@@ -11,7 +11,7 @@ function Page17(){
 
    function stop(e){
     e.stopPropagation();
-    e.preventDefault();
+    e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
@@ -19,7 +19,7 @@ function Page17(){
 
   function handleToggle(e){
     stop(e);
-    setFlipped((f) => !f);
+    setFlipped((prev) => !prev);
   };
   
     const transcripts = {

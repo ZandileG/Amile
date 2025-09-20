@@ -9,8 +9,9 @@ function Page28(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(true);
 
-   function stop(e){
+  function stop(e){
     e.stopPropagation();
+    e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }

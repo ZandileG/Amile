@@ -12,6 +12,7 @@ function Page1(){
   //I want to stop the pages from flipping when the user is clicking on the images
    function stop(e){
     e.stopPropagation();
+    e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
