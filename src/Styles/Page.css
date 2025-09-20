@@ -15,10 +15,6 @@
   }
 }
 
-.bio{
-  margin-top: -2rem;
-}
-
 .carousel-arrow{
   background-color: transparent;
   font-family: "Rolly";
@@ -138,22 +134,25 @@ a{
 
 .page-heading{
   font-size: 1.75rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-family: "Rolly";
   text-align: center;
   margin: 0;
 }
 
-.page-list{
-  list-style-type: none;
+.license{
   text-align: center;
-  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.45rem;
+  font-weight: 500;
   font-family: "Primer";
 }
 
-.page-list li{
-    margin-bottom: 2rem;
-    line-height: 1.5rem;
+.page-list{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Primer";
 }
 
 .end{
@@ -339,7 +338,7 @@ a{
  font-size: 1.25rem;
 }
 
- .page-chapter, .page-text{
+ .page-chapter, .page-text, .license{
   font-size: 1.25rem;
 }
 
@@ -347,7 +346,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 4rem;
   padding-right: 4rem;
 }
@@ -384,7 +383,7 @@ a{
   margin-right: 1.25rem;
 }
 
- .page-chapter, .page-text{
+ .page-chapter, .page-text, .license{
   font-size: 1.25rem;
 }
 
@@ -392,7 +391,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 4rem;
   padding-right: 4rem;
 }
@@ -429,7 +428,7 @@ a{
   margin-right: 2rem;
 }
 
- .page-chapter, .page-text{
+ .page-chapter, .page-text, .license{
   font-size: 1.25rem;
   padding-left: 4.5rem;
   padding-right: 4.5rem;
@@ -461,7 +460,7 @@ a{
   margin-right: 2rem;
 }
 
-.page-chapter, .page-text{
+.page-chapter, .page-text, .license{
   padding-left: 9rem;
   padding-right: 9rem;
   font-size: 1.5rem;
@@ -483,7 +482,7 @@ a{
   margin-right: 2rem;
 }
 
- .page-chapter, .page-text{
+ .page-chapter, .page-text, .license{
   font-size: 1.25rem;
   padding-left: 8rem;
   padding-right: 8rem;
@@ -532,7 +531,7 @@ a{
 }
 
 @media (min-width: 800px) and (max-width: 900px){
-.page-text{
+.page-text, .license{
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -552,7 +551,7 @@ a{
 }
 
 @media (min-width: 700px) and (max-width: 800px){
-.page-text{
+.page-text, .license{
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -572,7 +571,7 @@ a{
 }
 
 @media (min-width: 629px) and (max-width: 700px){
-.page-text{
+.page-text, .license{
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -606,7 +605,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -640,7 +639,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -682,7 +681,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 4.5rem;
   padding-right: 4.5rem;
 }
@@ -724,7 +723,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 4.5rem;
   padding-right: 4.5rem;
 }
@@ -766,7 +765,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 4rem;
   padding-right: 4rem;
 }
@@ -812,7 +811,7 @@ a{
   font-size: 1.45rem;
 }
 
-.page-text{
+.page-text, .license{
   padding-left: 3.25rem;
   padding-right: 3.25rem;
 }

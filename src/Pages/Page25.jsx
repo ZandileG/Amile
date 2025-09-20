@@ -23,10 +23,10 @@ function Page25(){
       paragraphs: [
     [
     { text: "“Kodwa...akuwona ukhula!” kusho uAmile ememeza.", start: 0, end: 2 },
-    { text: "“UThingo ungumngane wami.”", start: 3, end: 5 },
+    { text: "“UThingo ungumngani wami.”", start: 3, end: 5 },
   ],
   [
-    { text: "“UMngane wakho? Kanti angiyena yin umngane wakho?” kusho uKhaya, ubuso bumuncu.", start: 6, end: 8 },
+    { text: "“UMngani wakho? Kanti angiyena yini umngani wakho mina?” kusho uKhaya, ubuso bumuncu.", start: 6, end: 8 },
   ]
 ]
     }

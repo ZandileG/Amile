@@ -10,7 +10,7 @@ function Page6(){
       en: {
         paragraphs: [
   [
-    { text: "“No Mama, we can't leave our home.", start: 0, end: 4 },
+    { text: "“No Mama, we can't go!", start: 0, end: 4 },
     { text: "I don’t want to leave Khaya behind.” said Amile with tears in her eyes.", start: 5, end: 9 },
   ],
   [
@@ -26,8 +26,8 @@ function Page6(){
       zu: {
       paragraphs: [
   [
-    { text: "“Cha Mama, asikwazi ukushiya ikhaya lethu.", start: 0, end: 4 },
-    { text: "Angifuni ukushiya nabangane bami ngemuva,” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 5, end: 9 },
+    { text: "“Cha Mama, asikwazi ukuhamba!", start: 0, end: 4 },
+    { text: "Angifuni uKhaya ngemuva,” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 5, end: 9 },
   ],
   [
     { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 10, end: 14 },

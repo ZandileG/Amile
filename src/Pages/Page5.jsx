@@ -18,6 +18,10 @@ function Page5(){
   [
     { text: "Amile froze. Her eyes grew wide,", start: 12, end: 14 },
     { text: "searching her dad’s face for some sign that it wasn’t true.", start: 15, end: 18 },
+  ],
+   [
+    { text: "“Mimi,” said her mom, holding Amile’s other hand,", start: 19, end: 20 },
+    { text: "“the town’s water is gone, and the food is running out.”", start: 21, end: 23 },
   ]
       ]
 },
@@ -25,12 +29,16 @@ function Page5(){
       paragraphs: [
   [
     { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 6 },
-    { text: "“Mimi,” washo ngesineke,", start: 7, end: 11 },
-    { text: "“kufanele sihambe eDumakude.”", start: 12, end: 16 },
+    { text: "“Mimi,” washo ngesineke,", start: 7, end: 8 },
+    { text: "“kufanele sihambe eDumakude.”", start: 9, end: 11 },
   ],
   [
-    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 17, end: 19 },
-    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 20, end: 23 },
+    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 12, end: 14 },
+    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 15, end: 18 },
+  ],
+  [
+    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi,", start: 19, end: 21 },
+    { text: "“amanzi awasekho futhi nokudla sekuyaphela.”", start: 22, end: 23 },
   ]
 ]
     }
