@@ -40,9 +40,9 @@ function Page28(){
     <section className="page">
      <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
      {flipped ? (
-          <img src={Image1} alt="Page 1" className="page-image-1" />
+          <img src={Image28} alt="Page 28" className="page-image-28" />
         ) : (
-          <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
+          <img src={Image28_28} alt="Page 28" className="page-image-28-28" />
         )}
 
       <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
