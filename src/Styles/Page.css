@@ -24,8 +24,8 @@
   position: absolute;
   width: 3rem;
   height: auto;
-  top: 5rem;       
-  right: 25rem;     
+  top: 5rem;
+  left: 47%;
   cursor: pointer;
   animation: pulse 1.5s infinite ease-in-out;
   z-index: 2;
