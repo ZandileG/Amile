@@ -15,6 +15,10 @@
   }
 }
 
+.bio{
+  margin-top: -2rem;
+}
+
 .carousel-arrow{
   background-color: transparent;
   font-family: "Rolly";
@@ -77,13 +81,12 @@ a{
 .page{
   margin: 0;
   width: 100%;
-  min-height: 100%;
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   overflow-y: auto;
   position: relative;
-  padding-bottom: 2rem;
 }
 
 .odd{
@@ -217,7 +220,6 @@ a{
 .title{
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
     font-size: 3rem;
     font-family: "Rolly";
 }
