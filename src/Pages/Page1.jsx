@@ -1,11 +1,26 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image1 from "../Images/Image1.png";
 import Image1_1 from "../Images/Image1-1.png";
+import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page1(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
+  const [flipped, setFlipped] = useState(true);
+
+  //I want to stop the pages from flipping when the user is clicking on the images
+   function stop(e){
+    e.stopPropagation();
+    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
+      e.nativeEvent.stopImmediatePropagation();
+    }
+  };
+
+  function handleToggle(e){
+    stop(e);
+    setFlipped((prev) => !prev);
+  };
 
   const transcripts = {
     en: {
@@ -50,9 +65,15 @@ function Page1(){
         })}
       </p>
 
-      <img src={Image1} alt="Page 1" className="page-image-1" />
-      <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
-      
+     <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
+     {flipped ? (
+          <img src={Image1} alt="Page 1" className="page-image-1" />
+        ) : (
+          <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
+        )}
+
+      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
+      </section>
       <section className="odd">1</section>
     </section>
   );

@@ -53,11 +53,6 @@
   display: none;                
 }
 
-.page-content img,
-.page-content .non-interactive{
-  pointer-events: none; 
-}
-
 .navbar-toggle{
   position: absolute;
   top: -0.5rem;

@@ -1,12 +1,26 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image15 from "../Images/Image15.png";
 import Image15_15 from "../Images/Image15-15.png";
+import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page15(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
-  
+  const [flipped, setFlipped] = useState(true);
+
+   function stop(e){
+    e.stopPropagation();
+    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
+      e.nativeEvent.stopImmediatePropagation();
+    }
+  };
+
+  function handleToggle(e){
+    stop(e);
+    setFlipped((prev) => !prev);
+  };
+
   const transcripts = {
      en: {
       dropCap: "E",
@@ -49,9 +63,15 @@ function Page15(){
         })}
       </p>
 
-      <img src={Image15} alt="Page 15" className="page-image-15" />
-      <img src={Image15_15} alt="Page 15" className="page-image-15-15" />
-      
+    <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
+     {flipped ? (
+          <img src={Image1} alt="Page 1" className="page-image-1" />
+        ) : (
+          <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
+        )}
+
+      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
+      </section>
       <section className="odd">15</section>
     </section>
   );

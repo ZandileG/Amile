@@ -1,11 +1,25 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image21 from "../Images/Image21.png";
 import Image21_21 from "../Images/Image21-21.png";
+import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page21(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
+  const [flipped, setFlipped] = useState(true);
+
+   function stop(e){
+    e.stopPropagation();
+    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
+      e.nativeEvent.stopImmediatePropagation();
+    }
+  };
+
+  function handleToggle(e){
+    stop(e);
+    setFlipped((prev) => !prev);
+  };
 
   const transcripts = {
       en: {
@@ -49,8 +63,15 @@ function Page21(){
         })}
       </p>
 
-      <img src={Image21} alt="Page 21" className="page-image-21" />
-      <img src={Image21_21} alt="Page 21" className="page-image-21-21" />
+     <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
+     {flipped ? (
+          <img src={Image1} alt="Page 1" className="page-image-1" />
+        ) : (
+          <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
+        )}
+
+      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
+      </section>
 
       <section className="odd">21</section>
     </section>

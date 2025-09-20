@@ -15,6 +15,27 @@
   }
 }
 
+.star-indicator{
+  width: 3rem;
+  height: auto;
+  margin: auto;
+  cursor: pointer;
+  animation: pulse 1.5s infinite ease-in-out;
+  z-index: 10;
+}
+
+@keyframes pulse{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
 .carousel-arrow{
   background-color: transparent;
   font-family: "Rolly";
@@ -205,15 +226,6 @@ a{
 .page-image-33, .page-image-33-33, .page-image-36, 
 .page-image-36-36{
   margin-top: 3.5rem;
-}
-
-.page-image-1-1, .page-image-4-4, .page-image-5-5, 
-.page-image-8-8, .page-image-10-10, .page-image-11-11,
-.page-image-14-14, .page-image-15-15,  .page-image-17-17, 
-.page-image-20-20, .page-image-21-21, .page-image-23-23,
-.page-image-26-26, .page-image-28-28, .page-image-29-29, 
-.page-image-31-31, .page-image-33-33, .page-image-36-36{
-  display: none;
 }
 
 .title{
@@ -836,4 +848,21 @@ a{
 a{
  font-size: 0.95rem;
 }
+}
+
+.page-image-1, .page-image-4, .page-image-5, 
+.page-image-8, .page-image-10, .page-image-11,
+.page-image-14, .page-image-15,  .page-image-17, 
+.page-image-20, .page-image-21, .page-image-23,
+.page-image-26, .page-image-28, .page-image-29, 
+.page-image-31, .page-image-33, .page-image-36,
+.page-image-1-1, .page-image-4-4, .page-image-5-5, 
+.page-image-8-8, .page-image-10-10, .page-image-11-11,
+.page-image-14-14, .page-image-15-15,  .page-image-17-17, 
+.page-image-20-20, .page-image-21-21, .page-image-23-23,
+.page-image-26-26, .page-image-28-28, .page-image-29-29, 
+.page-image-31-31, .page-image-33-33, .page-image-36-36{
+  position: relative;
+  cursor: pointer !important;
+  z-index: 10;
 }

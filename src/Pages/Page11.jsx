@@ -1,12 +1,26 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image11 from "../Images/Image11.png";
 import Image11_11 from "../Images/Image11-11.png";
+import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page11(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
-  
+  const [flipped, setFlipped] = useState(true);
+
+   function stop(e){
+    e.stopPropagation();
+    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
+      e.nativeEvent.stopImmediatePropagation();
+    }
+  };
+
+  function handleToggle(e){
+    stop(e);
+    setFlipped((prev) => !prev);
+  };
+
     const transcripts = {
       en: {
       paragraphs: [
@@ -39,8 +53,15 @@ function Page11(){
 
   return(
     <section className="page">
-      <img src={Image11} alt="Page 11" className="page-image-11" />
-      <img src={Image11_11} alt="Page 11" className="page-image-11-11" />
+     <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
+     {flipped ? (
+          <img src={Image1} alt="Page 1" className="page-image-1" />
+        ) : (
+          <img src={Image1_1} alt="Page 1" className="page-image-1-1" />
+        )}
+
+      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
+      </section>
 
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
