@@ -27,7 +27,7 @@ function Page15(){
       dropCap: "E",
       dropCapText: "VERY MORNING,",
       lines:[
-    { text: "Amile sneaked outside with a cup of water and poured it over the plant.", start: 0, end: 8 },
+    { text: "Amile sneaked outside with a cup of water and poured it over the plant's soil.", start: 0, end: 8 },
     { text: "Her parents would have been angry if they found out,", start: 9, end: 15 },
     { text: "but she couldn’t help it,", start: 16, end: 18 },
     { text: "she needed to know what that seed would become.", start: 19, end: 21 },
