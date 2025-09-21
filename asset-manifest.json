@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.9dac5cd2.css",
-    "main.js": "/Amile/static/js/main.ff34fac3.js",
+    "main.css": "/Amile/static/css/main.5b3eda9c.css",
+    "main.js": "/Amile/static/js/main.2b9baa4d.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -100,13 +100,13 @@
     "static/media/Image27.png": "/Amile/static/media/Image27.8b3b1a21fe8386222605.png",
     "static/media/Image28-28.png": "/Amile/static/media/Image28-28.8716dccd2bf2fe969324.png",
     "static/media/Image28.png": "/Amile/static/media/Image28.8716dccd2bf2fe969324.png",
-    "static/media/Image20-20.png": "/Amile/static/media/Image20-20.5806960b88fe82243e41.png",
-    "static/media/Image20.png": "/Amile/static/media/Image20.5806960b88fe82243e41.png",
     "static/media/Image16.png": "/Amile/static/media/Image16.e4917bc70c93fa6570df.png",
     "static/media/Image17.png": "/Amile/static/media/Image17.eefc3bfeacbeab0c0599.png",
     "static/media/Image33-33.png": "/Amile/static/media/Image33-33.9a808e6959a625584141.png",
     "static/media/Image33.png": "/Amile/static/media/Image33.9a808e6959a625584141.png",
+    "static/media/Image20.png": "/Amile/static/media/Image20.5a5aeb818df977e48afc.png",
     "static/media/Image24.png": "/Amile/static/media/Image24.24b3b03281dcc7ef383c.png",
+    "static/media/Image19-19.png": "/Amile/static/media/Image19-19.c36f278e7d7577bfb050.png",
     "static/media/Image19.png": "/Amile/static/media/Image19.c36f278e7d7577bfb050.png",
     "static/media/Image7.png": "/Amile/static/media/Image7.2211185170de7b488d2b.png",
     "static/media/Image30.png": "/Amile/static/media/Image30.6424002cf9575ff5ca1b.png",
@@ -137,12 +137,12 @@
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "index.html": "/Amile/index.html",
-    "main.9dac5cd2.css.map": "/Amile/static/css/main.9dac5cd2.css.map",
-    "main.ff34fac3.js.map": "/Amile/static/js/main.ff34fac3.js.map",
+    "main.5b3eda9c.css.map": "/Amile/static/css/main.5b3eda9c.css.map",
+    "main.2b9baa4d.js.map": "/Amile/static/js/main.2b9baa4d.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dac5cd2.css",
-    "static/js/main.ff34fac3.js"
+    "static/css/main.5b3eda9c.css",
+    "static/js/main.2b9baa4d.js"
   ]
 }
