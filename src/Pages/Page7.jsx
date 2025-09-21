@@ -11,18 +11,18 @@ function Page7(){
       dropCap: "T",
       dropCapText: "HE NEXT DAY,",
       lines: [
-    { text: "Amile went to play with Khaya, hoping to make the most of the time they still had together.", start: 0, end: 5 },
-    { text: "While wandering near the edge of a dried-up riverbed,", start: 6, end: 10 },
-    { text: "which had become their new playground, they spotted something odd.", start: 11, end: 15 },
+    { text: "Amile went to play with Khaya, determined to make the most of the time they still had together.", start: 0, end: 5 },
+    { text: "They wandered down to the dried-up riverside, which had now become their makeshift playground,", start: 6, end: 10 },
+    { text: "and near the edge of the riverbed, they noticed something unusual.", start: 11, end: 15 },
     ]
   },
     zu: {
     dropCap: "N",
-    dropCapText: "GOSUKU OLULANDELAYO",
+    dropCapText: "GOSUKU OLULANDELAYO,",
     lines: [
-    { text: "UAmile uhambile wayodlala noKhaya efuna ukuchitha isikhathi esisele kuleli dolobha nomngani wakhe", start: 0, end: 5 },
-    { text: "ngenkathi bezulazula eduze komfula owomile,", start: 0, end: 5 },
-    { text: "uAmile noKhaya babona into eyinqaba.", start: 6, end: 8 },
+    { text: "UAmile wahamba wayodlala noKhaya, efuna ukuchitha isikhathi esisele kuleli dolobha nomngani wakhe.", start: 0, end: 5 },
+    { text: "Bazulazule baze bafika emfuleni owomile.", start: 0, end: 5 },
+    { text: "Osebeni lomfula, babone into engajwayelekile.", start: 6, end: 8 },
       ]
     }
   };

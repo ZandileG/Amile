@@ -27,13 +27,13 @@ function Page10(){
       paragraphs: [
   [
     { text: "“I don’t think that’s a good idea,” said Khaya,", start: 0, end: 4 },
-    { text: "“don’t you know that flowers need good soil to grow, and our town is so dry.”", start: 5, end: 9 },
+    { text: "“flowers need good soil to grow, and our town is so dry.”", start: 5, end: 9 },
   ],
   [
     { text: "“I know…” said Amile, frowning a little.", start: 10, end: 12 },
   ],
   [
-    { text: "“Where are we even going to find water?” Khaya continued,", start: 13, end: 15 },
+    { text: "“Where are we even going to find water?” continued Khaya,", start: 13, end: 15 },
     { text: "secretly proud that she sounded so smart.", start: 16, end: 18 },
   ]
       ]

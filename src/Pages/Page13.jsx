@@ -9,11 +9,11 @@ function Page13(){
      const transcripts = {
       en: [
     { text: "After watering the plant,", start: 0, end: 2 },
-    { text: "the girls grew bored and wandered back into the house.", start: 3, end: 5 },
+    { text: "the girls went into the house to play in Amile's bedroom.", start: 3, end: 5 },
    ],
       zu: [
     { text: "Ngemuva kokunisela lesi sitshalo,", start: 0, end: 2 },
-    { text: "amantombazane abuyela endlini.", start: 3, end: 5 },
+    { text: "amantombazane abuyela endlini eyodlala ekamelweni kaAmile.", start: 3, end: 5 },
   ]
 };
     const transcript = transcripts[language];

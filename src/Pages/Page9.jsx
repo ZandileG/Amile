@@ -11,27 +11,27 @@ function Page9(){
         paragraphs: [
   [
     { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 4 },
-    { text: "“It looks like a seed.”", start: 5, end: 6 },
+    { text: "“It looks like the thing that makes plants.”", start: 5, end: 6 },
   ],
   [
-    { text: "“It’s so pretty,” said Khaya.", start: 7, end: 8 },
+    { text: "“You mean a seed?” asked Khaya.", start: 7, end: 8 },
   ],
   [
-    { text: "Amile nodded. “I think we should plant it and see what kind of flower it becomes.”", start: 9, end: 12 },
+    { text: "“Yes!” said Amile. “Let's plant it and see what kind of flower it becomes.”", start: 9, end: 12 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wayicosha, wayifaka ezandleni zakhe wase ethi,", start: 0, end: 4 },
-    { text: "“Ibukeka njengembewu.”", start: 5, end: 6 },
+    { text: "UAmile wayicosha ngobunene wase ethi,", start: 0, end: 4 },
+    { text: "“Ibukeka njengalento eyenza izitshalo.”", start: 5, end: 6 },
   ],
   [
-    { text: "“Yinhle kakhulu,” kusho uKhaya.", start: 7, end: 8 },
+    { text: "“Usho imbewu?” kubuza uKhaya.", start: 7, end: 8 },
   ],
   [
-    { text: "UAmile wavuma naye. “Ngicabanga ukuthi kufanele siyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 9, end: 13 },
+    { text: "“Yebo!” kusho uAmile. “Masiyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 9, end: 13 },
   ]
 ]
     }

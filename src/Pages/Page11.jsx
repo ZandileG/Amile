@@ -26,26 +26,26 @@ function Page11(){
       en: {
       paragraphs: [
   [
-    { text: "“Oh, I have an idea!” exclaimed Amile,", start: 0, end: 4 },
+    { text: "“Oh, I have an idea, follow me!” exclaimed Amile,", start: 0, end: 4 },
     { text: "her eyes lighting up with excitement.", start: 5, end: 8 },
   ],
   [
-    { text: "The girls ran back to Amile’s house, found a quiet patch behind the shed,", start: 9, end: 11 },
-    { text: "and dug a tiny hole.", start: 12, end: 13 },
-    { text: "They planted the seed and gently patted the dry soil around it.", start: 14, end: 16 },
+    { text: "Amile ran back to her house with Khaya following closely behind her.", start: 9, end: 11 },
+    { text: "They found an empty garden patch behind the shed and dug a tiny hole.", start: 12, end: 13 },
+    { text: "They placed the seed in the hole, covered it and gently patted the dry soil around it.", start: 14, end: 16 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“O, nginecebo!” kubabaza uAmile,", start: 0, end: 4 },
+    { text: "“O, nginecebo, ngilandele!” kubabaza uAmile,", start: 0, end: 4 },
     { text: "amehlo akhe ekhanya ngenjabulo.", start: 5, end: 8 },
   ],
   [
-    { text: "Amantombazane agijima abuyela khabo Amile, athola indawo ethule ngemuva kwendlu,", start: 9, end: 11 },
-    { text: "agubha umgodi omncane.", start: 12, end: 13 },
-    { text: "Bayitshala imbewu futhi babambatha nehlabathi eyizungezile.", start: 14, end: 16 },
+    { text: "UAmile agijima ebuyela ejalidini lakubo, uKhaya elandela emva kwakhe.", start: 9, end: 11 },
+    { text: "Bathole isichibi esingenalutho ebaleni, bagubha umgodi omncane.", start: 12, end: 13 },
+    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 14, end: 16 },
   ]
 ]
     }
