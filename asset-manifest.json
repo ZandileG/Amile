@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.cee02470.css",
-    "main.js": "/Amile/static/js/main.81c15f1e.js",
+    "main.js": "/Amile/static/js/main.011b4b6c.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -102,7 +102,6 @@
     "static/media/Image20-20.png": "/Amile/static/media/Image20-20.5806960b88fe82243e41.png",
     "static/media/Image20.png": "/Amile/static/media/Image20.5806960b88fe82243e41.png",
     "static/media/Image17-17.png": "/Amile/static/media/Image17-17.67b13ff1781e6cdd515e.png",
-    "static/media/Image17.png": "/Amile/static/media/Image17.67b13ff1781e6cdd515e.png",
     "static/media/Image16.png": "/Amile/static/media/Image16.e4917bc70c93fa6570df.png",
     "static/media/Image33-33.png": "/Amile/static/media/Image33-33.9a808e6959a625584141.png",
     "static/media/Image33.png": "/Amile/static/media/Image33.9a808e6959a625584141.png",
@@ -121,6 +120,7 @@
     "static/media/Image11-11.png": "/Amile/static/media/Image11-11.fef2fdb73dcb2d67da00.png",
     "static/media/Image11.png": "/Amile/static/media/Image11.fef2fdb73dcb2d67da00.png",
     "static/media/Image22.png": "/Amile/static/media/Image22.05cefa47e9234fb0287a.png",
+    "static/media/Image17.png": "/Amile/static/media/Image17.795bccfcc23e6c5ba565.png",
     "static/media/Image29-29.png": "/Amile/static/media/Image29-29.8eb51fb76e5bf7a86261.png",
     "static/media/Image29.png": "/Amile/static/media/Image29.8eb51fb76e5bf7a86261.png",
     "static/media/Image10-10.png": "/Amile/static/media/Image10-10.f485c180d4c4c76bf28d.png",
@@ -138,11 +138,11 @@
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
     "index.html": "/Amile/index.html",
     "main.cee02470.css.map": "/Amile/static/css/main.cee02470.css.map",
-    "main.81c15f1e.js.map": "/Amile/static/js/main.81c15f1e.js.map",
+    "main.011b4b6c.js.map": "/Amile/static/js/main.011b4b6c.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cee02470.css",
-    "static/js/main.81c15f1e.js"
+    "static/js/main.011b4b6c.js"
   ]
 }
