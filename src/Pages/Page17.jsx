@@ -1,27 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image17 from "../Images/Image17.png";
-import Image17_17 from "../Images/Image17-17.png";
-import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page17(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
-  const [flipped, setFlipped] = useState(false);
 
-   function stop(e){
-    e.stopPropagation();
-    e.preventDefault()
-    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
-      e.nativeEvent.stopImmediatePropagation();
-    }
-  };
-
-  function handleToggle(e){
-    stop(e);
-    setFlipped((prev) => !prev);
-  };
-  
     const transcripts = {
     en: {
         paragraphs: [
@@ -56,18 +40,10 @@ function Page17(){
 
   return(
     <section className="page">
-     <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
-     {flipped ? (
-          <img src={Image17} alt="Page 17" className="page-image-17" />
-        ) : (
-          <img src={Image17_17} alt="Page 17" className="page-image-17-17" />
-        )}
-
-      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
-      </section>
+    <img src={Image17} alt="Page 17" className="page-image-17" />
 
     <section className="page-text">
- {paragraphs.map((para, pIndex) => (
+    {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {        
         const isActive = currentPage === 17 && currentTime >= line.start && currentTime <= line.end;
@@ -79,7 +55,7 @@ function Page17(){
       })}
       </p>
       ))}
-   </section>
+     </section>
 
       <section className="odd">17</section>
     </section>
