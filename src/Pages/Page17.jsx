@@ -12,7 +12,7 @@ function Page17(){
   [
     { text: "But one afternoon, Amile saw a sprout poking through the soil.", start: 0, end: 5 },
     { text: "Unlike the brittle brown grass around it,", start: 6, end: 9 },
-    { text: "this sprout was blue-green and sparkled in the sunlight.", start: 10, end: 13 },
+    { text: "this sprout was blue and sparkled in the sunlight.", start: 10, end: 13 },
   ],
   [
    { text: "Amile gasped,", start: 14, end: 15 },
