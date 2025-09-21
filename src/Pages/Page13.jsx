@@ -12,8 +12,8 @@ function Page13(){
     { text: "the girls went into the house to play in Amile's bedroom.", start: 3, end: 5 },
    ],
       zu: [
-    { text: "Ngemuva kokunisela lesi sitshalo,", start: 0, end: 2 },
-    { text: "amantombazane abuyela endlini eyodlala ekamelweni kaAmile.", start: 3, end: 5 },
+    { text: "Emva kwalokho,", start: 0, end: 2 },
+    { text: "uAmile noKhaya bangena endlini bayodlalela ekamelweni likaAmile.", start: 3, end: 5 },
   ]
 };
     const transcript = transcripts[language];

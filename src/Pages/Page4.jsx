@@ -42,7 +42,7 @@ function Page4(){
   [
     { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 5 },
     { text: "ebuka umoya udanisa nothuli.", start: 6, end: 9 },
-    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma, okwakuvame ukumethusa kancane,", start: 10, end: 15 },
+    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma kwezulu, okwakuvame ukumethusa kancane,", start: 10, end: 15 },
     { text: "kodwa manje, kwakuyiculo wayefisa ukulizwa futhi.", start: 16, end: 22 },
   ],
   [

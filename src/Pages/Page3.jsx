@@ -8,7 +8,7 @@ function Page3(){
   
   const transcripts = {
       en: [
-    { text: "One day, a curse fell upon their beloved town, Dumakude.", start: 0, end: 3 },
+    { text: "One day, a curse fell upon their beloved town.", start: 0, end: 3 },
     { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 4, end: 9 },
     { text: "The roads were cracked and the trees stood like skeletons.", start: 10, end: 14 },
     { text: "The hills were a dull brown and the river that used to hum", start: 15, end: 17 },

@@ -28,7 +28,7 @@ function Page5(){
   [
     { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 5 },
     { text: "“Mimi,” he began gently,", start: 6, end: 8 },
-    { text: "“We have to leave Dumakude.”", start: 9, end: 11 },
+    { text: "“we have to leave Dumakude.”", start: 9, end: 11 },
   ],
   [
     { text: "Amile froze. Her eyes grew wide,", start: 12, end: 14 },
