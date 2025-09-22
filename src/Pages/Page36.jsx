@@ -32,7 +32,7 @@ function Page36(){
   ],
   [
     { text: "“Thank you Thingo,” she whispered,", start: 12, end: 14 },
-    { text: "I'm so glad I get to stay here with you.”", start: 15, end: 17 },
+    { text: "I'm so glad I get to stay here with you!”", start: 15, end: 17 },
   ]
     ],
       end: [
@@ -49,7 +49,7 @@ function Page36(){
   ],
   [
     { text: "“Ngiyabonga Thingo,” ehleba,", start: 15, end: 17 },
-    { text: "“ngiyajabula kakhulu ukuthi ngizokwazi ukuhlala nawe.”", start: 18, end: 20 },
+    { text: "“ngiyajabula kakhulu ukuthi ngizokwazi ukuhlala nawe!”", start: 18, end: 20 },
   ]
 ],
      end: [

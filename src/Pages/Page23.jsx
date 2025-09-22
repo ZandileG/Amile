@@ -33,7 +33,9 @@ function Page23(){
   [
     { text: "“Mimi where are you?” said her mom,", start: 13, end: 14 },
     { text: "“Khaya’s here to say goodbye.”", start: 15, end: 16 },
-    { text: "Amile said nothing.", start: 17, end: 18 },
+  ],
+  [
+    { text: "Amile remained quiet.", start: 17, end: 18 },
   ]
       ]
 },
@@ -47,6 +49,8 @@ function Page23(){
   [
     { text: "“Mimi ukuphi?” kusho uma wakhe,", start: 13, end: 14 },
     { text: "“uKhaya uzile ukuzovalelisa.”", start: 15, end: 16 },
+  ],
+  [
     { text: "UAmile wathula.", start: 17, end: 18 },
   ]
 ]

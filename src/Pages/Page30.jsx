@@ -20,8 +20,8 @@ function Page30(){
     { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 3, end: 5 },
     { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 6, end: 9 },
     { text: "Umoya washintsha,", start: 10, end: 11 },
-    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu.", start: 12, end: 14 },
-    { text: "Kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 15, end: 19 },
+    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu,", start: 12, end: 14 },
+    { text: "kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 15, end: 19 },
       ]
   };
     const transcript = transcripts[language];

@@ -11,13 +11,13 @@ function Page22(){
       paragraphs: [
   [
     { text: "On moving day,", start: 0, end: 2 },
-    { text: "Amile quietly slipped out of the house, her heart heavy, as she made her way towards Thingo.", start: 3, end: 6 },
+    { text: "Amile quietly slipped out of the house, her heart heavy, as she made her way towards Thingo.", start: 3, end: 9 },
   ],
   [
-    { text: "Dropping to her knees, she whispered, “I don’t want to leave you,”", start: 7, end: 9 },
-    { text: "gently brushing her fingers over Thingo’s leaves.", start: 10, end: 13 },
-    { text: "“You’re the only one who really listens to me. I love talking to you…", start: 14, end: 16 },
-    { text: "and I love looking after you,” she sighed.", start: 17, end: 19 },
+    { text: "Dropping to her knees, she whispered, “I don’t want to leave you,”", start: 10, end: 12 },
+    { text: "gently brushing her fingers over Thingo’s leaves.", start: 13, end: 16 },
+    { text: "“I love talking to you…", start: 17, end: 18 },
+    { text: "and I love looking after you,” she sighed.", start: 19, end: 22 },
   ]
       ]
 },
@@ -30,7 +30,7 @@ function Page22(){
   [
     { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 7, end: 9 },
     { text: "ehambisa iminwe yakhe ngobumnene kwelinye lamaqabunga.", start: 10, end: 13 },
-    { text: "“Nguwena kuphela ongilalelayo…Ngiyathanda ukukhuluma nawe", start: 14, end: 16 },
+    { text: "“Ngiyathanda ukukhuluma nawe", start: 14, end: 16 },
     { text: "futhi ngiyathanda ukukunakekela,” eqhubeka.", start: 17, end: 19 },
   ]
 ]

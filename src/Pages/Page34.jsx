@@ -12,7 +12,7 @@ function Page34(){
     { text: "Khaya ran back home to celebrate with her family.", start: 2, end: 5 },
    ],
       zu: [
-    { text: "Ngemva kwesikhashana,", start: 0, end: 1 },
+    { text: "Emva kwesikhashana,", start: 0, end: 1 },
     { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 2, end: 5 },
   ]
 };
