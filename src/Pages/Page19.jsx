@@ -41,7 +41,7 @@ const transcripts = {
     { text: "“Lesi sitshalo siyamangaza, kungani siluhlaza okwesibhakabhaka?” kubuza uKhaya.", start: 0, end: 6 },
   ],
   [
-    { text: "“Mina ngisibona sisihle noma singajwayelekile,” kusho uAmile esigqolozele.", start: 7, end: 10 },
+    { text: "“Mina ngisibona sisihle noma singajwayelekile,” kusho uAmile.", start: 7, end: 10 },
   ]
 ]
  }
