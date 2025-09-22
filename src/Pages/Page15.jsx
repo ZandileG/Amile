@@ -11,7 +11,7 @@ function Page15(){
 
    function stop(e){
     e.stopPropagation();
-    e.preventDefault()
+  //e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
@@ -30,14 +30,14 @@ function Page15(){
     { text: "Amile sneaked outside with a cup of water and poured it over the plant's soil.", start: 0, end: 8 },
     { text: "Her parents would have been angry if they found out,", start: 9, end: 15 },
     { text: "but she couldn’t help it,", start: 16, end: 18 },
-    { text: "she needed to know what that seed would become.", start: 19, end: 21 },
+    { text: "she needed to know what the seed would become.", start: 19, end: 21 },
     ]
   },
     zu: {
     dropCap: "N",
     dropCapText: "JALO EKUSENI,",
     lines: [
-    { text: "uAmile wayenyonyoba ngaphandle nenkomishi yamanzi bese ayithela esitshalweni.", start: 0, end: 8 },
+    { text: "uAmile wayenyonyoba ngaphandle nenkomishi yamanzi ukuyonisela isitshalo.", start: 0, end: 8 },
     { text: "Abazali bakhe babeyothukuthela kabi uma bengamthola,", start: 9, end: 15 },
     { text: "kodwa wayengakwazi ukuzibamba,", start: 16, end: 18 },
     { text: "wayedinga ukwazi ukuthi leyo mbewu izoba yini.", start: 19, end: 21 },

@@ -23,14 +23,14 @@ function Page20(){
       zu: {
       paragraphs: [
   [
-    { text: "“Ngifuna ukuyiqamba igama elithi Thingo,", start: 0, end: 2 },
-    { text: "ngoba enemibala emihle,” eqhubeka ngokumamatheka.", start: 3, end: 6 },
+    { text: "“Ngifuna ukusiqamba igama elithi Thingo,", start: 0, end: 2 },
+    { text: "ngoba sinemibala emihle,” kusho uAmile.", start: 3, end: 6 },
   ],
   [
-    { text: "", start: 7, end: 10 },
+    { text: "“Yebo, igama elihle kakhulu lelo,” kuphendula uKhaya. “Kodwa awucabangi ukuthi singangena enkingeni ngalokhu?”", start: 7, end: 10 },
   ],
   [
-    { text: "", start: 11, end: 13 },
+    { text: "Ngeke singene enkingeni uma singayigcina njengemfihlo futhi siqinisekise ukuthi uThingo uyaphila,” kusho uAmile.", start: 11, end: 13 },
   ],
 ]
     }

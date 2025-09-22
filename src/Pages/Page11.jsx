@@ -11,7 +11,7 @@ function Page11(){
 
    function stop(e){
     e.stopPropagation();
-    e.preventDefault()
+  //e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
@@ -32,7 +32,7 @@ function Page11(){
   [
     { text: "Amile ran back to her house with Khaya following closely behind her.", start: 9, end: 11 },
     { text: "They found an empty garden patch behind the shed and dug a tiny hole.", start: 12, end: 13 },
-    { text: "They placed the seed in the hole, covered it, and gently patted the dry soil around it.", start: 14, end: 16 },
+    { text: "They then placed the seed in the hole, covered it, and gently patted the dry soil around it.", start: 14, end: 16 },
   ]
       ]
 },

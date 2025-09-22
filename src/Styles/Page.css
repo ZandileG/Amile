@@ -29,6 +29,7 @@
   cursor: pointer;
   animation: pulse 1.5s infinite ease-in-out;
   z-index: 2;
+  display: none; /*I have to remember to remove this*/
 }
 
 @keyframes pulse{

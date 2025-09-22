@@ -12,7 +12,7 @@ function Page19(){
 
    function stop(e){
     e.stopPropagation();
-    e.preventDefault()
+  //e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
@@ -38,11 +38,10 @@ const transcripts = {
  zu: {
       paragraphs: [
   [
-    { text: "Kungani iluhlaza okwesibhakabhaka?", start: 0, end: 2 },
-    { text: "Izitshalo akufanele zibe nombala onje,” kusho uKhaya.", start: 3, end: 6 },
+    { text: "“Lesi sitshalo siyamangaza, kungani siluhlaza okwesibhakabhaka?” kubuza uKhaya.", start: 0, end: 6 },
   ],
   [
-    { text: "“Angazi, mhlawumbe lena ihlukile,” kusho uAmile egqolozele lesitshalo esimangazayo.", start: 7, end: 10 },
+    { text: "“Mina ngisibona sisihle noma singajwayelekile,” kusho uAmile esigqolozele.", start: 7, end: 10 },
   ]
 ]
  }

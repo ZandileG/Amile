@@ -11,7 +11,7 @@ function Page29(){
 
    function stop(e){
     e.stopPropagation();
-    e.preventDefault()
+  //e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }

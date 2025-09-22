@@ -31,7 +31,7 @@ function Page17(){
   [
     { text: "“Ha, uyaphila!”", start: 14, end: 15 },
     { text: "kusho uAmile ngokumangala.", start: 16, end: 17 },
-    { text: "Wagijima wayolanda uKhaya kubo wamletha ukuze ayibone.", start: 18, end: 22 },
+    { text: "Wagijima wayolanda uKhaya ukuze ayibone.", start: 18, end: 22 },
   ]
 ]
  }
