@@ -12,14 +12,14 @@ function Page19(){
 
    function stop(e){
     e.stopPropagation();
-  //e.preventDefault()
+    e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
   };
 
   function handleToggle(e){
-    stop(e);
+    e.stopPropagation();
     setFlipped((prev) => !prev);
   };
 

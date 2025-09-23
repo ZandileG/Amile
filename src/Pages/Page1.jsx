@@ -12,15 +12,16 @@ function Page1(){
   //I want to stop the pages from flipping when the user is clicking on the images
    function stop(e){
     e.stopPropagation();
-  //e.preventDefault()
+    e.preventDefault()
     if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
       e.nativeEvent.stopImmediatePropagation();
     }
   };
 
   function handleToggle(e){
-    stop(e);
+    e.stopPropagation();
     setFlipped((prev) => !prev);
+    console.log("Star was clicked!");
   };
 
   const transcripts = {
