@@ -1,11 +1,27 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image6 from "../Images/Image6.png";
+import Image6_6 from "../Images/Image6-6.png";
+import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page6(){
   const { currentTime, language, currentPage } = useContext(MusicContext);
-  
+   const [flipped, setFlipped] = useState(true);
+
+   function stop(e){
+    e.stopPropagation();
+    e.preventDefault()
+    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
+      e.nativeEvent.stopImmediatePropagation();
+    }
+  };
+
+  function handleToggle(e){
+    e.stopPropagation();
+    setFlipped((prev) => !prev);
+  };
+
     const transcripts = {
       en: {
         paragraphs: [
@@ -59,8 +75,15 @@ function Page6(){
     ))}
    </section>
 
-   <img src={Image6} alt="Page 6" className="page-image-6" />
+  <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
+     {flipped ? (
+          <img src={Image6} alt="Page 6" className="page-image-6" />
+        ) : (
+          <img src={Image6_6} alt="Page 6" className="page-image-6-6" />
+        )}
 
+      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
+      </section>
       <section className="even">6</section>
     </section>
   );
