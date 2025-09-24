@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.2dbd702b.css",
-    "main.js": "/Amile/static/js/main.0c472c65.js",
+    "main.css": "/Amile/static/css/main.63edd966.css",
+    "main.js": "/Amile/static/js/main.df6de1d9.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
@@ -139,18 +139,18 @@
     "static/media/Rolly Polly.ttf": "/Amile/static/media/Rolly Polly.285c755856ce92cfd6ee.ttf",
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
+    "static/media/BackCover2.png": "/Amile/static/media/BackCover2.1f4995fefb5d2c380ffe.png",
     "static/media/Gmail.png": "/Amile/static/media/Gmail.8c1f844b144320cc455a.png",
-    "static/media/BackCover2.png": "/Amile/static/media/BackCover2.8be6d66409bd6735142e.png",
     "static/media/LinkedIn.png": "/Amile/static/media/LinkedIn.099eef4954507de4dc41.png",
     "static/media/FrontCover.png": "/Amile/static/media/FrontCover.4a001333efd1b88b7737.png",
     "static/media/FrontCover2.png": "/Amile/static/media/FrontCover2.d5063d2e05af6e340289.png",
     "index.html": "/Amile/index.html",
-    "main.2dbd702b.css.map": "/Amile/static/css/main.2dbd702b.css.map",
-    "main.0c472c65.js.map": "/Amile/static/js/main.0c472c65.js.map",
+    "main.63edd966.css.map": "/Amile/static/css/main.63edd966.css.map",
+    "main.df6de1d9.js.map": "/Amile/static/js/main.df6de1d9.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dbd702b.css",
-    "static/js/main.0c472c65.js"
+    "static/css/main.63edd966.css",
+    "static/js/main.df6de1d9.js"
   ]
 }
