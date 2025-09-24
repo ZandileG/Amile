@@ -15,6 +15,30 @@
   }
 }
 
+.contact-info{
+  position: absolute;
+  left: 33%;
+  top: 5%;
+  list-style-type: none;
+  text-align: justify;
+  font-family: "Primer";
+  font-size: 1.25rem;
+  z-index: 10;
+}
+
+.social-icon{
+  width: 3rem;
+  height: auto;
+  margin: 0.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover{
+  transform: scale(1.1);
+}
+
 .image-wrapper{
   position: relative; 
   display: inline-block;
@@ -22,10 +46,10 @@
 
 .star-indicator{
   position: absolute;
-  width: 3rem;
+  width: 2rem;
   height: auto;
   top: 5rem;
-  left: 47%;
+  left: 49%;
   cursor: pointer;
   animation: pulse 1.5s infinite ease-in-out;
   z-index: 10;
