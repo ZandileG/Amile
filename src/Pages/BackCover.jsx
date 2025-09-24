@@ -1,5 +1,6 @@
 import React from "react";
 import BackCoverImage from "../Images/BackCover.png";
+import BackCoverImage2 from "../Images/BackCover2.png";
 import Instagram from "../Icons/Instagram.png";
 import Gmail from "../Icons/Gmail.png";
 import LinkedIn from "../Icons/LinkedIn.png";
@@ -10,6 +11,7 @@ function BackCover(){
   return(
     <section className="cover-page">
       <img src={BackCoverImage} alt="Cover" className="back-cover-image" />
+      <img src={BackCoverImage2} alt="Cover" className="back-cover-image2" />
       <section className="contact-info">
       <p className="page-heading">Thank you for reading!</p>
       <a href="mailto:zandilegebuza@gmail.com" target="_blank" rel="noopener noreferrer"><img src={Gmail} alt="Gmail" className="social-icon" /></a>
