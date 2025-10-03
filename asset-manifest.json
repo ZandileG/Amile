@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.2a85650e.css",
-    "main.js": "/Amile/static/js/main.e24ec786.js",
+    "main.js": "/Amile/static/js/main.cdf906e5.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
-    "static/media/Adventure.mp3": "/Amile/static/media/Adventure.cb60414a5c4c175f64d9.mp3",
+    "static/media/Adventure.mp3": "/Amile/static/media/Adventure.a40a23b7bd15ae2724bd.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
-    "static/media/Page1.mp3": "/Amile/static/media/Page1.b6015367de44e77cc42a.mp3",
     "static/media/Page10-Z.mp3": "/Amile/static/media/Page10-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page10.mp3": "/Amile/static/media/Page10.b6015367de44e77cc42a.mp3",
     "static/media/Page11-Z.mp3": "/Amile/static/media/Page11-Z.b6015367de44e77cc42a.mp3",
@@ -27,7 +26,6 @@
     "static/media/Page19-Z.mp3": "/Amile/static/media/Page19-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page19.mp3": "/Amile/static/media/Page19.b6015367de44e77cc42a.mp3",
     "static/media/Page2-Z.mp3": "/Amile/static/media/Page2-Z.b6015367de44e77cc42a.mp3",
-    "static/media/Page2.mp3": "/Amile/static/media/Page2.b6015367de44e77cc42a.mp3",
     "static/media/Page20-Z.mp3": "/Amile/static/media/Page20-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page20.mp3": "/Amile/static/media/Page20.b6015367de44e77cc42a.mp3",
     "static/media/Page21-Z.mp3": "/Amile/static/media/Page21-Z.b6015367de44e77cc42a.mp3",
@@ -49,7 +47,6 @@
     "static/media/Page29-Z.mp3": "/Amile/static/media/Page29-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page29.mp3": "/Amile/static/media/Page29.b6015367de44e77cc42a.mp3",
     "static/media/Page3-Z.mp3": "/Amile/static/media/Page3-Z.b6015367de44e77cc42a.mp3",
-    "static/media/Page3.mp3": "/Amile/static/media/Page3.b6015367de44e77cc42a.mp3",
     "static/media/Page30-Z.mp3": "/Amile/static/media/Page30-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page30.mp3": "/Amile/static/media/Page30.b6015367de44e77cc42a.mp3",
     "static/media/Page31-Z.mp3": "/Amile/static/media/Page31-Z.b6015367de44e77cc42a.mp3",
@@ -81,6 +78,7 @@
     "static/media/Image8-8.png": "/Amile/static/media/Image8-8.6b95fc37533d7d4807b6.png",
     "static/media/Image9-9.png": "/Amile/static/media/Image9-9.ad0200a209f929f341ab.png",
     "static/media/Instagram.png": "/Amile/static/media/Instagram.6b771ae3dc83816a0874.png",
+    "static/media/Page3.mp3": "/Amile/static/media/Page3.c6a88de7a35d9d339bce.mp3",
     "static/media/Image7.png": "/Amile/static/media/Image7.90a19daec41486beea17.png",
     "static/media/Image5.png": "/Amile/static/media/Image5.e365ddbf91697fb10935.png",
     "static/media/Image3.png": "/Amile/static/media/Image3.ea939e93e675dd1bec10.png",
@@ -93,6 +91,8 @@
     "static/media/Image6.png": "/Amile/static/media/Image6.d6968e62d992a5de9506.png",
     "static/media/Image4-4.png": "/Amile/static/media/Image4-4.f9b584468399b7d9f08b.png",
     "static/media/Image4.png": "/Amile/static/media/Image4.12019f4aa1126fc40cfb.png",
+    "static/media/Page2.mp3": "/Amile/static/media/Page2.ab9a6570dcf58faf8fc6.mp3",
+    "static/media/Page1.mp3": "/Amile/static/media/Page1.bbda070d373c8ab9ff88.mp3",
     "static/media/Image18-18.png": "/Amile/static/media/Image18-18.f58d594c580fe230f058.png",
     "static/media/Image18.png": "/Amile/static/media/Image18.f58d594c580fe230f058.png",
     "static/media/Image34.png": "/Amile/static/media/Image34.3411ab0e43bd4ba0a125.png",
@@ -146,11 +146,11 @@
     "static/media/FrontCover2.png": "/Amile/static/media/FrontCover2.d5063d2e05af6e340289.png",
     "index.html": "/Amile/index.html",
     "main.2a85650e.css.map": "/Amile/static/css/main.2a85650e.css.map",
-    "main.e24ec786.js.map": "/Amile/static/js/main.e24ec786.js.map",
+    "main.cdf906e5.js.map": "/Amile/static/js/main.cdf906e5.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a85650e.css",
-    "static/js/main.e24ec786.js"
+    "static/js/main.cdf906e5.js"
   ]
 }
