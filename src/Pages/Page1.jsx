@@ -29,21 +29,21 @@ function Page1(){
       dropCap: "O",
       dropCapText: "NCE UPON A TIME,",
       lines: [
-    { text: "in a distant land named Dumakude,", start: 0, end: 2 },
-    { text: "there were green hills, where you would see mountain goats grazing.", start: 3, end: 7 },
-    { text: "There were clear rivers where little fishes and frogs used to play.", start: 8, end: 12 },
-    { text: "There was also a neighbourhood that was full of life,", start: 13, end: 14 },
-    { text: "where joy was shared, and every moment was a reason to celebrate.", start: 15, end: 20 },
+    { text: "in a distant land named Dumakude,", start: 0, end: 4.3 },
+    { text: "there were green hills, where you would see mountain goats grazing.", start: 4.4, end: 8.2 },
+    { text: "There were clear rivers where little fishes and frogs used to play.", start: 8.3, end: 12.2 },
+    { text: "There was also a neighbourhood that was full of life,", start: 12.3, end: 15.2 },
+    { text: "where joy was shared, and every moment was a reason to celebrate.", start: 15.3, end: 20 },
   ]
 },
   zu: {
     dropCap: "K",
     dropCapText: "WASUKASUKELA,",
     lines: [
-    { text: "ezweni elikude elibizwa Dumakude,", start: 0, end: 2 },
-    { text: "kwakunamagquma aluhlaza, lapho wawungabona khona izimbuzi zasentabeni zidla.", start: 3, end: 9 },
-    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 10, end: 16 },
-    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 17, end: 20 },
+    { text: "ezweni elikude elibizwa Dumakude,", start: 0, end: 4 },
+    { text: "kwakunamagquma aluhlaza, lapho wawungabona khona izimbuzi zasentabeni zidla.", start: 5, end: 8 },
+    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 9, end: 15 },
+    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 16, end: 20 },
   ]
 }
   };
