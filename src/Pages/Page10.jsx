@@ -18,7 +18,7 @@ function Page10(){
   ],
   [
     { text: "“Where are we even going to find water?” continued Khaya,", start: 13, end: 15 },
-    { text: "secretly proud that she sounded so smart.", start: 16, end: 18 },
+    { text: "secretly proud that she sounded so smart.", start: 16, end: 22.5 },
   ]
       ]
 },
@@ -33,7 +33,7 @@ function Page10(){
   ],
   [
     { text: "“Sizowatholaphi ngisho namanzi?” waqhubeka uKhaya,", start: 13, end: 15 },
-    { text: "eyaziqhenya ngokuthi wayezwakala ehlakaniphile.", start: 16, end: 18 },
+    { text: "eyaziqhenya ngokuthi wayezwakala ehlakaniphile.", start: 16, end: 22.5 },
   ]
 ]
     }

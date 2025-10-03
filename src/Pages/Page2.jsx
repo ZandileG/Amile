@@ -11,15 +11,15 @@ function Page2(){
     { text: "In the heart of this beautiful, vibrant town, was a little girl named Amile.", start: 0, end: 5 },
     { text: "Amile lived with her parents, Mandisa and Sinalo.", start: 6, end: 10 },
     { text: "They named her Amile, a name with many meanings.", start: 11, end: 15 },
-    { text: "To them, it meant “still standing,”", start: 16, end: 18 },
-    { text: "a promise of the strength and resilience they saw within her.", start: 19, end: 22 },
+    { text: "To them, it meant “still standing,”", start: 16, end: 17 },
+    { text: "a promise of the strength and resilience they saw within her.", start: 18, end: 20.8 },
    ],
       zu: [
     { text: "Kulelidolobha, kwakune ntombazanyana okuthiwa nguAmile.", start: 0, end: 5 },
     { text: "UAmile wayehlala nabazali bakhe, uMandisa noSinalo.", start: 6, end: 10 },
     { text: "Bamqamba “uAmile,” igama elinezincazelo eziningi.", start: 11, end: 15 },
-    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 16, end: 18 },
-    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 19, end: 22 },
+    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 16, end: 17 },
+    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 18, end: 20.8 },
   ]
 };
     const transcript = transcripts[language];

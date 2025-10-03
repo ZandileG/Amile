@@ -24,12 +24,12 @@ function Page14(){
 
      const transcripts = {
       en: [
-    { text: "Unnoticed by them,", start: 0, end: 1 },
-    { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 2, end: 5 },
+    { text: "Unnoticed by them,", start: 0, end: 2 },
+    { text: "a soft glow shimmered across the ground where the seed had been planted.", start: 3, end: 6.9 },
    ],
       zu: [
-    { text: "Benganakile,", start: 0, end: 1 },
-    { text: "kwavela ukukhanya okukhazimulayo emhlabathini lapho batshale khona imbewu.", start: 2, end: 5 },
+    { text: "Benganakile,", start: 0, end: 2 },
+    { text: "kwavela ukukhanya okukhazimulayo emhlabathini lapho batshale khona imbewu.", start: 2, end: 6.9 },
   ]
 };
     const transcript = transcripts[language];

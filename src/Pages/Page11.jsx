@@ -32,7 +32,7 @@ function Page11(){
   [
     { text: "Amile ran back to her house with Khaya following closely behind her.", start: 9, end: 11 },
     { text: "They found an empty garden patch behind the shed and dug a tiny hole.", start: 12, end: 13 },
-    { text: "They then placed the seed in the hole, covered it, and gently patted the dry soil around it.", start: 14, end: 16 },
+    { text: "They then placed the seed in the hole, covered it, and gently patted the dry soil around it.", start: 14, end: 27.4 },
   ]
       ]
 },
@@ -45,7 +45,7 @@ function Page11(){
   [
     { text: "UAmile wagijima ebuyela ejalidini lakubo, uKhaya elandela emva kwakhe.", start: 9, end: 11 },
     { text: "Uma befika, bathole isichibi esingenalutho ebaleni, bagubha umgodi omncane.", start: 12, end: 13 },
-    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 14, end: 16 },
+    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 14, end: 27.4 },
   ]
 ]
     }
