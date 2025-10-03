@@ -8,18 +8,18 @@ function Page2(){
   
       const transcripts = {
         en: [
-    { text: "In the heart of this beautiful, vibrant town, was a little girl named Amile.", start: 0, end: 5 },
-    { text: "Amile lived with her parents, Mandisa and Sinalo.", start: 6, end: 10 },
-    { text: "They named her Amile, a name with many meanings.", start: 11, end: 15 },
-    { text: "To them, it meant “still standing,”", start: 16, end: 17 },
-    { text: "a promise of the strength and resilience they saw within her.", start: 18, end: 20.8 },
+    { text: "In the heart of this beautiful, vibrant town, was a little girl named Amile.", start: 0, end: 5.9 },
+    { text: "Amile lived with her parents, Mandisa and Sinalo.", start: 6, end: 9.9 },
+    { text: "They named her Amile, a name with many meanings.", start: 10, end: 13.8 },
+    { text: "To them, it meant “still standing,”", start: 13.9, end: 16.6 },
+    { text: "a promise of the strength and resilience they saw within her.", start: 16.7, end: 20.8 },
    ],
       zu: [
-    { text: "Kulelidolobha, kwakune ntombazanyana okuthiwa nguAmile.", start: 0, end: 5 },
-    { text: "UAmile wayehlala nabazali bakhe, uMandisa noSinalo.", start: 6, end: 10 },
-    { text: "Bamqamba “uAmile,” igama elinezincazelo eziningi.", start: 11, end: 15 },
-    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 16, end: 17 },
-    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 18, end: 20.8 },
+    { text: "Kulelidolobha, kwakune ntombazanyana okuthiwa nguAmile.", start: 0, end: 5.9 },
+    { text: "UAmile wayehlala nabazali bakhe, uMandisa noSinalo.", start: 6, end: 9.9 },
+    { text: "Bamqamba “uAmile,” igama elinezincazelo eziningi.", start: 10, end: 13.8 },
+    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 13.9, end: 16.6 },
+    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 16.7, end: 20.8 },
   ]
 };
     const transcript = transcripts[language];
