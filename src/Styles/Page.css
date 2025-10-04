@@ -1,18 +1,5 @@
 .highlight{
-  background: linear-gradient(90deg, #febc16 0%, #febc16 100%);
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  animation: highlight-fade-in 4s forwards;
-}
-
-@keyframes highlight-fade-in{
-  from{
-    background-size: 0% 100%;
-  }
-  to{
-    background-size: 100% 100%;
-  }
+  background: #febc16;
 }
 
 .contact-info{

@@ -59,7 +59,8 @@ function Page1(){
       <p className="page-chapter">
         {lines.map((line, i) => {
         const isActive = currentPage === 1 && currentTime >= line.start && currentTime <= line.end;
-          return(
+       
+        return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}
             </span>

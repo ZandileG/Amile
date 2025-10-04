@@ -12,18 +12,19 @@ import English from "../Icons/English.png";
 import "../App.css";
 
 function Navbar({ goToPage, visible, chapters, currentPage, pageCount }){
-  const { musicPlaying, playMusic, narrationPlaying, playNarration, 
+  const { musicPlaying, playMusic, narrationPlaying, playNarration, setNarrationActive,
           toggleNarration, language, changeLanguage } = useContext(MusicContext);
 
 //When the narration button is clicked, it plays the narration for the current page
   function handleNarrationClick(){
-   if (currentPage === 0 || currentPage === pageCount - 1) return; 
-   if (!narrationPlaying){
-    playNarration(currentPage);
+  if (currentPage === 0 || currentPage === pageCount - 1) return; 
+  if (!narrationPlaying){
+    setNarrationActive(true); 
+    playNarration(currentPage, window.innerWidth);
   } else {
     toggleNarration();
   }
-  }
+}
 
 /*When the screen size is less than or equal to 1023px, the chapter pages container will 
   show 6 page numbers then be a carousel if there are more pages*/

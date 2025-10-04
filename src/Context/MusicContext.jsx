@@ -87,6 +87,7 @@ export function MusicProvider({ children }){
 
   const narrationRef = useRef(null);
   const [narrationPlaying, setNarrationPlaying] = useState(false);
+  const [narrationActive, setNarrationActive] = useState(false);
   const [currentPage, setCurrentPage] = useState(null);
   const [currentTime, setCurrentTime] = useState(0);
   const [language, setLanguage] = useState("en");
@@ -127,37 +128,43 @@ function changeLanguage(){
     }
   }
 
-function playNarration(pageNumber){
-  const audioFile = narrations[language][pageNumber];
-  if (!audioFile) return;
+function playNarration(pageNumber, viewportWidth){
+  const isDouble = viewportWidth >= 1024;
 
-  if (narrationRef.current){
-    narrationRef.current.pause();
-    narrationRef.current.currentTime = 0;
+  let pagesToPlay = [pageNumber];
+  if (isDouble && pageNumber % 2 !== 0){
+    pagesToPlay.push(pageNumber + 1);
   }
 
-  const audio = new Audio(audioFile);
-  narrationRef.current = audio;
-  setCurrentPage(pageNumber); 
-  setNarrationPlaying(true);
-
-  audio.play().catch(console.error);
-
-  audio.ontimeupdate = () => {
-    setCurrentTime(audio.currentTime);
-  };
-
-  audio.onended = () => {
-    setNarrationPlaying(false);
-    setCurrentTime(0);
-
-    const nextPage = pageNumber + 1;
-    if (narrations[language][nextPage]){
-      playNarration(nextPage); 
-    } else {
-      setCurrentPage(null); 
+  const playSequence = (index = 0) => {
+    if (index >= pagesToPlay.length){
+      setNarrationPlaying(false);
+      return;
     }
+
+    const audioFile = narrations[language][pagesToPlay[index]];
+    if (!audioFile) return;
+
+    if (narrationRef.current){
+      narrationRef.current.pause();
+      narrationRef.current.currentTime = 0;
+    }
+
+    const audio = new Audio(audioFile);
+    narrationRef.current = audio;
+    setCurrentPage(pagesToPlay[index]);
+    setNarrationPlaying(true);
+
+    audio.play().catch(console.error);
+
+    audio.ontimeupdate = () => setCurrentTime(audio.currentTime);
+
+    audio.onended = () => {
+      playSequence(index + 1);
+    };
   };
+
+  playSequence();
 }
 
   function toggleNarration(){
@@ -173,7 +180,8 @@ function playNarration(pageNumber){
 
   return(
     <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, 
-                           language, changeLanguage, currentPage, narrationRef, currentTime } }>{children}
+                           language, changeLanguage, currentPage, narrationRef, currentTime, narrationActive, 
+                           setNarrationActive } }>{children}
     </MusicContext.Provider>
   );
 }
