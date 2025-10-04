@@ -8,19 +8,19 @@ function Page3(){
   
   const transcripts = {
       en: [
-    { text: "One day, a curse fell upon their beloved town.", start: 0, end: 4.4 },
-    { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 4.5, end: 12.6 },
-    { text: "The roads were cracked and the trees stood like skeletons.", start: 12.7, end: 16.7 },
-    { text: "The hills were a dull brown and the river that used to hum", start: 16.8, end: 20.2 },
-    { text: "had dried into a narrow, muddy trail.", start: 20.3, end: 23.4 },
+    { text: "One day, a curse fell upon their beloved town.", start: 0, end: 4.1 },
+    { text: "What once poured from the sky became a drizzle, then a whisper, then silence.", start: 4.2, end: 10.2 },
+    { text: "The roads were cracked and the trees stood like skeletons.", start: 10.3, end: 14.0 },
+    { text: "The hills were a dull brown and the river that used to hum", start: 14.1, end: 17.7 },
+    { text: "had dried into a narrow, muddy trail.", start: 17.8, end: 21.1 },
      ],
       zu: [
-    { text: "Ngelinye ilanga, isiqalekiso sawela eDumakude.", start: 0, end: 4.4 },
-    { text: "Okwake kwatheleka esibhakabhakeni kwaba ukuconsa,", start: 4.5, end: 12.6 },
-    { text: "kwase kwaba ukuhleba, kwathula kwathi cwaka.", start: 12.7, end: 16.7 },
-    { text: "Imigwaqo yayiqhekekile futhi izihlahla zazimile njengamathambo.", start: 16.8, end: 17.5 },
-    { text: "Amagquma ayensundu ngokufiphele futhi umfula owawuvame ukugeleza", start: 17.6, end: 20.2 },
-    { text: "wawusomile waba umzila omncane onodaka.", start: 20.3, end: 23.4 },
+    { text: "Ngelinye ilanga, isiqalekiso sawela eDumakude.", start: 0, end: 4.1 },
+    { text: "Okwake kwatheleka esibhakabhakeni kwaba ukuconsa,", start: 4.2, end: 10.2 },
+    { text: "kwase kwaba ukuhleba, kwathula kwathi cwaka.", start: 10.3, end: 14.0 },
+    { text: "Imigwaqo yayiqhekekile futhi izihlahla zazimile njengamathambo.", start: 14.1, end: 17.7 },
+    { text: "Amagquma ayensundu ngokufiphele futhi umfula owawuvame ukugeleza", start: 17.8, end: 21.1 },
+    { text: "wawusomile waba umzila omncane onodaka.", start: 21.2, end: 24 },
   ]
 };
     const transcript = transcripts[language];

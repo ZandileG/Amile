@@ -43,6 +43,7 @@
   cursor: pointer;
   animation: pulse 1.5s infinite ease-in-out;
   z-index: 10;
+  pointer-events: auto;
 }
 
 @keyframes pulse{

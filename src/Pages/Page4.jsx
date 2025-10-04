@@ -26,28 +26,28 @@ function Page4(){
       en: {
         paragraphs: [
   [
-    { text: "Every evening, Amile sat on the stoep of her house,", start: 0, end: 3 },
-    { text: "watching the wind dance with the dust.", start: 4, end: 5 },
-    { text: "She missed the scent of damp, red dirt and the gentle growl of thunder,", start: 6, end: 12 },
-    { text: "which used to give her a little fright, but now, it felt like a song she longed to hear again.", start: 13, end: 19 },
+    { text: "Every evening, Amile sat on the stoep of her house,", start: 0, end: 4.4 },
+    { text: "watching the wind dance with the dust.", start: 4.5, end: 7.1 },
+    { text: "She missed the scent of damp, red dirt and the gentle growl of thunder,", start: 7.2, end: 12.4 },
+    { text: "which used to give her a little fright, but now, it felt like a song she longed to hear again.", start: 12.5, end: 19 },
   ],
   [
-    { text: "Amile also missed the days when she and her best friend Khaya splashed around in muddy puddles", start: 20, end: 25 },
-    { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 26, end: 31.3 },
+    { text: "Amile also missed the days when she and her best friend Khaya splashed around in muddy puddles", start: 20, end: 25.8 },
+    { text: "and played hide-and-seek in the backyard, their laughter rising higher than the clouds.", start: 25.9, end: 32.4 },
    ]
   ]
   },
      zu: {
       paragraphs: [
   [
-    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 3 },
-    { text: "ebuka umoya udanisa nothuli.", start: 4, end: 5 },
-    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma kwezulu, okwakuvame ukumethusa kancane,", start: 6, end: 12 },
-    { text: "kodwa manje, kwakuyiculo wayefisa ukulizwa futhi.", start: 13, end: 19 },
+    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 4.4 },
+    { text: "ebuka umoya udanisa nothuli.", start: 4.5, end: 7.1 },
+    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma kwezulu, okwakuvame ukumethusa kancane,", start: 7.2, end: 12.4 },
+    { text: "kodwa manje, kwakuyiculo wayefisa ukulizwa futhi.", start: 12.5, end: 19 },
   ],
   [
-    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngani wakhe omkhulu uKhaya bechaphazana odakeni", start: 20, end: 25 },
-    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 26, end: 31.3 },
+    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngani wakhe omkhulu uKhaya bechaphazana odakeni", start: 20, end: 25.8 },
+    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 25.9, end: 32.4 },
   ]
 ]
      }

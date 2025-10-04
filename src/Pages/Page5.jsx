@@ -10,34 +10,34 @@ function Page5(){
       en: {
         paragraphs: [
   [
-    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 5 },
-    { text: "“Mimi,” he began gently,", start: 6, end: 7 },
-    { text: "“we have to leave Dumakude.”", start: 8, end: 9 },
+    { text: "One night, at dinner, her dad reached across the table and held her hand.", start: 0, end: 5.4 },
+    { text: "“Mimi,” he began gently,", start: 5.5, end: 8.0 },
+    { text: "“we have to leave Dumakude.”", start: 8.1, end: 10.5 },
   ],
   [
-    { text: "Amile froze. Her eyes grew wide,", start: 10, end: 12 },
-    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 13, end: 17 },
+    { text: "Amile froze. Her eyes grew wide,", start: 10.6, end: 13.3 },
+    { text: "searching her dad’s face for some sign that it wasn’t true.", start: 13.4, end: 17.0 },
   ],
    [
-    { text: "“Mimi,” said her mom, holding Amile’s other hand,", start: 18, end: 21 },
-    { text: "“the town’s water is gone, and the food is running out.”", start: 22, end: 25.8 },
+    { text: "“Mimi,” said her mom, holding Amile’s other hand,", start: 17.1, end: 21.8 },
+    { text: "“the town’s water is gone, and the food is running out.”", start: 21.9, end: 25.8 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 6 },
-    { text: "“Mimi,” washo ngesineke,", start: 7, end: 8 },
-    { text: "“kufanele sihambe eDumakude.”", start: 9, end: 10 },
+    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 5.4 },
+    { text: "“Mimi,” washo ngesineke,", start: 5.5, end: 8.0 },
+    { text: "“kufanele sihambe eDumakude.”", start: 8.1, end: 10.5 },
   ],
   [
-    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 11, end: 14 },
-    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 15, end: 18 },
+    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 10.6, end: 13.3 },
+    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 13.4, end: 17.0 },
   ],
   [
-    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi,", start: 19, end: 21 },
-    { text: "“amanzi awasekho futhi nokudla sekuyaphela.”", start: 22, end: 25.8 },
+    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi,", start: 17.1, end: 21.8 },
+    { text: "“amanzi awasekho futhi nokudla sekuyaphela.”", start: 21.9, end: 25.8 },
   ]
 ]
     }
