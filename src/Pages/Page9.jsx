@@ -42,7 +42,7 @@ function Page9(){
     { text: "“You mean a seed?” asked Khaya.", start: 10, end: 12 },
   ],
   [
-    { text: "“Yes!” said Amile. “Let's plant it and see what kind of flower it becomes.”", start: 13, end: 18.9 },
+    { text: "“Yes!” said Amile. “Let's plant it and see what kind of flower it becomes.”", start: 13, end: 19.8 },
   ]
       ]
 },
@@ -56,7 +56,7 @@ function Page9(){
     { text: "“Usho imbewu?” kubuza uKhaya.", start: 10, end: 12 },
   ],
   [
-    { text: "“Yebo!” kusho uAmile. “Masiyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 13, end: 18.9 },
+    { text: "“Yebo!” kusho uAmile. “Masiyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 13, end: 19.8 },
   ]
 ]
     }
