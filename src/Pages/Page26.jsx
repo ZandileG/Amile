@@ -6,7 +6,7 @@ import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page26(){
-  const { currentTime, language, currentPage } = useContext(MusicContext);
+  const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(true);
 
    function stop(e){

@@ -6,7 +6,7 @@ import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page18(){
-  const { currentTime, language, currentPage } = useContext(MusicContext);
+  const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(false);
 
 function stop(e){
@@ -54,6 +54,7 @@ function stop(e){
       {paragraphs.map((para, pIndex) => (
         <p key={pIndex}>
           {para.map((line, i) => {
+        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 18 && currentTime >= line.start && currentTime <= line.end;
         return(
           <span key={i} className={isActive ? "highlight" : ""}>

@@ -6,7 +6,7 @@ import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page1(){
-  const { currentTime, language, currentPage } = useContext(MusicContext);
+  const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(true);
 
   //I want to stop the pages from flipping when the user is clicking on the images
@@ -58,6 +58,7 @@ function Page1(){
 
       <p className="page-chapter">
         {lines.map((line, i) => {
+        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 1 && currentTime >= line.start && currentTime <= line.end;
        
         return(

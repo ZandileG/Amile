@@ -4,7 +4,7 @@ import Image16 from "../Images/Image16.png";
 import "../Styles/Page.css";
 
 function Page16(){
-  const { currentTime, language, currentPage } = useContext(MusicContext);
+  const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   
      const transcripts = {
       en: [
@@ -28,6 +28,7 @@ function Page16(){
 
       <p className="page-text">
         {transcript.map((line, i) => {
+        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 16 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

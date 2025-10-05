@@ -4,7 +4,7 @@ import Image5 from "../Images/Image5.png";
 import "../Styles/Page.css";
 
 function Page5(){
-  const { currentTime, language, currentPage } = useContext(MusicContext);
+  const { currentTimeRef, language, currentPage } = useContext(MusicContext);
  
     const transcripts = {
       en: {
@@ -52,6 +52,7 @@ function Page5(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {
+        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 5 && currentTime >= line.start && currentTime <= line.end;
         return(
           <span key={i} className={isActive ? "highlight" : ""}>

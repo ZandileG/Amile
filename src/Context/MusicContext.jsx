@@ -83,6 +83,7 @@ export const MusicContext = createContext();
 
 export function MusicProvider({ children }){
   const musicRef = useRef(null);
+  const currentTimeRef = useRef(0);
   const [musicPlaying, setMusicPlaying] = useState(false);
 
   const narrationRef = useRef(null);
@@ -157,7 +158,9 @@ function playNarration(pageNumber, viewportWidth){
 
     audio.play().catch(console.error);
 
-    audio.ontimeupdate = () => setCurrentTime(audio.currentTime);
+    audio.ontimeupdate = () => {
+        currentTimeRef.current = audio.currentTime;
+      };
 
     audio.onended = () => {
       playSequence(index + 1);
@@ -180,7 +183,7 @@ function playNarration(pageNumber, viewportWidth){
 
   return(
     <MusicContext.Provider value={{ musicPlaying, playMusic, narrationPlaying, playNarration, toggleNarration, 
-                           language, changeLanguage, currentPage, narrationRef, currentTime, narrationActive, 
+                           language, changeLanguage, currentPage, narrationRef,  currentTimeRef, narrationActive, 
                            setNarrationActive } }>{children}
     </MusicContext.Provider>
   );
