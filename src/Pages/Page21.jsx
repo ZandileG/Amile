@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image21 from "../Images/Image21.png";
 import Image21_21 from "../Images/Image21-21.png";
