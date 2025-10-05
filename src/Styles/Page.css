@@ -32,7 +32,7 @@
 .social-icon{
   width: 3rem;
   height: auto;
-  margin: 0.5rem;
+  margin: 0.75rem;
   cursor: pointer;
   margin-top: 2rem;
   transition: transform 0.3s ease;
@@ -87,6 +87,8 @@
   width: 35%;
   height: auto;
   margin: auto;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cover-image, .back-cover-image{
@@ -266,6 +268,7 @@ a{
   display: block;
   margin-left: auto;
   margin-right: auto;  
+  border-radius: 5%;
 }
 
 .page-image-2, .page-image-3, .page-image-5, 
