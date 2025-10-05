@@ -36,7 +36,7 @@ function Page9(){
         paragraphs: [
   [
     { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 5.8 },
-    { text: "“It looks like the thing that makes plants.”", start: 5.9, end: 8.8 },
+    { text: "“It looks like that thing that makes plants.”", start: 5.9, end: 8.8 },
   ],
   [
     { text: "“You mean a seed?” asked Khaya.", start: 8.9, end: 12.4 },
