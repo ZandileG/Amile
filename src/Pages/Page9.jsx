@@ -35,28 +35,28 @@ function Page9(){
       en: {
         paragraphs: [
   [
-    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 4 },
-    { text: "“It looks like the thing that makes plants.”", start: 5, end: 9 },
+    { text: "Amile picked it up, cupped it in her hands and gasped,", start: 0, end: 5.8 },
+    { text: "“It looks like the thing that makes plants.”", start: 5.9, end: 8.8 },
   ],
   [
-    { text: "“You mean a seed?” asked Khaya.", start: 10, end: 12 },
+    { text: "“You mean a seed?” asked Khaya.", start: 8.9, end: 12.4 },
   ],
   [
-    { text: "“Yes!” said Amile. “Let's plant it and see what kind of flower it becomes.”", start: 13, end: 19.8 },
+    { text: "“Yes!” said Amile. “Let's plant it and see what kind of flower it becomes.”", start: 12.5, end: 19.8 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wayicosha ngobunene wase ethi,", start: 0, end: 4 },
-    { text: "“Ibukeka njengalento eyenza izitshalo.”", start: 5, end: 9 },
+    { text: "UAmile wayicosha ngobunene wase ethi,", start: 0, end: 5.8 },
+    { text: "“Ibukeka njengalento eyenza izitshalo.”", start: 5.9, end: 8.8 },
   ],
   [
-    { text: "“Usho imbewu?” kubuza uKhaya.", start: 10, end: 12 },
+    { text: "“Usho imbewu?” kubuza uKhaya.", start: 8.9, end: 12.4 },
   ],
   [
-    { text: "“Yebo!” kusho uAmile. “Masiyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 13, end: 19.8 },
+    { text: "“Yebo!” kusho uAmile. “Masiyitshale, sizobona ukuthi iba uhlobo luni lwembali.”", start: 12.5, end: 19.8 },
   ]
 ]
     }

@@ -16,12 +16,12 @@ function Page13(){
 
      const transcripts = {
       en: [
-    { text: "After watering the plant,", start: 0, end: 2 },
-    { text: "the girls went into the house to play in Amile's bedroom.", start: 3, end: 5.8 },
+    { text: "After watering the plant,", start: 0, end: 2.3 },
+    { text: "the girls went into the house to play in Amile's bedroom.", start: 2.4, end: 5.8 },
    ],
       zu: [
-    { text: "Emva kwalokho,", start: 0, end: 2 },
-    { text: "uAmile noKhaya bangena endlini bayodlalela ekamelweni likaAmile.", start: 3, end: 5.8 },
+    { text: "Emva kwalokho,", start: 0, end: 2.3 },
+    { text: "uAmile noKhaya bangena endlini bayodlalela ekamelweni likaAmile.", start: 2.4, end: 5.8 },
   ]
 };
     const transcript = transcripts[language];

@@ -35,26 +35,26 @@ function Page11(){
       en: {
       paragraphs: [
   [
-    { text: "“Oh, I have an idea, follow me!” exclaimed Amile,", start: 0, end: 4 },
-    { text: "her eyes lighting up with excitement.", start: 5, end: 8 },
+    { text: "“Oh, I have an idea, follow me!” exclaimed Amile,", start: 0, end: 6.2 },
+    { text: "her eyes lighting up with excitement.", start: 6.3, end: 8.8 },
   ],
   [
-    { text: "Amile ran back to her house with Khaya following closely behind her.", start: 9, end: 11 },
-    { text: "They found an empty garden patch behind the shed and dug a tiny hole.", start: 12, end: 13 },
-    { text: "They then placed the seed in the hole, covered it, and gently patted the dry soil around it.", start: 14, end: 27.4 },
+    { text: "Amile ran back to her house with Khaya following closely behind her.", start: 8.9, end: 14.4 },
+    { text: "They found an empty garden patch behind the shed and dug a tiny hole.", start: 14.5, end: 19.9 },
+    { text: "They then placed the seed in the hole, covered it, and gently patted the dry soil around it.", start: 20, end: 27.4 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“O, nginecebo, ngilandele!” kubabaza uAmile,", start: 0, end: 4 },
-    { text: "amehlo akhe ekhanya ngenjabulo.", start: 5, end: 8 },
+    { text: "“O, nginecebo, ngilandele!” kubabaza uAmile,", start: 0, end: 6.2 },
+    { text: "amehlo akhe ekhanya ngenjabulo.", start: 6.3, end: 8.8 },
   ],
   [
-    { text: "UAmile wagijima ebuyela ejalidini lakubo, uKhaya elandela emva kwakhe.", start: 9, end: 11 },
-    { text: "Uma befika, bathole isichibi esingenalutho ebaleni, bagubha umgodi omncane.", start: 12, end: 13 },
-    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 14, end: 27.4 },
+    { text: "UAmile wagijima ebuyela ejalidini lakubo, uKhaya elandela emva kwakhe.", start: 8.9, end: 14.4 },
+    { text: "Uma befika, bathole isichibi esingenalutho ebaleni, bagubha umgodi omncane.", start: 14.5, end: 19.9 },
+    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 20, end: 27.4 },
   ]
 ]
     }
