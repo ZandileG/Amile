@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image1 from "../Images/Image1.png";
 import Image1_1 from "../Images/Image1-1.png";
@@ -8,6 +8,16 @@ import "../Styles/Page.css";
 function Page1(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(true);
+
+  //I want to force a re-render so that the highlighted text updates in real-time
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
 
   //I want to stop the pages from flipping when the user is clicking on the images
    function stop(e){
@@ -48,6 +58,7 @@ function Page1(){
 }
   };
     const { dropCap, dropCapText, lines } = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">
@@ -58,7 +69,6 @@ function Page1(){
 
       <p className="page-chapter">
         {lines.map((line, i) => {
-        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 1 && currentTime >= line.start && currentTime <= line.end;
        
         return(

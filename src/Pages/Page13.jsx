@@ -5,7 +5,15 @@ import "../Styles/Page.css";
 
 function Page13(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
-  
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
+
      const transcripts = {
       en: [
     { text: "After watering the plant,", start: 0, end: 2 },
@@ -17,6 +25,7 @@ function Page13(){
   ]
 };
     const transcript = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">
@@ -24,7 +33,6 @@ function Page13(){
 
       <p className="page-text">
         {transcript.map((line, i) => {
-        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 13 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

@@ -9,6 +9,15 @@ function Page8(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(true);
 
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
+
    function stop(e){
     e.stopPropagation();
     e.preventDefault()
@@ -47,6 +56,7 @@ function Page8(){
     }
 };
   const { paragraphs } = transcripts[language];
+  const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">
@@ -64,7 +74,6 @@ function Page8(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {
-        const currentTime = currentTimeRef.current;
         const isActive = currentPage === 8 && currentTime >= line.start && currentTime <= line.end;
         return(
           <span key={i} className={isActive ? "highlight" : ""}>

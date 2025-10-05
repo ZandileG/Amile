@@ -9,6 +9,15 @@ function Page33(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
   const [flipped, setFlipped] = useState(true);
 
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
+
    function stop(e){
     e.stopPropagation();
     e.preventDefault()
@@ -37,6 +46,7 @@ function Page33(){
   ]
 };
     const transcript = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">

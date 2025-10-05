@@ -5,7 +5,15 @@ import "../Styles/Page.css";
 
 function Page35(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
-  
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
+
      const transcripts = {
       en: [
     { text: "Amile’s parents hurried over, still in shock,", start: 0, end: 3 },
@@ -20,6 +28,7 @@ function Page35(){
   ]
 };
     const transcript = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">

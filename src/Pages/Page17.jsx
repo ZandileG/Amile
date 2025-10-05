@@ -5,7 +5,15 @@ import "../Styles/Page.css";
 
 function Page17(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
+  const [, forceUpdate] = useState(0);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
+  
     const transcripts = {
     en: {
         paragraphs: [
@@ -37,6 +45,7 @@ function Page17(){
  }
 };
     const { paragraphs } = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">
@@ -46,7 +55,6 @@ function Page17(){
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
       {para.map((line, i) => {      
-        const currentTime = currentTimeRef.current;  
         const isActive = currentPage === 17 && currentTime >= line.start && currentTime <= line.end;
         return(
           <span key={i} className={isActive ? "highlight" : ""}>

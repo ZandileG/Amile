@@ -5,7 +5,15 @@ import "../Styles/Page.css";
 
 function Page12(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
-  
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
+
      const transcripts = {
       en: [
     { text: "“Wait here,” said Amile,", start: 0, end: 2 },
@@ -17,12 +25,12 @@ function Page12(){
   ]
 };
     const transcript = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">
       <p className="page-text">
         {transcript.map((line, i) => {
-          const currentTime = currentTimeRef.current;
           const isActive = currentPage === 12 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>

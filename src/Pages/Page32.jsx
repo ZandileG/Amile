@@ -5,6 +5,14 @@ import "../Styles/Page.css";
 
 function Page32(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
+  const [, forceUpdate] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      forceUpdate((n) => n + 1);
+    }, 200); 
+    return () => clearInterval(interval);
+  }, []);
 
     const transcripts = {
       en: [
@@ -17,6 +25,7 @@ function Page32(){
   ]
 };
     const transcript = transcripts[language];
+    const currentTime = currentTimeRef.current;
 
   return(
     <section className="page">
