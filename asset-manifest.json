@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.e2bbf11b.css",
-    "main.js": "/Amile/static/js/main.e8241601.js",
+    "main.js": "/Amile/static/js/main.80fc7c00.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
-    "static/media/Adventure.mp3": "/Amile/static/media/Adventure.a40a23b7bd15ae2724bd.mp3",
+    "static/media/Adventure.mp3": "/Amile/static/media/Adventure.944519a4aff9501e7bc0.mp3",
     "static/media/Page1-Z.mp3": "/Amile/static/media/Page1-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page10-Z.mp3": "/Amile/static/media/Page10-Z.b6015367de44e77cc42a.mp3",
     "static/media/Page11-Z.mp3": "/Amile/static/media/Page11-Z.b6015367de44e77cc42a.mp3",
@@ -146,11 +146,11 @@
     "static/media/FrontCover2.png": "/Amile/static/media/FrontCover2.d5063d2e05af6e340289.png",
     "index.html": "/Amile/index.html",
     "main.e2bbf11b.css.map": "/Amile/static/css/main.e2bbf11b.css.map",
-    "main.e8241601.js.map": "/Amile/static/js/main.e8241601.js.map",
+    "main.80fc7c00.js.map": "/Amile/static/js/main.80fc7c00.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2bbf11b.css",
-    "static/js/main.e8241601.js"
+    "static/js/main.80fc7c00.js"
   ]
 }
