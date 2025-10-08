@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.e12beafe.css",
-    "main.js": "/Amile/static/js/main.98fb988c.js",
+    "main.css": "/Amile/static/css/main.94af2ea9.css",
+    "main.js": "/Amile/static/js/main.ee807f45.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.944519a4aff9501e7bc0.mp3",
     "static/media/BackCover.png": "/Amile/static/media/BackCover.626182047b2baa540f12.png",
@@ -145,12 +145,12 @@
     "static/media/Gmail.png": "/Amile/static/media/Gmail.8c1f844b144320cc455a.png",
     "static/media/LinkedIn.png": "/Amile/static/media/LinkedIn.099eef4954507de4dc41.png",
     "index.html": "/Amile/index.html",
-    "main.e12beafe.css.map": "/Amile/static/css/main.e12beafe.css.map",
-    "main.98fb988c.js.map": "/Amile/static/js/main.98fb988c.js.map",
+    "main.94af2ea9.css.map": "/Amile/static/css/main.94af2ea9.css.map",
+    "main.ee807f45.js.map": "/Amile/static/js/main.ee807f45.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e12beafe.css",
-    "static/js/main.98fb988c.js"
+    "static/css/main.94af2ea9.css",
+    "static/js/main.ee807f45.js"
   ]
 }
