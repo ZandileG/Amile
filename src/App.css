@@ -18,7 +18,6 @@
   font-weight: 600;
   font-size: x-large;
   cursor: pointer;
-  pointer-events: auto;
   font-family: "Primer";
   transition: transform 0.2s;
 }

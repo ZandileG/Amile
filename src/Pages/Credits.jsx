@@ -17,8 +17,7 @@ function Credits(){
     <p className="credit">Sound Effect TV</p>
     <p className="credit">SOUNDLAB</p>
 
-    <p className="license"><br /> Licensed under Creative Commons BY Attribution 4.0 License<br /> 
-    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer"> https://creativecommons.org/licenses/by/4.0/</a></p>
+    <p className="license"><br /> Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons</a> BY Attribution 4.0 License</p>
     </section>
     
     </section>

@@ -32,7 +32,7 @@
 .social-icon{
   width: 3rem;
   height: auto;
-  margin: 0.75rem;
+  margin: 0.5rem;
   cursor: pointer;
   margin-top: 2rem;
   transition: transform 0.3s ease;
@@ -406,10 +406,6 @@ a{
   font-size: 1.25rem;
 }
 
-a{
- font-size: 1.25rem;
-}
-
  .page-chapter, .page-text, .license{
   font-size: 1.25rem;
 }
@@ -519,10 +515,6 @@ a{
   .drop-cap-container{
   margin-left: 4rem;
 }
-
-a{
- font-size: 1.25rem;
-}
 }
 
 @media (max-width: 1023px){
@@ -606,10 +598,6 @@ a{
 
 .page-heading{
   font-size: 1.45rem;
-}
-
-a{
- font-size: 1rem;
 }
 
 .drop-cap-container{
@@ -820,10 +808,6 @@ a{
 .drop-cap-text{
   font-size: 1.5rem;
 }
-
-a{
- font-size: 1.75rem;
-}
 }
 
 @media (min-width: 450px) and (max-width: 550px){
@@ -868,10 +852,6 @@ a{
 .drop-cap-text{
   font-size: 1.5rem;
 }
-
-a{
- font-size: 1.5rem;
-}
 }
 
 @media (min-width: 400px) and (max-width: 450px){
@@ -914,10 +894,6 @@ a{
 
 .drop-cap-text{
   font-size: 1.5rem;
-}
-
-a{
- font-size: 1.25rem;
 }
 }
 
@@ -977,10 +953,6 @@ a{
 .drop-cap-text{
   font-size: 1.5rem;
 }
-
-a{
- font-size: 1rem;
-}
 }
 
 @media (max-width: 300px){
@@ -1038,9 +1010,5 @@ a{
 
 .drop-cap-text{
   font-size: 1.5rem;
-}
-
-a{
- font-size: 0.95rem;
 }
 }
