@@ -37,6 +37,8 @@
 .book-title{
     font-size: 3rem;
     font-family: "Rolly";
+    color: #801279;
+    -webkit-text-stroke: 0.125px rgba(0, 0, 0, 0.308);
 }
 
 .text-overlay .book-subtitle{
@@ -47,18 +49,7 @@
     font-size: 1.5rem;
     margin-left: 18rem;
     font-family: "Rolly";
-}
-
-.book-title,
-.book-subtitle{
- /*background: linear-gradient(90deg, #801279 0%, #a10051 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-stroke: 0.25px #00000081;*/
-  color: #801279;
-  -webkit-text-stroke: 0.125px #000000;
+    color: rgb(32, 32, 32);
 }
 
 .contact-info{
@@ -1017,7 +1008,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 4.75rem;
+  margin-left: 4rem;
   margin-top: 1rem;
 }
 
@@ -1029,6 +1020,7 @@ a{
 
 .book-subtitle{
   margin-left: 10rem;
+  font-size: 1.75rem;
 }
 }
 
