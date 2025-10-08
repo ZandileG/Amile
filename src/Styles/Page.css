@@ -51,12 +51,14 @@
 
 .book-title,
 .book-subtitle{
-  background: linear-gradient(90deg, #cf32dd 0%, #f69814 100%);
+ /*background: linear-gradient(90deg, #801279 0%, #a10051 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  -webkit-text-stroke: 0.25px #00000081;
+  -webkit-text-stroke: 0.25px #00000081;*/
+  color: #801279;
+  -webkit-text-stroke: 0.125px #000000;
 }
 
 .contact-info{
@@ -699,17 +701,17 @@ a{
 }
 
 .text-overlay{
-  margin-left: 15rem;
+  margin-left: 11rem;
 }
 
 .book-title{
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   text-align: right;
 }
 
 .book-subtitle{
   margin-left: 22rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 }
 
@@ -770,7 +772,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 11rem;
+  margin-left: 9.75rem;
 }
 
 .book-title{
@@ -980,7 +982,7 @@ a{
 
 .contact-info{
   position: absolute;
-  left: 27%;
+  left: 25%;
   top: 3%
 }
 
@@ -1015,16 +1017,18 @@ a{
 }
 
 .text-overlay{
-  margin-left: 5.25rem;
+  margin-left: 4.75rem;
+  margin-top: 1rem;
 }
 
 .book-title{
   font-size: 2.5rem;
   text-align: right;
+  margin-bottom: 1rem;
 }
 
 .book-subtitle{
-  margin-left: 14rem;
+  margin-left: 10rem;
 }
 }
 
@@ -1071,16 +1075,17 @@ a{
 }
 
 .text-overlay{
-  margin-left: 3.75rem;
+  margin-left: 4.75rem;
 }
 
 .book-title{
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: right;
 }
 
 .book-subtitle{
-  margin-left: 14rem;
+  margin-left: 13rem;
+  font-size: 1rem;
 }
 }
 
@@ -1142,17 +1147,17 @@ a{
 }
 
 .text-overlay{
-  margin-right: 3rem;
-  margin-left: 0rem;
+  margin-left: 4rem;
 }
 
 .book-title{
-  font-size: 2.75rem;
+  font-size: 2rem;
   text-align: right;
 }
 
 .book-subtitle{
-  margin-left: 14rem;
+  margin-left: 10rem;
+  font-size: 1rem;
 }
 }
 
