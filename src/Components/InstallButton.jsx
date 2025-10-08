@@ -5,13 +5,11 @@ import "../App.css";
 //This allows the user to install the book on their device without them having to go through the browser settings
 function InstallButton(){
   const [deferredPrompt, setDeferredPrompt] = useState(null);
-  const [showPrompt, setShowPrompt] = useState(true);
 
   useEffect(() => {
     const handler = (e) => {
       e.preventDefault();
       setDeferredPrompt(e);
-      setShowPrompt(true);
     };
     window.addEventListener("beforeinstallprompt", handler);
 
@@ -27,17 +25,16 @@ function InstallButton(){
       } else {
         console.log("User dismissed the install prompt");
       }
-      setShowPrompt(false);
       setDeferredPrompt(null);
     });
   };
 
 function closeInstall(){
-  setShowPrompt(false);
+  setDeferredPrompt(null);
 }
 
   return(
-    deferredPrompt && showPrompt &&(
+    deferredPrompt && (
     <section className="install-section">
       <button type="button" className="close-button" onClick={closeInstall}>x</button>
       <img src={AmileLogo} alt="Amile Logo" className="amile-logo"/>

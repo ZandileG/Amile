@@ -9,8 +9,8 @@
   padding-bottom: 0.35rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-  margin-bottom: -2rem;
-  margin-right: -13rem;
+  margin-bottom: 15rem;
+  margin-right: -14rem;
   background-color: black;
   color: white;
   border-radius: 50%;
@@ -20,6 +20,8 @@
   cursor: pointer;
   font-family: "Primer";
   transition: transform 0.2s;
+  position: absolute;
+  z-index: 1100;
 }
 
 .amile-logo{
