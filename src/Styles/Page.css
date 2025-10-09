@@ -420,7 +420,7 @@ a{
 }
 
 .book-title{
-  font-size: 3.75rem;
+  font-size: 5rem;
 }
 
 .book-subtitle{
@@ -554,6 +554,10 @@ a{
   margin-left: 4.25rem;
 }
 
+.book-title{
+  font-size: 3.5rem;
+}
+
 .book-subtitle{
   margin-left: 18rem;
 }
@@ -639,7 +643,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 13rem;
+  margin-left: 12rem;
 }
 
 .book-title{
@@ -701,7 +705,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 10rem;
+  margin-left: 12rem;
 }
 
 .book-title{
@@ -771,7 +775,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 9rem;
+  margin-left: 11rem;
 }
 
 .book-title{
@@ -852,7 +856,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 7.75rem;
+  margin-left: 5rem;
 }
 
 .book-title{
@@ -907,7 +911,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 5.25rem;
+  margin-left: 3rem;
 }
 
 .book-title{
@@ -958,7 +962,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 5.25rem;
+  margin-left: 6rem;
 }
 
 .book-title{
@@ -1015,7 +1019,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 4rem;
+  margin-left: 6rem;
   margin-top: 1rem;
 }
 
@@ -1074,7 +1078,7 @@ a{
 }
 
 .text-overlay{
-  margin-left: 4rem;
+  margin-left: 5rem;
 }
 
 .book-title{
