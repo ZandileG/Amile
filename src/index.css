@@ -2,7 +2,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "GlorytyaDemo", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Rolly", "Primer", "GlorytaDemo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
@@ -23,12 +23,19 @@ html, body{
 }
 
 @font-face{
-  font-family: "GlorytyaDemo";
+  font-family: "GlorytaDemo";
   src: url("./Fonts/Gloryta\ Demo.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face{
+  font-family: "MaryKate";
+  src: url("./Fonts/MaryKate.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 code{
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Rolly", "Primer", "GlorytyaDemo", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Rolly", "Primer", "GlorytaDemo", monospace;
 }
