@@ -128,6 +128,10 @@
   width: 35%;
   height: auto;
   margin: auto;
+  border-top: none;
+  border-left: none;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
   border-radius: 5%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -284,7 +288,7 @@ a{
 .page-image-21, .page-image-21-21, .page-image-24, 
 .page-image-27, .page-image-29, .page-image-29-29, 
 .page-image-32, .page-image-35{
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .page-image-1, .page-image-1-1, .page-image-2, 
@@ -310,6 +314,8 @@ a{
   display: block;
   margin-left: auto;
   margin-right: auto;  
+  border-radius: 1.25%;
+  box-shadow: 8px 8px 16px rgba(0,0,0,0.25);
 }
 
 .page-image-2, .page-image-3, .page-image-5, 
