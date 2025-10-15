@@ -37,7 +37,6 @@ import Page31 from "../Sound/Page31.mp3";
 import Page32 from "../Sound/Page32.mp3";
 import Page33 from "../Sound/Page33.mp3";
 import Page34 from "../Sound/Page34.mp3";
-import Page35 from "../Sound/Page35.mp3";
 import Page36 from "../Sound/Page36.mp3";
 
 import Page1_Z from "../Sound/Page1-Z.mp3";
@@ -76,7 +75,6 @@ import Page31_Z from "../Sound/Page31-Z.mp3";
 import Page32_Z from "../Sound/Page32-Z.mp3";
 import Page33_Z from "../Sound/Page33-Z.mp3";
 import Page34_Z from "../Sound/Page34-Z.mp3";
-import Page35_Z from "../Sound/Page35-Z.mp3";
 import Page36_Z from "../Sound/Page36-Z.mp3";
 
 export const MusicContext = createContext();
@@ -90,7 +88,6 @@ export function MusicProvider({ children }){
   const [narrationPlaying, setNarrationPlaying] = useState(false);
   const [narrationActive, setNarrationActive] = useState(false);
   const [currentPage, setCurrentPage] = useState(null);
-  const [currentTime, setCurrentTime] = useState(0);
   const [language, setLanguage] = useState("en");
 
 //These are the narrations in zulu and english for each page and the audio files that go with each one
@@ -98,13 +95,13 @@ export function MusicProvider({ children }){
     en: { 1: Page1, 2: Page2, 3: Page3, 4: Page4, 5: Page5, 6: Page6, 7: Page7, 8: Page8, 9: Page9, 10: Page10, 11: Page11, 
           12: Page12, 13: Page13, 14: Page14, 15: Page15, 16: Page16, 17: Page17, 18: Page18, 19: Page19, 20: Page20, 
           21: Page21, 22: Page22, 23: Page23, 24: Page24, 25: Page25, 26: Page26, 27: Page27, 28: Page28, 29: Page29, 
-          30: Page30, 31: Page31, 32: Page32, 33: Page33, 34: Page34, 35: Page35, 36: Page36 },
+          30: Page30, 31: Page31, 32: Page32, 33: Page33, 34: Page34, 36: Page36},
 
     zu: { 1: Page1_Z, 2: Page2_Z, 3: Page3_Z, 4: Page4_Z, 5: Page5_Z , 6: Page6_Z, 7: Page7_Z, 8: Page8_Z, 9: Page9_Z, 
           10: Page10_Z, 11: Page11_Z, 12: Page12_Z, 13: Page13_Z, 14: Page14_Z, 15: Page15_Z, 16: Page16_Z, 17: Page17_Z, 
           18: Page18_Z, 19: Page19_Z, 20: Page20_Z, 21: Page21_Z, 22: Page22_Z, 23: Page23_Z, 24: Page24_Z, 25: Page25_Z, 
           26: Page26_Z, 27: Page27_Z, 28: Page28_Z, 29: Page29_Z, 30: Page30_Z, 31: Page31_Z, 32: Page32_Z, 33: Page33_Z, 
-          34: Page34_Z, 35: Page35_Z, 36: Page36_Z },
+          34: Page34_Z, 36: Page36_Z},
   };
 
 //This will the language of the narration when the button is clicked

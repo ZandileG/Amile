@@ -14,31 +14,54 @@ function Page34(){
     return () => clearInterval(interval);
   }, []);
 
-     const transcripts = {
-      en: [
+    const transcripts = {
+      en: {
+      paragraphs: [
+  [
     { text: "After a while,", start: 0, end: 1 },
     { text: "Khaya ran back home to celebrate with her family.", start: 2, end: 5 },
    ],
-      zu: [
+   [
+    { text: "Amile’s parents hurried over, still in shock,", start: 6, end: 10 },
+    { text: "and wrapped her in a warm embrace.", start: 11, end: 15 },
+    { text: "I guess we’re staying,", start: 16, end: 18 },
+    { text: "they said, grinning through happy tears.", start: 19, end: 21 },
+   ]
+  ]
+  },
+      zu: {
+      paragraphs: [
+   [    
     { text: "Emva kwesikhashana,", start: 0, end: 1 },
     { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 2, end: 5 },
+  ],
+  [
+    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 6, end: 10 },
+    { text: "“Ngicabanga ukuthi sizohlala,”", start: 11, end: 15 },
+    { text: "kusho bona, kwehla izinyembezi zenjabulo.", start: 16, end: 18 },
   ]
+]
+      }
 };
-    const transcript = transcripts[language];
+    const { paragraphs } = transcripts[language];
     const currentTime = currentTimeRef.current;
 
   return(
-    <section className="page">
-      <p className="page-text">
-        {transcript.map((line, i) => {
+  <section className="page">
+  <section className="page-text">
+   {paragraphs.map((para, pIndex) => (
+    <p key={pIndex}>
+      {para.map((line, i) => {   
         const isActive = currentPage === 34 && currentTime >= line.start && currentTime <= line.end;
           return(
             <span key={i} className={isActive ? "highlight" : ""}>
               {line.text + " "}
             </span>
-          );
-        })}
+      );
+      })}
       </p>
+      ))}
+     </section>
 
       <img src={Image34} alt="Page 34" className="page-image-34" />
 

@@ -1,14 +1,9 @@
 import React, { useContext, useState, useEffect } from "react";
 import { MusicContext } from "../Context/MusicContext";
-import Image36 from "../Images/Image36.png";
-import Image36_36 from "../Images/Image36-36.png";
-import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page36(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
-  const [flipped, setFlipped] = useState(true);
-
   const [, forceUpdate] = useState(0);
 
   useEffect(() => {
@@ -17,19 +12,6 @@ function Page36(){
     }, 200); 
     return () => clearInterval(interval);
   }, []);
-
-   function stop(e){
-    e.stopPropagation();
-    e.preventDefault()
-    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
-      e.nativeEvent.stopImmediatePropagation();
-    }
-  };
-
-  function handleToggle(e){
-    e.stopPropagation();
-    setFlipped((prev) => !prev);
-  };
 
     const transcripts = {
       en: {
@@ -71,16 +53,6 @@ function Page36(){
 
   return(
     <section className="page">
-    <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
-     {flipped ? (
-          <img src={Image36} alt="Page 36" className="page-image-36" />
-        ) : (
-          <img src={Image36_36} alt="Page 36" className="page-image-36-36" />
-        )}
-
-      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
-      </section>
-      
     <section className="page-text">
     {paragraphs.map((para, pIndex) => (
     <p key={pIndex}>
