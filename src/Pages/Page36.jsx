@@ -18,7 +18,7 @@ function Page36(){
       paragraphs: [
   [
     { text: "Amile approached Thingo,", start: 0, end: 2 },
-    { text: "now a tall, blossoming tree with silver-blue petals and a soft glow pulsing in its trunk.", start: 3, end: 7 },
+    { text: "now a tall, blossoming tree with rainbow-coloured flowers and a soft glow pulsing in its trunk.", start: 3, end: 7 },
     { text: "Her eyes sparkled with happiness as she wrapped her arms around it.", start: 8, end: 11 },
   ],
   [
@@ -34,7 +34,7 @@ function Page36(){
       paragraphs: [
   [
     { text: "UAmile wasondela kuThingo,", start: 0, end: 2 },
-    { text: "manje eseyisihlahla eside, esinezimbali ezinamacembe aluhlaza okwesibhakabhaka", start: 3, end: 7 },
+    { text: "manje eseyisihlahla eside, esinezimbali ezinemabala ahlukile", start: 3, end: 7 },
     { text: "kanye nokukhanya okusuka esiqwini sakhe.", start: 8, end: 11 },
     { text: "Amehlo kaAmile akhazimula ngenjabulo njengoba emgona.", start: 12, end: 14 },
   ],
