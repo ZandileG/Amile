@@ -16,16 +16,12 @@ function Page27(){
 
      const transcripts = {
       en: [
-    { text: "Amile’s mom placed her hands on her hips,", start: 0, end: 4 },
-    { text: "her face less friendly than before.", start: 5, end: 7 },
-    { text: "Her dad noticed the look and stepped forward,", start: 8, end: 11 },
-    { text: "reaching toward Amile ready to lift her off the ground,", start: 12, end: 14 },
+    { text: "Amile's dad stepped forward, reaching toward her", start: 0, end: 10 },
+    { text: "ready to lift her off the ground,", start: 11, end: 14 },
     { text: "whether she liked it or not.", start: 15, end: 16 },
    ],
       zu: [
-    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 0, end: 4 },
-    { text: "ebukeka ethukuthele kunakuqala.", start: 5, end: 7 },
-    { text: "Ubab’ wakhe wakubona lokho waguqa phambi kukaAmile", start: 8, end: 11 },
+    { text: "Ubaba kaAmile waguqa phambi kukaAmile", start: 8, end: 11 },
     { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 12, end: 14 },
   ]
 };

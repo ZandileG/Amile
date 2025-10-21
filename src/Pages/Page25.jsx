@@ -1,10 +1,14 @@
 import React, { useContext, useState, useEffect } from "react";
 import { MusicContext } from "../Context/MusicContext";
 import Image25 from "../Images/Image25.png";
+import Image25_25 from "../Images/Image25-25.png";
+import Star from "../Icons/Star.png";
 import "../Styles/Page.css";
 
 function Page25(){
   const { currentTimeRef, language, currentPage } = useContext(MusicContext);
+  const [flipped, setFlipped] = useState(true);
+
   const [, forceUpdate] = useState(0);
 
   useEffect(() => {
@@ -14,6 +18,19 @@ function Page25(){
     return () => clearInterval(interval);
   }, []);
   
+function stop(e){
+    e.stopPropagation();
+    e.preventDefault()
+    if (e.nativeEvent && e.nativeEvent.stopImmediatePropagation){
+      e.nativeEvent.stopImmediatePropagation();
+    }
+  };
+
+  function handleToggle(e){
+    e.stopPropagation();
+    setFlipped((prev) => !prev);
+  };
+
     const transcripts = {
       en: {
       paragraphs: [
@@ -59,8 +76,15 @@ function Page25(){
     ))}
    </section>
 
-      <img src={Image25} alt="Page 25" className="page-image-25" />
+ <section className="image-wrapper" onClick={stop} onPointerDown={stop} onMouseDown={stop} onTouchStart={stop}>
+     {flipped ? (
+          <img src={Image25} alt="Page 25" className="page-image-25" />
+        ) : (
+          <img src={Image25_25} alt="Page 25" className="page-image-25-25" />
+        )}
 
+      <img src={Star} alt="Star" className="star-indicator" onClick={handleToggle} />
+      </section>
       <section className="odd">25</section>
     </section>
   );
