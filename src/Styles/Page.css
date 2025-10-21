@@ -275,7 +275,7 @@ a{
 .page-image-1-1, .page-image-4-4, .page-image-6-6, 
 .page-image-8-8, .page-image-9-9, .page-image-11-11,
 .page-image-14-14, .page-image-15-15,  .page-image-18-18, 
-.page-image-19-19, .page-image-21-21, .page-image-23-23,
+.page-image-19-19, .page-image-21-21, .page-image-24-24,
 .page-image-26-26, .page-image-28-28, .page-image-29-29, 
 .page-image-31-31, .page-image-33-33, .page-image-35-35{
   position: relative;
@@ -289,9 +289,10 @@ a{
 .page-image-12, .page-image-14, .page-image-14-14, 
 .page-image-15, .page-image-15-15, .page-image-18, 
 .page-image-18-18,.page-image-20, .page-image-21, 
-.page-image-21-21, .page-image-24, .page-image-27, 
-.page-image-29, .page-image-29-29, .page-image-32, 
-.page-image-34, .page-image-35, .page-image-35-35{
+.page-image-21-21, .page-image-24, .page-image-24-24,
+.page-image-27, .page-image-29, .page-image-29-29, 
+.page-image-32, .page-image-34, .page-image-35, 
+.page-image-35-35{
   margin-top: 1rem;
 }
 
@@ -306,7 +307,7 @@ a{
 .page-image-17, .page-image-18-18, .page-image-18,
 .page-image-19, .page-image-20, .page-image-19-19,
 .page-image-21, .page-image-21-21, .page-image-22, 
-.page-image-23, .page-image-23-23, .page-image-24,
+.page-image-23, .page-image-24-24, .page-image-24,
 .page-image-25, .page-image-26, .page-image-26-26,
 .page-image-27, .page-image-28, .page-image-28-28,
 .page-image-29, .page-image-29-29, .page-image-30, 
@@ -327,10 +328,10 @@ a{
 .page-image-11, .page-image-11-11, .page-image-13, 
 .page-image-16, .page-image-17, .page-image-19,
 .page-image-19-19, .page-image-22, .page-image-23, 
-.page-image-23-23, .page-image-26, .page-image-26-26, 
-.page-image-28, .page-image-28-28, .page-image-30, 
-.page-image-31, .page-image-31-31, .page-image-33, 
-.page-image-33-33, .page-image-35, .page-image-35-35{
+.page-image-26, .page-image-26-26, .page-image-28, 
+.page-image-28-28, .page-image-30, .page-image-31, 
+.page-image-31-31, .page-image-33, .page-image-33-33, 
+.page-image-35, .page-image-35-35{
   margin-top: 3.5rem;
 }
 
@@ -381,7 +382,7 @@ a{
 .page-image-17, .page-image-18-18, .page-image-18,
 .page-image-19, .page-image-20, .page-image-19-19, 
 .page-image-21, .page-image-21-21, .page-image-22, 
-.page-image-23, .page-image-23-23, .page-image-24,
+.page-image-23, .page-image-24-24, .page-image-24,
 .page-image-25, .page-image-26, .page-image-26-26,
 .page-image-27, .page-image-28, .page-image-28-28, 
 .page-image-29, .page-image-29-29, .page-image-30, 
@@ -395,11 +396,11 @@ a{
 .page-image-8, .page-image-9, .page-image-9-9, 
 .page-image-11, .page-image-11-11, .page-image-13, 
 .page-image-16, .page-image-17, .page-image-19, 
-.page-image-22, .page-image-23, .page-image-23-23, 
-.page-image-26, .page-image-26-26, .page-image-28, 
-.page-image-28-28, .page-image-30, .page-image-31, 
-.page-image-31-31, .page-image-33, .page-image-33-33, 
-.page-image-36,.page-image-36-36{
+.page-image-22, .page-image-23, .page-image-26, 
+.page-image-26-26, .page-image-28, .page-image-28-28, 
+.page-image-30, .page-image-31, .page-image-31-31, 
+.page-image-33, .page-image-33-33, .page-image-36,
+.page-image-36-36{
   margin-top: 3.5rem;
 }
 
