@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.e2dc4c7b.css",
-    "main.js": "/Amile/static/js/main.8ec12486.js",
+    "main.js": "/Amile/static/js/main.6f28e4d1.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.944519a4aff9501e7bc0.mp3",
     "static/media/Image35-35.png": "/Amile/static/media/Image35-35.c3a62653b3a3fca35649.png",
@@ -102,10 +102,10 @@
     "static/media/Image25-25.png": "/Amile/static/media/Image25-25.bd0b500702b6a3627400.png",
     "static/media/Image25.png": "/Amile/static/media/Image25.bd0b500702b6a3627400.png",
     "static/media/Image17.png": "/Amile/static/media/Image17.f62d565c61dffb37c9f7.png",
-    "static/media/Image26.png": "/Amile/static/media/Image26.fb4aa627c1e1bfc50100.png",
     "static/media/Image22.png": "/Amile/static/media/Image22.76cb06e353b6719696a4.png",
     "static/media/Image34.png": "/Amile/static/media/Image34.1c18f16e9f9785d20cb9.png",
     "static/media/Image29.png": "/Amile/static/media/Image29.73bd7aaa654628f3161f.png",
+    "static/media/Image26.png": "/Amile/static/media/Image26.93ab91ddba4557a9b195.png",
     "static/media/Image11-11.png": "/Amile/static/media/Image11-11.ede83cccb49ddb73fe7b.png",
     "static/media/Image11.png": "/Amile/static/media/Image11.872a204b505cbfaac742.png",
     "static/media/Background.png": "/Amile/static/media/Background.5d0a037e52208ff54527.png",
@@ -142,11 +142,11 @@
     "static/media/MaryKate.ttf": "/Amile/static/media/MaryKate.5512fef3a3a60fc54275.ttf",
     "index.html": "/Amile/index.html",
     "main.e2dc4c7b.css.map": "/Amile/static/css/main.e2dc4c7b.css.map",
-    "main.8ec12486.js.map": "/Amile/static/js/main.8ec12486.js.map",
+    "main.6f28e4d1.js.map": "/Amile/static/js/main.6f28e4d1.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2dc4c7b.css",
-    "static/js/main.8ec12486.js"
+    "static/js/main.6f28e4d1.js"
   ]
 }
