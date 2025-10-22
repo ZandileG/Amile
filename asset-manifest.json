@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Amile/static/css/main.c5a6ee9d.css",
-    "main.js": "/Amile/static/js/main.fed11738.js",
+    "main.js": "/Amile/static/js/main.32cc2de1.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.944519a4aff9501e7bc0.mp3",
     "static/media/Image35-35.png": "/Amile/static/media/Image35-35.c3a62653b3a3fca35649.png",
@@ -82,11 +82,11 @@
     "static/media/Image4.png": "/Amile/static/media/Image4.aba35c6e178442508dc7.png",
     "static/media/Image4-4.png": "/Amile/static/media/Image4-4.c657515d39c574cf704e.png",
     "static/media/Image27.png": "/Amile/static/media/Image27.93de9263c83e8037819b.png",
-    "static/media/Image15-15.png": "/Amile/static/media/Image15-15.fc766ce85963ca264ccf.png",
-    "static/media/Image15.png": "/Amile/static/media/Image15.fc766ce85963ca264ccf.png",
     "static/media/Image1-1.png": "/Amile/static/media/Image1-1.2c047c639e4757abdd25.png",
     "static/media/Image14.png": "/Amile/static/media/Image14.c7497fefa1475826afb5.png",
     "static/media/Image1.png": "/Amile/static/media/Image1.e78f26e9bf14d12a75b0.png",
+    "static/media/Image15-15.png": "/Amile/static/media/Image15-15.a81b233e587807e92fec.png",
+    "static/media/Image15.png": "/Amile/static/media/Image15.e55d7d8ef0f3655907f4.png",
     "static/media/Image31-31.png": "/Amile/static/media/Image31-31.b85fb7f8238c54a19561.png",
     "static/media/Image19-19.png": "/Amile/static/media/Image19-19.e7cab9a3d89f4df5f1b0.png",
     "static/media/Image19.png": "/Amile/static/media/Image19.e7cab9a3d89f4df5f1b0.png",
@@ -115,6 +115,7 @@
     "static/media/Image6.png": "/Amile/static/media/Image6.a51176bea4d2c9e2a671.png",
     "static/media/Image5.png": "/Amile/static/media/Image5.8d07f325ea536cc48b4f.png",
     "static/media/Image5-5.png": "/Amile/static/media/Image5-5.fbdc8904cd98c6220c9a.png",
+    "static/media/Image16.png": "/Amile/static/media/Image16.95126c95ccf5c61f4d46.png",
     "static/media/Page4.mp3": "/Amile/static/media/Page4.8d1b81fad737454cb1e4.mp3",
     "static/media/Page6.mp3": "/Amile/static/media/Page6.ae1806467c22c6ecf20c.mp3",
     "static/media/Instagram.png": "/Amile/static/media/Instagram.6b771ae3dc83816a0874.png",
@@ -133,7 +134,6 @@
     "static/media/Page12.mp3": "/Amile/static/media/Page12.e7fbf12ae6db7cf20f69.mp3",
     "static/media/Page13.mp3": "/Amile/static/media/Page13.3c973736d122beaa774c.mp3",
     "static/media/GitHub.png": "/Amile/static/media/GitHub.3a536c89c99d2264a140.png",
-    "static/media/Image16.png": "/Amile/static/media/Image16.7a5dc16f2d057d035f51.png",
     "static/media/Rolly Polly.ttf": "/Amile/static/media/Rolly Polly.285c755856ce92cfd6ee.ttf",
     "static/media/Primer Print.otf": "/Amile/static/media/Primer Print.901459a7603b1a9b82a4.otf",
     "static/media/Gloryta Demo.otf": "/Amile/static/media/Gloryta Demo.b40ef0be6a3dcaac6698.otf",
@@ -142,11 +142,11 @@
     "static/media/MaryKate.ttf": "/Amile/static/media/MaryKate.5512fef3a3a60fc54275.ttf",
     "index.html": "/Amile/index.html",
     "main.c5a6ee9d.css.map": "/Amile/static/css/main.c5a6ee9d.css.map",
-    "main.fed11738.js.map": "/Amile/static/js/main.fed11738.js.map",
+    "main.32cc2de1.js.map": "/Amile/static/js/main.32cc2de1.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a6ee9d.css",
-    "static/js/main.fed11738.js"
+    "static/js/main.32cc2de1.js"
   ]
 }
