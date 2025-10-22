@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amile/static/css/main.c5a6ee9d.css",
-    "main.js": "/Amile/static/js/main.f541fc75.js",
+    "main.css": "/Amile/static/css/main.c211d6e6.css",
+    "main.js": "/Amile/static/js/main.7a16cc5a.js",
     "static/js/453.955aba17.chunk.js": "/Amile/static/js/453.955aba17.chunk.js",
     "static/media/Adventure.mp3": "/Amile/static/media/Adventure.944519a4aff9501e7bc0.mp3",
     "static/media/Image35-35.png": "/Amile/static/media/Image35-35.c3a62653b3a3fca35649.png",
@@ -9,16 +9,16 @@
     "static/media/BackCover.png": "/Amile/static/media/BackCover.a6dc6d38828a536a4ec6.png",
     "static/media/AuthorPage.png": "/Amile/static/media/AuthorPage.81277587abd55ea3a154.png",
     "static/media/Image8.png": "/Amile/static/media/Image8.292157fc3e9c85758652.png",
-    "static/media/Image7-7.png": "/Amile/static/media/Image7-7.c30b061bdc0235445f74.png",
-    "static/media/Image7.png": "/Amile/static/media/Image7.7ee835b6969864a46c4d.png",
-    "static/media/Image13.png": "/Amile/static/media/Image13.1d6b2ca035e3a7a3d7c5.png",
+    "static/media/Image7-7.png": "/Amile/static/media/Image7-7.db9ba26243350e05cf11.png",
+    "static/media/Image7.png": "/Amile/static/media/Image7.fd43e929d9f224691ffd.png",
+    "static/media/Image13.png": "/Amile/static/media/Image13.a675d9d72057f29427b7.png",
     "static/media/Image9.png": "/Amile/static/media/Image9.85d7565c3bcdc65e8c82.png",
     "static/media/Image10-10.png": "/Amile/static/media/Image10-10.3278b9585935af6a2003.png",
     "static/media/Image10.png": "/Amile/static/media/Image10.f04356ee2fb0eb0f1b57.png",
-    "static/media/Image12.png": "/Amile/static/media/Image12.8fe710e1c45e049fe15e.png",
     "static/media/Image21.png": "/Amile/static/media/Image21.c34596b03f76a0125754.png",
     "static/media/Image23.png": "/Amile/static/media/Image23.8cc053e68cddc568f503.png",
     "static/media/Image21-21.png": "/Amile/static/media/Image21-21.e1b8df66af315a366da8.png",
+    "static/media/Image12.png": "/Amile/static/media/Image12.301b657e715aff36bd55.png",
     "static/media/Image18.png": "/Amile/static/media/Image18.1605d770cb181998d8b7.png",
     "static/media/Image18-18.png": "/Amile/static/media/Image18-18.7b948a44c907c4a0265b.png",
     "static/media/Image3.png": "/Amile/static/media/Image3.45f9de54400c55e55ee6.png",
@@ -88,7 +88,6 @@
     "static/media/Image15-15.png": "/Amile/static/media/Image15-15.a81b233e587807e92fec.png",
     "static/media/Image15.png": "/Amile/static/media/Image15.e55d7d8ef0f3655907f4.png",
     "static/media/Image31-31.png": "/Amile/static/media/Image31-31.b85fb7f8238c54a19561.png",
-    "static/media/Image19-19.png": "/Amile/static/media/Image19-19.e7cab9a3d89f4df5f1b0.png",
     "static/media/Image19.png": "/Amile/static/media/Image19.e7cab9a3d89f4df5f1b0.png",
     "static/media/Image28-28.png": "/Amile/static/media/Image28-28.70cbf3a1df19156238bc.png",
     "static/media/Image28.png": "/Amile/static/media/Image28.70cbf3a1df19156238bc.png",
@@ -98,6 +97,7 @@
     "static/media/Image31.png": "/Amile/static/media/Image31.98455e3a3ae82744ede1.png",
     "static/media/Image33-33.png": "/Amile/static/media/Image33-33.f5e3175c3b838e85bf93.png",
     "static/media/Image33.png": "/Amile/static/media/Image33.f5e3175c3b838e85bf93.png",
+    "static/media/Image20-20.png": "/Amile/static/media/Image20-20.f924c6b4ee934548f719.png",
     "static/media/Image20.png": "/Amile/static/media/Image20.f924c6b4ee934548f719.png",
     "static/media/Image25-25.png": "/Amile/static/media/Image25-25.bd0b500702b6a3627400.png",
     "static/media/Image25.png": "/Amile/static/media/Image25.bd0b500702b6a3627400.png",
@@ -141,12 +141,12 @@
     "static/media/LinkedIn.png": "/Amile/static/media/LinkedIn.099eef4954507de4dc41.png",
     "static/media/MaryKate.ttf": "/Amile/static/media/MaryKate.5512fef3a3a60fc54275.ttf",
     "index.html": "/Amile/index.html",
-    "main.c5a6ee9d.css.map": "/Amile/static/css/main.c5a6ee9d.css.map",
-    "main.f541fc75.js.map": "/Amile/static/js/main.f541fc75.js.map",
+    "main.c211d6e6.css.map": "/Amile/static/css/main.c211d6e6.css.map",
+    "main.7a16cc5a.js.map": "/Amile/static/js/main.7a16cc5a.js.map",
     "453.955aba17.chunk.js.map": "/Amile/static/js/453.955aba17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5a6ee9d.css",
-    "static/js/main.f541fc75.js"
+    "static/css/main.c211d6e6.css",
+    "static/js/main.7a16cc5a.js"
   ]
 }
