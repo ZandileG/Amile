@@ -55,7 +55,7 @@ function Page20(){
     { text: "“Yebo, igama elihle kakhulu lelo,” kuphendula uKhaya. “Kodwa awucabangi ukuthi singangena enkingeni ngalokhu?”", start: 7, end: 10 },
   ],
   [
-    { text: "Ngeke singene enkingeni uma singayigcina njengemfihlo futhi siqinisekise ukuthi uThingo uyaphila,” kusho uAmile.", start: 11, end: 13 },
+    { text: "“Ngeke singene enkingeni uma singayigcina njengemfihlo futhi siqinisekise ukuthi uThingo uyaphila,” kusho uAmile.", start: 11, end: 13 },
   ],
 ]
     }
