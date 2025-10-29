@@ -18,28 +18,28 @@ function Page17(){
     en: {
         paragraphs: [
   [
-    { text: "But one afternoon, Amile saw a sprout poking through the soil.", start: 0, end: 5 },
-    { text: "Unlike the brittle brown grass around it,", start: 6, end: 9 },
-    { text: "this sprout was blue and sparkled in the sunlight.", start: 10, end: 13 },
+    { text: "But one afternoon, Amile saw a sprout poking through the soil.", start: 0, end: 4.7 },
+    { text: "Unlike the brittle brown grass around it,", start: 4.8, end: 7.5 },
+    { text: "this sprout was blue and sparkled in the sunlight.", start: 7.6, end: 11.4 },
   ],
   [
-   { text: "Amile gasped,", start: 14, end: 15 },
-    { text: "“You’re alive!”", start: 16, end: 17 },
-    { text: "She then ran to Khaya’s house and brought her over to see it.", start: 18, end: 22 },
+   { text: "Amile gasped,", start: 11.5, end: 13.1 },
+    { text: "“You’re alive!”", start: 13.2, end: 14.7 },
+    { text: "She then ran to Khaya’s house and brought her over to see it.", start: 14.8, end: 19 },
   ]
 ]
   },
       zu: {
         paragraphs: [
   [
-    { text: "Kodwa ngenye intambama, uAmile wabona isithombo sihluma emhlabathini.", start: 0, end: 5 },
-    { text: "Ngokungafani notshani obunsundu obuzungezile,", start: 6, end: 9 },
-    { text: "leli hlumela laliluhlaza okwesibhakabhaka futhi likhazimula elangeni.", start: 10, end: 13 },
+    { text: "Kodwa ngenye intambama, uAmile wabona isithombo sihluma emhlabathini.", start: 0, end: 5.6 },
+    { text: "Ngokungafani notshani obunsundu obuzungezile,", start: 5.7, end: 9.1 },
+    { text: "leli hlumela laliluhlaza okwesibhakabhaka futhi likhazimula elangeni.", start: 9.2, end: 14.6 },
   ],
   [
-    { text: "“Ha, uyaphila!”", start: 14, end: 15 },
-    { text: "kusho uAmile ngokumangala.", start: 16, end: 17 },
-    { text: "Wagijima wayolanda uKhaya ukuze ayibone.", start: 18, end: 22 },
+    { text: "“Ha, uyaphila!”", start: 14.7, end: 16.8 },
+    { text: "kusho uAmile ngokumangala.", start: 16.9, end: 19.3 },
+    { text: "Wagijima wayolanda uKhaya ukuze ayibone.", start: 19.4, end: 22.8 },
   ]
 ]
  }

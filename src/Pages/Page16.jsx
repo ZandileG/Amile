@@ -16,16 +16,16 @@ function Page16(){
 
      const transcripts = {
       en: [
-    { text: "Days passed, and nothing happened.", start: 0, end: 2 },
-    { text: "Amile kept watering it,", start: 3, end: 4 },
-    { text: "and every day she hoped to see something new,", start: 5, end: 7 },
-    { text: "anything, that would take her mind off all those boxes and phone calls with the moving company.", start: 8, end: 12 },
+    { text: "Days passed, and nothing happened.", start: 0, end: 2.8 },
+    { text: "Amile kept watering it,", start: 2.9, end: 4.3 },
+    { text: "and every day she hoped to see something new,", start: 4.4, end: 7.2 },
+    { text: "anything, that would take her mind off all those boxes and phone calls with the moving company.", start: 7.3, end: 13.3 },
    ],
       zu: [
-    { text: "Zadlula izinsuku kungenzeki lutho.", start: 0, end: 2 },
-    { text: "UAmile wayelokhu eyinisela,", start: 3, end: 4 },
-    { text: "futhi nsuku zonke wayenethemba lokubona okuthile okusha,", start: 5, end: 7 },
-    { text: "noma yini, eyayizosusa ingqondo yakhe kuwo wonke lawo mabhokisi kanye nezingcingo nenkampani yokuthutha.", start: 8, end: 12 },
+    { text: "Zadlula izinsuku kungenzeki lutho.", start: 0, end: 3.1 },
+    { text: "UAmile wayelokhu eyinisela,", start: 3.2, end: 5.7 },
+    { text: "futhi nsuku zonke wayenethemba lokubona okuthile okusha,", start: 5.8, end: 9.8 },
+    { text: "noma yini, eyayizosusa ingqondo yakhe kuwo wonke lawo mabhokisi kanye nezingcingo nenkampani yokuthutha.", start: 9.9, end: 17.7 },
   ]
 };
     const transcript = transcripts[language];

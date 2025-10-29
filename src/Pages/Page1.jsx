@@ -50,10 +50,10 @@ function Page1(){
     dropCap: "K",
     dropCapText: "WASUKASUKELA,",
     lines: [
-    { text: "ezweni elikude elibizwa Dumakude,", start: 0, end: 4.2 },
-    { text: "kwakunamagquma aluhlaza, lapho wawungabona khona izimbuzi zasentabeni zidla.", start: 4.3, end: 8.0 },
-    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 8.1, end: 12.2 },
-    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 12.3, end: 15.1 },
+    { text: "ezweni elikude elibizwa Dumakude,", start: 0, end: 5.2 },
+    { text: "kwakunamagquma aluhlaza, lapho wawungabona khona izimbuzi zasentabeni zidla.", start: 5.3, end: 11.4 },
+    { text: "Kwakunemifula ecwebile lapho kuvame ukudlala khona izinhlanzana namaxoxo.", start: 11.5, end: 17.7 },
+    { text: "Kwakukhona nomphakathi owawusebenzisa umzuzu ngamunye ukubungaza impilo.", start: 17.8, end: 24.1 },
   ]
 }
   };

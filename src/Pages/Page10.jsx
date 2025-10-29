@@ -50,15 +50,15 @@ function Page10(){
       zu: {
       paragraphs: [
   [
-    { text: "“Angicabangi ukuthi kuwumqondo omuhle lowo,” kusho uKhaya,", start: 0, end: 4.5 },
-    { text: "“awazi yini ukuthi izimbali zidinga inhlabathi enhle ukuze zikhule, futhi idolobha lethu lomile kakhulu.”", start: 4.6, end: 9.5 },
+    { text: "“Angicabangi ukuthi kuwumqondo omuhle lowo,” kusho uKhaya,", start: 0, end: 5.5 },
+    { text: "“awazi yini ukuthi izimbali zidinga inhlabathi enhle ukuze zikhule, futhi idolobha lethu lomile kakhulu.”", start: 5.6, end: 12.9 },
   ],
   [
-    { text: "“Ngiyazi...” kusho uAmile, ehwaqabala kancane.", start: 9.6, end: 14.5 },
+    { text: "“Ngiyazi...” kusho uAmile, ehwaqabala kancane.", start: 13, end: 17.8 },
   ],
   [
-    { text: "“Sizowatholaphi ngisho namanzi?” waqhubeka uKhaya,", start: 14.6, end: 19.5 },
-    { text: "eyaziqhenya ngokuthi wayezwakala ehlakaniphile.", start: 19.6, end: 22.5 },
+    { text: "“Sizowatholaphi ngisho namanzi?” waqhubeka uKhaya,", start: 17.9, end: 22.4 },
+    { text: "eyaziqhenya ngokuthi wayezwakala ehlakaniphile.", start: 22.5, end: 25.9 },
   ]
 ]
     }

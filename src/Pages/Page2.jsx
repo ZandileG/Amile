@@ -23,11 +23,11 @@ const [, forceUpdate] = useState(0);
     { text: "a promise of the strength and resilience they saw within her.", start: 16.7, end: 20.8 },
    ],
       zu: [
-    { text: "Kulelidolobha, kwakune ntombazanyana okuthiwa nguAmile.", start: 0, end: 5.9 },
-    { text: "UAmile wayehlala nabazali bakhe, uMandisa noSinalo.", start: 6, end: 9.9 },
-    { text: "Bamqamba “uAmile,” igama elinezincazelo eziningi.", start: 10, end: 13.8 },
-    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 13.9, end: 16.6 },
-    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 16.7, end: 20.8 },
+    { text: "Kulelidolobha, kwakune ntombazanyana okuthiwa nguAmile.", start: 0, end: 4.7 },
+    { text: "UAmile wayehlala nabazali bakhe, uMandisa noSinalo.", start: 4.8, end: 9.4 },
+    { text: "Bamqamba “uAmile,” igama elinezincazelo eziningi.", start: 9.5, end: 14 },
+    { text: "Kubo, kwakusho ukuthi “usamile,”", start: 14.1, end: 16.7 },
+    { text: "isithembiso samandla nokuqina ababekubona ngaphakathi kuye.", start: 16.8, end: 21.1 },
   ]
 };
     const transcript = transcripts[language];

@@ -49,14 +49,14 @@ function Page4(){
      zu: {
       paragraphs: [
   [
-    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 4.4 },
-    { text: "ebuka umoya udanisa nothuli.", start: 4.5, end: 7.1 },
-    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma kwezulu, okwakuvame ukumethusa kancane,", start: 7.2, end: 12.4 },
-    { text: "kodwa manje, kwakuyiculo wayefisa ukulizwa futhi.", start: 12.5, end: 19 },
+    { text: "Njalo kusihlwa, uAmile wayehlala ngaphandle,", start: 0, end: 4 },
+    { text: "ebuka umoya udanisa nothuli.", start: 4.1, end: 6.8 },
+    { text: "Wayekhumbula iphunga lokuswakama, kanye nokuduma kwezulu, okwakuvame ukumethusa kancane,", start: 6.9, end: 14 },
+    { text: "kodwa manje, kwakuyiculo wayefisa ukulizwa futhi.", start: 14.1, end: 18.1 },
   ],
   [
-    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngani wakhe omkhulu uKhaya bechaphazana odakeni", start: 20, end: 25.8 },
-    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 25.9, end: 32.4 },
+    { text: "Wayekhumbula futhi nezinsuku lapho yena nomngani wakhe omkhulu uKhaya bechaphazana odakeni", start: 18.2, end: 26.3 },
+    { text: "futhi bedlala umacashelana ngemuva kwendlu, uhleko lwabo lukhuphuka ngaphezu kwamafu.", start: 26.4, end: 33.2 },
   ]
 ]
      }

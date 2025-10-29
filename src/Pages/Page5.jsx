@@ -52,17 +52,17 @@ function Page5(){
       zu: {
       paragraphs: [
   [
-    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 5.4 },
-    { text: "“Mimi,” washo ngesineke,", start: 5.5, end: 8.0 },
-    { text: "“kufanele sihambe eDumakude.”", start: 8.1, end: 10.5 },
+    { text: "Ngobunye ubusuku, ngesikhathi sesidlo sakusihlwa, ubab’wakhe welula isandla sakhe ebamba esikaAmile.", start: 0, end: 8.2 },
+    { text: "“Mimi,” washo ngesineke,", start: 8.3, end: 11 },
+    { text: "“kufanele sihambe eDumakude.”", start: 11.1, end: 13.4 },
   ],
   [
-    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 10.6, end: 13.3 },
-    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 13.4, end: 17.0 },
+    { text: "UAmile wanganyakazi. Amehlo akhe akhula,", start: 13.5, end: 17.4 },
+    { text: "efuna ebusweni bukayise isibonakaliso sokuthi kwakungelona iqiniso.", start: 17.5, end: 23.1 },
   ],
   [
-    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi,", start: 17.1, end: 21.8 },
-    { text: "“amanzi awasekho futhi nokudla sekuyaphela.”", start: 21.9, end: 25.8 },
+    { text: "“Mimi,” kusho uma wakhe ngomoya ophansi,", start: 23.2, end: 27.1 },
+    { text: "“amanzi awasekho futhi nokudla sekuyaphela.”", start: 27.2, end: 30.7 },
   ]
 ]
     }

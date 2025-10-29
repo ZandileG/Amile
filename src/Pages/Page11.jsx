@@ -48,13 +48,13 @@ function Page11(){
       zu: {
       paragraphs: [
   [
-    { text: "“O, nginecebo, ngilandele!” kubabaza uAmile,", start: 0, end: 6.2 },
-    { text: "amehlo akhe ekhanya ngenjabulo.", start: 6.3, end: 8.8 },
+    { text: "“O, nginecebo, ngilandele!” kubabaza uAmile,", start: 0, end: 5.4 },
+    { text: "amehlo akhe ekhanya ngenjabulo.", start: 5.5, end: 7.7 },
   ],
   [
-    { text: "UAmile wagijima ebuyela ejalidini lakubo, uKhaya elandela emva kwakhe.", start: 8.9, end: 14.4 },
-    { text: "Uma befika, bathole isichibi esingenalutho ebaleni, bagubha umgodi omncane.", start: 14.5, end: 19.9 },
-    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 20, end: 27.4 },
+    { text: "UAmile wagijima ebuyela ejalidini lakubo, uKhaya elandela emva kwakhe.", start: 7.8, end: 13.6 },
+    { text: "Uma befika, bathole isichibi esingenalutho ebaleni, bagubha umgodi omncane.", start: 13.7, end: 20.4 },
+    { text: "Batshala imbewu futhi babambatha nenhlabathi eyizungezile.", start: 20.5, end: 25.1 },
   ]
 ]
     }

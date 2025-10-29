@@ -44,9 +44,9 @@ function Page7(){
     dropCap: "N",
     dropCapText: "GOSUKU OLULANDELAYO,",
     lines: [
-    { text: "uAmile wahamba wayodlala noKhaya, efuna ukuchitha isikhathi esisele kuleli dolobha nomngani wakhe.", start: 0, end: 7.3 },
-    { text: "Bazulazule baze bafika emfuleni owomile.", start: 7.4, end: 13.2 },
-    { text: "Osebeni lomfula, babona into engajwayelekile.", start: 13.3, end: 17.8 },
+    { text: "uAmile wahamba wayodlala noKhaya, efuna ukuchitha isikhathi esisele kuleli dolobha nomngani wakhe.", start: 0, end: 9.2 },
+    { text: "Bazulazule baze bafika emfuleni owomile.", start: 9.3, end: 13.7 },
+    { text: "Osebeni lomfula, babona into engajwayelekile.", start: 13.8, end: 17.9 },
       ]
     }
   };

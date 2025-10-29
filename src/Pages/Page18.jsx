@@ -35,22 +35,22 @@ function stop(e){
       en: {
       paragraphs: [
   [
-    { text: "“It grew?” said Khaya, surprised.", start: 0, end: 3 },
+    { text: "“It grew?” said Khaya, surprised.", start: 0, end: 3.9 },
   ],
   [
     { text: "“Yes, it did!", start: 4, end: 5 },
-    { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 6, end: 8 },
+    { text: "I knew it! I knew it would grow!” exclaimed Amile.", start: 5.1, end: 9.8 },
   ]
       ]
 },
       zu: {
       paragraphs: [
   [
-    { text: "“Sikhulile?” kusho uKhaya, emangele.", start: 0, end: 4 },
+    { text: "“Sikhulile?” kusho uKhaya, emangele.", start: 0, end: 3.9 },
   ],
   [
-    { text: "“Yebo, sikhulile!", start: 5, end: 6 },
-    { text: "Bengazi! Bengazi ukuthi sizokhula!” kubabaza uAmile.", start: 7, end: 10 },
+    { text: "“Yebo, sikhulile!", start: 4, end: 5.6 },
+    { text: "Bengazi! Bengazi ukuthi sizokhula!” kubabaza uAmile.", start: 5.7, end: 10.4 },
   ]
 ]
     }

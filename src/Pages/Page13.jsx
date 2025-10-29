@@ -20,8 +20,8 @@ function Page13(){
     { text: "the girls went into the house to play in Amile's bedroom.", start: 2.4, end: 5.8 },
    ],
       zu: [
-    { text: "Emva kwalokho,", start: 0, end: 2.3 },
-    { text: "uAmile noKhaya bangena endlini bayodlalela ekamelweni likaAmile.", start: 2.4, end: 5.8 },
+    { text: "Emva kwalokho,", start: 0, end: 1.2 },
+    { text: "uAmile noKhaya bangena endlini bayodlalela ekamelweni likaAmile.", start: 1.3, end: 6.8 },
   ]
 };
     const transcript = transcripts[language];

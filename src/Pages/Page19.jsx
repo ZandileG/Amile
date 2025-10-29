@@ -29,10 +29,10 @@ const transcripts = {
  zu: {
       paragraphs: [
   [
-    { text: "“Lesi sitshalo siyamangaza, kungani siluhlaza okwesibhakabhaka?” kubuza uKhaya.", start: 0, end: 6 },
+    { text: "“Lesi sitshalo siyamangaza, kungani siluhlaza okwesibhakabhaka?” kubuza uKhaya.", start: 0, end: 7.1 },
   ],
   [
-    { text: "“Mina ngisibona sisihle noma singajwayelekile,” kusho uAmile.", start: 7, end: 10 },
+    { text: "“Mina ngisibona sisihle noma singajwayelekile,” kusho uAmile.", start: 7.2, end: 12.7 },
   ]
 ]
  }

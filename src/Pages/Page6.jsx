@@ -34,16 +34,16 @@ function Page6(){
       zu: {
       paragraphs: [
   [
-    { text: "“Cha Mama, asikwazi ukuhamba!", start: 0, end: 5.5 },
-    { text: "Angifuni ukushiya uKhaya ngemuva,” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 5.6, end: 14.8 },
+    { text: "“Cha Mama, asikwazi ukuhamba!", start: 0, end: 3.3 },
+    { text: "Angifuni ukushiya uKhaya ngemuva,” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 3.4, end: 10.7 },
   ],
   [
-    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 14.9, end: 20.2 },
-    { text: "ngeke sisakwazi ukuqhubeka nokuhlala lapha.", start: 20.3, end: 24.9 },
-    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 25, end: 29.1 },
+    { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 10.8, end: 15.8 },
+    { text: "ngeke sisakwazi ukuqhubeka nokuhlala lapha.", start: 15.9, end: 19.2 },
+    { text: "Ngicela uzame ukuqondisisa ngan’ yami,” kusho ubab’wakhe.", start: 19.3, end: 23.6 },
   ],
    [
-    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kwakhe.", start: 29.2, end: 35.2 },
+    { text: "UAmile wanqekuzisa ikhanda, kodwa wezwa isivunguvungu esithulile sikhula ngaphakathi kwakhe.", start: 23.7, end: 31.7 },
   ]
 ]
     }

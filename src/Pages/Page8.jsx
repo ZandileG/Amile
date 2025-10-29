@@ -29,11 +29,11 @@ function Page8(){
       zu: {
       paragraphs: [
   [
-    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 0, end: 6.3 },
+    { text: "“Yini leya?” kubuza uKhaya, ekhomba into engaqondakali eyayisemhlabathini.", start: 0, end: 6.7 },
   ],
   [
-    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 6.4, end: 12.3 },
-    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 12.4, end: 19.7 },
+    { text: "Phakathi kwamatshe nokhula, kwakunento encane, eyindilinga, ekhazimulayo.", start: 6.8, end: 12.4 },
+    { text: "Igobolondo lalo lalicwebezela njengothingo, ngathi liqukethe ukukhanya kwelanga nenyanga ngesikhathi esisodwa.", start: 12.5, end: 20.1 },
   ]
 ]
     }

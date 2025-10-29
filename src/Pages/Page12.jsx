@@ -20,8 +20,8 @@ function Page12(){
     { text: "then hurried into the shed to fetch water from the water container.", start: 3, end: 7.1 },
    ],
       zu: [
-    { text: "“Linda kancane,” kusho uAmile,", start: 0, end: 2.9 },
-    { text: "ephuthuma engena egumbini lokugcina amanzi, ukuze azonisela isitshalo.", start: 4, end: 7.1 },
+    { text: "“Linda kancane,” kusho uAmile,", start: 0, end: 3.6 },
+    { text: "ephuthuma engena egumbini lokugcina amanzi, ukuze azonisela isitshalo.", start: 3.7, end: 9.4 },
   ]
 };
     const transcript = transcripts[language];
