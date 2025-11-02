@@ -58,7 +58,7 @@ function Page31(){
     { text: "Izingane zamemeza.", start: 4, end: 5 },
     { text: "Umfula wagcwala.", start: 6, end: 7 },
     { text: "Izihlahla zanyakaza.", start: 8, end: 9 },
-    { text: "Kwacula izinyoni.", start: 10, end: 11 },
+    { text: "Zacula izinyoni.", start: 10, end: 11 },
   ],
   [
     { text: "Amagquma aphenduka abe luhlaza futhi.", start: 12, end: 14 },

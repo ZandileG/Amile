@@ -56,7 +56,7 @@ function Page26(){
     { text: "ebukeka ethukuthele kunakuqala.", start: 5, end: 7 },
     { text: "Wanikina ikhanda ethi,", start: 8, end: 10 },
     { text: "“Ah, ah Amile, sekumele sihambe manje,”", start: 11, end: 13 },
-    { text: "kusho unina, efinyelela esitshalweni.", start: 14, end: 16 },
+    { text: "efinyelela esitshalweni.", start: 14, end: 16 },
     { text: "UAmile wasusa isandla sikama wakhe wamboza uThingo ngezingalo zakhe.", start: 17, end: 21 },
     ],
     [

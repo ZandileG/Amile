@@ -33,7 +33,7 @@ function Page22(){
       paragraphs: [
   [
     { text: "Ngosuku lokuthutha,", start: 0, end: 2 },
-    { text: "uAmile waphumela ngaphandle, ngenhiziyo ebuhlungu, eyokhuluma noThingo.", start: 3, end: 6 },
+    { text: "uAmile waphumela ngaphandle, ngenhliziyo ebuhlungu, eyokhuluma noThingo.", start: 3, end: 6 },
   ],
   [
     { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 7, end: 9 },

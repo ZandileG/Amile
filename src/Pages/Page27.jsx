@@ -21,7 +21,7 @@ function Page27(){
     { text: "whether she liked it or not.", start: 15, end: 16 },
    ],
       zu: [
-    { text: "Ubaba kaAmile waguqa phambi kukaAmile", start: 8, end: 11 },
+    { text: "Ubaba kaAmile wagoba phambi kwakhe", start: 8, end: 11 },
     { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 12, end: 14 },
   ]
 };
