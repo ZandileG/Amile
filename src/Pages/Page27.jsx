@@ -21,8 +21,8 @@ function Page27(){
     { text: "whether she liked it or not.", start: 15, end: 16 },
    ],
       zu: [
-    { text: "Ubaba kaAmile wagoba phambi kwakhe", start: 8, end: 11 },
-    { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 12, end: 14 },
+    { text: "Ubaba kaAmile wagoba phambi kwakhe", start: 0, end: 2.9 },
+    { text: "ezilungiselele  ukumphakamisa, ethanda noma engathandi.", start: 3, end: 7.5 },
   ]
 };
     const transcript = transcripts[language];

@@ -33,14 +33,14 @@ function Page36(){
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wasondela kuThingo,", start: 0, end: 2 },
-    { text: "manje eseyisihlahla eside, esinezimbali ezinamabala ahlukile", start: 3, end: 7 },
-    { text: "kanye nokukhanya okusuka esiqwini sakhe.", start: 8, end: 11 },
-    { text: "Amehlo kaAmile akhazimula ngenjabulo njengoba emgona.", start: 12, end: 14 },
+    { text: "UAmile wasondela kuThingo,", start: 0, end: 2.5 },
+    { text: "manje eseyisihlahla eside, esinezimbali ezinamabala ahlukile", start: 2.6, end: 7.2 },
+    { text: "kanye nokukhanya okusuka esiqwini sakhe.", start: 7.3, end: 10.1 },
+    { text: "Amehlo kaAmile akhazimula ngenjabulo njengoba emgona.", start: 10.2, end: 14.5 },
   ],
   [
-    { text: "“Ngiyabonga Thingo,” ehleba,", start: 15, end: 17 },
-    { text: "“ngiyajabula kakhulu ukuthi ngizokwazi ukuhlala nawe!”", start: 18, end: 20 },
+    { text: "“Ngiyabonga Thingo,” ehleba,", start: 14.6, end: 18.3 },
+    { text: "“ngiyajabula ukuthi ngizokwazi ukuhlala nawe!”", start: 18.4, end: 24.5 },
   ]
 ],
      end: [

@@ -32,14 +32,14 @@ function Page22(){
       zu: {
       paragraphs: [
   [
-    { text: "Ngosuku lokuthutha,", start: 0, end: 2 },
-    { text: "uAmile waphumela ngaphandle, ngenhliziyo ebuhlungu, eyokhuluma noThingo.", start: 3, end: 6 },
+    { text: "Ngosuku lokuthutha,", start: 0, end: 1.3 },
+    { text: "uAmile waphumela ngaphandle, ngenhliziyo ebuhlungu, eyokhuluma noThingo.", start: 1.4, end: 6.6 },
   ],
   [
-    { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 7, end: 9 },
-    { text: "ehambisa iminwe yakhe ngobumnene kwelinye lamaqabunga.", start: 10, end: 13 },
-    { text: "“Ngiyathanda ukukhuluma nawe", start: 14, end: 16 },
-    { text: "futhi ngiyathanda ukukunakekela,” eqhubeka.", start: 17, end: 19 },
+    { text: "“Angifuni ukukushiya,” washo ngezwi eliphansi,", start: 6.7, end: 11.2 },
+    { text: "wahambisa iminwe yakhe ngobumnene kwelinye lamaqabunga.", start: 11.3, end: 15.1 },
+    { text: "“Ngiyathanda ukukhuluma nawe", start: 15.2, end: 17.4 },
+    { text: "futhi ngiyathanda ukukunakekela,” eqhubeka.", start: 17.5, end: 22.1 },
   ]
 ]
     }

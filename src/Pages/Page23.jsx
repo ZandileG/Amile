@@ -36,16 +36,16 @@ function Page23(){
       zu: {
       paragraphs: [
   [
-    { text: "UAmile wangena egumbini lokugcina amanzi,", start: 0, end: 3 },
-    { text: "ukuze azonisela uThingo okokugcina.", start: 4, end: 9 },
-    { text: "Ngokuphazima kweso, wezwa amazwi wabazali bakhe bememeza.", start: 10, end: 12 },
+    { text: "UAmile wangena egumbini lokugcina amanzi,", start: 0, end: 3.1 },
+    { text: "ukuze azonisela uThingo okokugcina.", start: 3.2, end: 5.4 },
+    { text: "Ngokuphazima kweso, wezwa amazwi wabazali bakhe bememeza.", start: 5.5, end: 9.9 },
   ],
   [
-    { text: "“Mimi ukuphi?” kusho uma wakhe,", start: 13, end: 14 },
-    { text: "“uKhaya uzile ukuzovalelisa.”", start: 15, end: 16 },
+    { text: "“Mimi ukuphi?” kusho uma wakhe,", start: 10, end: 14.1 },
+    { text: "“uKhaya uzile ukuzovalelisa.”", start: 14.2, end: 16.8 },
   ],
   [
-    { text: "UAmile wathula.", start: 17, end: 18 },
+    { text: "UAmile wathula.", start: 16.9, end: 19 },
   ]
 ]
     }

@@ -39,10 +39,10 @@ function Page33(){
     { text: "laughing and dancing in the rain just like they used to.", start: 10, end: 14 },
    ],
       zu: [
-    { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 0, end: 2 },
-    { text: "lapho isibhakabhaka sikhala ngenjabulo.", start: 3, end: 6 },
-    { text: "UKhaya wagijima waya kuye, futhi ndawonye bazungeza,", start: 7, end: 9 },
-    { text: "behleka futhi bedansa emvuleni njengoba babevame ukwenza.", start: 10, end: 14 },
+    { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 0, end: 4.6 },
+    { text: "lapho isibhakabhaka sikhala ngenjabulo.", start: 4.7, end: 7.2 },
+    { text: "UKhaya wagijima waya kuye, futhi ndawonye bazungeza,", start: 7.3, end: 11.6 },
+    { text: "behleka futhi bedansa emvuleni njengoba babevame ukwenza.", start: 11.7, end: 16.7 },
   ]
 };
     const transcript = transcripts[language];

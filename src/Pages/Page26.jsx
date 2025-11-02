@@ -52,17 +52,17 @@ function Page26(){
     zu: {
       paragraphs: [
     [    
-    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 0, end: 4 },
-    { text: "ebukeka ethukuthele kunakuqala.", start: 5, end: 7 },
-    { text: "Wanikina ikhanda ethi,", start: 8, end: 10 },
-    { text: "“Ah, ah Amile, sekumele sihambe manje,”", start: 11, end: 13 },
-    { text: "efinyelela esitshalweni.", start: 14, end: 16 },
-    { text: "UAmile wasusa isandla sikama wakhe wamboza uThingo ngezingalo zakhe.", start: 17, end: 21 },
+    { text: "Uma kaAmile wabeka izandla zakhe okhalweni,", start: 0, end: 3.5 },
+    { text: "ebukeka ethukuthele kunakuqala.", start: 3.6, end: 5.9 },
+    { text: "Wanikina ikhanda ethi,", start: 6, end: 8 },
+    { text: "“Ah, ah Amile, sekumele sihambe manje,”", start: 8.1, end: 11.2 },
+    { text: "efinyelela esitshalweni.", start: 11.3, end: 13.3 },
+    { text: "UAmile wasusa isandla sikama wakhe wamboza uThingo ngezingalo zakhe.", start: 13.4, end: 18.6 },
     ],
     [
-    { text: "Izinyembezi zagcwala emehlweni akhe.", start: 22, end: 23 },
-    { text: "Wazama ukuzibamba,", start: 24, end: 28 },
-    { text: "kodwa zawa ezihlathini zakhe zafafaza ezimpandeni zesitshalo.", start: 29, end: 32 },
+    { text: "Izinyembezi zagcwala emehlweni akhe.", start: 18.7, end: 21.6 },
+    { text: "Wazama ukuzibamba,", start: 21.7, end: 22.6 },
+    { text: "kodwa zawa ezihlathini zakhe zafafaza ezimpandeni zesitshalo.", start: 22.7, end: 27.4 },
   ]
 ]
     }

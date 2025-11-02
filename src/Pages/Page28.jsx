@@ -39,9 +39,9 @@ function Page28(){
     ],
   
      zu: [
-    { text: "Gwiqiqi, kwavevezela umhlaba.", start: 0, end: 3 },
-    { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 4, end: 8 },
-    { text: "UKhaya noma kaAmile benza okufanayo.", start: 9, end: 11 },
+    { text: "Gwiqiqi, kwavevezela umhlaba.", start: 0, end: 2.7 },
+    { text: "UAmile nobab’ wakhe basukuma ngokushesha, babuyela emuva.", start: 2.8, end: 6.7 },
+    { text: "UKhaya noma kaAmile benza okufanayo.", start: 6.8, end: 9.6 },
     ]
   };
     const transcript = transcripts[language];

@@ -54,18 +54,18 @@ function Page31(){
       zu: {
       paragraphs: [
   [
-    { text: "Abantu basemphakathini batheleka emigwaqweni.", start: 0, end: 3 },
-    { text: "Izingane zamemeza.", start: 4, end: 5 },
-    { text: "Umfula wagcwala.", start: 6, end: 7 },
-    { text: "Izihlahla zanyakaza.", start: 8, end: 9 },
-    { text: "Zacula izinyoni.", start: 10, end: 11 },
+    { text: "Abantu basemphakathini batheleka emigwaqweni.", start: 0, end: 3.5 },
+    { text: "Izingane zamemeza.", start: 3.6, end: 5.7 },
+    { text: "Umfula wagcwala.", start: 5.8, end: 7.7 },
+    { text: "Izihlahla zanyakaza.", start: 7.8, end: 9.6 },
+    { text: "Zacula izinyoni.", start: 9.7, end: 11.5 },
   ],
   [
-    { text: "Amagquma aphenduka abe luhlaza futhi.", start: 12, end: 14 },
-    { text: "Izimbali zaqhuma emhlabathini njengeziqhumane.", start: 15, end: 17 },
-    { text: "Izingadi ezingazange ziqhakaze ezinyangeni eziningi manje zase ziqhakaza ngemibala.", start: 18, end: 22 },
-    { text: "Umoya wawunuka njengesiqalo esisha,", start: 23, end: 25 },
-    { text: "kwangathi umhlaba kade ubambe umphefumulo wawo isikhathi eside.", start: 26, end: 30 },
+    { text: "Amagquma aphenduka abe luhlaza futhi.", start: 11.6, end: 14.8 },
+    { text: "Izimbali zaqhuma emhlabathini njengeziqhumane.", start: 14.9, end: 19 },
+    { text: "Izingadi ezingakaze ziqhakaze ezinyangeni eziningi manje zase ziqhakaza ngemibala.", start: 19.1, end: 25.8 },
+    { text: "Umoya wawunuka njengesiqalo esisha,", start: 25.9, end: 29 },
+    { text: "kwakungathi umhlaba kade ubambe umphefumulo wawo isikhathi eside.", start: 29.1, end: 34 },
   ]
 ]
     }

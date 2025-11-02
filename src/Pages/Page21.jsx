@@ -45,9 +45,9 @@ function Page21(){
     dropCap: "U",
     dropCapText: "SUKU NOSUKU,",
     lines: [
-    { text: "uThingo wayekhula eba mude,", start: 0, end: 8 },
-    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 9, end: 16 },
-    { text: "Futhi ebusuku, amaqabunga akhe ayekhazimula ekukhanyeni kwenyanga.", start: 17, end: 19 },
+    { text: "uThingo wayekhula eba mude,", start: 0, end: 3.6 },
+    { text: "eshintsha imibala futhi isiqu sakhe sisonteke sengathi sibheke esibhakabhakeni.", start: 3.7, end: 9.5 },
+    { text: "Futhi ebusuku, amaqabunga akhe ayekhazimula ekukhanyeni kwenyanga.", start: 9.6, end: 15.2 },
       ]
     }
   };

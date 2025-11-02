@@ -32,13 +32,13 @@ function Page34(){
       zu: {
       paragraphs: [
    [    
-    { text: "Emva kwesikhashana,", start: 0, end: 1 },
-    { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 2, end: 5 },
+    { text: "Emva kwesikhashana,", start: 0, end: 1.7 },
+    { text: "uKhaya wagijima wabuyela kubo eyobungaza imvula nomndeni wakhe.", start: 1.8, end: 6.5 },
   ],
   [
-    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 6, end: 10 },
-    { text: "“Ngicabanga ukuthi sizohlala,”", start: 11, end: 15 },
-    { text: "kusho bona, kwehla izinyembezi zenjabulo.", start: 16, end: 18 },
+    { text: "Abazali bakaAmile baphuthuma, besashaqekile, bamgona ngokufudumala.", start: 6.6, end: 13.2 },
+    { text: "“Ngicabanga ukuthi sizohlala,”", start: 13.3, end: 16.2 },
+    { text: "kusho bona, kwehla izinyembezi zenjabulo.", start: 16.3, end: 19.6 },
   ]
 ]
       }

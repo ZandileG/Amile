@@ -24,12 +24,12 @@ function Page30(){
     { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 14, end: 16 },
       ],
     zu: [
-    { text: "Kwaduma izulu.", start: 0, end: 2 },
-    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 3, end: 5 },
-    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 6, end: 9 },
-    { text: "Umoya washintsha,", start: 10, end: 11 },
-    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu,", start: 12, end: 14 },
-    { text: "kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 15, end: 19 },
+    { text: "Kwaduma izulu.", start: 0, end: 1.7 },
+    { text: "UAmile, uKhaya kanye nabazali bakhe babheka phezulu.", start: 1.8, end: 6.3 },
+    { text: "Amafu, ayekade ephaphathekile engenampilo, aphenduka asinda futhi aba mpunga.", start: 6.4, end: 13 },
+    { text: "Umoya washintsha,", start: 13.1, end: 14.9 },
+    { text: "kwaba namaconsi amancanyana, amachaphazelo amakhulu,", start: 15, end: 19 },
+    { text: "kwalandela imvula! Imvula epholile, ekhazimulayo, enephunga elimnandi!", start: 19.1, end: 26.5 },
       ]
   };
     const transcript = transcripts[language];

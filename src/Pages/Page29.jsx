@@ -46,9 +46,9 @@ function Page29(){
     dropCap: "K",
     dropCapText: "UBE NOKUTHULA",
     lines: [
-    { text: "emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 6 },
-    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 7, end: 12 },
-    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 13, end: 15 },
+    { text: "emoyeni bese uThingo waqala ukukhanya.", start: 0, end: 5 },
+    { text: "Amaqabunga akhe akhuphukela phezulu, akhipha iculo ezolile, ezwakala njengezinsimbi ezincane.", start: 5.1, end: 12.5 },
+    { text: "Ukukhanya kwagcwala enhlabathini kwenyuka emagqumeni nemigwaqo yaseDumakude.", start: 12.6, end: 19.3 },
   ]
 }
 };
