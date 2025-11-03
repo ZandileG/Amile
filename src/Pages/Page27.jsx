@@ -16,7 +16,7 @@ function Page27(){
 
      const transcripts = {
       en: [
-    { text: "Amile's dad stepped forward, reaching toward her", start: 0, end: 10 },
+    { text: "Amile's dad stepped forward, reaching toward her,", start: 0, end: 10 },
     { text: "ready to lift her off the ground,", start: 11, end: 14 },
     { text: "whether she liked it or not.", start: 15, end: 16 },
    ],

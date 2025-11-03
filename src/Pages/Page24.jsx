@@ -42,7 +42,7 @@ function Page24(){
     { text: "“Amile,” her dad sighed,", start: 14, end: 15 },
     { text: "“what are you doing?", start: 16, end: 17 },
     { text: "We told you that saving water is important.", start: 18, end: 20 },
-    { text: "You can’t be wasting it like this.", start: 21, end: 23 },
+    { text: "You can’t be wasting it like this.”", start: 21, end: 23 },
   ]
       ]
 },
@@ -56,7 +56,7 @@ function Page24(){
     [
     { text: "“Amile,” kusho ubab’ wakhe,", start: 9.2, end: 12.5 },
     { text: "“wenzani? Sakutshela ukuthi ukonga amanzi kubalulekile.", start: 12.6, end: 15.9 },
-    { text: "Awukwazi ukuwachitha kulokhula.” ", start: 16, end: 18.7 },
+    { text: "Awukwazi ukuwachitha kulokhula.”", start: 16, end: 18.7 },
   ]
 ]
     }

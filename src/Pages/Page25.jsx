@@ -22,8 +22,8 @@ function Page25(){
     { text: "Amile shouted. “Thingo is my friend.”", start: 3, end: 5 },
   ],
    [
-    { text: "“Your friend? What about me?” said Khaya, folding her arms.", start: 6, end: 8 },
-    { text: "eyes narrowed with her arms across her chest.", start: 9, end: 11 },
+    { text: "“Your friend? What about me?” said Khaya,", start: 6, end: 8 },
+    { text: "her eyes narrowed with her arms across her chest.", start: 9, end: 11 },
   ]
       ]
 },

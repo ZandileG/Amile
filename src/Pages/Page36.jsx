@@ -19,11 +19,11 @@ function Page36(){
   [
     { text: "Amile approached Thingo,", start: 0, end: 2 },
     { text: "now a tall, blossoming tree with rainbow-coloured flowers and a soft glow pulsing in its trunk.", start: 3, end: 7 },
-    { text: "Her eyes sparkled with happiness as she wrapped her arms around it.", start: 8, end: 11 },
+    { text: "Her eyes filled with joy as she wrapped her arms around it.", start: 8, end: 11 },
   ],
   [
     { text: "“Thank you Thingo,” she whispered,", start: 12, end: 14 },
-    { text: "I'm so glad I get to stay here with you!”", start: 15, end: 17 },
+    { text: "“I'm so glad I get to stay here with you!”", start: 15, end: 17 },
   ]
     ],
       end: [
