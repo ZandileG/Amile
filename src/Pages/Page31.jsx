@@ -47,7 +47,7 @@ function Page31(){
     { text: "Flowers pushed through the soil like fireworks.", start: 15, end: 17 },
     { text: "Gardens that hadn’t bloomed in months now burst with colour.", start: 18, end: 22 },
     { text: "The air smelled like new beginnings,", start: 23, end: 25 },
-    { text: "as if the land itself had been holding its breath for too long.", start: 26, end: 30 },
+    { text: "as if the land itself had been holding its breath for too long.", start: 26, end: 22.1 },
   ]
       ]
 },

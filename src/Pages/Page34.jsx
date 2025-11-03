@@ -25,7 +25,7 @@ function Page34(){
     { text: "Amile’s parents hurried over, still in shock,", start: 6, end: 10 },
     { text: "and wrapped her in a warm embrace.", start: 11, end: 15 },
     { text: "“I guess we’re staying,”", start: 16, end: 18 },
-    { text: "they said, grinning through happy tears.", start: 19, end: 21 },
+    { text: "they said, grinning through happy tears.", start: 19, end: 15.7 },
    ]
   ]
   },

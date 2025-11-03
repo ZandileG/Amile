@@ -21,7 +21,7 @@ const transcripts = {
     { text: "“This plant is so weird, why is it blue?” asked Khaya, scrunching up her face in confusion.", start: 0, end: 6 },
   ],
   [
-    { text: "“It’s not weird, it’s pretty,” said Amile, not taking her eyes off it.", start: 7, end: 10 },
+    { text: "“It’s not weird, it’s pretty,” said Amile, not taking her eyes off it.", start: 7, end: 14.3 },
   ]
 ]
 },

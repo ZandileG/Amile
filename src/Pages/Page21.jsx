@@ -38,7 +38,7 @@ function Page21(){
       lines: [
     { text: "Thingo grew taller and stranger,", start: 0, end: 8 },
     { text: "it changed colours daily and its stem twisted as if it were stretching toward the sky.", start: 9, end: 16 },
-    { text: "And at night, its leaves glowed softly in the moonlight.", start: 17, end: 19 },
+    { text: "And at night, its leaves glowed softly in the moonlight.", start: 17, end: 12.7 },
     ]
   },
     zu: {

@@ -29,7 +29,7 @@ function Page23(){
     { text: "“Khaya’s here to say goodbye.”", start: 15, end: 16 },
   ],
   [
-    { text: "Amile remained quiet.", start: 17, end: 18 },
+    { text: "Amile remained quiet.", start: 17, end: 20.3 },
   ]
       ]
 },

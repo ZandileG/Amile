@@ -45,7 +45,7 @@ function Page26(){
    [
     { text: "Tears welled in her eyes.", start: 22, end: 23 },
     { text: "She tried to hold them back,", start: 24, end: 26 },
-    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 27, end: 30 },
+    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 27, end: 23.1 },
    ]
       ]
 },

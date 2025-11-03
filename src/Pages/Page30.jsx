@@ -21,7 +21,7 @@ function Page30(){
     { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 6, end: 8 },
     { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 9, end: 11 },
     { text: "big, bold splashes.", start: 12, end: 13 },
-    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 14, end: 16 },
+    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 14, end: 19.1 },
       ],
     zu: [
     { text: "Kwaduma izulu.", start: 0, end: 1.7 },

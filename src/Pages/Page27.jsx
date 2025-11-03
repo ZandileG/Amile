@@ -18,7 +18,7 @@ function Page27(){
       en: [
     { text: "Amile's dad stepped forward, reaching toward her,", start: 0, end: 10 },
     { text: "ready to lift her off the ground,", start: 11, end: 14 },
-    { text: "whether she liked it or not.", start: 15, end: 16 },
+    { text: "whether she liked it or not.", start: 15, end: 7.2 },
    ],
       zu: [
     { text: "Ubaba kaAmile wagoba phambi kwakhe", start: 0, end: 2.9 },

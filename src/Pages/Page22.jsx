@@ -25,7 +25,7 @@ function Page22(){
     { text: "Dropping to her knees, she whispered, “I don’t want to leave you,”", start: 10, end: 12 },
     { text: "gently brushing her fingers over Thingo’s leaves.", start: 13, end: 16 },
     { text: "“I love talking to you…", start: 17, end: 18 },
-    { text: "and I love looking after you,” she sighed.", start: 19, end: 22 },
+    { text: "and I love looking after you,” she sighed.", start: 19, end: 23.8 },
   ]
       ]
 },

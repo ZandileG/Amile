@@ -36,7 +36,7 @@ function Page33(){
     { text: "Amile laughed and danced,", start: 0, end: 2 },
     { text: "arms wide, as the sky wept with joy.", start: 3, end: 6 },
     { text: "Khaya ran to her, and together they spun around,", start: 7, end: 9 },
-    { text: "laughing and dancing in the rain just like they used to.", start: 10, end: 14 },
+    { text: "laughing and dancing in the rain just like they used to.", start: 10, end: 11.4 },
    ],
       zu: [
     { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 0, end: 4.6 },

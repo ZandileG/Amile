@@ -35,7 +35,7 @@ function Page28(){
      en: [
     { text: "Suddenly, the ground trembled.", start: 0, end: 3 },
     { text: "Amile and her dad quickly stood up and took a step back.", start: 4, end: 8 },
-    { text: "Khaya and Amile’s mom did the same.", start: 9, end: 11 },
+    { text: "Khaya and Amile’s mom did the same.", start: 9, end: 8.4 },
     ],
   
      zu: [

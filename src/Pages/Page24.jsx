@@ -42,7 +42,7 @@ function Page24(){
     { text: "“Amile,” her dad sighed,", start: 14, end: 15 },
     { text: "“what are you doing?", start: 16, end: 17 },
     { text: "We told you that saving water is important.", start: 18, end: 20 },
-    { text: "You can’t be wasting it like this.”", start: 21, end: 23 },
+    { text: "You can’t be wasting it like this.”", start: 21, end: 20.5 },
   ]
       ]
 },

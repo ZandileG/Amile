@@ -39,7 +39,7 @@ function Page29(){
     { text: "filled the air and Thingo began to glow.", start: 0, end: 6 },
     { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 7, end: 12 },
     { text: "The glow rippled through the soil and spread across the garden,", start: 13, end: 15 },
-    { text: "up the hill, and down the streets of Dumakude.", start: 16, end: 19 },
+    { text: "up the hill, and down the streets of Dumakude.", start: 16, end: 15.5 },
   ]
 },
        zu: {

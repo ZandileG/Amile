@@ -41,7 +41,7 @@ function Page20(){
     { text: "“Oh yes, that’s a very nice name,” replied Khaya. “But don’t you think we’ll get into trouble for this?”", start: 4, end: 6 },
   ],
     [
-    { text: "“No, we won’t, we just have to keep it a secret and make sure Thingo survives,” said Amile.", start: 7, end: 10 },
+    { text: "“No, we won’t, we just have to keep it a secret and make sure Thingo survives,” said Amile.", start: 7, end: 22.2 },
   ],
       ]
 },

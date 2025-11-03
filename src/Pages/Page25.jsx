@@ -23,7 +23,7 @@ function Page25(){
   ],
    [
     { text: "“Your friend? What about me?” said Khaya,", start: 6, end: 8 },
-    { text: "her eyes narrowed with her arms across her chest.", start: 9, end: 11 },
+    { text: "her eyes narrowed with her arms across her chest.", start: 9, end: 16.6 },
   ]
       ]
 },
