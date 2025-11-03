@@ -18,7 +18,7 @@ const [, forceUpdate] = useState(0);
         en: [
     { text: "In the heart of this beautiful, vibrant town, was a little girl named Amile.", start: 0, end: 5.9 },
     { text: "Amile lived with her parents, Mandisa and Sinalo.", start: 6, end: 9.9 },
-    { text: "They named her Amile, a name with many meanings.", start: 10, end: 13.8 },
+    { text: "They named her “Amile,” a name with many meanings.", start: 10, end: 13.8 },
     { text: "To them, it meant “still standing,”", start: 13.9, end: 16.6 },
     { text: "a promise of the strength and resilience they saw within her.", start: 16.7, end: 20.8 },
    ],

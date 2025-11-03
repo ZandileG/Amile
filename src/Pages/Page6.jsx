@@ -35,7 +35,7 @@ function Page6(){
       paragraphs: [
   [
     { text: "“Cha Mama, asikwazi ukuhamba!", start: 0, end: 3.3 },
-    { text: "Angifuni ukushiya uKhaya ngemuva,” kusho uAmile egcwel’ izinyembezi emehlweni akhe.", start: 3.4, end: 10.7 },
+    { text: "Angifuni ukushiya uKhaya ngemuva,” kusho uAmile egcwele izinyembezi emehlweni akhe.", start: 3.4, end: 10.7 },
   ],
   [
     { text: "“Ngiyazi ukuthi kunzima Mimi, kodwa aphelile amanzi,", start: 10.8, end: 15.8 },
