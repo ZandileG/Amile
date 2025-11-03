@@ -34,9 +34,9 @@ function Page33(){
      const transcripts = {
       en: [
     { text: "Amile laughed and danced,", start: 0, end: 2 },
-    { text: "arms wide, as the sky wept with joy.", start: 3, end: 6 },
-    { text: "Khaya ran to her, and together they spun around,", start: 7, end: 9 },
-    { text: "laughing and dancing in the rain just like they used to.", start: 10, end: 11.4 },
+    { text: "arms wide, as the sky wept with joy.", start: 2.1, end: 4.7 },
+    { text: "Khaya ran to her, and together they spun around,", start: 4.8, end: 7.7 },
+    { text: "laughing and dancing in the rain just like they used to.", start: 7.8, end: 11.4 },
    ],
       zu: [
     { text: "UAmile wahleka, wadansa, izingalo zibanzi", start: 0, end: 4.6 },

@@ -16,12 +16,12 @@ function Page30(){
 
   const transcripts = {
       en: [
-    { text: "A rumble echoed in the sky.", start: 0, end: 2 },
-    { text: "Amile, Khaya and her parents looked up.", start: 3, end: 5 },
-    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 6, end: 8 },
-    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 9, end: 11 },
-    { text: "big, bold splashes.", start: 12, end: 13 },
-    { text: "Then Rain! Cool, glorious, sweet-smelling rain!", start: 14, end: 19.1 },
+    { text: "A rumble echoed in the sky.", start: 0, end: 2.1 },
+    { text: "Amile, Khaya and her parents looked up.", start: 2.2, end: 5.4 },
+    { text: "The clouds, once pale and lifeless, turned heavy and grey.", start: 5.5, end: 9.4 },
+    { text: "Thunder clapped, the wind shifted, there were tiny drops,", start: 9.5, end: 13.6 },
+    { text: "big, bold splashes.", start: 13.7, end: 15.3 },
+    { text: "Then rain! Cool, glorious, sweet-smelling rain!", start: 15.4, end: 19.1 },
       ],
     zu: [
     { text: "Kwaduma izulu.", start: 0, end: 1.7 },

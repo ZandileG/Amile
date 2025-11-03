@@ -35,19 +35,19 @@ function Page31(){
       en: {
       paragraphs: [
   [
-    { text: "People poured into the streets.", start: 0, end: 3 },
-    { text: "Children squealed.", start: 4, end: 5 },
-    { text: "The river trickled.", start: 6, end: 7 },
-    { text: "Trees swayed.", start: 8, end: 9 },
-    { text: "Birds sang.", start: 10, end: 11 },
+    { text: "People poured into the streets.", start: 0, end: 2.1 },
+    { text: "Children squealed.", start: 2.2, end: 3.6 },
+    { text: "The river trickled.", start: 3.7, end: 4.9 },
+    { text: "Trees swayed.", start: 5, end: 6.2 },
+    { text: "Birds sang.", start: 6.3, end: 7.2 },
 
   ],
   [
-    { text: "The hills turned green again.", start: 12, end: 14 },
-    { text: "Flowers pushed through the soil like fireworks.", start: 15, end: 17 },
-    { text: "Gardens that hadn’t bloomed in months now burst with colour.", start: 18, end: 22 },
-    { text: "The air smelled like new beginnings,", start: 23, end: 25 },
-    { text: "as if the land itself had been holding its breath for too long.", start: 26, end: 22.1 },
+    { text: "The hills turned green again.", start: 7.3, end: 9.3 },
+    { text: "Flowers pushed through the soil like fireworks.", start: 9.4, end: 12.2 },
+    { text: "Gardens that hadn’t bloomed in months now burst with colour.", start: 12.3, end: 15.6 },
+    { text: "The air smelled like new beginnings,", start: 15.7, end: 18 },
+    { text: "as if the land itself had been holding its breath for too long.", start: 18.1, end: 22.1 },
   ]
       ]
 },

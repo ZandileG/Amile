@@ -16,7 +16,7 @@ function Page32(){
 
     const transcripts = {
       en: [
-    { text: "Thingo had awakened something in the town,", start: 0, end: 2 },
+    { text: "Thingo had awakened something in the town,", start: 0, end: 2.9 },
     { text: "magic that was thought to be gone.", start: 3, end: 5.6 },
   ],
       zu: [

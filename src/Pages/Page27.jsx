@@ -16,9 +16,9 @@ function Page27(){
 
      const transcripts = {
       en: [
-    { text: "Amile's dad stepped forward, reaching toward her,", start: 0, end: 10 },
-    { text: "ready to lift her off the ground,", start: 11, end: 14 },
-    { text: "whether she liked it or not.", start: 15, end: 7.2 },
+    { text: "Amile's dad stepped forward, reaching toward her,", start: 0, end: 3.6 },
+    { text: "ready to lift her off the ground,", start: 3.7, end: 5.6 },
+    { text: "whether she liked it or not.", start: 5.7, end: 7.2 },
    ],
       zu: [
     { text: "Ubaba kaAmile wagoba phambi kwakhe", start: 0, end: 2.9 },

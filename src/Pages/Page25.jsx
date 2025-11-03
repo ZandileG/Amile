@@ -18,12 +18,12 @@ function Page25(){
       en: {
       paragraphs: [
    [
-    { text: "“But…I’m not wasting water!”", start: 0, end: 2 },
-    { text: "Amile shouted. “Thingo is my friend.”", start: 3, end: 5 },
+    { text: "“But…I’m not wasting water!”", start: 0, end: 3.7 },
+    { text: "Amile shouted. “Thingo is my friend.”", start: 3.8, end: 7.4 },
   ],
    [
-    { text: "“Your friend? What about me?” said Khaya,", start: 6, end: 8 },
-    { text: "her eyes narrowed with her arms across her chest.", start: 9, end: 16.6 },
+    { text: "“Your friend? What about me?” said Khaya,", start: 7.5, end: 12.8 },
+    { text: "her eyes narrowed with her arms across her chest.", start: 12.9, end: 16.6 },
   ]
       ]
 },

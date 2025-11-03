@@ -35,13 +35,13 @@ function Page20(){
       en: {
       paragraphs: [
   [
-    { text: "“I want to name it Thingo, cause it's so colourful and sparkly,” Amile continued.", start: 0, end: 3 },
+    { text: "“I want to name it Thingo, cause it's so colourful and sparkly,” Amile continued.", start: 0, end: 6.5 },
   ],
   [
-    { text: "“Oh yes, that’s a very nice name,” replied Khaya. “But don’t you think we’ll get into trouble for this?”", start: 4, end: 6 },
+    { text: "“Oh yes, that’s a very nice name,” replied Khaya. “But don’t you think we’ll get into trouble for this?”", start: 6.6, end: 14.6 },
   ],
     [
-    { text: "“No, we won’t, we just have to keep it a secret and make sure Thingo survives,” said Amile.", start: 7, end: 22.2 },
+    { text: "“No, we won’t, we just have to keep it a secret and make sure Thingo survives,” said Amile.", start: 14.7, end: 22.2 },
   ],
       ]
 },

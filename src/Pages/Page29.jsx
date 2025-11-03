@@ -36,10 +36,10 @@ function Page29(){
       dropCap: "A ",
       dropCapText: " LOW HUM",
       lines: [
-    { text: "filled the air and Thingo began to glow.", start: 0, end: 6 },
-    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 7, end: 12 },
-    { text: "The glow rippled through the soil and spread across the garden,", start: 13, end: 15 },
-    { text: "up the hill, and down the streets of Dumakude.", start: 16, end: 15.5 },
+    { text: "filled the air and Thingo began to glow.", start: 0, end: 3.3 },
+    { text: "Its leaves stretched upward and released a soft chime, like tiny bells in the wind.", start: 3.4, end: 8.1 },
+    { text: "The glow rippled through the soil and spread across the garden,", start: 8.2, end: 11.7 },
+    { text: "up the hill, and down the streets of Dumakude.", start: 11.8, end: 15.5 },
   ]
 },
        zu: {

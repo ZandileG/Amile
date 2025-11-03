@@ -19,13 +19,13 @@ function Page34(){
       paragraphs: [
   [
     { text: "After a while,", start: 0, end: 1 },
-    { text: "Khaya ran back home to celebrate with her family.", start: 2, end: 5 },
+    { text: "Khaya ran back home to celebrate with her family.", start: 1.1, end: 4.4 },
    ],
    [
-    { text: "Amile’s parents hurried over, still in shock,", start: 6, end: 10 },
-    { text: "and wrapped her in a warm embrace.", start: 11, end: 15 },
-    { text: "“I guess we’re staying,”", start: 16, end: 18 },
-    { text: "they said, grinning through happy tears.", start: 19, end: 15.7 },
+    { text: "Amile’s parents hurried over, still in shock,", start: 4.5, end: 8.1 },
+    { text: "and wrapped her in a warm embrace.", start: 8.2, end: 10.4 },
+    { text: "“I guess we’re staying,”", start: 10.5, end: 12.6 },
+    { text: "they said, grinning through happy tears.", start: 12.7, end: 15.7 },
    ]
   ]
   },

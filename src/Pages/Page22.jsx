@@ -18,14 +18,14 @@ function Page22(){
       en: {
       paragraphs: [
   [
-    { text: "On moving day,", start: 0, end: 2 },
-    { text: "Amile quietly slipped out of the house, her heart heavy, as she made her way towards Thingo.", start: 3, end: 9 },
+    { text: "On moving day,", start: 0, end: 1.3 },
+    { text: "Amile quietly slipped out of the house, her heart heavy, as she made her way towards Thingo.", start: 1.4, end: 7.3 },
   ],
   [
-    { text: "Dropping to her knees, she whispered, “I don’t want to leave you,”", start: 10, end: 12 },
-    { text: "gently brushing her fingers over Thingo’s leaves.", start: 13, end: 16 },
-    { text: "“I love talking to you…", start: 17, end: 18 },
-    { text: "and I love looking after you,” she sighed.", start: 19, end: 23.8 },
+    { text: "Dropping to her knees, she whispered, “I don’t want to leave you,”", start: 7.4, end: 12.4 },
+    { text: "gently brushing her fingers over Thingo’s leaves.", start: 12.5, end: 16 },
+    { text: "“I love talking to you…", start: 16.1, end: 18.7 },
+    { text: "and I love looking after you,” she sighed.", start: 18.8, end: 23.8 },
   ]
       ]
 },

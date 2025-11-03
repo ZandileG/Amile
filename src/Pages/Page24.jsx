@@ -34,15 +34,15 @@ function Page24(){
       en: {
       paragraphs: [
   [
-    { text: "Khaya knew where Amile was,", start: 0, end: 3 },
-    { text: "and she showed Amile’s parents where she was hiding.", start: 4, end: 8 },
-    { text: "They found her behind the shed, pouring water onto Thingo’s soil.", start: 9, end: 13 },
+    { text: "Khaya knew where Amile was,", start: 0, end: 2.1 },
+    { text: "and she showed Amile’s parents where she was hiding.", start: 2.2, end: 5 },
+    { text: "They found her behind the shed, pouring water onto Thingo’s soil.", start: 5.1, end: 9.5 },
   ],
   [
-    { text: "“Amile,” her dad sighed,", start: 14, end: 15 },
-    { text: "“what are you doing?", start: 16, end: 17 },
-    { text: "We told you that saving water is important.", start: 18, end: 20 },
-    { text: "You can’t be wasting it like this.”", start: 21, end: 20.5 },
+    { text: "“Amile,” her dad sighed,", start: 9.6, end: 14.1 },
+    { text: "“what are you doing?", start: 14.2, end: 15.5 },
+    { text: "We told you that saving water is important.", start: 15.6, end: 18.2 },
+    { text: "You can’t be wasting it like this.”", start: 18.3, end: 20.5 },
   ]
       ]
 },

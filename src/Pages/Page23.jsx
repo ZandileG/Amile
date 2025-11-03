@@ -20,16 +20,16 @@ function Page23(){
       en: {
       paragraphs: [
   [
-    { text: "Amile stepped into the shed,", start: 0, end: 3 },
-    { text: "reaching for the last bit of water sitting at the bottom of the water container.", start: 4, end: 9 },
-    { text: "Suddenly, she heard her parents’ voices calling out to her.", start: 10, end: 12 },
+    { text: "Amile stepped into the shed,", start: 0, end: 2.3 },
+    { text: "reaching for the last bit of water sitting at the bottom of the water container.", start: 2.4, end: 6.6 },
+    { text: "Suddenly, she heard her parents’ voices calling out to her.", start: 6.7, end: 10.6 },
   ],
   [
-    { text: "“Mimi where are you?” said her mom,", start: 13, end: 14 },
-    { text: "“Khaya’s here to say goodbye.”", start: 15, end: 16 },
+    { text: "“Mimi where are you?” said her mom,", start: 10.7, end: 15.1 },
+    { text: "“Khaya’s here to say goodbye.”", start: 15.2, end: 17.8 },
   ],
   [
-    { text: "Amile remained quiet.", start: 17, end: 20.3 },
+    { text: "Amile remained quiet.", start: 17.9, end: 20.3 },
   ]
       ]
 },

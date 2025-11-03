@@ -35,17 +35,17 @@ function Page26(){
      en: {
       paragraphs: [
    [    
-    { text: "Amile’s mom placed her hands on her hips,", start: 0, end: 4 },
-    { text: "her face less friendly than before.", start: 5, end: 7 },
-    { text: "She shook her head and said,", start: 8, end: 10 },
-    { text: "“Uh, uh Amile, we have to go now,”", start: 11, end: 13 },
-    { text: "as she reached for the plant.", start: 14, end: 16 },
-    { text: "Amile pushed her mom’s hand away and covered Thingo with her arms.", start: 17, end: 21 },
+    { text: "Amile’s mom placed her hands on her hips,", start: 0, end: 3.2 },
+    { text: "her face less friendly than before.", start: 3.3, end: 5.5 },
+    { text: "She shook her head and said,", start: 5.6, end: 7 },
+    { text: "“Uh, uh Amile, we have to go now,”", start: 7.1, end: 9.3 },
+    { text: "as she reached for the plant.", start: 9.4, end: 11.1 },
+    { text: "Amile pushed her mom’s hand away and covered Thingo with her arms.", start: 11.2, end: 15.2 },
    ],
    [
-    { text: "Tears welled in her eyes.", start: 22, end: 23 },
-    { text: "She tried to hold them back,", start: 24, end: 26 },
-    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 27, end: 23.1 },
+    { text: "Tears welled in her eyes.", start: 15.3, end: 17.5 },
+    { text: "She tried to hold them back,", start: 17.6, end: 19 },
+    { text: "but they tumbled down her cheeks and splashed onto the roots of the plant.", start: 19.1, end: 23.1 },
    ]
       ]
 },
